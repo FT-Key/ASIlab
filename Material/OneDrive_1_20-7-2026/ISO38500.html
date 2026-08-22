@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO/IEC 38500 - Gobierno de TI (Horizontal)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f0f2f5;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1300px;
+            width: 100%;
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ===== TÍTULO PRINCIPAL ===== */
+        .titulo-principal {
+            background: linear-gradient(135deg, #1a5276, #2e86c1);
+            color: white;
+            padding: 25px 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .titulo-principal h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .titulo-principal .subtitulo {
+            font-size: 16px;
+            opacity: 0.85;
+            margin-top: 4px;
+        }
+
+        /* ===== SECCIONES ===== */
+        .seccion {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 18px 20px 22px;
+            margin-bottom: 25px;
+            border: 1px solid #e2e8f0;
+            transition: box-shadow 0.2s;
+        }
+
+        .seccion:hover {
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .seccion h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #e2e8f0;
+        }
+
+        .seccion .desc-seccion {
+            font-size: 13px;
+            color: #4a5568;
+            font-style: italic;
+            margin-bottom: 14px;
+            text-align: center;
+        }
+
+        /* ===== FILAS HORIZONTALES ===== */
+        .fila-horizontal {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: flex-start;
+            align-items: stretch;
+        }
+
+        /* ===== TARJETAS BASE ===== */
+        .tarjeta {
+            background: #f8fafc;
+            border: 1px solid #dce3ed;
+            border-radius: 10px;
+            padding: 14px 16px;
+            text-align: center;
+            flex: 1 1 auto;
+            min-width: 100px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #2d3748;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.15s, box-shadow 0.15s;
+            border-top-width: 5px;
+            border-top-style: solid;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .tarjeta small {
+            display: block;
+            font-weight: 400;
+            font-size: 12px;
+            color: #4a5568;
+            margin-top: 6px;
+            line-height: 1.4;
+        }
+
+        .tarjeta .icono {
+            font-size: 22px;
+            margin-bottom: 4px;
+        }
+
+        /* ===== VARIANTES DE COLOR ===== */
+        .tarjeta-azul-oscuro {
+            border-top-color: #1a5276;
+        }
+        .tarjeta-azul {
+            border-top-color: #2471a3;
+        }
+        .tarjeta-azul-claro {
+            border-top-color: #5dade2;
+        }
+        .tarjeta-verde {
+            border-top-color: #1e8449;
+        }
+        .tarjeta-naranja {
+            border-top-color: #d35400;
+        }
+        .tarjeta-roja {
+            border-top-color: #c0392b;
+        }
+        .tarjeta-morada {
+            border-top-color: #6c3483;
+        }
+
+        .tarjeta-destacada {
+            background: #eaf4fa;
+            border-color: #b8d4e8;
+            font-weight: 700;
+        }
+
+        /* ===== TARJETA ESPECIAL PARA PRINCIPIOS ===== */
+        .tarjeta-principio {
+            min-width: 140px;
+            flex: 1 0 auto;
+            padding: 14px 14px;
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .tarjeta-principio .num-principio {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a5276;
+            margin-bottom: 2px;
+        }
+
+        .tarjeta-principio .titulo-principio {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a3a5c;
+            margin-bottom: 4px;
+        }
+
+        .tarjeta-principio .desc-principio {
+            font-size: 12px;
+            font-weight: 400;
+            color: #4a5568;
+            line-height: 1.4;
+        }
+
+        /* ===== TARJETA PARA MODELO ===== */
+        .tarjeta-modelo {
+            min-width: 130px;
+            flex: 1 0 auto;
+            padding: 14px 14px;
+            text-align: center;
+        }
+
+        .tarjeta-modelo .titulo-modelo {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a3a5c;
+            margin-bottom: 4px;
+        }
+
+        .tarjeta-modelo .desc-modelo {
+            font-size: 12px;
+            font-weight: 400;
+            color: #4a5568;
+            line-height: 1.4;
+        }
+
+        /* ===== TARJETA PARA EVALUACIÓN ===== */
+        .tarjeta-evaluacion {
+            min-width: 160px;
+            flex: 1 0 auto;
+            padding: 14px 14px;
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .tarjeta-evaluacion .titulo-eval {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a3a5c;
+            margin-bottom: 4px;
+        }
+
+        .tarjeta-evaluacion .desc-eval {
+            font-size: 12px;
+            font-weight: 400;
+            color: #4a5568;
+            line-height: 1.4;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            .titulo-principal h1 {
+                font-size: 22px;
+            }
+
+            .tarjeta {
+                min-width: 70px;
+                font-size: 12px;
+                padding: 10px 12px;
+            }
+
+            .tarjeta-principio {
+                min-width: 100px;
+            }
+            .tarjeta-modelo {
+                min-width: 100px;
+            }
+            .tarjeta-evaluacion {
+                min-width: 120px;
+            }
+
+            .seccion h2 {
+                font-size: 15px;
+            }
+
+            .fila-horizontal {
+                gap: 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .tarjeta {
+                min-width: 60px;
+                font-size: 10px;
+                padding: 6px 8px;
+            }
+
+            .tarjeta small {
+                font-size: 9px;
+            }
+
+            .tarjeta-principio .desc-principio {
+                font-size: 10px;
+            }
+            .tarjeta-modelo .desc-modelo {
+                font-size: 10px;
+            }
+            .tarjeta-evaluacion .desc-eval {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- ============================================================ -->
+        <!-- TÍTULO PRINCIPAL                                              -->
+        <!-- ============================================================ -->
+        <div class="titulo-principal">
+            <h1>📘 ISO/IEC 38500</h1>
+            <div class="subtitulo">Gobierno Corporativo de Tecnologías de la Información</div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- SECCIÓN 1: PRINCIPIOS RECTORES                               -->
+        <!-- ============================================================ -->
+        <div class="seccion">
+            <h2 style="color: #1a5276;">🏛️ PRINCIPIOS RECTORES</h2>
+            <div class="desc-seccion">La base del buen gobierno de TI</div>
+
+            <div class="fila-horizontal">
+                <div class="tarjeta tarjeta-azul-oscuro tarjeta-principio">
+                    <div class="num-principio">1</div>
+                    <div class="titulo-principio">RESPONSABILIDAD</div>
+                    <div class="desc-principio">Asignar claramente las responsabilidades de TI en la organización.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-azul-oscuro tarjeta-principio">
+                    <div class="num-principio">2</div>
+                    <div class="titulo-principio">ESTRATEGIA</div>
+                    <div class="desc-principio">Alinear la estrategia de TI con la estrategia del negocio.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-azul-oscuro tarjeta-principio">
+                    <div class="num-principio">3</div>
+                    <div class="titulo-principio">ADQUISICIÓN</div>
+                    <div class="desc-principio">Adquirir TI de manera justificada, con análisis de costo-beneficio.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-azul-oscuro tarjeta-principio">
+                    <div class="num-principio">4</div>
+                    <div class="titulo-principio">DESEMPEÑO</div>
+                    <div class="desc-principio">Asegurar que la TI funcione según lo planeado, eficiente y eficaz.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-azul-oscuro tarjeta-principio">
+                    <div class="num-principio">5</div>
+                    <div class="titulo-principio">CONFORMIDAD</div>
+                    <div class="desc-principio">Cumplir con leyes, regulaciones y políticas internas.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-azul-oscuro tarjeta-principio">
+                    <div class="num-principio">6</div>
+                    <div class="titulo-principio">CONDUCTA HUMANA</div>
+                    <div class="desc-principio">Considerar el comportamiento humano en el uso de la TI.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- SECCIÓN 2: MODELO DE GOBIERNO (EDM)                          -->
+        <!-- ============================================================ -->
+        <div class="seccion">
+            <h2 style="color: #2471a3;">🔄 MODELO DE GOBIERNO (EDM)</h2>
+            <div class="desc-seccion">El ciclo de gobierno: Evaluar, Dirigir, Monitorear</div>
+
+            <div class="fila-horizontal">
+                <div class="tarjeta tarjeta-azul tarjeta-modelo" style="flex: 1.2;">
+                    <div style="font-size: 28px;">🎯</div>
+                    <div class="titulo-modelo">EVALUAR</div>
+                    <div class="desc-modelo">Analizar las necesidades actuales y futuras de la organización.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-azul tarjeta-modelo" style="flex: 1.2;">
+                    <div style="font-size: 28px;">🧭</div>
+                    <div class="titulo-modelo">DIRIGIR</div>
+                    <div class="desc-modelo">Establecer dirección, políticas y planes para lograr los objetivos.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-azul tarjeta-modelo" style="flex: 1.2;">
+                    <div style="font-size: 28px;">📊</div>
+                    <div class="titulo-modelo">MONITOREAR</div>
+                    <div class="desc-modelo">Verificar que la dirección se esté siguiendo y cumpliendo.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- SECCIÓN 3: EVALUACIÓN DEL GOBIERNO DE TI                     -->
+        <!-- ============================================================ -->
+        <div class="seccion">
+            <h2 style="color: #1e8449;">📋 EVALUACIÓN DEL GOBIERNO DE TI</h2>
+            <div class="desc-seccion">Preguntas clave que todo director debe hacerse</div>
+
+            <div class="fila-horizontal">
+                <div class="tarjeta tarjeta-verde tarjeta-evaluacion">
+                    <div class="titulo-eval">❓ ¿Quién decide?</div>
+                    <div class="desc-eval">Roles y responsabilidades claramente definidos.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-verde tarjeta-evaluacion">
+                    <div class="titulo-eval">❓ ¿Qué se entrega?</div>
+                    <div class="desc-eval">Resultados medibles y alineados con el negocio.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-verde tarjeta-evaluacion">
+                    <div class="titulo-eval">❓ ¿Cómo se controla?</div>
+                    <div class="desc-eval">Mecanismos de supervisión y rendición de cuentas.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-verde tarjeta-evaluacion">
+                    <div class="titulo-eval">❓ ¿Cómo se mejora?</div>
+                    <div class="desc-eval">Procesos de mejora continua basados en retroalimentación.</div>
+                </div>
+
+                <div class="tarjeta tarjeta-verde tarjeta-evaluacion">
+                    <div class="titulo-eval">❓ ¿Y el riesgo?</div>
+                    <div class="desc-eval">Identificación y gestión de riesgos de TI.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- SECCIÓN 4: BENEFICIOS CLAVE                                   -->
+        <!-- ============================================================ -->
+        <div class="seccion">
+            <h2 style="color: #d35400;">⭐ BENEFICIOS CLAVE DE ISO 38500</h2>
+            <div class="desc-seccion">Por qué implementar el estándar</div>
+
+            <div class="fila-horizontal">
+                <div class="tarjeta tarjeta-naranja">
+                    <span style="font-size: 24px;">🎯</span>
+                    Mejor toma de decisiones
+                    <small>Decisiones informadas y alineadas</small>
+                </div>
+
+                <div class="tarjeta tarjeta-naranja">
+                    <span style="font-size: 24px;">🛡️</span>
+                    Reducción de riesgos
+                    <small>Gestión proactiva de amenazas</small>
+                </div>
+
+                <div class="tarjeta tarjeta-naranja">
+                    <span style="font-size: 24px;">💰</span>
+                    Optimización de inversiones
+                    <small>Máximo retorno de inversión en TI</small>
+                </div>
+
+                <div class="tarjeta tarjeta-naranja">
+                    <span style="font-size: 24px;">📈</span>
+                    Transparencia y confianza
+                    <small>Visibilidad y rendición de cuentas</small>
+                </div>
+
+                <div class="tarjeta tarjeta-naranja">
+                    <span style="font-size: 24px;">⚡</span>
+                    Agilidad estratégica
+                    <small>Adaptación rápida al cambio</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================ -->
+        <!-- PIE DE PÁGINA                                                -->
+        <!-- ============================================================ -->
+        <div style="text-align: center; font-size: 12px; color: #95a5a6; margin-top: 10px; border-top: 1px solid #ecf0f1; padding-top: 15px;">
+            ISO/IEC 38500 — Gobierno Corporativo de TI · Estructura Horizontal
+        </div>
+
+    </div>
+
+</body>
+</html>

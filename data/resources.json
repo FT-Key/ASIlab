@@ -1,0 +1,177 @@
+{
+  "caso-estudio-ingenio-azucarero": [
+    {
+      "id": "res-01",
+      "title": "Caso de Estudio Ingenio Azucarero - Universidad Agustiniana",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento de clase U1 con el caso de estudio del ingenio azucarero colombiano."
+    },
+    {
+      "id": "res-02",
+      "title": "Fabricacion de Azucar - Acciones Proactivas",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "link",
+      "description": "Documento U1 sobre acciones proactivas en la fabricacion de azucar."
+    }
+  ],
+  "valor-negocio-administracion-ti": [
+    {
+      "id": "res-03",
+      "title": "El Valor de Negocio en la Administracion de TI",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U21 sobre el valor de negocio de la administracion de TI."
+    },
+    {
+      "id": "res-04",
+      "title": "COBIT 2019 Framework - ISACA",
+      "url": "https://www.isaca.org",
+      "type": "book",
+      "description": "Marco oficial de gobierno y gestion de TI de ISACA."
+    }
+  ],
+  "gobierno-ti-introduccion-cobit-il-iso": [
+    {
+      "id": "res-05",
+      "title": "Introduccion a COBIT, ITIL e ISO 38500",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U22 con introduccion a los tres marcos de referencia."
+    },
+    {
+      "id": "res-06",
+      "title": "ISO/IEC 38500:2015 - IT Governance",
+      "url": "https://www.iso.org/standard/68083.html",
+      "type": "norma",
+      "description": "Norma internacional de gobierno corporativo de TI."
+    }
+  ],
+  "plan-estrategico-ti-peti": [
+    {
+      "id": "res-07",
+      "title": "Plan Estrategico de TI (PETI)",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U23 sobre planificacion estrategica de TI."
+    }
+  ],
+  "iso-38500-gobierno-corporativo": [
+    {
+      "id": "res-08",
+      "title": "Que es la ISO 38500",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U24 sobre la norma ISO 38500."
+    },
+    {
+      "id": "res-09",
+      "title": "ISO 38500 - Buen Gobierno de las TIC",
+      "url": "https://www.iso.org",
+      "type": "norma",
+      "description": "PDF sobre el gobierno corporativo de las tecnologias de la informacion segun ISO."
+    }
+  ],
+  "itil-4-gestion-servicios": [
+    {
+      "id": "res-10",
+      "title": "Que es ITIL",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U25 sobre ITIL y sus dimensiones."
+    },
+    {
+      "id": "res-11",
+      "title": "ITIL 4 Foundation - Axelos",
+      "url": "https://www.axelos.com/certifications/itil-service-management",
+      "type": "book",
+      "description": "Certificacion oficial ITIL 4 Foundation."
+    }
+  ],
+  "cobit-2019-framework": [
+    {
+      "id": "res-12",
+      "title": "Que es COBIT 2019",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U26 sobre COBIT 2019."
+    },
+    {
+      "id": "res-13",
+      "title": "COBIT 2019 Core Framework - ISACA",
+      "url": "https://www.isaca.org/resources/cobit",
+      "type": "book",
+      "description": "Documentacion oficial de COBIT 2019 de ISACA."
+    }
+  ],
+  "gestion-proyectos-pmbok-8": [
+    {
+      "id": "res-14",
+      "title": "Gestion de Proyectos PMBOK 8",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U31 sobre la guia PMBOK 8va edicion."
+    },
+    {
+      "id": "res-15",
+      "title": "PMBOK Guide - 8th Edition - PMI",
+      "url": "https://www.pmi.org/pmbok-guide-standards/foundations/PMBOK",
+      "type": "book",
+      "description": "Guia oficial del Project Management Institute."
+    }
+  ],
+  "habilidades-sociales-trabajo-equipo": [
+    {
+      "id": "res-16",
+      "title": "Programa Administracion Sistemas de Informacion 2026",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Syllabus del curso con habilidades blandas requeridas."
+    }
+  ],
+  "admin-estrategica-ti": [
+    {
+      "id": "res-17",
+      "title": "Valor de Negocio en la Administracion de TI",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U21 sobre administracion estrategica de TI."
+    }
+  ],
+  "dimensiones-itil-svs": [
+    {
+      "id": "res-18",
+      "title": "ITIL las 4 Dimensiones y 5 Componentes del SVS",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Material de clase sobre las dimensiones de ITIL 4 y el SVS."
+    }
+  ],
+  "mapa-procesos-cobit": [
+    {
+      "id": "res-19",
+      "title": "COBIT 2019 - Mapa de Procesos",
+      "url": "https://www.isaca.org",
+      "type": "link",
+      "description": "Mapa visual de los 40 procesos de COBIT 2019."
+    }
+  ],
+  "gestion-cambio-organizacional": [
+    {
+      "id": "res-20",
+      "title": "Leading Change - John Kotter",
+      "url": "https://www.kotterinc.com/",
+      "type": "book",
+      "description": "Libro de referencia sobre liderazgo del cambio organizacional."
+    }
+  ],
+  "habilidades-sociales-trabajo-equipo-2": [
+    {
+      "id": "res-21",
+      "title": "Los 5 Disfunciones de un Equipo - Patrick Lencioni",
+      "url": "https://www.tablegroup.com/",
+      "type": "book",
+      "description": "Libro de referencia sobre construccion de equipos de alto desempeno."
+    }
+  ]
+}

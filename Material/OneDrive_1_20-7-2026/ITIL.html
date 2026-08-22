@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITIL 4 - Marco Central (Horizontal)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f0f2f5;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1300px;
+            width: 100%;
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .titulo-principal {
+            background: linear-gradient(135deg, #6c3483, #a569bd);
+            color: white;
+            padding: 25px 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .titulo-principal h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .titulo-principal .subtitulo {
+            font-size: 16px;
+            opacity: 0.85;
+            margin-top: 4px;
+        }
+
+        .seccion {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 18px 20px 22px;
+            margin-bottom: 25px;
+            border: 1px solid #e2e8f0;
+            transition: box-shadow 0.2s;
+        }
+
+        .seccion:hover {
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .seccion h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #e2e8f0;
+        }
+
+        .seccion .desc-seccion {
+            font-size: 13px;
+            color: #4a5568;
+            font-style: italic;
+            margin-bottom: 14px;
+            text-align: center;
+        }
+
+        .fila-horizontal {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: flex-start;
+            align-items: stretch;
+        }
+
+        .tarjeta {
+            background: #f8fafc;
+            border: 1px solid #dce3ed;
+            border-radius: 10px;
+            padding: 14px 16px;
+            text-align: center;
+            flex: 1 1 auto;
+            min-width: 100px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #2d3748;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.15s, box-shadow 0.15s;
+            border-top-width: 5px;
+            border-top-style: solid;
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .tarjeta small {
+            display: block;
+            font-weight: 400;
+            font-size: 12px;
+            color: #4a5568;
+            margin-top: 6px;
+            line-height: 1.4;
+        }
+
+        .tarjeta .icono {
+            font-size: 22px;
+            margin-bottom: 4px;
+        }
+
+        .tarjeta-morada { border-top-color: #6c3483; }
+        .tarjeta-azul { border-top-color: #2471a3; }
+        .tarjeta-verde { border-top-color: #1e8449; }
+
+        .tarjeta-destacada {
+            background: #f4ecf7;
+            border-color: #d2b4de;
+            font-weight: 700;
+        }
+
+        .tarjeta-practica {
+            min-width: 150px;
+            flex: 1 0 auto;
+            padding: 14px 14px;
+            text-align: left;
+            align-items: flex-start;
+        }
+
+        .tarjeta-practica .titulo-prac {
+            font-size: 15px;
+            font-weight: 700;
+            color: #1a3a5c;
+            margin-bottom: 4px;
+        }
+
+        .tarjeta-practica .desc-prac {
+            font-size: 12px;
+            font-weight: 400;
+            color: #4a5568;
+            line-height: 1.4;
+        }
+
+        .tarjeta-practica .icono-prac {
+            font-size: 20px;
+            margin-right: 6px;
+        }
+
+        @media (max-width: 768px) {
+            .container { padding: 15px; }
+            .titulo-principal h1 { font-size: 22px; }
+            .tarjeta { min-width: 70px; font-size: 12px; padding: 10px 12px; }
+            .tarjeta-practica { min-width: 100px; }
+            .seccion h2 { font-size: 15px; }
+            .fila-horizontal { gap: 8px; }
+        }
+
+        @media (max-width: 480px) {
+            body { padding: 10px; }
+            .container { padding: 10px; }
+            .tarjeta { min-width: 60px; font-size: 10px; padding: 6px 8px; }
+            .tarjeta small { font-size: 9px; }
+            .tarjeta-practica .desc-prac { font-size: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- TÍTULO PRINCIPAL -->
+        <div class="titulo-principal">
+            <h1>📘 EL MARCO CENTRAL DE ITIL 4</h1>
+            <div class="subtitulo">IT Service Management (ITSM)</div>
+        </div>
+
+        <!-- SECCIÓN 1: LAS 4 DIMENSIONES -->
+        <div class="seccion">
+            <h2 style="color: #6c3483;">🌐 LAS 4 DIMENSIONES</h2>
+            <div class="desc-seccion">Para no olvidar nada al diseñar un servicio</div>
+
+            <div class="fila-horizontal">
+                <div class="tarjeta tarjeta-morada">
+                    <span style="font-size: 24px;">👥</span>
+                    Organizaciones y Personas
+                </div>
+                <div class="tarjeta tarjeta-morada">
+                    <span style="font-size: 24px;">💻</span>
+                    Información y Tecnología
+                </div>
+                <div class="tarjeta tarjeta-morada">
+                    <span style="font-size: 24px;">🤝</span>
+                    Socios y Proveedores
+                </div>
+                <div class="tarjeta tarjeta-morada">
+                    <span style="font-size: 24px;">🔄</span>
+                    Flujos de Valor y Procesos
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 2: SISTEMA DE VALOR DEL SERVICIO (SVS) -->
+        <div class="seccion">
+            <h2 style="color: #2471a3;">⚡ SISTEMA DE VALOR DEL SERVICIO (SVS)</h2>
+            <div class="desc-seccion">Transforma Demanda en Valor</div>
+
+            <div class="fila-horizontal">
+                <div class="tarjeta tarjeta-azul">
+                    <span style="font-size: 22px;">📜</span>
+                    Principios Guía
+                    <small>7 máximas</small>
+                </div>
+                <div class="tarjeta tarjeta-azul">
+                    <span style="font-size: 22px;">🏛️</span>
+                    Gobernanza
+                    <small>Alineación</small>
+                </div>
+                <div class="tarjeta tarjeta-azul">
+                    <span style="font-size: 22px;">🔗</span>
+                    Cadena de Valor
+                    <small>Operación</small>
+                </div>
+                <div class="tarjeta tarjeta-azul">
+                    <span style="font-size: 22px;">🛠️</span>
+                    Prácticas
+                    <small>Gestión de TI</small>
+                </div>
+                <div class="tarjeta tarjeta-azul">
+                    <span style="font-size: 22px;">🔄</span>
+                    Mejora Continua
+                    <small>Ciclo PDCA</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 3: PRÁCTICAS CLAVE DE ITIL -->
+        <div class="seccion">
+            <h2 style="color: #1e8449;">🛠️ LAS PRÁCTICAS CLAVE DE ITIL</h2>
+            <div class="desc-seccion">De las 34 que tiene el marco, las fundamentales del día a día</div>
+
+            <div class="fila-horizontal">
+                <div class="tarjeta tarjeta-verde tarjeta-practica">
+                    <div class="titulo-prac">🚨 GESTIÓN DE INCIDENTES</div>
+                    <div class="desc-prac">Restaurar la operación normal del servicio rápido.</div>
+                </div>
+                <div class="tarjeta tarjeta-verde tarjeta-practica">
+                    <div class="titulo-prac">🔍 GESTIÓN DE PROBLEMAS</div>
+                    <div class="desc-prac">Investigar la causa raíz de fallas repetitivas.</div>
+                </div>
+                <div class="tarjeta tarjeta-verde tarjeta-practica">
+                    <div class="titulo-prac">🔄 CONTROL DE CAMBIOS</div>
+                    <div class="desc-prac">Maximizar cambios exitosos mitigando riesgos técnicos.</div>
+                </div>
+                <div class="tarjeta tarjeta-verde tarjeta-practica">
+                    <div class="titulo-prac">📋 GESTIÓN DE NIVELES</div>
+                    <div class="desc-prac">Definir y acordar los SLA (Service Level Agreements).</div>
+                </div>
+                <div class="tarjeta tarjeta-verde tarjeta-practica">
+                    <div class="titulo-prac">💾 GESTIÓN DE ACTIVOS</div>
+                    <div class="desc-prac">Controlar el ciclo de vida de hardware y licencias.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PIE DE PÁGINA -->
+        <div style="text-align: center; font-size: 12px; color: #95a5a6; margin-top: 10px; border-top: 1px solid #ecf0f1; padding-top: 15px;">
+            ITIL 4 — Marco de Gestión de Servicios de TI · Estructura Horizontal
+        </div>
+
+    </div>
+
+</body>
+</html>

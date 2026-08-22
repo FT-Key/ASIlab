@@ -1,0 +1,22 @@
+{
+  "name": "administracion-sistemas-informacion",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Plataforma de estudio de Administración de Sistemas de Información: frontend React + backend Node/Express/MongoDB",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c blue,magenta \"npm:dev:backend\" \"npm:dev:frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "build:content": "npm run build:content --prefix backend",
+    "watch:seed": "npm run watch:seed --prefix backend",
+    "plan": "powershell -ExecutionPolicy Bypass -File scripts/run-plan.ps1",
+    "plan:dry": "powershell -ExecutionPolicy Bypass -File scripts/run-plan.ps1 -DryRun"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

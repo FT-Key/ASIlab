@@ -1,0 +1,20 @@
+{
+  "name": "administracion-si-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "API de Administracion de Sistemas de Informacion. Sirve la pseudo-DB hasta conectar MongoDB.",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed/seed.js",
+    "watch:seed": "node src/seed/watch.js",
+    "build:content": "node src/convert/build.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
