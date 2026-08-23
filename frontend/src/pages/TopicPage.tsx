@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { useTopics } from '../lib/topicContext'
 import { markSectionComplete, getTopicProgress, loadProgress } from '../lib/progress'
 import { getTopicIcon } from '../lib/topicIcons'
+import { sanitizeUrl } from '../lib/security'
 import BlockRenderer from '../components/BlockRenderer'
 import ProgressRing from '../components/ProgressRing'
 import { ArrowLeft, ArrowRight, CheckCircle, BookOpen, FileX, List, Clock } from '@phosphor-icons/react'
@@ -223,21 +224,25 @@ export default function TopicPage() {
             <div className="mt-8 pt-5 border-t-2 border-ink">
               <h3 className="text-[10px] font-bold text-ink mb-3 font-mono tracking-wider uppercase">Fuentes y referencias</h3>
               <div className="space-y-2">
-                {topic.sources.map((src, i) => (
-                  <a
-                    key={i}
-                    href={src.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block border-2 border-ink p-3 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
-                  >
-                    <div className="text-sm font-semibold text-primary hover:underline">{src.title}</div>
-                    <div className="text-xs text-text-dim mt-0.5">
-                      {src.source && <span className="text-secondary font-mono font-semibold">{src.source}</span>}
-                      {src.description && <span> — {src.description}</span>}
-                    </div>
-                  </a>
-                ))}
+                {topic.sources.map((src, i) => {
+                  const safeUrl = sanitizeUrl(src.url)
+                  if (!safeUrl) return null
+                  return (
+                    <a
+                      key={i}
+                      href={safeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block border-2 border-ink p-3 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
+                    >
+                      <div className="text-sm font-semibold text-primary hover:underline">{src.title}</div>
+                      <div className="text-xs text-text-dim mt-0.5">
+                        {src.source && <span className="text-secondary font-mono font-semibold">{src.source}</span>}
+                        {src.description && <span> — {src.description}</span>}
+                      </div>
+                    </a>
+                  )
+                })}
               </div>
             </div>
           )}

@@ -21,6 +21,13 @@ import {
   getCsvPath,
   csvExists,
 } from '../services/catalog.js'
+import {
+  validateSlug,
+  validateSectionId,
+  validateBlockIndex,
+  validateCsvFile,
+  validateTopicBody,
+} from '../middleware/security.js'
 
 const router = Router()
 
@@ -28,7 +35,7 @@ function asyncHandler(fn) {
   return (req, res) => {
     Promise.resolve(fn(req, res)).catch((err) => {
       const status = err.status || 400
-      res.status(status).json({ error: err.message })
+      res.status(status).json({ error: 'Error en la solicitud' })
     })
   }
 }
@@ -46,81 +53,81 @@ router.get('/topics', asyncHandler(async (req, res) => {
   res.json(await getTopics(includeSections))
 }))
 
-router.get('/topics/:slug', asyncHandler(async (req, res) => {
+router.get('/topics/:slug', validateSlug, asyncHandler(async (req, res) => {
   const topic = await getTopicBySlug(req.params.slug)
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.post('/topics', asyncHandler(async (req, res) => {
+router.post('/topics', validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await createTopic(req.body ?? {})
   res.status(201).json(topic)
 }))
 
-router.put('/topics/:slug', asyncHandler(async (req, res) => {
+router.put('/topics/:slug', validateSlug, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await updateTopic(req.params.slug, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.delete('/topics/:slug', asyncHandler(async (req, res) => {
+router.delete('/topics/:slug', validateSlug, asyncHandler(async (req, res) => {
   const deleted = await deleteTopic(req.params.slug)
   if (!deleted) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json({ ok: true })
 }))
 
-router.put('/topics/:slug/resources', asyncHandler(async (req, res) => {
+router.put('/topics/:slug/resources', validateSlug, asyncHandler(async (req, res) => {
   const topic = await updateTopicResources(req.params.slug, req.body?.resources)
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.put('/topics/:slug/sources', asyncHandler(async (req, res) => {
+router.put('/topics/:slug/sources', validateSlug, asyncHandler(async (req, res) => {
   const topic = await updateTopicSources(req.params.slug, req.body?.sources)
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.post('/topics/:slug/sections', asyncHandler(async (req, res) => {
+router.post('/topics/:slug/sections', validateSlug, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await addTopicSection(req.params.slug, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.status(201).json(topic)
 }))
 
-router.put('/topics/:slug/sections/:sectionId', asyncHandler(async (req, res) => {
+router.put('/topics/:slug/sections/:sectionId', validateSlug, validateSectionId, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await updateTopicSection(req.params.slug, req.params.sectionId, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.delete('/topics/:slug/sections/:sectionId', asyncHandler(async (req, res) => {
+router.delete('/topics/:slug/sections/:sectionId', validateSlug, validateSectionId, asyncHandler(async (req, res) => {
   const topic = await deleteTopicSection(req.params.slug, req.params.sectionId)
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.post('/topics/:slug/sections/:sectionId/blocks', asyncHandler(async (req, res) => {
+router.post('/topics/:slug/sections/:sectionId/blocks', validateSlug, validateSectionId, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await addTopicBlock(req.params.slug, req.params.sectionId, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.status(201).json(topic)
 }))
 
-router.put('/topics/:slug/sections/:sectionId/blocks/:blockIndex', asyncHandler(async (req, res) => {
+router.put('/topics/:slug/sections/:sectionId/blocks/:blockIndex', validateSlug, validateSectionId, validateBlockIndex, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await updateTopicBlock(
     req.params.slug,
     req.params.sectionId,
-    Number(req.params.blockIndex),
+    req.params.blockIndex,
     req.body ?? {}
   )
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.delete('/topics/:slug/sections/:sectionId/blocks/:blockIndex', asyncHandler(async (req, res) => {
+router.delete('/topics/:slug/sections/:sectionId/blocks/:blockIndex', validateSlug, validateSectionId, validateBlockIndex, asyncHandler(async (req, res) => {
   const topic = await deleteTopicBlock(
     req.params.slug,
     req.params.sectionId,
-    Number(req.params.blockIndex)
+    req.params.blockIndex
   )
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
@@ -130,7 +137,7 @@ router.get('/glossary', asyncHandler(async (_req, res) => {
   res.json(await getGlossary())
 }))
 
-router.get('/data/csv/:file', asyncHandler(async (req, res) => {
+router.get('/data/csv/:file', validateCsvFile, asyncHandler(async (req, res) => {
   const { file } = req.params
   if (!getCsvPath(file) || !csvExists(file)) {
     return res.status(404).json({ error: 'Archivo no encontrado' })

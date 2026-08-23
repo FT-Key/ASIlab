@@ -116,13 +116,18 @@ export async function getGlossary() {
 }
 
 export async function getGlossaryByTerm(term) {
+  const safeTerm = String(term ?? '').trim()
+  if (!safeTerm) return null
   if (isDbConnected()) {
-    const entry = await Glossary.findOne({
-      term: { $regex: new RegExp(`^${term}$`, 'i') },
-    })
+    const entry = await Glossary.findOne({ term: safeTerm })
+    if (!entry) {
+      const all = await Glossary.find()
+      const match = all.find((e) => e.term.toLowerCase() === safeTerm.toLowerCase())
+      return match ? normalizeDoc(match) : null
+    }
     return normalizeDoc(entry)
   }
-  const target = String(term).toLowerCase()
+  const target = safeTerm.toLowerCase()
   return loadPseudoDb().glossary.find((g) => g.term.toLowerCase() === target) ?? null
 }
 
@@ -145,7 +150,7 @@ export async function createTopic(data) {
   }
   const db = loadPseudoDb()
   if (db.topics.some((t) => t.slug === clean.slug)) {
-    throw new Error(`Ya existe un tema con slug <<${clean.slug}>>`)
+    throw Object.assign(new Error('Ya existe un tema con ese identificador'), { status: 409 })
   }
   db.topics.push(clean)
   db.topics.sort((a, b) => a.order - b.order)
@@ -192,7 +197,7 @@ export async function updateTopicSection(slug, sectionId, sectionData) {
   return mutateTopic(slug, (t) => {
     const sections = t.sections ?? []
     const idx = sections.findIndex((s) => s.id === sectionId)
-    if (idx === -1) throw new Error(`Seccion <<${sectionId}>> no encontrada`)
+    if (idx === -1) throw Object.assign(new Error('Sección no encontrada'), { status: 404 })
     sections[idx] = { ...sections[idx], ...stripIds(sectionData), id: sectionId }
     return t
   })
@@ -209,7 +214,7 @@ export async function addTopicBlock(slug, sectionId, blockData) {
   return mutateTopic(slug, (t) => {
     const sections = t.sections ?? []
     const idx = sections.findIndex((s) => s.id === sectionId)
-    if (idx === -1) throw new Error(`Seccion <<${sectionId}>> no encontrada`)
+    if (idx === -1) throw Object.assign(new Error('Sección no encontrada'), { status: 404 })
     sections[idx].blocks = sections[idx].blocks ?? []
     sections[idx].blocks.push(stripIds(blockData))
     return t
@@ -220,9 +225,9 @@ export async function updateTopicBlock(slug, sectionId, blockIndex, blockData) {
   return mutateTopic(slug, (t) => {
     const sections = t.sections ?? []
     const idx = sections.findIndex((s) => s.id === sectionId)
-    if (idx === -1) throw new Error(`Seccion <<${sectionId}>> no encontrada`)
+    if (idx === -1) throw Object.assign(new Error('Sección no encontrada'), { status: 404 })
     const blocks = sections[idx].blocks ?? []
-    if (blockIndex < 0 || blockIndex >= blocks.length) throw new Error(`Bloque ${blockIndex} fuera de rango`)
+    if (blockIndex < 0 || blockIndex >= blocks.length) throw Object.assign(new Error('Bloque fuera de rango'), { status: 400 })
     blocks[blockIndex] = { ...blocks[blockIndex], ...stripIds(blockData) }
     return t
   })
@@ -232,9 +237,9 @@ export async function deleteTopicBlock(slug, sectionId, blockIndex) {
   return mutateTopic(slug, (t) => {
     const sections = t.sections ?? []
     const idx = sections.findIndex((s) => s.id === sectionId)
-    if (idx === -1) throw new Error(`Seccion <<${sectionId}>> no encontrada`)
+    if (idx === -1) throw Object.assign(new Error('Sección no encontrada'), { status: 404 })
     const blocks = sections[idx].blocks ?? []
-    if (blockIndex < 0 || blockIndex >= blocks.length) throw new Error(`Bloque ${blockIndex} fuera de rango`)
+    if (blockIndex < 0 || blockIndex >= blocks.length) throw Object.assign(new Error('Bloque fuera de rango'), { status: 400 })
     sections[idx].blocks = blocks.filter((_, i) => i !== blockIndex)
     return t
   })

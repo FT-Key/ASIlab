@@ -1,6 +1,7 @@
 import { useTopics } from '../lib/topicContext'
 import { ArrowSquareUpRight, FileText, Video, Book, LinkIcon, Books } from '@phosphor-icons/react'
 import { motion } from 'motion/react'
+import { sanitizeUrl } from '../lib/security'
 
 const typeConfig: Record<string, { icon: any; color: string; label: string }> = {
   pdf: { icon: FileText, color: 'bg-danger', label: 'PDF' },
@@ -55,10 +56,12 @@ export default function RecursosPage() {
           {allResources.map((res, i) => {
             const config = typeConfig[res.type] || typeConfig.link
             const Icon = config.icon
+            const safeUrl = sanitizeUrl(res.url)
+            if (!safeUrl) return null
             return (
               <motion.a
                 key={res.id || i}
-                href={res.url}
+                href={safeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 16 }}
