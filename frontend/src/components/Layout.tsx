@@ -28,16 +28,16 @@ export default function Layout() {
   }, [location.pathname])
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <header className="sticky top-0 z-50 border-b border-primary/10 bg-surface-page/80 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+    <div className="min-h-screen flex flex-col bg-white">
+      <header className="sticky top-0 z-50 border-b-2 border-ink bg-white">
+        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center text-white font-display text-lg group-hover:scale-110 transition-transform">
+            <div className="w-10 h-10 bg-ink flex items-center justify-center text-white font-display text-lg group-hover:bg-primary transition-colors">
               S
             </div>
             <div className="hidden sm:block">
               <div className="font-display text-sm tracking-wide text-text">SistemasLab</div>
-              <div className="text-[10px] text-text-dim tracking-widest uppercase">Admin SI</div>
+              <div className="text-[10px] text-text-dim tracking-[0.2em] uppercase font-mono">Admin SI</div>
             </div>
           </Link>
 
@@ -48,10 +48,10 @@ export default function Layout() {
                 <Link
                   key={item.to}
                   to={item.to}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all ${
+                  className={`flex items-center gap-2 px-4 py-2.5 text-sm font-semibold transition-all ${
                     active
-                      ? 'bg-primary/15 text-primary-light'
-                      : 'text-text-muted hover:text-text hover:bg-surface-raised'
+                      ? 'bg-ink text-white'
+                      : 'text-text-muted hover:text-ink hover:bg-surface-overlay'
                   }`}
                 >
                   <item.icon size={16} weight={active ? 'fill' : 'regular'} />
@@ -64,9 +64,9 @@ export default function Layout() {
           <div className="flex items-center gap-2">
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden w-9 h-9 rounded-lg flex items-center justify-center text-text-muted hover:text-text hover:bg-surface-raised transition-all"
+              className="md:hidden w-10 h-10 flex items-center justify-center text-text-muted hover:text-ink hover:bg-surface-overlay transition-all"
             >
-              {mobileOpen ? <X size={18} /> : <List size={18} />}
+              {mobileOpen ? <X size={20} /> : <List size={20} />}
             </button>
           </div>
         </div>
@@ -77,19 +77,19 @@ export default function Layout() {
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              className="md:hidden border-t border-primary/10 bg-surface-page/95 backdrop-blur-xl overflow-hidden"
+              className="md:hidden border-t-2 border-ink bg-white overflow-hidden"
             >
-              <nav className="px-4 py-3 flex flex-col gap-1">
+              <nav className="px-6 py-3 flex flex-col gap-1">
                 {NAV_ITEMS.map((item) => {
                   const active = location.pathname === item.to
                   return (
                     <Link
                       key={item.to}
                       to={item.to}
-                      className={`flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm font-medium transition-all ${
+                      className={`flex items-center gap-3 px-4 py-3 text-sm font-semibold transition-all ${
                         active
-                          ? 'bg-primary/15 text-primary-light'
-                          : 'text-text-muted hover:text-text hover:bg-surface-raised'
+                          ? 'bg-ink text-white'
+                          : 'text-text-muted hover:text-ink hover:bg-surface-overlay'
                       }`}
                     >
                       <item.icon size={18} weight={active ? 'fill' : 'regular'} />
@@ -117,17 +117,17 @@ export default function Layout() {
         </AnimatePresence>
       </main>
 
-      <footer className="border-t border-primary/10 bg-surface-page/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
+      <footer className="border-t-2 border-ink bg-white">
+        <div className="max-w-6xl mx-auto px-6 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-7 h-7 rounded-md bg-primary/20 flex items-center justify-center text-primary-light font-display text-xs">
+              <div className="w-8 h-8 bg-ink flex items-center justify-center text-white font-display text-xs">
                 S
               </div>
               <span className="text-sm text-text-dim">SistemasLab — Administracion de Sistemas de Informacion</span>
             </div>
-            <div className="text-xs text-text-dim">
-              {loading ? 'Cargando contenido...' : `${topics.length} temas disponibles`}
+            <div className="text-xs text-text-dim font-mono tracking-wider uppercase">
+              {loading ? 'Cargando...' : `${topics.length} temas`}
             </div>
           </div>
         </div>

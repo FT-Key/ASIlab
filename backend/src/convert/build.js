@@ -5,6 +5,7 @@ import { mdToTopic } from './md.js'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_PATH = path.resolve(__dirname, '../../../data/topics.json')
+const FRONTEND_DATA = path.resolve(__dirname, '../../../frontend/public/data/topics.json')
 const RESOURCES_PATH = path.resolve(__dirname, '../../../data/resources.json')
 const CONTENT_DIR = path.resolve(__dirname, '../../../content/topics')
 
@@ -44,4 +45,11 @@ const out = {
 }
 
 fs.writeFileSync(DATA_PATH, JSON.stringify(out, null, 2) + '\n', 'utf8')
+
+// Copy to frontend public folder
+const frontendDir = path.dirname(FRONTEND_DATA)
+if (!fs.existsSync(frontendDir)) fs.mkdirSync(frontendDir, { recursive: true })
+fs.copyFileSync(DATA_PATH, FRONTEND_DATA)
+
 console.log(`🏗️  topics.json generado: ${topics.length} temas desde content/topics/*.md`)
+console.log(`📁 Copiado a frontend/public/data/topics.json`)

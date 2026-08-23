@@ -24,7 +24,7 @@ Administracion de Recursos/
 │       │   └── TopicCard.tsx    # Tarjeta de tema
 │       ├── pages/               # Paginas (Home, TopicView, Admin, etc.)
 │       ├── lib/                 # Hooks, context, utilidades
-│       └── index.css            # Tokens de color (tema vibrant)
+│       └── index.css            # Tokens de color (tema awesome artistic)
 └── PLAN.md                      # Roadmap del proyecto
 ```
 
@@ -108,13 +108,19 @@ npx vite build           # Typecheck + build de producción
 
 ## Color Palette
 
-- Primary: `#6C5CE7` (púrpura vibrante)
-- Secondary: `#F7A072` (durazno cálido)
-- Surface: `#FFFFFF` / `#F5F3FF` / `#FAFAFE`
-- Text: `#1E1B2E` (oscuro con púrpura)
-- Success: `#00B894`
-- Error: `#E17055`
-- Warning: `#FDCB6E`
+- Primary: `#4F46E5` (indigo profundo)
+- Secondary: `#F97066` (coral cálido)
+- Surface: `#FFFFFF` / `#FAFBFC` / `#F8FAFC`
+- Text: `#1A1A2E` (azul muy oscuro)
+- Success: `#059669`
+- Error: `#DC2626`
+- Warning: `#D97706`
+
+## Fuentes
+
+- **Body:** Inter
+- **Display:** Space Grotesk
+- **Mono:** JetBrains Mono
 
 ## License
 

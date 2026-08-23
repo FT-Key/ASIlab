@@ -4,7 +4,7 @@
 Plataforma de estudio para la materia "Administracion de Sistemas de Informacion" con:
 - Contenido en markdown (`content/topics/*.md`) convertido a `data/topics.json`
 - Backend API (Node/Express/MongoDB) con fallback a pseudo-DB
-- Frontend React + Vite + TS + Tailwind 4 (estilo vibrant)
+- Frontend React + Vite + TS + Tailwind 4 (estilo awesome artistic)
 - 14 temas cubriendo COBIT, ITIL, ISO 38500, PMBOK 8, gobierno TI, RH TI
 - Ejercicios interactivos: Quiz, TrueFalse, Match, Sort, Essay, DecisionPath, Flashcards, DIKW, Arch, ETL, OLAP, Lab
 
@@ -14,8 +14,8 @@ Plataforma de estudio para la materia "Administracion de Sistemas de Informacion
 - [x] `package.json` (root) con scripts `install:all`, `build:content`, `seed`
 - [x] `.gitignore`
 - [x] `AGENTS.md` con reglas para opencode
-- [x] `.opencode/skills/vibrant/SKILL.md`
-- [x] `.opencode/skills/vibrant/DESIGN.md`
+- [x] `.opencode/skills/awesome/SKILL.md`
+- [x] `.opencode/skills/awesome/DESIGN.md`
 - [x] `.opencode/skills/research/SKILL.md`
 - [x] `.opencode/command/plan-run.md`
 
@@ -41,7 +41,7 @@ Plataforma de estudio para la materia "Administracion de Sistemas de Informacion
 - [x] `frontend/index.html`
 - [x] `frontend/vite.config.ts` — proxy API, code splitting
 - [x] `frontend/tsconfig.json` + `tsconfig.app.json` + `tsconfig.node.json`
-- [x] `frontend/src/index.css` — tokens vibrant CLARO (#6C5CE7 primary, #F7A072 secondary, #FFFFFF/#F5F3FF surfaces)
+- [x] `frontend/src/index.css` — tokens awesome artistic CLARO (#4F46E5 primary indigo, #F97066 secondary coral, #FFFFFF/#FAFBFC surfaces)
 - [x] `frontend/src/types.ts` — todos los tipos TypeScript
 - [x] `frontend/src/main.tsx` — entry point
 - [x] `frontend/src/App.tsx` — rutas: /, /topic/:slug, /recursos, /glosario, /admin

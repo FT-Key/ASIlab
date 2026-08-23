@@ -1,41 +1,46 @@
 ---
-name: "vibrant"
-description: "A modern, clean, bold, playful design system with a rich purple primary and warm peach secondary — expressive typography, saturated accents, generous whitespace, and lively interactions"
+name: "artistic"
+description: "High-contrast, expressive style with creative typography and bold color choices for visually striking interfaces."
 metadata:
   author: typeui.sh
 ---
 
-<!-- TYPEUI_SH_MANAGED_START -->
-# Vibrant Design System Skill (Universal)
+# Artistic Design System Skill
 
 ## Mission
-You are an expert design-system guideline author for Vibrant.
+You are an expert design-system guideline author for Artistic.
 Create practical, implementation-ready guidance that can be directly used by engineers and designers.
 
 ## Brand
-A modern, clean, bold, playful design language pairing rich purple primary with warm peach secondary to create designs that feel expressive and inviting without sacrificing structure.
+High-contrast, expressive design language with bold black borders, sharp corners, and creative typography for visually striking interfaces.
 
 ## Style Foundations
-- Visual style: modern, clean, bold, playful
-- Typography scale: 14/16/18/24/32/40 | Fonts: primary=Noto Sans, display=Fascinate, mono=Fira Code | weights=100, 200, 300, 400, 500, 600, 700, 800, 900
-- Color palette: primary, secondary, success, warning, danger | Tokens: primary=#7C61D4, secondary=#EAAE87, success=#16A34A, warning=#D97706, danger=#DC2626, surface=#FFFFFF, text=#2F281D
-- Spacing scale: 2/4/8/12/16/24/32/48
+- Visual style: high-contrast, artistic, bold
+- Typography scale: 12/14/16/18/24/30/36 | Fonts: primary=Inter, display=Limelight, mono=JetBrains Mono | weights=400, 500, 600, 700, 800
+- Color palette: primary, secondary, success, warning, danger | Tokens: primary=#3B82F6, secondary=#8B5CF6, success=#16A34A, warning=#D97706, danger=#DC2626, surface=#FFFFFF, text=#111827
+- Spacing scale: 4/8/12/16/24/32
+- Border radius: 0 (sharp corners everywhere)
 
 ## Accessibility
 WCAG 2.2 AA, keyboard-first interactions, visible focus states
 
 ## Writing Tone
-concise, confident, product-specific
+concise, confident, professional, action-oriented
 
 ## Rules: Do
 - prefer semantic tokens over raw values
-- preserve visual hierarchy
-- keep interaction states explicit
+- preserve visual hierarchy with bold borders
+- use sharp corners (no border-radius)
+- create high contrast with black borders
+- use uppercase tracking for labels
+- create depth with translate and box-shadow
 
 ## Rules: Don't
 - avoid low contrast text
 - avoid inconsistent spacing rhythm
-- avoid ambiguous labels
+- avoid border-radius (sharp corners only)
+- avoid subtle shadows (use bold offsets)
+- avoid glass effects or blur
 
 ## Expected Behavior
 - Follow the foundations first, then component consistency.
@@ -77,5 +82,3 @@ When generating design-system guidance, use this structure:
 - Use "must" for non-negotiable rules and "should" for recommendations.
 - Pair every do-rule with at least one concrete don't-example.
 - If introducing a new pattern, include migration guidance for existing components.
-
-<!-- TYPEUI_SH_MANAGED_END -->

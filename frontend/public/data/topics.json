@@ -1,0 +1,4318 @@
+{
+  "meta": {
+    "version": 1,
+    "lastUpdated": "2026-08-22",
+    "source": "content/topics/*.md",
+    "description": "Generado por backend/src/convert/build.js desde archivos Markdown. Los temas se editan en content/topics/ y luego se corre npm run build:content."
+  },
+  "categories": [],
+  "topics": [
+    {
+      "id": "caso-estudio-ingenio-azucarero",
+      "slug": "caso-estudio-ingenio-azucarero",
+      "title": "Caso de Estudio - Ingenio Azucarero",
+      "emoji": "🏭",
+      "accent": "#7C61D4",
+      "category": "admin-estrategica",
+      "difficulty": "principiante",
+      "order": 1,
+      "description": "Analisis de un caso real de administracion de sistemas de informacion en la industria azucarera colombiana. Como las tecnologias apoyan los procesos productivos, la toma de decisiones y la gestion operativa.",
+      "tags": [
+        "caso-estudio",
+        "industria",
+        "produccion",
+        "transformation-digital"
+      ],
+      "keyTakeaway": "La administracion de SI en sector industrial requiere alinear la tecnologia con los procesos productivos, la cadena de suministro y la gestion de calidad para generar ventaja competitiva.",
+      "sources": [
+        {
+          "title": "Caso de Estudio Ingenio Azucarero",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase U1"
+        },
+        {
+          "title": "Fabricacion de Azucar - Acciones Proactivas",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U1"
+        }
+      ],
+      "sections": [
+        {
+          "id": "introduccion-al-caso",
+          "title": "Introduccion al Caso",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Este caso de estudio analiza la transformation digital de un ingenio azucarero colombiano, donde los sistemas de informacion pasaron de ser herramientas de soporte a componentes estrategicos del negocio."
+            },
+            {
+              "type": "paragraph",
+              "text": "El sector azucarero colombiano enfrenta desafios unicos: variacion en precios internacionales, cambio climatico, regulaciones ambientales y necesidad de eficiencia operativa. En este contexto, la administracion de sistemas de informacion se convierte en un factor diferenciador."
+            }
+          ]
+        },
+        {
+          "id": "contexto-del-negocio",
+          "title": "Contexto del Negocio",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Un ingenio azucarero es una planta industrial que transforma la cana de azucar en azucar crudo, refinado y subproductos como melaza y bagazo. El proceso involucra:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Cosecha y transporte de cana desde el cultivo hasta el Ingenio",
+                "Molienda para extraer el jugo de cana",
+                "Cocina y cristalizacion del azucar",
+                "Empaque y distribucion del producto final",
+                "Generacion electrica con bagazo (energia renovable)"
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Sistema de Informacion Industrial",
+              "text": "Conjunto integrado de hardware, software, datos, personas y procesos que permiten la recopilacion, almacenamiento, procesamiento y distribucion de informacion necesaria para la operacion y gestion de una planta industrial."
+            }
+          ]
+        },
+        {
+          "id": "sistemas-clave-en-el-ingenio",
+          "title": "Sistemas Clave en el Ingenio",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Sistema",
+                "Funcion",
+                "Area"
+              ],
+              "rows": [
+                [
+                  "SCADA",
+                  "Control y monitoreo de procesos industriales",
+                  "Produccion"
+                ],
+                [
+                  "ERP",
+                  "Gestion empresarial integrada (finanzas, RRHH, compras)",
+                  "Administracion"
+                ],
+                [
+                  "MES",
+                  "Gestion de la fabricacion en tiempo real",
+                  "Produccion"
+                ],
+                [
+                  "LIMS",
+                  "Control de calidad de laboratorio",
+                  "Calidad"
+                ],
+                [
+                  "WMS",
+                  "Gestion de almacen y logistica",
+                  "Logistica"
+                ],
+                [
+                  "BI",
+                  "Business Intelligence y analisis de datos",
+                  "Gerencia"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Un fallo en el sistema SCADA puede detener toda la produccion, generando perdidas de miles de dolares por hora. La disponibilidad de estos sistemas es critica."
+            }
+          ]
+        },
+        {
+          "id": "beneficios-de-la-administracion-estrategica-de-ti",
+          "title": "Beneficios de la Administracion Estrategica de TI",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Reduccion de costos operativos mediante automatizacion de procesos",
+                "Mejora en la toma de decisiones con datos en tiempo real",
+                "Cumplimiento normativo en areas ambientales y de seguridad",
+                "Sostenibilidad a traves de la generacion de energia con bagazo",
+                "Competitividad en mercados internacionales"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "flow",
+              "title": "Proceso de Transformation Digital",
+              "steps": [
+                "Diagnostico del estado actual de TI",
+                "Definicion de la estrategia digital",
+                "Implementacion de sistemas criticos",
+                "Capacitacion del personal",
+                "Monitoreo y mejora continua"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "reflexion",
+          "title": "Reflexion",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "El caso del ingenio azucarero demuestra que la tecnologia por si sola no genera valor. Es la administracion estrategica de los sistemas de informacion, alineada con los objetivos del negocio, lo que permite obtener ventaja competitiva sostenible."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Autoevaluación",
+              "questions": [
+                {
+                  "question": "¿Cual es el sistema mas critico en un ingenio azucarero?",
+                  "options": [
+                    "SCADA",
+                    "ERP",
+                    "MES",
+                    "LIMS"
+                  ],
+                  "answer": 0,
+                  "explanation": "El SCADA es el sistema de control y monitoreo de procesos industriales, critico para la operacion continua."
+                },
+                {
+                  "question": "¿Que porcentaje de energia puede generar un ingenio con bagazo?",
+                  "options": [
+                    "20-30%",
+                    "50-60%",
+                    "80-90%",
+                    "100%"
+                  ],
+                  "answer": 2,
+                  "explanation": "Los ingenios modernos pueden autoabastecerse hasta el 90% de su demanda energetica con bagazo."
+                },
+                {
+                  "question": "¿Cual es el primer paso en una transformation digital?",
+                  "options": [
+                    "Comprar hardware",
+                    "Capacitar personal",
+                    "Diagnostico del estado actual",
+                    "Contratar consultores"
+                  ],
+                  "answer": 2,
+                  "explanation": "El primer paso es un diagnostico completo del estado actual de la infraestructura y procesos de TI."
+                }
+              ]
+            },
+            {
+              "type": "path",
+              "title": "Decisiones en el Ingenio",
+              "nodes": [
+                {
+                  "id": "1",
+                  "title": "Situacion",
+                  "prompt": "El ingenio azucarero necesita modernizar su sistema de informacion. Tienes un presupuesto limitado. Que decides?",
+                  "options": [
+                    {
+                      "label": "Invertir en ERP integral",
+                      "target": "2"
+                    },
+                    {
+                      "label": "Comprar software especializado",
+                      "target": "3"
+                    },
+                    {
+                      "label": "Desarrollar a medida",
+                      "target": "4"
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "title": "ERP Integral",
+                  "prompt": "El ERP integral cubre todas las areas pero requiere 18 meses de implementacion. El negocio necesita resultados rapidos.",
+                  "options": [
+                    {
+                      "label": "Avanzar con ERP completo",
+                      "target": "5"
+                    },
+                    {
+                      "label": "Hacer implementacion por fases",
+                      "target": "6"
+                    }
+                  ]
+                },
+                {
+                  "id": "3",
+                  "title": "Software Especializado",
+                  "prompt": "El software especializado es mas barato pero no se integra con los sistemas existentes.",
+                  "isFinal": true,
+                  "verdict": "Riesgo de islas de informacion. La falta de integracion genera duplicidad de datos y errores manuales.",
+                  "options": []
+                },
+                {
+                  "id": "4",
+                  "title": "Desarrollo a Medida",
+                  "prompt": "Desarrollar a medida da control total pero requiere equipo tecnico propio y mantenimiento continuo.",
+                  "isFinal": true,
+                  "verdict": "Opcion viable para procesos muy especificos, pero costly a largo plazo.",
+                  "options": []
+                },
+                {
+                  "id": "5",
+                  "title": "ERP Completo",
+                  "prompt": "La implementacion completa toma 18 meses pero unifica todos los procesos.",
+                  "isFinal": true,
+                  "verdict": "Excelente para organizaciones grandes con recursos. Requiere gestion del cambio.",
+                  "options": []
+                },
+                {
+                  "id": "6",
+                  "title": "Fases",
+                  "prompt": "Implementacion por fases: primero finanzas, luego produccion, luego logistica.",
+                  "isFinal": true,
+                  "verdict": "Balance entre rapidez y completitud. Permite learning organization.",
+                  "options": []
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Relaciona conceptos del caso",
+              "pairs": [
+                {
+                  "left": "ERP",
+                  "right": "Sistema de planificacion de recursos"
+                },
+                {
+                  "left": "ROI",
+                  "right": "Retorno de inversion"
+                },
+                {
+                  "left": "KPI",
+                  "right": "Indicador clave de desempeno"
+                },
+                {
+                  "left": "SLA",
+                  "right": "Acuerdo de nivel de servicio"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-01",
+          "title": "Caso de Estudio Ingenio Azucarero - Universidad Agustiniana",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento de clase U1 con el caso de estudio del ingenio azucarero colombiano."
+        },
+        {
+          "id": "res-02",
+          "title": "Fabricacion de Azucar - Acciones Proactivas",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "link",
+          "description": "Documento U1 sobre acciones proactivas en la fabricacion de azucar."
+        }
+      ]
+    },
+    {
+      "id": "valor-negocio-administracion-ti",
+      "slug": "valor-negocio-administracion-ti",
+      "title": "Valor de Negocio de la Administracion de TI",
+      "emoji": "💰",
+      "accent": "#EAAE87",
+      "category": "admin-estrategica",
+      "difficulty": "principiante",
+      "order": 2,
+      "description": "Como la Administracion de Tecnologias de Informacion crea valor para la organizacion. Alineacion estrategica, ROI de TI, gobierno corporativo y medicion del valor de la inversion tecnologica.",
+      "tags": [
+        "valor-negocio",
+        "ROI",
+        "alineacion-estrategica",
+        "gobierno-corporativo"
+      ],
+      "keyTakeaway": "La TI deja de ser un centro de costo para convertirse en generadora de valor cuando se alinea estrategicamente con los objetivos del negocio.",
+      "sources": [
+        {
+          "title": "El Valor de Negocio en la Administracion de TI",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U21"
+        },
+        {
+          "title": "COBIT 2019 - Framework",
+          "url": "https://www.isaca.org",
+          "source": "ISACA",
+          "description": "Marco de gobierno y gestion de TI"
+        }
+      ],
+      "sections": [
+        {
+          "id": "definicion-de-valor-de-ti",
+          "title": "Definicion de Valor de TI",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Valor de TI",
+              "text": "El valor que las tecnologias de informacion aportan a la organizacion se mide en terminos de eficiencia operativa, ventaja competitiva, innovacion, satisfaccion del cliente y cumplimiento normativo."
+            },
+            {
+              "type": "paragraph",
+              "text": "La administracion de TI tradicional se enfocaba en la disponibilidad y el costo. Hoy, el enfoque es crear valor para el negocio."
+            }
+          ]
+        },
+        {
+          "id": "dimensiones-del-valor-de-ti",
+          "title": "Dimensiones del Valor de TI",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Dimension",
+                "Ejemplo",
+                "Indicador"
+              ],
+              "rows": [
+                [
+                  "Eficiencia",
+                  "Automatizacion de procesos",
+                  "Reduccion de tiempo de ciclo"
+                ],
+                [
+                  "Efectividad",
+                  "Mejor toma de decisiones",
+                  "Calidad de reportes gerenciales"
+                ],
+                [
+                  "Innovacion",
+                  "Nuevos productos digitales",
+                  "Tiempo al mercado"
+                ],
+                [
+                  "Cumplimiento",
+                  "Cumplimiento normativo",
+                  "Multas evitadas"
+                ],
+                [
+                  "Satisfaccion",
+                  "Experiencia del cliente",
+                  "NPS, retencion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Segun研究 de Harvard Business Review, las organizaciones que alinean TI con el negocio tienen 38% mas probabilidad de superar a sus competidores en rentabilidad."
+            }
+          ]
+        },
+        {
+          "id": "alineacion-estrategica-de-ti",
+          "title": "Alineacion Estrategica de TI",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La alineacion estrategica busca que la estrategia de TI este sincronizada con la estrategia del negocio. El modelo de Henderson y Venkatraman (1993) propone cuatro dominios:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Estrategia del negocio — Mision, vision, objetivos",
+                "Estrategia de TI — Arquitectura, infraestructura, applications",
+                "Infraestructura organizacional — Estructura, procesos, cultura",
+                "Infraestructura de TI — Hardware, red, plataformas"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "flow",
+              "title": "Proceso de Alineacion",
+              "steps": [
+                "Comprender la estrategia del negocio",
+                "Definir la estrategia de TI",
+                "Evaluar la brecha existente",
+                "Priorizar iniciativas de TI",
+                "Implementar y monitorear"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "roi-de-tecnologia",
+          "title": "ROI de Tecnologia",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "ROI de TI",
+              "text": "Retorno de la Inversion en TI = (Beneficios - Costos) / Costos x 100. Incluye beneficios tangibles (ahorro, productividad) e intangibles (satisfaccion, marca)."
+            },
+            {
+              "type": "heading",
+              "text": "Calculo del ROI"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Componente",
+                "Formula"
+              ],
+              "rows": [
+                [
+                  "Beneficio neto",
+                  "Beneficios totales - Costos totales"
+                ],
+                [
+                  "ROI",
+                  "Beneficio neto / Inversion total x 100"
+                ],
+                [
+                  "Payback",
+                  "Inversion / Beneficio anual"
+                ],
+                [
+                  "TIR",
+                  "Tasa interna de retorno"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "No todos los beneficios de TI son facilmente cuantificables. La satisfaccion del cliente, la agilidad organizacional y la capacidad de innovacion son beneficios reales pero dificiles de medir en dolares."
+            }
+          ]
+        },
+        {
+          "id": "gobierno-corporativo-de-ti",
+          "title": "Gobierno Corporativo de TI",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "El gobierno de TI define como se toman las decisiones sobre la inversion tecnologica. Incluye:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Estructura de gobierno — Comites, roles, responsabilidades",
+                "Procesos de decision — Aprobacion de proyectos, asignacion de recursos",
+                "Medicion de desempeno — KPIs, balanced scorecard",
+                "Gestion de riesgos — Evaluacion y mitigacion de riesgos de TI"
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "Un buen gobierno de TI asegura que cada dolar invertido en tecnologia este alineado con los objetivos estrategicos de la organizacion."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Autoevaluación",
+              "questions": [
+                {
+                  "question": "¿Que dimension NO es parte del valor de TI?",
+                  "options": [
+                    "Eficiencia",
+                    "Innovacion",
+                    "Costo de hardware",
+                    "Satisfaccion"
+                  ],
+                  "answer": 2,
+                  "explanation": "El costo de hardware es un gasto, no una dimension del valor que TI genera."
+                },
+                {
+                  "question": "¿Cual es la formula del ROI?",
+                  "options": [
+                    "(Beneficios - Costos) x 100",
+                    "(Beneficios - Costos) / Costos x 100",
+                    "Beneficios / Costos",
+                    "Costos / Beneficios"
+                  ],
+                  "answer": 1,
+                  "explanation": "ROI = (Beneficios - Costos) / Costos x 100"
+                },
+                {
+                  "question": "¿Que busca la alineacion estrategica?",
+                  "options": [
+                    "Reducir costos de TI",
+                    "Sincronizar TI con el negocio",
+                    "Contratar mas personal de TI",
+                    "Comprar mas servidores"
+                  ],
+                  "answer": 1,
+                  "explanation": "La alineacion estrategica busca que TI este sincronizada con los objetivos del negocio."
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "title": "Valor de Negocio de TI",
+              "questions": [
+                {
+                  "question": "Cual es el objetivo principal de alinear TI con el negocio?",
+                  "options": [
+                    "Reducir costos de TI",
+                    "Crear valor estrategico",
+                    "Eliminar el departamento de TI",
+                    "Automatizar todos los procesos"
+                  ],
+                  "answer": 1,
+                  "explanation": "El alineamiento estrategico busca que TI genere ventaja competitiva."
+                },
+                {
+                  "question": "Que es un caso de uso de TI estrategica?",
+                  "options": [
+                    "Mantenimiento de impresoras",
+                    "Implementacion de un Data Warehouse para analisis predictivo",
+                    "Reinstalar Windows",
+                    "Comprar licencias"
+                  ],
+                  "answer": 1,
+                  "explanation": "Un Data Warehouse permite decisiones basadas en datos."
+                },
+                {
+                  "question": "Cual es una metrica de valor de TI?",
+                  "options": [
+                    "Numero de computadoras",
+                    "Tiempo de respuesta de sistemas criticos",
+                    "Cantidad de cables",
+                    "Numero de empleados"
+                  ],
+                  "answer": 1,
+                  "explanation": "El tiempo de respuesta impacta directamente la productividad."
+                }
+              ]
+            },
+            {
+              "type": "truefalse",
+              "title": "Conceptos de Valor de Negocio",
+              "tf": [
+                {
+                  "statement": "TI debe ser vista solo como un centro de costos.",
+                  "answer": false,
+                  "explanation": "TI es un generador de valor estrategico cuando esta alineada con el negocio."
+                },
+                {
+                  "statement": "El ROI de un proyecto de TI se mide solo en dinero.",
+                  "answer": false,
+                  "explanation": "El ROI incluye beneficios intangibles como satisfaccion del cliente y agilidad."
+                },
+                {
+                  "statement": "La transformacion digital requiere cambio cultural.",
+                  "answer": true,
+                  "explanation": "La tecnologia sola no basta; las personas deben adoptar nuevas formas de trabajar."
+                },
+                {
+                  "statement": "Un sistema ERP integra todas las areas de una empresa.",
+                  "answer": true,
+                  "explanation": "ERP significa Enterprise Resource Planning e integra finanzas, RRHH, produccion, etc."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-03",
+          "title": "El Valor de Negocio en la Administracion de TI",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U21 sobre el valor de negocio de la administracion de TI."
+        },
+        {
+          "id": "res-04",
+          "title": "COBIT 2019 Framework - ISACA",
+          "url": "https://www.isaca.org",
+          "type": "book",
+          "description": "Marco oficial de gobierno y gestion de TI de ISACA."
+        }
+      ]
+    },
+    {
+      "id": "gobierno-ti-introduccion-cobit-il-iso",
+      "slug": "gobierno-ti-introduccion-cobit-il-iso",
+      "title": "Gobierno de TI - Introduccion a COBIT, ITIL e ISO 38500",
+      "emoji": "🏛️",
+      "accent": "#7C61D4",
+      "category": "gobierno-ti",
+      "difficulty": "intermedio",
+      "order": 3,
+      "description": "Vision general de los tres marcos de referencia mas importantes para el gobierno y gestion de TI: COBIT 2019, ITIL 4 e ISO 38500. Sus objetivos, alcance y como se complementan.",
+      "tags": [
+        "gobierno-TI",
+        "COBIT",
+        "ITIL",
+        "ISO-38500",
+        "marcos-referencia"
+      ],
+      "keyTakeaway": "COBIT define QUE governar, ITIL define COMO gestionar servicios, e ISO 38500 establece los principios para el gobierno responsable de TI.",
+      "sources": [
+        {
+          "title": "Introduccion a COBIT ITIL e ISO 38500",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U22"
+        },
+        {
+          "title": "ISO 38500 - IT Governance",
+          "url": "https://www.iso.org",
+          "source": "ISO",
+          "description": "Norma internacional de gobierno corporativo de TI"
+        },
+        {
+          "title": "COBIT 2019 Framework",
+          "url": "https://www.isaca.org",
+          "source": "ISACA",
+          "description": "Framework de gobierno y gestion de TI"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-el-gobierno-de-ti",
+          "title": "Que es el Gobierno de TI?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Gobierno de TI",
+              "text": "Proceso de liderazgo, estructuras organizacionales y procesos que aseguran que la TI de la organizacion soporte y extienda sus estrategias y objetivos. El gobierno provee la direccion estrategica, asegura que los objetivos se alcanzan, gestiona los riesgos de forma apropiada y verifica que los recursos de la organizacion se usan de manera responsable."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "El gobierno de TI no es lo mismo que la gestion de TI. El gobierno responde a la pregunta \"¿que debemos hacer?\", mientras que la gestion responde a \"¿como lo hacemos?\""
+            }
+          ]
+        },
+        {
+          "id": "los-tres-marcos-de-referencia",
+          "title": "Los Tres Marcos de Referencia",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Marco",
+                "Enfoque",
+                "Pregunta que responde",
+                "Organismo"
+              ],
+              "rows": [
+                [
+                  "COBIT 2019",
+                  "Gobierno y gestion de TI",
+                  "¿Que debemos governar?",
+                  "ISACA"
+                ],
+                [
+                  "ITIL 4",
+                  "Gestion de servicios de TI",
+                  "¿Como gestionar servicios?",
+                  "Axelos/PeopleCert"
+                ],
+                [
+                  "ISO 38500",
+                  "Gobierno corporativo de TI",
+                  "¿Que principios seguir?",
+                  "ISO"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Estos marcos no son excluyentes. Las organizaciones maduras utilizan los tres de forma complementaria: COBIT para el gobierno, ITIL para la operacion de servicios, e ISO 38500 para establecer principios."
+            }
+          ]
+        },
+        {
+          "id": "cobit-2019",
+          "title": "COBIT 2019",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "COBIT (Control Objectives for Information and Related Technologies) es el framework mas completo para el gobierno y gestion de TI. Sus componentes principales:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "5 Dominios: EDM (Evaluar, Dirigir, Monitorear), APO (Alinear, Planificar y Organizar), BAI (Construir, Adquirir e Implementar), DSS (Entregar, Servir y Soportar), MEA (Monitorear, Evaluar y Valorar)",
+                "40 Objetivos de Gobierno y Gestion",
+                "5 Dominios de Habilidades: Procesos, Estructura Organizacional, Informacion, Personas, Politicas",
+                "Sistema de Metricas: Unidades de Desempeno y Fuentes de Evidencia"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "itil-4",
+          "title": "ITIL 4",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "ITIL (Information Technology Infrastructure Library) se enfoca en la gestion de servicios de TI. Su modelo de valor incluye:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "4 Dimensiones: Organizacion y Personas, Procesos y Flujos de Trabajo, Tecnologia y Herramientas, Socios y Proveedores",
+                "5 Componentes del SVS: Estrategia de Servicio, Cadena de Valor, Practicas, Gobierno y Controles, Mejora Continua",
+                "Principios Guia: Enfoque en el valor, Empezar donde estas, Progresar de forma iterativa, Visibilidad y transparencia, Trabajar y pensar de forma integral, Simplificar y practicar, Optimizar y automatizar"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "iso-38500",
+          "title": "ISO 38500",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "ISO 38500 es una norma internacional que establece principios para el gobierno corporativo de TI. Sus 6 principios:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Responsabilidad — Los directivos son responsables del uso de TI",
+                "Estrategia — La TI debe soportar la estrategia del negocio",
+                "Adquisicion — Las adquisiciones de TI deben ser correctas",
+                "Desempeno — Los sistemas de TI deben operar eficientemente",
+                "Conformidad — El uso de TI debe cumplir leyes y regulaciones",
+                "Comportamiento — El comportamiento humano debe ser considerado"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "ISO 38500 es ideal para Tableros Directivos porque ofrece principios claros y ejecutables sin entrar en detalle operativo."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Autoevaluación",
+              "questions": [
+                {
+                  "question": "¿Que marco se enfoca en la gestion de servicios?",
+                  "options": [
+                    "COBIT",
+                    "ITIL",
+                    "ISO 38500",
+                    "PMBOK"
+                  ],
+                  "answer": 1,
+                  "explanation": "ITIL 4 se enfoca especificamente en la gestion de servicios de TI."
+                },
+                {
+                  "question": "¿Cuantos dominios tiene COBIT 2019?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                  ],
+                  "answer": 2,
+                  "explanation": "COBIT 2019 tiene 5 dominios: EDM, APO, BAI, DSS, MEA."
+                },
+                {
+                  "question": "¿Cuantos principios establece ISO 38500?",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "8"
+                  ],
+                  "answer": 2,
+                  "explanation": "ISO 38500 establece 6 principios para el gobierno corporativo de TI."
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Relaciona marcos con su enfoque",
+              "pairs": [
+                {
+                  "left": "COBIT 2019",
+                  "right": "Gobierno y gestion de TI empresarial"
+                },
+                {
+                  "left": "ITIL 4",
+                  "right": "Gestion de servicios de TI"
+                },
+                {
+                  "left": "ISO 38500",
+                  "right": "Gobierno corporativo de TI"
+                },
+                {
+                  "left": "PMBOK",
+                  "right": "Gestion de proyectos"
+                }
+              ]
+            },
+            {
+              "type": "truefalse",
+              "title": "Marcos de Gobierno TI",
+              "tf": [
+                {
+                  "statement": "COBIT se enfoca exclusivamente en seguridad.",
+                  "answer": false,
+                  "explanation": "COBIT cubre gobierno y gestion de TI de forma integral."
+                },
+                {
+                  "statement": "ITIL 4 introdujo el concepto de cadena de valor del servicio.",
+                  "answer": true,
+                  "explanation": "ITIL 4 reemplaza el ciclo de vida por la cadena de valor."
+                },
+                {
+                  "statement": "ISO 38500 es un estandar de gestion, no un marco de implementacion.",
+                  "answer": true,
+                  "explanation": "ISO 38500 establece principios, no prescribe como implementarlos."
+                },
+                {
+                  "statement": "COBIT, ITIL e ISO son excluyentes entre si.",
+                  "answer": false,
+                  "explanation": "Son complementarios: COBIT gobierna, ITIL gestiona, ISO estandariza."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-05",
+          "title": "Introduccion a COBIT, ITIL e ISO 38500",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U22 con introduccion a los tres marcos de referencia."
+        },
+        {
+          "id": "res-06",
+          "title": "ISO/IEC 38500:2015 - IT Governance",
+          "url": "https://www.iso.org/standard/68083.html",
+          "type": "norma",
+          "description": "Norma internacional de gobierno corporativo de TI."
+        }
+      ]
+    },
+    {
+      "id": "plan-estrategico-ti-peti",
+      "slug": "plan-estrategico-ti-peti",
+      "title": "Plan Estrategico de TI - PETI",
+      "emoji": "🗺️",
+      "accent": "#6DD4A0",
+      "category": "gobierno-ti",
+      "difficulty": "intermedio",
+      "order": 4,
+      "description": "Como disenar, implementar y evaluar un Plan Estrategico de Tecnologias de Informacion (PETI). Alineacion con el PEI, gestin de proyectos estrategicos y Balanced Scorecard de TI.",
+      "tags": [
+        "PETI",
+        "plan-estrategico",
+        "balanced-scorecard",
+        "KPIs"
+      ],
+      "keyTakeaway": "Un PETI efectivo traduce la vision del negocio en iniciativas de TI medibles, con recursos asignados y resultados alineados al Plan Estrategico Institucional (PEI).",
+      "sources": [
+        {
+          "title": "Plan Estrategico de TI PETI",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U23"
+        },
+        {
+          "title": "Balanced Scorecard for IT",
+          "url": "https://bfrreaves.com",
+          "source": "BSC Institute",
+          "description": "Metodo de medicion estrategica"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-un-peti",
+          "title": "Que es un PETI?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Plan Estrategico de TI (PETI)",
+              "text": "Documento que define la direccion estrategica de la tecnologia de informacion en una organizacion. Establece la vision de TI, los objetivos estrategicos, las iniciativas clave, los recursos necesarios y los indicadores de desempeno para un horizonte de 3 a 5 anos."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "El PETI NO es una lista de compras de hardware. Es un plan estrategico que responde a la pregunta: \"¿Como la TI puede ayudar al negocio a alcanzar sus objetivos?\""
+            }
+          ]
+        },
+        {
+          "id": "estructura-del-peti",
+          "title": "Estructura del PETI",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "1. Vision de TI"
+            },
+            {
+              "type": "paragraph",
+              "text": "Describe como se ve la funcion de TI en la organizacion a futuro."
+            },
+            {
+              "type": "heading",
+              "text": "2. Alineacion con el PEI"
+            },
+            {
+              "type": "paragraph",
+              "text": "El PETI debe estar alineado con el Plan Estrategico Institucional (PEI) de la organizacion."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "PEI (Negocio)",
+                "PETI (TI)"
+              ],
+              "rows": [
+                [
+                  "Aumentar ventas en 20%",
+                  "Implementar CRM y e-commerce"
+                ],
+                [
+                  "Reducir costos operativos",
+                  "Automatizar procesos con RPA"
+                ],
+                [
+                  "Mejorar experiencia del cliente",
+                  "Portal unificado y app movil"
+                ],
+                [
+                  "Cumplir regulaciones",
+                  "Implementar seguridad y auditoria"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "3. Objetivos Estrategicos de TI"
+            },
+            {
+              "type": "paragraph",
+              "text": "Deben ser SMART (Specific, Measurable, Achievable, Relevant, Time-bound)."
+            },
+            {
+              "type": "heading",
+              "text": "4. Iniciativas Estrategicas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Proyectos y programas que materializan los objetivos."
+            },
+            {
+              "type": "heading",
+              "text": "5. Recursos"
+            },
+            {
+              "type": "paragraph",
+              "text": "Presupuesto, personal, infraestructura, proveedores."
+            },
+            {
+              "type": "heading",
+              "text": "6. Indicadores (KPIs)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Metricas que miden el avance y el impacto de TI."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Un PETI sin indicadores medibles es solo un documento bonito. Cada iniciativa debe tener KPIs claros con metas definidas."
+            }
+          ]
+        },
+        {
+          "id": "metodologia-de-desarrollo-del-peti",
+          "title": "Metodologia de Desarrollo del PETI",
+          "blocks": [
+            {
+              "type": "flow",
+              "title": "Desarrollo del PETI",
+              "steps": [
+                "Fase 1: Diagnostico actual (estado de TI)",
+                "Fase 2: Definicion de la vision y mision de TI",
+                "Fase 3: Identificacion de brechas",
+                "Fase 4: Definicion de objetivos e iniciativas",
+                "Fase 5: Asignacion de recursos",
+                "Fase 6: Definicion de KPIs",
+                "Fase 7: Aprobacion e implementacion",
+                "Fase 8: Monitoreo y ajuste continuo"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "balanced-scorecard-de-ti",
+          "title": "Balanced Scorecard de TI",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "El BSC de TI adapta la metodologia de Kaplan y Norton para medir el desempeno de TI en cuatro perspectivas:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Perspectiva",
+                "Preguntas Clave",
+                "Ejemplo de KPI"
+              ],
+              "rows": [
+                [
+                  "Financiera",
+                  "¿Como contribuye TI a la rentabilidad?",
+                  "ROI de proyectos de TI"
+                ],
+                [
+                  "Clientes",
+                  "¿Como perciben los usuarios la calidad de TI?",
+                  "Satisfaccion del usuario"
+                ],
+                [
+                  "Procesos",
+                  "¿Que tan eficientes son los procesos de TI?",
+                  "Tiempo de respuesta"
+                ],
+                [
+                  "Aprendizaje",
+                  "¿Como se capacita y desarrolla el equipo de TI?",
+                  "Horas de capacitacion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "Un BSC de TI bien implementado permite a la gerencia visualizar el desempeno de TI en un solo tablero, facilitando la toma de decisiones."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "path",
+              "title": "Desarrollo del PETI",
+              "nodes": [
+                {
+                  "id": "1",
+                  "title": "Inicio",
+                  "prompt": "La empresa necesita un Plan Estrategico de TI. Por donde empiezas?",
+                  "options": [
+                    {
+                      "label": "Auditoria de sistemas actuales",
+                      "target": "2"
+                    },
+                    {
+                      "label": "Entrevistar a la direccion",
+                      "target": "3"
+                    },
+                    {
+                      "label": "Investigar tecnologias emergentes",
+                      "target": "4"
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "title": "Auditoria",
+                  "prompt": "La auditoria revela que los sistemas estan obsoletos pero funcionales. No hay presupuesto para migracion completa.",
+                  "options": [
+                    {
+                      "label": "Priorizar por impacto en el negocio",
+                      "target": "5"
+                    },
+                    {
+                      "label": "Migrar todo de una vez",
+                      "target": "6"
+                    }
+                  ]
+                },
+                {
+                  "id": "3",
+                  "title": "Entrevistas",
+                  "prompt": "La direccion quiere reducir costos de TI en 20%. Los usuarios quieren mas funcionalidades.",
+                  "isFinal": true,
+                  "verdict": "Conflicto tipico: eficiencia vs innovacion. El PETI debe balancear ambos objetivos con priorizacion clara.",
+                  "options": []
+                },
+                {
+                  "id": "4",
+                  "title": "Tecnologias",
+                  "prompt": "Investigar IA, Cloud y Blockchain es interesante pero no necesariamente alineado con las necesidades actuales.",
+                  "isFinal": true,
+                  "verdict": "La tecnologia debe servir al negocio, no al reves. Empieza por las necesidades, no por las soluciones.",
+                  "options": []
+                },
+                {
+                  "id": "5",
+                  "title": "Priorizar",
+                  "prompt": "Priorizar por impacto permite Quick Wins que generan confianza para fases posteriores.",
+                  "isFinal": true,
+                  "verdict": "Enfoque recomendado: impacto alto + esfuerzo bajo primero. Construye momentum con exitos tempranos.",
+                  "options": []
+                },
+                {
+                  "id": "6",
+                  "title": "Migracion Total",
+                  "prompt": "Migrar todo de una vez es arriesgado: alto costo, interrupciones, y resistencia al cambio.",
+                  "isFinal": true,
+                  "verdict": "Riesgo alto. Se recomienda migracion incremental con pilotos controlados.",
+                  "options": []
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "title": "PETI Fundamentos",
+              "questions": [
+                {
+                  "question": "Que es un PETI?",
+                  "options": [
+                    "Un tipo de ERP",
+                    "Un plan que alinea TI con la estrategia del negocio",
+                    "Un auditoria tecnica",
+                    "Un contrato de servicio"
+                  ],
+                  "answer": 1,
+                  "explanation": "El PETI (Plan Estrategico de TI) traduce la estrategia del negocio en iniciativas de TI."
+                },
+                {
+                  "question": "Cual es el primer paso del PETI?",
+                  "options": [
+                    "Comprar servidores",
+                    "Definir la vision y objetivos de TI",
+                    "Contratar personal",
+                    "Implementar software"
+                  ],
+                  "answer": 1,
+                  "explanation": "La vision alinea TI con la estrategia corporativa desde el inicio."
+                },
+                {
+                  "question": "Que es un Quick Win?",
+                  "options": [
+                    "Un error comun",
+                    "Una mejora de bajo esfuerzo y alto impacto",
+                    "Un tipo de riesgo",
+                    "Un estandar ITIL"
+                  ],
+                  "answer": 1,
+                  "explanation": "Los Quick Wins generan confianza y momentum para el plan estrategico."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-07",
+          "title": "Plan Estrategico de TI (PETI)",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U23 sobre planificacion estrategica de TI."
+        }
+      ]
+    },
+    {
+      "id": "iso-38500-gobierno-corporativo",
+      "slug": "iso-38500-gobierno-corporativo",
+      "title": "ISO 38500 - Gobierno Corporativo de TI",
+      "emoji": "📜",
+      "accent": "#E87C7C",
+      "category": "gobierno-ti",
+      "difficulty": "intermedio",
+      "order": 5,
+      "description": "Norma internacional ISO/IEC 38500 para el gobierno corporativo de las tecnologias de informacion. Los 6 principios, el modelo de gobierno y como aplicar la norma en organizaciones.",
+      "tags": [
+        "ISO-38500",
+        "gobierno-corporativo",
+        "norma-internacional",
+        "principios"
+      ],
+      "keyTakeaway": "ISO 38500 establece los principios fundamentales para que los directivos gobiernen responsablemente la TI, asegurando que soporte la estrategia del negocio de forma etica y eficiente.",
+      "sources": [
+        {
+          "title": "ISO 38500 - Gobierno de TI",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U24"
+        },
+        {
+          "title": "ISO/IEC 38500:2015",
+          "url": "https://www.iso.org",
+          "source": "ISO",
+          "description": "Norma internacional de gobierno corporativo de TI"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-iso-38500",
+          "title": "Que es ISO 38500?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "ISO/IEC 38500",
+              "text": "Norma internacional que proporciona un marco para el gobierno corporativo de las tecnologias de la informacion (TI). Establece principios, atributos y procesos de gobierno que ayudan a los directivos y partes interesadas a evaluar, dirigir y monitorear el uso de TI en la organizacion."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "ISO 38500 NO describe como implementar el gobierno de TI, sino que establece QUE debe hacerse. Es una guia de alto nivel para el tablero directivo."
+            }
+          ]
+        },
+        {
+          "id": "modelo-de-gobierno",
+          "title": "Modelo de Gobierno",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "El modelo de gobierno de ISO 38500 consta de tres componentes que interactuan:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Liderazgo — Los directivos establecen la direccion",
+                "Estrategia — La TI soporta los objetivos del negocio",
+                "Estructura — Se definen roles y responsabilidades"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "flow",
+              "title": "Modelo de Gobierno ISO 38500",
+              "steps": [
+                "Evaluar el uso de TI",
+                "Dirigir la estrategia de TI",
+                "Monitorear el desempeno de TI"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "los-6-principios-de-iso-38500",
+          "title": "Los 6 Principios de ISO 38500",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "1. Responsabilidad"
+            },
+            {
+              "type": "definition",
+              "term": "Responsabilidad (ISO 38500)",
+              "text": "Los directivos individuales son responsables del uso de TI dentro de sus areas de autoridad. Deben explicar el uso de TI de manera que sea transparente y apropiada."
+            },
+            {
+              "type": "heading",
+              "text": "2. Estrategia"
+            },
+            {
+              "type": "definition",
+              "term": "Estrategia (ISO 38500)",
+              "text": "Los directivos deben revisar y aprobar la estrategia de TI, y asegurar que la estrategia de TI soporte los objetivos del negocio."
+            },
+            {
+              "type": "heading",
+              "text": "3. Adquisicion"
+            },
+            {
+              "type": "definition",
+              "term": "Adquisicion (ISO 38500)",
+              "text": "Las adquisiciones de TI deben ser oportunas,法制 y manejo de riesgos. Los procesos de adquisicion deben ser transparentes y justos."
+            },
+            {
+              "type": "heading",
+              "text": "4. Desempeno"
+            },
+            {
+              "type": "definition",
+              "term": "Desempeno (ISO 38500)",
+              "text": "Los sistemas de TI deben operar de manera eficiente y efectiva, satisfaciendo las necesidades del negocio."
+            },
+            {
+              "type": "heading",
+              "text": "5. Conformidad"
+            },
+            {
+              "type": "definition",
+              "term": "Conformidad (ISO 38500)",
+              "text": "El uso de TI debe cumplir con todas las leyes, regulaciones y politicas aplicables. Los directivos deben asegurar el cumplimiento normativo."
+            },
+            {
+              "type": "heading",
+              "text": "6. Comportamiento Humano"
+            },
+            {
+              "type": "definition",
+              "term": "Comportamiento Humano (ISO 38500)",
+              "text": "El uso de TI debe considerar el comportamiento humano. Los sistemas deben disenarse pensando en las personas que los utilizan."
+            }
+          ]
+        },
+        {
+          "id": "atributos-del-gobierno",
+          "title": "Atributos del Gobierno",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Atributo",
+                "Descripcion"
+              ],
+              "rows": [
+                [
+                  "Estrategia",
+                  "La TI apoya la estrategia del negocio"
+                ],
+                [
+                  "Valor",
+                  "La TI genera valor para la organizacion"
+                ],
+                [
+                  "Balanced",
+                  "La TI equilibra beneficios, oportunidades y costos"
+                ],
+                [
+                  "Responsabilidad",
+                  "Los roles de gobierno estan claros"
+                ],
+                [
+                  "Cumplimiento",
+                  "La TI cumple con leyes y regulaciones"
+                ],
+                [
+                  "Comportamiento",
+                  "La TI considera el factor humano"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "como-aplicar-iso-38500",
+          "title": "Como Aplicar ISO 38500",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "Para implementar ISO 38500: (1) Evaluar el estado actual de TI, (2) Establecer un comite de gobierno de TI, (3) Definir roles y responsabilidades, (4) Implementar procesos de monitoreo, (5) Realizar auditorias periodicas."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Autoevaluación",
+              "questions": [
+                {
+                  "question": "¿Cuantos principios establece ISO 38500?",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                  ],
+                  "answer": 2,
+                  "explanation": "ISO 38500 establece 6 principios: Responsabilidad, Estrategia, Adquisicion, Desempeno, Conformidad, Comportamiento Humano."
+                },
+                {
+                  "question": "¿Para quien esta dirigido ISO 38500?",
+                  "options": [
+                    "Gerentes de TI",
+                    "Tablero directivo",
+                    "Programadores",
+                    "Proveedores de TI"
+                  ],
+                  "answer": 1,
+                  "explanation": "ISO 38500 esta dirigido al tablero directivo y directivos responsables del gobierno."
+                },
+                {
+                  "question": "¿Que NO hace ISO 38500?",
+                  "options": [
+                    "Establece principios",
+                    "Describe como implementar gobierno",
+                    "Define atributos de gobierno",
+                    "Orienta la estrategia de TI"
+                  ],
+                  "answer": 1,
+                  "explanation": "ISO 38500 establece principios pero NO describe como implementar el gobierno de TI en detalle."
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Principios ISO 38500",
+              "pairs": [
+                {
+                  "left": "Responsabilidad",
+                  "right": "Quien toma las decisiones de TI"
+                },
+                {
+                  "left": "Estrategia",
+                  "right": "Alineamiento con objetivos del negocio"
+                },
+                {
+                  "left": "Adquisicion",
+                  "right": "Decisiones de compra de TI"
+                },
+                {
+                  "left": "Desempeno",
+                  "right": "Medicion y optimizacion de sistemas"
+                },
+                {
+                  "left": "Conformidad",
+                  "right": "Cumplimiento de leyes y regulaciones"
+                }
+              ]
+            },
+            {
+              "type": "essay",
+              "title": "Analisis de Gobierno TI",
+              "essay": [
+                {
+                  "question": "Explica por que la responsabilidad es el principio mas importante de ISO 38500.",
+                  "hint": "Piensa en la toma de decisiones y la rendicion de cuentas.",
+                  "model": "La responsabilidad define quién es accountable por las decisiones de TI. Sin claridad en roles, las decisiones se toman sin ownership, generando riesgos. Es la base sobre la que se construyen los demas principios.",
+                  "rubric": [
+                    "Define responsabilidad",
+                    "Relaciona con toma de decisiones",
+                    "Menciona rendicion de cuentas"
+                  ]
+                },
+                {
+                  "question": "Analiza como una empresa mediana podria aplicar el principio de desempeno.",
+                  "hint": "Considera metricas, SLAs y monitoreo.",
+                  "model": "Una empresa mediana puede establecer KPIs de sistema, monitorear tiempos de respuesta, y comparar con benchmarks del sector. Esto permite identificar cuellos de botella y priorizar inversiones.",
+                  "rubric": [
+                    "Menciona KPIs",
+                    "Habla de monitoreo",
+                    "Propone acciones concretas"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-08",
+          "title": "Que es la ISO 38500",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U24 sobre la norma ISO 38500."
+        },
+        {
+          "id": "res-09",
+          "title": "ISO 38500 - Buen Gobierno de las TIC",
+          "url": "https://www.iso.org",
+          "type": "norma",
+          "description": "PDF sobre el gobierno corporativo de las tecnologias de la informacion segun ISO."
+        }
+      ]
+    },
+    {
+      "id": "itil-4-gestion-servicios",
+      "slug": "itil-4-gestion-servicios",
+      "title": "ITIL 4 - Gestion de Servicios de TI",
+      "emoji": "⚙️",
+      "accent": "#7CB3E8",
+      "category": "gobierno-ti",
+      "difficulty": "intermedio",
+      "order": 6,
+      "description": "Marco de referencia ITIL 4 para la gestion de servicios de TI. Las 4 dimensiones, el Sistema de Valor de Servicio (SVS), las 7 guias de principio y las 34 practicas de gestion.",
+      "tags": [
+        "ITIL",
+        "gestion-servicios",
+        "SVS",
+        "practicas",
+        "CSI"
+      ],
+      "keyTakeaway": "ITIL 4 ofrece un enfoque holistico para la gestion de servicios de TI, centrado en el valor, la co-creacion con el cliente y la mejora continua.",
+      "sources": [
+        {
+          "title": "Que es ITIL",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U25"
+        },
+        {
+          "title": "ITIL las 4 dimensiones y 5 componentes del SVS",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
+        },
+        {
+          "title": "ITIL 4 Foundation",
+          "url": "https://www.axelos.com",
+          "source": "Axelos/PeopleCert",
+          "description": "Certificacion oficial ITIL"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-itil-4",
+          "title": "Que es ITIL 4?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "ITIL 4",
+              "text": "Framework de referencia para la gestion de servicios de informacion y tecnologia (TI). Proporciona una guia practica para las organizaciones que buscan gestionar sus servicios de TI de manera efectiva, crear valor para los stakeholders y adaptarse a un entorno digital en constante cambio."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "ITIL 4 reemplaza a ITIL v3/2011. Su principal cambio es el enfoque en la co-creacion de valor y la integracion con marcos agiles como DevOps y Lean."
+            }
+          ]
+        },
+        {
+          "id": "el-sistema-de-valor-de-servicio-svs",
+          "title": "El Sistema de Valor de Servicio (SVS)",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "El SVS describe como las organizaciones crean valor al combinar componentes y actividades:"
+            },
+            {
+              "type": "flow",
+              "title": "5 Componentes del SVS",
+              "steps": [
+                "Estrategia de Servicio (que servicios ofrecer)",
+                "Cadena de Valor (como entregar valor)",
+                "Practicas de Gestion (herramientas y procesos)",
+                "Gobierno y Controles (direccion y regulacion)",
+                "Mejora Continua (evolucion constante)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "las-4-dimensiones-de-itil",
+          "title": "Las 4 Dimensiones de ITIL",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Dimension",
+                "Que abarca",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Organizacion y Personas",
+                  "Estructura, roles, cultura, habilidades",
+                  "Departamento de TI, capacitacion"
+                ],
+                [
+                  "Procesos y Flujos de Trabajo",
+                  "Procesos, procedimientos, flujos de trabajo",
+                  "Gestion de incidentes, cambios"
+                ],
+                [
+                  "Tecnologia y Herramientas",
+                  "Herramientas, plataformas, aplicaciones",
+                  "ServiceNow, Jira, SAP"
+                ],
+                [
+                  "Socios y Proveedores",
+                  "Relaciones con proveedores, contratos",
+                  "SLA con Microsoft, AWS"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Las 4 dimensiones deben considerarse de forma equilibrada. Enfocarse solo en tecnologia ignorando personas y procesos es la causa #1 de fracaso en proyectos de TI."
+            }
+          ]
+        },
+        {
+          "id": "las-7-guia-de-principios-de-itil",
+          "title": "Las 7 Guia de Principios de ITIL",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Enfoque en el valor — Todo lo que hagamos debe crear valor para el negocio y los clientes",
+                "Empezar donde estas — No reinventar la rueda; evaluar el contexto actual",
+                "Progresar de forma iterativa — Avanzar en ciclos, no en grandes saltos",
+                "Visibilidad y transparencia — Los resultados deben ser visibles para todos",
+                "Trabajar y pensar de forma integral — Evitar el trabajo en silos",
+                "Simplificar y practicar — Procesos simples y practicos",
+                "Optimizar y automatizar — Mejorar continuamente y automatizar donde sea posible"
+              ],
+              "ordered": true
+            }
+          ]
+        },
+        {
+          "id": "practicas-de-itil-4-34-practicas",
+          "title": "Practicas de ITIL 4 (34 Practicas)",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Practicas Generales (14)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Incluyen: Gestion de la estrategia de servicio, Gestion del catalogo de servicios, Gestion de la relacion, Gestion de la satisfaccion, etc."
+            },
+            {
+              "type": "heading",
+              "text": "Practicas de Servicio (17)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Incluyen: Gestion de incidentes, Gestion de problemas, Gestion de cambios, Gestion de activos de servicio, etc."
+            },
+            {
+              "type": "heading",
+              "text": "Practicas de Soporte (3)"
+            },
+            {
+              "type": "paragraph",
+              "text": "Incluyen: Gestion de la disponibilidad, Gestion de la capacidad, Gestion de la seguridad de la informacion."
+            },
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "ITIL 4 no exige implementar todas las practicas. Las organizaciones deben seleccionar las que mejor se adapten a sus necesidades y contexto."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Autoevaluación",
+              "questions": [
+                {
+                  "question": "¿Cuantas dimensiones tiene ITIL 4?",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "answer": 2,
+                  "explanation": "ITIL 4 tiene 4 dimensiones: Organizacion y Personas, Procesos, Tecnologia, Socios y Proveedores."
+                },
+                {
+                  "question": "¿Cuantas practicas tiene ITIL 4?",
+                  "options": [
+                    "26",
+                    "30",
+                    "34",
+                    "40"
+                  ],
+                  "answer": 2,
+                  "explanation": "ITIL 4 tiene 34 practicas de gestion."
+                },
+                {
+                  "question": "¿Cual es el componente central del SVS?",
+                  "options": [
+                    "Cadena de Valor",
+                    "Estrategia de Servicio",
+                    "Practicas",
+                    "Mejora Continua"
+                  ],
+                  "answer": 0,
+                  "explanation": "La Estrategia de Servicio es el componente central que dirige todas las demas actividades del SVS."
+                }
+              ]
+            },
+            {
+              "type": "sort",
+              "title": "Ordena los valores de ITIL 4",
+              "items": [
+                "Enfocarse en el valor",
+                "Empezar donde estas",
+                "Progresar de forma iterativa",
+                "Desarrollar visualmente",
+                "Mantenerlo simple y practico",
+                "Optimizar y automatizar"
+              ]
+            },
+            {
+              "type": "quiz",
+              "title": "ITIL 4 Fundamentos",
+              "questions": [
+                {
+                  "question": "Que reemplaza el ciclo de vida de ITIL v3?",
+                  "options": [
+                    "Procesos",
+                    "Cadena de valor del servicio",
+                    "Governance",
+                    "Matriz RACI"
+                  ],
+                  "answer": 1,
+                  "explanation": "ITIL 4 introduce la cadena de valor como modelo operativo."
+                },
+                {
+                  "question": "Cuantos componentes tiene la cadena de valor?",
+                  "options": [
+                    "4",
+                    "6",
+                    "8",
+                    "10"
+                  ],
+                  "answer": 1,
+                  "explanation": "6 componentes: planificar, mejorar, involucrar, diseno y transicion, obtener/construir, entregar y soportar."
+                },
+                {
+                  "question": "Que es un service offering en ITIL 4?",
+                  "options": [
+                    "Un ticket de soporte",
+                    "Un paquete de servicios que ofrece la organizacion",
+                    "Una auditoria",
+                    "Un contrato"
+                  ],
+                  "answer": 1,
+                  "explanation": "Un service offering es un paquete que incluye productos, servicios y soporte."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-10",
+          "title": "Que es ITIL",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U25 sobre ITIL y sus dimensiones."
+        },
+        {
+          "id": "res-11",
+          "title": "ITIL 4 Foundation - Axelos",
+          "url": "https://www.axelos.com/certifications/itil-service-management",
+          "type": "book",
+          "description": "Certificacion oficial ITIL 4 Foundation."
+        }
+      ]
+    },
+    {
+      "id": "cobit-2019-framework",
+      "slug": "cobit-2019-framework",
+      "title": "COBIT 2019 - Framework de Gobierno y Gestion",
+      "emoji": "🎯",
+      "accent": "#D4A0E8",
+      "category": "gobierno-ti",
+      "difficulty": "avanzado",
+      "order": 7,
+      "description": "Framework COBIT 2019 de ISACA para el gobierno y gestion de TI. Sus 5 dominios, 40 objetivos, sistema de metricas, capacidades y como evaluar la madurez de TI.",
+      "tags": [
+        "COBIT",
+        "gobierno-TI",
+        "EDM",
+        "APO",
+        "BAI",
+        "DSS",
+        "MEA"
+      ],
+      "keyTakeaway": "COBIT 2019 proporciona un marco completo y flexible para el gobierno y gestion de TI, con 40 objetivos organizados en 5 dominios que cubren toda la cadena de valor de TI.",
+      "sources": [
+        {
+          "title": "Que es COBIT 2019",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U26"
+        },
+        {
+          "title": "COBIT 2019 Framework",
+          "url": "https://www.isaca.org",
+          "source": "ISACA",
+          "description": "Marco oficial de gobierno y gestion de TI"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-cobit-2019",
+          "title": "Que es COBIT 2019?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "COBIT 2019",
+              "text": "Framework de gobierno y gestion de las tecnologias de informacion de una organizacion. Proporciona un marco holistico que cubre el gobierno y la gestion de TI, creando valor para las partes interesadas y equilibrando beneficios, optimizacion de recursos y gestion de riesgos."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "COBIT 2019 es la evolucion de COBIT 5. Sus principales mejoras incluyen: modelo de diseño de gobierno simplificado, capacidades de proceso mejoradas y mejores practicas actualizadas."
+            }
+          ]
+        },
+        {
+          "id": "los-5-dominios-de-cobit",
+          "title": "Los 5 Dominios de COBIT",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Dominio",
+                "Nombre",
+                "Enfoque"
+              ],
+              "rows": [
+                [
+                  "EDM",
+                  "Evaluar, Dirigir y Monitorear",
+                  "Gobierno - Establece direccion y supervision"
+                ],
+                [
+                  "APO",
+                  "Alinear, Planificar y Organizar",
+                  "Gestion - Alinea TI con el negocio"
+                ],
+                [
+                  "BAI",
+                  "Construir, Adquirir e Implementar",
+                  "Gestion - Desarrolla soluciones"
+                ],
+                [
+                  "DSS",
+                  "Entregar, Servir y Soportar",
+                  "Gestion - Opera los servicios"
+                ],
+                [
+                  "MEA",
+                  "Monitorear, Evaluar y Valorar",
+                  "Gestion - Mide y audita el desempeno"
+                ]
+              ]
+            },
+            {
+              "type": "flow",
+              "title": "Cadena de Valor COBIT",
+              "steps": [
+                "EDM (Direccion estrategica)",
+                "APO (Planificacion y organizacion)",
+                "BAI (Construccion e implementacion)",
+                "DSS (Operacion y soporte)",
+                "MEA (Monitoreo y evaluacion)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "los-40-objetivos-de-gobierno-y-gestion",
+          "title": "Los 40 Objetivos de Gobierno y Gestion",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Dominio EDM (5 objetivos)"
+            },
+            {
+              "type": "paragraph",
+              "text": "EDM01 Mantener el gobierno de TI, EDM02 Asegurar la entrega de beneficios, EDM03 Optimizar el riesgo, EDM04 Optimizar los recursos, EDM05 Gestionar la transparencia operativa."
+            },
+            {
+              "type": "heading",
+              "text": "Dominio APO (14 objetivos)"
+            },
+            {
+              "type": "paragraph",
+              "text": "APO01 Gestionar el marco de gestion de TI, APO02 Gestionar la estrategia de TI, APO05 Gestionar la cartera de TI, APO07 Gestionar los recursos humanos de TI, APO12 Gestionar el riesgo, APO13 Gestionar la seguridad."
+            },
+            {
+              "type": "heading",
+              "text": "Dominio BAI (11 objetivos)"
+            },
+            {
+              "type": "paragraph",
+              "text": "BAI01 Gestionar el programa de cambios, BAI02 Gestionar la definicion de requisitos, BAI03 Gestionar la solucion de problemas, BAI10 Gestionar la configuracion, BAI11 Gestionar los proyectos."
+            },
+            {
+              "type": "heading",
+              "text": "Dominio DSS (6 objetivos)"
+            },
+            {
+              "type": "paragraph",
+              "text": "DSS01 Gestionar las operaciones, DSS02 Gestionar las solicitudes de servicio, DSS04 Gestionar la continuidad, DSS05 Gestionar los servicios de seguridad, DSS06 Gestionar los procesos de negocio."
+            },
+            {
+              "type": "heading",
+              "text": "Dominio MEA (4 objetivos)"
+            },
+            {
+              "type": "paragraph",
+              "text": "MEA01 Monitorear, evaluar y valorar el desempeno y la conformidad, MEA02 Monitorear, evaluar y valorar el sistema de gobierno de TI, MEA03 Monitorear, evaluar y valorar la conformidad con los requisitos externos, MEA04 Proporcionar gobierno de TI."
+            }
+          ]
+        },
+        {
+          "id": "niveles-de-capacidad",
+          "title": "Niveles de Capacidad",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Nivel",
+                "Nombre",
+                "Descripcion"
+              ],
+              "rows": [
+                [
+                  "0",
+                  "Incompleto",
+                  "El proceso no se realiza o esta incompleto"
+                ],
+                [
+                  "1",
+                  "Realizado",
+                  "El proceso se realiza de forma basica"
+                ],
+                [
+                  "2",
+                  "Gestionado",
+                  "El proceso se planifica, monitorea y mide"
+                ],
+                [
+                  "3",
+                  "Establecido",
+                  "El proceso esta documentado y estandarizado"
+                ],
+                [
+                  "4",
+                  "Administrado",
+                  "El proceso se gestiona de forma proactiva"
+                ],
+                [
+                  "5",
+                  "En optimizacion",
+                  "El proceso se mejora continuamente"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "COBIT 2019 NO exige alcanzar nivel 5 en todos los procesos. El nivel objetivo depende de las necesidades del negocio y el contexto de la organizacion."
+            }
+          ]
+        },
+        {
+          "id": "modelo-de-diseno-de-gobierno",
+          "title": "Modelo de Diseño de Gobierno",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "COBIT 2019 introduce un modelo de factores de diseño que influyen en como se configura el gobierno de TI:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Estrategia empresarial — Como la organizacion planea competir",
+                "Metas de valor — Que buscan lograr los stakeholders",
+                "Perfil de riesgo — Tolerancia al riesgo de la organizacion",
+                "Requisitos de cumplimiento — Obligaciones legales y regulatorias",
+                "Tamaño de la empresa — Recursos disponibles",
+                "Complejidad de TI — Diversidad de tecnologias",
+                "Estrategia de TI — Enfoque de TI (centralizado, descentralizado)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Autoevaluación",
+              "questions": [
+                {
+                  "question": "¿Cuantos objetivos tiene COBIT 2019?",
+                  "options": [
+                    "26",
+                    "30",
+                    "34",
+                    "40"
+                  ],
+                  "answer": 3,
+                  "explanation": "COBIT 2019 tiene 40 objetivos de gobierno y gestion organizados en 5 dominios."
+                },
+                {
+                  "question": "¿Que dominio se enfoca en la direccion estrategica?",
+                  "options": [
+                    "APO",
+                    "BAI",
+                    "EDM",
+                    "DSS"
+                  ],
+                  "answer": 2,
+                  "explanation": "EDM (Evaluar, Dirigir y Monitorear) es el dominio de gobierno que establece la direccion estrategica."
+                },
+                {
+                  "question": "¿Cuantos niveles de capacidad hay?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                  ],
+                  "answer": 2,
+                  "explanation": "Hay 6 niveles de capacidad del 0 (Incompleto) al 5 (En optimizacion)."
+                }
+              ]
+            },
+            {
+              "type": "sort",
+              "title": "Ordena los principios de gobierno de COBIT",
+              "items": [
+                "Proporcionar valor a las partes interesadas",
+                "Enfoque holistico",
+                "Sistema de gobierno dinamico",
+                "Gobierno separado de la gestion",
+                "Gestion end-to-end",
+                "Enfoque basado en informacion"
+              ]
+            },
+            {
+              "type": "quiz",
+              "title": "COBIT 2019",
+              "questions": [
+                {
+                  "question": "Cuantos objetivos de gobierno tiene COBIT 2019?",
+                  "options": [
+                    "3",
+                    "5",
+                    "17",
+                    "25"
+                  ],
+                  "answer": 2,
+                  "explanation": "COBIT 2019 define 17 objetivos de gobierno y gestion."
+                },
+                {
+                  "question": "Que son los goals cascade en COBIT?",
+                  "options": [
+                    "Errores comunes",
+                    "Cadena de relacion entre objetivos",
+                    "Tipos de auditoria",
+                    "Niveles de madurez"
+                  ],
+                  "answer": 1,
+                  "explanation": "El goals cascade traduce necesidades del negocio en objetivos de TI."
+                },
+                {
+                  "question": "Cual es el rango de madurez en COBIT?",
+                  "options": [
+                    "0-5",
+                    "1-10",
+                    "A-F",
+                    "No tiene escala"
+                  ],
+                  "answer": 0,
+                  "explanation": "COBIT usa capacidades del nivel 0 (Incompleto) al nivel 5 (Optimizado)."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-12",
+          "title": "Que es COBIT 2019",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U26 sobre COBIT 2019."
+        },
+        {
+          "id": "res-13",
+          "title": "COBIT 2019 Core Framework - ISACA",
+          "url": "https://www.isaca.org/resources/cobit",
+          "type": "book",
+          "description": "Documentacion oficial de COBIT 2019 de ISACA."
+        }
+      ]
+    },
+    {
+      "id": "gestion-proyectos-pmbok-8",
+      "slug": "gestion-proyectos-pmbok-8",
+      "title": "Gestion de Proyectos - PMBOK 8",
+      "emoji": "📋",
+      "accent": "#F0C97D",
+      "category": "gestion-proyectos",
+      "difficulty": "intermedio",
+      "order": 8,
+      "description": "Guia de los Fundamentos para la Gestion de Proyectos (PMBOK) Octava Edicion. Principios, dominios de desempeno, enfoques agiles y como gestionar proyectos de TI de forma efectiva.",
+      "tags": [
+        "PMBOK",
+        "gestion-proyectos",
+        "dominios-desempeno",
+        "agile"
+      ],
+      "keyTakeaway": "PMBOK 8 introduce principios universales y dominios de desempeno que aplican a cualquier metodologia, integrando enfoques agiles y predictivos de forma hibrida.",
+      "sources": [
+        {
+          "title": "Gestion de Proyectos PMBOK 8",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U31"
+        },
+        {
+          "title": "Guia PMBOK 8va Edicion",
+          "url": "https://www.pmi.org",
+          "source": "PMI",
+          "description": "Project Management Institute"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-pmbok",
+          "title": "Que es PMBOK?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "PMBOK",
+              "text": "Guide to the Project Management Body of Knowledge. Guia de conocimiento para la gestion de proyectos publicada por el Project Management Institute (PMI). Establece estandares, buenas practicas y orientacion para la gestion profesional de proyectos."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "PMBOK 8 (2021) es un cambio significativo respecto a ediciones anteriores. Pasa de 49 procesos a 8 principios y 8 dominios de desempeno, haciendose mas flexible e inclusivo de enfoques agiles."
+            }
+          ]
+        },
+        {
+          "id": "diferencias-clave-vs-pmbok-7",
+          "title": "Diferencias Clave vs PMBOK 7",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Aspecto",
+                "PMBOK 7",
+                "PMBOK 8"
+              ],
+              "rows": [
+                [
+                  "Estructura",
+                  "49 procesos en 5 grupos",
+                  "8 principios + 8 dominios"
+                ],
+                [
+                  "Enfoque",
+                  "Mayormente predictivo",
+                  "Hibrido (agil + predictivo)"
+                ],
+                [
+                  "Entregables",
+                  "Prescriptivo",
+                  "Orientado a valores"
+                ],
+                [
+                  "Gestion de riesgos",
+                  "Basada en procesos",
+                  "Basada en principios"
+                ],
+                [
+                  "Personal",
+                  "Roles definidos",
+                  "Enfoque en liderazgo"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "los-8-principios-de-gestion-de-proyectos",
+          "title": "Los 8 Principios de Gestion de Proyectos",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Ser un grupo de personas diligent, respetuoso y compasivo — Liderazgo con empatia",
+                "Enfocarse en el valor — Todo proyecto debe generar valor medible",
+                "Reconocer, integrar y liderar a las partes interesadas — Stakeholder engagement",
+                "Promover una cultura de confianza y ucz — Ambiente psicologico seguro",
+                "Cultivar un equipo de alto desempeno —Equipos auto-organizados y motivados",
+                "Integrar los procesos de manera sistemica — Pensamiento de sistemas",
+                "Adaptar el enfoque segun el contexto — No hay una unica forma correcta",
+                "La calidad es el enfoque — Calidad desde el inicio, no al final"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "Los principios de PMBOK 8 son agnosticos de metodologia. Aplican igual a proyectos waterfall, agile, hibridos o de cualquier tipo."
+            }
+          ]
+        },
+        {
+          "id": "los-8-dominios-de-desempeno",
+          "title": "Los 8 Dominios de Desempeno",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Dominio",
+                "Que gestiona"
+              ],
+              "rows": [
+                [
+                  "Stakeholders",
+                  "Partes interesadas y sus necesidades"
+                ],
+                [
+                  "Equipo",
+                  "Desarrollo y liderazgo del equipo"
+                ],
+                [
+                  "Enfoque y Ciclo de Vida",
+                  "Seleccion de metodologia y fases"
+                ],
+                [
+                  "Planificacion",
+                  "Alcance, cronograma, costos, riesgos"
+                ],
+                [
+                  "Proyecto de Trabajo",
+                  "Actividades tecnicas del proyecto"
+                ],
+                [
+                  "Entrega de Valor",
+                  "Generacion de beneficios al negocio"
+                ],
+                [
+                  "Medicion",
+                  "Metricas, KPIs e indicadores"
+                ],
+                [
+                  "Gestion de Incertidumbre",
+                  "Riesgos, oportunidades, volatilidad"
+                ]
+              ]
+            },
+            {
+              "type": "flow",
+              "title": "Ciclo de Vida Hibrido",
+              "steps": [
+                "Inicio: Definir alcance y partes interesadas",
+                "Planificacion: Elegir enfoque (agil/predictivo)",
+                "Ejecucion: Trabajo iterativo o secuencial",
+                "Monitoreo: Metricas adaptativas",
+                "Cierre: Entrega de valor y lecciones aprendidas"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gestion-de-riesgos-en-ti",
+          "title": "Gestion de Riesgos en TI",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Tipo",
+                "Ejemplo",
+                "Respuesta"
+              ],
+              "rows": [
+                [
+                  "Tecnologico",
+                  "Obsolescencia de framework",
+                  "Actualizacion continua"
+                ],
+                [
+                  "Organizacional",
+                  "Cambio de liderazgo",
+                  "Plan de transicion"
+                ],
+                [
+                  "Proveedor",
+                  "Quiebra del proveedor",
+                  "Multi-proveedor"
+                ],
+                [
+                  "Seguridad",
+                  "Brecha de datos",
+                  "Plan de respuesta a incidentes"
+                ],
+                [
+                  "Alcance",
+                  "Scope creep",
+                  "Control de cambios"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "sort",
+              "title": "Ordena las fases de un proyecto PMBOK",
+              "items": [
+                "Inicio: Definir el proyecto",
+                "Planificacion: Crear el plan de gestion",
+                "Ejecucion: Realizar el trabajo",
+                "Monitoreo: Medir y controlar",
+                "Cierre: Formalizar la aceptacion"
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Areas de conocimiento PMBOK",
+              "pairs": [
+                {
+                  "left": "Alcance",
+                  "right": "Definir que incluye el proyecto"
+                },
+                {
+                  "left": "Tiempo",
+                  "right": "Planificar cronograma"
+                },
+                {
+                  "left": "Costo",
+                  "right": "Presupuesto y control de costos"
+                },
+                {
+                  "left": "Calidad",
+                  "right": "Estandares y verificacion"
+                },
+                {
+                  "left": "Riesgo",
+                  "right": "Identificar y mitigar amenazas"
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "title": "PMBOK 8a Edicion",
+              "questions": [
+                {
+                  "question": "Cuantas areas de conocimiento tiene PMBOK?",
+                  "options": [
+                    "5",
+                    "8",
+                    "10",
+                    "13"
+                  ],
+                  "answer": 2,
+                  "explanation": "PMBOK 6ta edicion tiene 10 areas; la 8ta enfatiza principios sobre procesos."
+                },
+                {
+                  "question": "Que es un deliverable?",
+                  "options": [
+                    "Una reunion",
+                    "Un producto o resultado verificable",
+                    "Un riesgo",
+                    "Un presupuesto"
+                  ],
+                  "answer": 1,
+                  "explanation": "Un deliverable es cualquier producto, resultado o capacidad para realizar un servicio."
+                },
+                {
+                  "question": "Cual es la diferencia principal de PMBOK 8?",
+                  "options": [
+                    "Mas procesos",
+                    "Enfoque en principios y resultados",
+                    "Solo Agile",
+                    "Menos documentacion"
+                  ],
+                  "answer": 1,
+                  "explanation": "PMBOK 8 prioriza principios flexibles sobre procesos rigidos."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-14",
+          "title": "Gestion de Proyectos PMBOK 8",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U31 sobre la guia PMBOK 8va edicion."
+        },
+        {
+          "id": "res-15",
+          "title": "PMBOK Guide - 8th Edition - PMI",
+          "url": "https://www.pmi.org/pmbok-guide-standards/foundations/PMBOK",
+          "type": "book",
+          "description": "Guia oficial del Project Management Institute."
+        }
+      ]
+    },
+    {
+      "id": "habilidades-sociales-trabajo-equipo",
+      "slug": "habilidades-sociales-trabajo-equipo",
+      "title": "Habilidades Sociales y Trabajo en Equipo",
+      "emoji": "🤝",
+      "accent": "#EAAE87",
+      "category": "rh-ti",
+      "difficulty": "principiante",
+      "order": 9,
+      "description": "Habilidades blandas esenciales para el profesional de TI: comunicacion efectiva, liderazgo, trabajo en equipo, gestion de conflictos y inteligencia emocional en entornos tecnologicos.",
+      "tags": [
+        "habilidades-blandas",
+        "liderazgo",
+        "comunicacion",
+        "inteligencia-emocional"
+      ],
+      "keyTakeaway": "El exito en TI no depende solo de la competencia tecnica. Las habilidades sociales determinan la capacidad de liderar equipos, gestionar stakeholders y generar impacto organizacional.",
+      "sources": [
+        {
+          "title": "Programa Administracion Sistemas de Informacion",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Syllabus del curso"
+        }
+      ],
+      "sections": [
+        {
+          "id": "por-que-las-habilidades-sociales-importan-en-ti",
+          "title": "Por que las Habilidades Sociales importan en TI?",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Segun el Stanford Research Institute, el 85% del exito profesional se debe a habilidades blandas, mientras que solo el 15% se debe a conocimiento tecnico. En TI, esta proporcion es critica."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los profesionales de TI trabajan en la interseccion entre la tecnologia y el negocio. Necesitan traducir necesidades tecnicas a lenguaje de negocio y viceversa."
+            }
+          ]
+        },
+        {
+          "id": "las-5-habilidades-clave-para-profesionales-de-ti",
+          "title": "Las 5 Habilidades Clave para Profesionales de TI",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Habilidades Blandas (Soft Skills)",
+              "text": "Conjunto de habilidades interpersonales, comunicativas y sociales que permiten a una persona interactuar de forma efectiva con otros individuos y equipos. En TI, son tan importantes como las habilidades tecnicas."
+            },
+            {
+              "type": "heading",
+              "text": "1. Comunicacion Efectiva"
+            },
+            {
+              "type": "paragraph",
+              "text": "La comunicacion en TI tiene un desafio unico: traducir conceptos tecnicos complejos a lenguaje accesible para stakeholders no tecnicos."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Escenario",
+                "Que comunicar",
+                "Como comunicar"
+              ],
+              "rows": [
+                [
+                  "Reunion de proyecto",
+                  "Avance técnico",
+                  "Resumen ejecutivo con impacto en negocio"
+                ],
+                [
+                  "Incidente critico",
+                  "Estado del problema",
+                  "Timeline clara con pasos de resolucion"
+                ],
+                [
+                  "Nueva tecnologia",
+                  "Beneficios",
+                  "Caso de negocio con ROI"
+                ],
+                [
+                  "Capacitacion",
+                  "Conocimiento tecnico",
+                  "Ejemplos practicos y analogias"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "El lenguaje tecnico excesivo es la barrera #1 de comunicacion en organizaciones con departamentos de TI. Aprende a hablar el lenguaje de tu audiencia."
+            },
+            {
+              "type": "heading",
+              "text": "2. Liderazgo sin Autoridad"
+            },
+            {
+              "type": "paragraph",
+              "text": "En TI, a menudo lideras proyectos sin autoridad formal sobre el equipo. Esto requiere influencia basada en la credibilidad y la relacion."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Escucha activa — Entiende antes de ser entendido",
+                "Coherencia — Haz lo que dices que vas a hacer",
+                "Reconocimiento — Celebra los logros del equipo",
+                "Servicio — Facilita el exito de otros"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "3. Trabajo en Equipo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Los equipos de TI son multidisciplinarios: desarrolladores, analistas, operaciones, negocio. El trabajo efectivo requiere:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Empatia tecnica — Entender las restricciones de otros roles",
+                "Flexibilidad — Adaptarse a diferentes estilos de trabajo",
+                "Transparencia — Compartir problemas y blockerias abiertamente",
+                "Colaboracion — Buscar soluciones conjuntas, no imponer las propias"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "4. Gestion de Conflictos"
+            },
+            {
+              "type": "paragraph",
+              "text": "En entornos de alta presion como TI, los conflictos son inevitables. Las claves son:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Abordar temprano — No dejar que escalen",
+                "Enfocarse en problemas, no personas — \"El proceso no funciona\" vs \"Tu no funciona\"",
+                "Buscar ganar-ganar — Soluciones que beneficien a todas las partes",
+                "Documentar acuerdos — Evitar malentendidos futuros"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "5. Inteligencia Emocional"
+            },
+            {
+              "type": "paragraph",
+              "text": "La inteligencia emocional (Daniel Goleman) tiene 5 componentes esenciales para profesionales de TI:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Autoconciencia — Reconocer tus emociones y su impacto",
+                "Autorregulacion — Controlar reacciones impulsivas",
+                "Motivacion — Mantener el enfoque en objetivos",
+                "Empatia — Comprender las emociones de otros",
+                "Habilidades sociales — Construir y mantener relaciones"
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "Un profesional de TI con inteligencia emocional puede liderar equipos en situaciones de crisis (incidentes criticos, plazos ajustados, cambios de alcance) de forma efectiva, manteniendo la calma y el enfoque del equipo."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Habilidades Sociales en TI",
+              "questions": [
+                {
+                  "question": "Cual es la habilidad social mas importante para un profesional de TI?",
+                  "options": [
+                    "Programar en Python",
+                    "Comunicar ideas tecnicas a no tecnicos",
+                    "Usar Linux",
+                    "Configurar redes"
+                  ],
+                  "answer": 1,
+                  "explanation": "La capacidad de comunicar con stakeholders no tecnicos es critica para el exito."
+                },
+                {
+                  "question": "Que es la inteligencia emocional en el contexto laboral?",
+                  "options": [
+                    "Saber usar software",
+                    "Comprender y gestionar emociones propias y ajenas",
+                    "Ser el mas rapido",
+                    "Trabajar horas extra"
+                  ],
+                  "answer": 1,
+                  "explanation": "La IE permite liderar equipos, resolver conflictos y construir relaciones."
+                },
+                {
+                  "question": "Cual es un beneficio del trabajo en equipo efectivo?",
+                  "options": [
+                    "Menos reuniones",
+                    "Mejores soluciones y mayor innovacion",
+                    "Mas documentacion",
+                    "Menos comunicacion"
+                  ],
+                  "answer": 1,
+                  "explanation": "Los equipos diversos generan soluciones mas creativas y robustas."
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Tipos de inteligencia",
+              "pairs": [
+                {
+                  "left": "Logico-matematica",
+                  "right": "Razonamiento y analisis"
+                },
+                {
+                  "left": "Linguistica",
+                  "right": "Comunicacion verbal"
+                },
+                {
+                  "left": "Interpersonal",
+                  "right": "Entender a otros"
+                },
+                {
+                  "left": "Intrapersonal",
+                  "right": "Autoconocimiento"
+                },
+                {
+                  "left": "Espacial",
+                  "right": "Visualizacion y diseño"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-16",
+          "title": "Programa Administracion Sistemas de Informacion 2026",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Syllabus del curso con habilidades blandas requeridas."
+        }
+      ]
+    },
+    {
+      "id": "admin-estrategica-ti",
+      "slug": "admin-estrategica-ti",
+      "title": "Administracion Estrategica de TI",
+      "emoji": "🚀",
+      "accent": "#7C61D4",
+      "category": "admin-estrategica",
+      "difficulty": "intermedio",
+      "order": 10,
+      "description": "Como la administracion estrategica de TI transforma la tecnologia en ventaja competitiva. Alineacion estrategica, gobierno, arquitectura empresarial y gestion del cambio.",
+      "tags": [
+        "estrategia-TI",
+        "ventaja-competitiva",
+        "arquitectura-empresarial"
+      ],
+      "keyTakeaway": "La administracion estrategica de TI convierte la tecnologia en ventaja competitiva cuando se alinea con el negocio, gestiona el cambio y mide resultados de forma continua.",
+      "sources": [
+        {
+          "title": "Valor de Negocio en la Administracion de TI",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U21"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-la-administracion-estrategica-de-ti",
+          "title": "Que es la Administracion Estrategica de TI?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Administracion Estrategica de TI",
+              "text": "Proceso continuo de planificacion, implementacion y monitoreo de la tecnologia de informacion alineada con los objetivos estrategicos de la organizacion. Busca maximizar el valor que la TI genera para el negocio."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "La administracion estrategica de TI NO es solo comprar la ultima tecnologia. Es decidir QUE tecnologias implementar, COMO implementarlas y PARA QUE proposito, todo alineado con la estrategia del negocio."
+            }
+          ]
+        },
+        {
+          "id": "los-3-pilares",
+          "title": "Los 3 Pilares",
+          "blocks": [
+            {
+              "type": "flow",
+              "title": "Tres Pilares",
+              "steps": [
+                "Gobierno de TI (que debemos governar)",
+                "Gestion de TI (como lo hacemos)",
+                "Arquitectura de TI (con que lo construimos)"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "1. Gobierno de TI"
+            },
+            {
+              "type": "paragraph",
+              "text": "Define la direccion estrategica, asigna recursos y supervisa el desempeno de TI."
+            },
+            {
+              "type": "heading",
+              "text": "2. Gestion de TI"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ejecuta los procesos para entregar servicios de TI de calidad."
+            },
+            {
+              "type": "heading",
+              "text": "3. Arquitectura de TI"
+            },
+            {
+              "type": "paragraph",
+              "text": "Define la estructura tecnologica que soporta el negocio actual y futuro."
+            }
+          ]
+        },
+        {
+          "id": "alineacion-estrategica",
+          "title": "Alineacion Estrategica",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Nivel",
+                "Pregunta",
+                "Herramienta"
+              ],
+              "rows": [
+                [
+                  "Estrategico",
+                  "¿Para que usamos TI?",
+                  "PETI, BSC"
+                ],
+                [
+                  "Tactico",
+                  "¿Como implementamos?",
+                  "Portafolio de proyectos"
+                ],
+                [
+                  "Operativo",
+                  "¿Diariamente?",
+                  "Procesos y SLAs"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "La brecha entre estrategia y operacion es donde fracasan las iniciativas de TI. Un PETI bien estructurado cierra esta brecha."
+            }
+          ]
+        },
+        {
+          "id": "arquitectura-empresarial",
+          "title": "Arquitectura Empresarial",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La arquitectura empresarial integra cuatro dominios:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Estrategia del negocio — Mision, vision, objetivos",
+                "Arquitectura de datos — Informacion y flujos",
+                "Arquitectura de aplicaciones — Sistemas y integraciones",
+                "Arquitectura tecnologica — Infraestructura y plataformas"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "El framework TOGAF (The Open Group Architecture Framework) es el estandar mas utilizado para el diseno de arquitectura empresarial."
+            }
+          ]
+        },
+        {
+          "id": "gestion-del-cambio",
+          "title": "Gestion del Cambio",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La gestion del cambio es critica para el exito de iniciativas de TI:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Sensibilizacion — Comunicar el por que del cambio",
+                "Participacion — Involucrar a los usuarios desde el inicio",
+                "Formacion — Capacitar en nuevas herramientas y procesos",
+                "Refuerzo — Celebrar exitos y mantener el momentum"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "path",
+              "title": "Decisiones Estrategicas de TI",
+              "nodes": [
+                {
+                  "id": "1",
+                  "title": "Situacion",
+                  "prompt": "Tu empresa esta creciendo 30% anual. Los sistemas actuales no escalan. Que haces?",
+                  "options": [
+                    {
+                      "label": "Migrar a la nube",
+                      "target": "2"
+                    },
+                    {
+                      "label": "Comprar mas servidores",
+                      "target": "3"
+                    },
+                    {
+                      "label": "Optimizar el codigo actual",
+                      "target": "4"
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "title": "Migracion Cloud",
+                  "prompt": "La migracion a la nube reduce costos fijos y permite escalabilidad automatica. Requiere planificacion de 6 meses.",
+                  "isFinal": true,
+                  "verdict": "Excelente opcion para empresas en crecimiento. Permite escalar sin inversion en hardware.",
+                  "options": []
+                },
+                {
+                  "id": "3",
+                  "title": "Hardware",
+                  "prompt": "Comprar mas servidores resuelve el problema inmediato pero genera costos fijos altos y riesgo de subutilizacion.",
+                  "isFinal": true,
+                  "verdict": "Solucion a corto plazo. Riesgo de tener infraestructura ociosa si el crecimiento se detiene.",
+                  "options": []
+                },
+                {
+                  "id": "4",
+                  "title": "Optimizar",
+                  "prompt": "Optimizar el codigo es gratis pero tiene limites. Si la demanda supera la capacidad del servidor actual, no hay margen.",
+                  "isFinal": true,
+                  "verdict": "Buen complemento, pero no solucion definitiva. Combina con escalabilidad horizontal.",
+                  "options": []
+                }
+              ]
+            },
+            {
+              "type": "quiz",
+              "title": "Estrategia de TI",
+              "questions": [
+                {
+                  "question": "Que es la deuda tecnica?",
+                  "options": [
+                    "Prestamos bancarios para TI",
+                    "Decisiones de corto plazo que generan problemas a largo plazo",
+                    "El costo de licencias",
+                    "El presupuesto anual de TI"
+                  ],
+                  "answer": 1,
+                  "explanation": "La deuda tecnica son atajos que ahorran tiempo ahora pero cuestan mas despues."
+                },
+                {
+                  "question": "Cual es el objetivo del benchmarking en TI?",
+                  "options": [
+                    "Copiar a la competencia",
+                    "Comparar procesos con mejores practicas del sector",
+                    "Reducir personal",
+                    "Eliminar proveedores"
+                  ],
+                  "answer": 1,
+                  "explanation": "El benchmarking identifica gaps y oportunidades de mejora comparandose con lideres."
+                },
+                {
+                  "question": "Que es un portafolio de servicios de TI?",
+                  "options": [
+                    "Una lista de computadoras",
+                    "El conjunto de servicios que TI ofrece al negocio",
+                    "Un directorio de empleados",
+                    "Un manual de procedimientos"
+                  ],
+                  "answer": 1,
+                  "explanation": "El portafolio documenta y gestiona todos los servicios de TI disponibles."
+                }
+              ]
+            },
+            {
+              "type": "arch",
+              "kind": "gobierno-ti"
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-17",
+          "title": "Valor de Negocio en la Administracion de TI",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U21 sobre administracion estrategica de TI."
+        }
+      ]
+    },
+    {
+      "id": "dimensiones-itil-svs",
+      "slug": "dimensiones-itil-svs",
+      "title": "Las 4 Dimensiones de ITIL y el SVS",
+      "emoji": "🔮",
+      "accent": "#7CB3E8",
+      "category": "gobierno-ti",
+      "difficulty": "intermedio",
+      "order": 11,
+      "description": "Analisis profundo de las 4 dimensiones de ITIL 4 y los 5 componentes del Sistema de Valor de Servicio (SVS). Como se integran para crear valor en organizaciones de TI.",
+      "tags": [
+        "ITIL",
+        "4-dimensiones",
+        "SVS",
+        "cadena-valor",
+        "practicas"
+      ],
+      "keyTakeaway": "Las 4 dimensiones y el SVS de ITIL 4 proporcionan un marco holistico que asegura que todos los aspectos de la gestion de servicios esten considerados para crear valor.",
+      "sources": [
+        {
+          "title": "ITIL las 4 dimensiones y 5 componentes del SVS",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento de clase"
+        },
+        {
+          "title": "ITIL 4 Foundation",
+          "url": "https://www.axelos.com",
+          "source": "Axelos/PeopleCert",
+          "description": "Certificacion oficial"
+        }
+      ],
+      "sections": [
+        {
+          "id": "el-sistema-de-valor-de-servicio-svs",
+          "title": "El Sistema de Valor de Servicio (SVS)",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "SVS (Service Value System)",
+              "text": "Modelo que describe como las organizaciones crean valor al combinar componentes y actividades del sistema de gestion de servicios de TI. Integra la estrategia, la cadena de valor, las practicas de gestion, el gobierno y la mejora continua."
+            },
+            {
+              "type": "flow",
+              "title": "5 Componentes del SVS",
+              "steps": [
+                "Estrategia de Servicio (que servicios ofrecemos)",
+                "Cadena de Valor (como entregar valor)",
+                "Practicas de Gestion (herramientas y procesos)",
+                "Gobierno y Controles (direccion y regulacion)",
+                "Mejora Continua (evolucion constante)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "la-cadena-de-valor",
+          "title": "La Cadena de Valor",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "La cadena de valor transforma los inputs en outputs que generan valor:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Actividad",
+                "Descripcion",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Planificar",
+                  "Definir estrategia y objetivos",
+                  "Definir catalogo de servicios"
+                ],
+                [
+                  "Mejorar",
+                  "Mejora continua de servicios",
+                  "Optimizar tiempos de respuesta"
+                ],
+                [
+                  "Engagement",
+                  "Interaccion con stakeholders",
+                  "Soporte tecnico, solicitudes"
+                ],
+                [
+                  "Diseñar y Transicionar",
+                  "Crear o cambiar servicios",
+                  "Nuevo portal web"
+                ],
+                [
+                  "Obtener/Construir",
+                  "Adquirir o desarrollar componentes",
+                  "Licencias, desarrollo interno"
+                ],
+                [
+                  "Entregar y Soportar",
+                  "Operar y soportar servicios",
+                  "Mantenimiento, soporte L1/L2/L3"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "La cadena de valor NO es lineal. Las actividades se ejecutan de forma iterativa y paralela, similar a como funciona un equipo de desarrollo agil."
+            }
+          ]
+        },
+        {
+          "id": "las-4-dimensiones-de-itil",
+          "title": "Las 4 Dimensiones de ITIL",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Dimension 1: Organizacion y Personas"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Elemento",
+                "Que abarca"
+              ],
+              "rows": [
+                [
+                  "Estructura organizacional",
+                  "Jerarquia, departamentos, roles"
+                ],
+                [
+                  "Capacidad",
+                  "Habilidades y competencias"
+                ],
+                [
+                  "Cultura",
+                  "Valores, normas, comportamientos"
+                ],
+                [
+                  "Gestion del conocimiento",
+                  "Documentacion, capacitacion"
+                ],
+                [
+                  "Trabajo en equipo",
+                  "Colaboracion, comunicacion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "La dimension de personas es la mas subestimada en proyectos de TI. El 70% de las fallas en servicios de TI se deben a factores humanos, no tecnicos."
+            },
+            {
+              "type": "heading",
+              "text": "Dimension 2: Procesos y Flujos de Trabajo"
+            },
+            {
+              "type": "paragraph",
+              "text": "Incluye todos los procesos necesarios para gestionar servicios:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Procesos de gestion — Strategize, Design, Transition, Deliver, Improve",
+                "Procesos de soporte — Incidente, problema, cambio, solicitud de servicio",
+                "Flujos de trabajo — Secuencias de actividades con reglas de negocio"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Dimension 3: Tecnologia y Herramientas"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Capa",
+                "Ejemplos"
+              ],
+              "rows": [
+                [
+                  "Herramientas de gestion",
+                  "ServiceNow, Jira, Zendesk"
+                ],
+                [
+                  "Automatizacion",
+                  "Ansible, Terraform, scripts"
+                ],
+                [
+                  "Monitoreo",
+                  "Nagios, Datadog, Grafana"
+                ],
+                [
+                  "Comunicacion",
+                  "Teams, Slack, email"
+                ],
+                [
+                  "Seguridad",
+                  "Firewalls, SIEM, IAM"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Dimension 4: Socios y Proveedores"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Tipos de relacion: Contratos, alianzas, acuerdos de nivel de servicio (SLA)",
+                "Gestion de proveedores: Evaluacion, seleccion, monitoreo, desempeno",
+                "Estrategia de abastecimiento: Make or buy, multi-proveedor, partner"
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "Las 4 dimensiones deben considerarse de forma equilibrada. Un enfoque solo en tecnologia sin considerar personas, procesos y proveedores garantiza el fracaso."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Autoevaluación",
+              "questions": [
+                {
+                  "question": "¿Cuantos componentes tiene el SVS?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                  ],
+                  "answer": 2,
+                  "explanation": "El SVS tiene 5 componentes: Estrategia, Cadena de Valor, Practicas, Gobierno, Mejora Continua."
+                },
+                {
+                  "question": "¿Que dimension incluye la cultura organizacional?",
+                  "options": [
+                    "Procesos",
+                    "Tecnologia",
+                    "Organizacion y Personas",
+                    "Socios y Proveedores"
+                  ],
+                  "answer": 2,
+                  "explanation": "La dimension Organizacion y Personas incluye la cultura, estructura y capacidades del equipo."
+                },
+                {
+                  "question": "¿Que actividad de la cadena de valor se enfoca en operar servicios?",
+                  "options": [
+                    "Planificar",
+                    "Disenar y Transicionar",
+                    "Entregar y Soportar",
+                    "Mejorar"
+                  ],
+                  "answer": 2,
+                  "explanation": "Entregar y Soportar es la actividad que opera y soporta los servicios en produccion."
+                }
+              ]
+            },
+            {
+              "type": "arch",
+              "kind": "itil-lifecycle"
+            },
+            {
+              "type": "truefalse",
+              "title": "Dimensiones del SVS",
+              "tf": [
+                {
+                  "statement": "El SVS de ITIL 4 tiene 4 dimensiones.",
+                  "answer": false,
+                  "explanation": "Son 4 dimensiones: organizacion y personas, informacion y tecnologia, partners y proveedores, flujos de trabajo y procesos."
+                },
+                {
+                  "statement": "La cultura organizacional afecta la entrega de servicios.",
+                  "answer": true,
+                  "explanation": "La cultura es un factor critico en la dimension de organizacion y personas."
+                },
+                {
+                  "statement": "Los partners no forman parte del SVS.",
+                  "answer": false,
+                  "explanation": "Partners y proveedores es una de las 4 dimensiones del SVS."
+                },
+                {
+                  "statement": "El SVS incluye continuamente la mejora.",
+                  "answer": true,
+                  "explanation": "La mejora continua es un componente central del SVS."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-18",
+          "title": "ITIL las 4 Dimensiones y 5 Componentes del SVS",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Material de clase sobre las dimensiones de ITIL 4 y el SVS."
+        }
+      ]
+    },
+    {
+      "id": "mapa-procesos-cobit",
+      "slug": "mapa-procesos-cobit",
+      "title": "Mapa de Procesos COBIT 2019",
+      "emoji": "🗺️",
+      "accent": "#D4A0E8",
+      "category": "gobierno-ti",
+      "difficulty": "avanzado",
+      "order": 12,
+      "description": "Mapa detallado de los 40 procesos de COBIT 2019, su ubicacion en los 5 dominios, interrelaciones y como se mapean con otros marcos como ITIL e ISO 27001.",
+      "tags": [
+        "COBIT",
+        "mapa-procesos",
+        "dominios",
+        "interrelaciones"
+      ],
+      "keyTakeaway": "El mapa de procesos de COBIT 2019 muestra como los 40 objetivos se distribuyen en 5 dominios y como se interrelacionan para cubrir toda la cadena de valor de gobierno y gestion de TI.",
+      "sources": [
+        {
+          "title": "Que es COBIT 2019",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Documento U26"
+        },
+        {
+          "title": "COBIT 2019 Core Framework",
+          "url": "https://www.isaca.org",
+          "source": "ISACA",
+          "description": "Documentacion oficial"
+        }
+      ],
+      "sections": [
+        {
+          "id": "estructura-del-mapa-de-procesos",
+          "title": "Estructura del Mapa de Procesos",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Mapa de Procesos COBIT",
+              "text": "Representacion visual de los 40 procesos de COBIT 2019 organizados en 5 dominios. Cada proceso tiene un nombre, descripcion, objetivos y un nivel de capacidad objetivo."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "El mapa de procesos NO es un diagrama de flujo. Es una taxonomia que organiza todas las actividades de gobierno y gestion de TI en categorias logicas."
+            }
+          ]
+        },
+        {
+          "id": "dominio-edm-evaluar-dirigir-y-monitorear",
+          "title": "Dominio EDM - Evaluar, Dirigir y Monitorear",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Este dominio es de gobierno (no de gestion). Establece la direccion y supervision."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Nombre",
+                "Funcion"
+              ],
+              "rows": [
+                [
+                  "EDM01",
+                  "Mantener el marco de gobierno",
+                  "Establecer y mantener el marco de gobierno"
+                ],
+                [
+                  "EDM02",
+                  "Asegurar la entrega de beneficios",
+                  "Evaluar y priorizar iniciativas"
+                ],
+                [
+                  "EDM03",
+                  "Optimizar el riesgo",
+                  "Establecer tolerancia al riesgo"
+                ],
+                [
+                  "EDM04",
+                  "Optimizar los recursos",
+                  "Asignar recursos de TI eficientemente"
+                ],
+                [
+                  "EDM05",
+                  "Gestionar la transparencia",
+                  "Comunicar a las partes interesadas"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "EDM no tiene procesos operativos. Son actividades de gobierno del tablero directivo. Si ejecutas EDM01, estas actuando como gobierno, no como gestion."
+            }
+          ]
+        },
+        {
+          "id": "dominio-apo-alinear-planificar-y-organizar",
+          "title": "Dominio APO - Alinear, Planificar y Organizar",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Nombre",
+                "Funcion clave"
+              ],
+              "rows": [
+                [
+                  "APO01",
+                  "Gestionar el marco de gestion",
+                  "Establecer politicas y estandares"
+                ],
+                [
+                  "APO02",
+                  "Gestionar la estrategia de TI",
+                  "Alinear TI con el negocio"
+                ],
+                [
+                  "APO03",
+                  "Gestionar la arquitectura empresarial",
+                  "Definir la estructura de TI"
+                ],
+                [
+                  "APO04",
+                  "Gestionar la innovacion",
+                  "Promover la innovacion tecnologica"
+                ],
+                [
+                  "APO05",
+                  "Gestionar la cartera",
+                  "Priorizar proyectos de TI"
+                ],
+                [
+                  "APO06",
+                  "Gestionar el presupuesto y costos",
+                  "Controlar finanzas de TI"
+                ],
+                [
+                  "APO07",
+                  "Gestionar los recursos humanos",
+                  "Desarrollar talento de TI"
+                ],
+                [
+                  "APO08",
+                  "Gestionar la calidad",
+                  "Asegurar calidad de servicios"
+                ],
+                [
+                  "APO09",
+                  "Gestionar la seguridad",
+                  "Proteger la informacion"
+                ],
+                [
+                  "APO10",
+                  "Gestionar proveedores",
+                  "Administrar relaciones con vendors"
+                ],
+                [
+                  "APO11",
+                  "Gestionar proyectos",
+                  "Dirigir proyectos de TI"
+                ],
+                [
+                  "APO12",
+                  "Gestionar el riesgo",
+                  "Evaluar y mitigar riesgos"
+                ],
+                [
+                  "APO13",
+                  "Gestionar la seguridad (defensa)",
+                  "Seguridad de la informacion"
+                ],
+                [
+                  "APO14",
+                  "Gestionar el ciclo de vida",
+                  "Administrar servicios de TI"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dominio-bai-construir-adquirir-e-implementar",
+          "title": "Dominio BAI - Construir, Adquirir e Implementar",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Nombre",
+                "Funcion clave"
+              ],
+              "rows": [
+                [
+                  "BAI01",
+                  "Gestionar el programa de cambios",
+                  "Evaluar e implementar cambios"
+                ],
+                [
+                  "BAI02",
+                  "Gestionar definicion de requisitos",
+                  "Capturar necesidades"
+                ],
+                [
+                  "BAI03",
+                  "Gestionar solucion de problemas",
+                  "Resolver problemas de TI"
+                ],
+                [
+                  "BAI04",
+                  "Gestionar la disponibilidad y capacidad",
+                  "Asegurar recursos suficientes"
+                ],
+                [
+                  "BAI05",
+                  "Gestionar el cambio organizacional",
+                  "Facilitar la adopcion"
+                ],
+                [
+                  "BAI06",
+                  "Gestionar riesgos de TI",
+                  "Mitigar riesgos operativos"
+                ],
+                [
+                  "BAI07",
+                  "Gestionar la adquisicion de TI",
+                  "Comprar tecnologia"
+                ],
+                [
+                  "BAI08",
+                  "Gestionar la adquisicion de conocimiento",
+                  "Capturar learnings"
+                ],
+                [
+                  "BAI09",
+                  "Gestionar las salvaguardas de datos",
+                  "Proteger activos de informacion"
+                ],
+                [
+                  "BAI10",
+                  "Gestionar la configuracion",
+                  "Administrar activos de TI"
+                ],
+                [
+                  "BAI11",
+                  "Gestionar proyectos",
+                  "Ejecutar proyectos de TI"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dominio-dss-entregar-servir-y-soportar",
+          "title": "Dominio DSS - Entregar, Servir y Soportar",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Nombre",
+                "Funcion clave"
+              ],
+              "rows": [
+                [
+                  "DSS01",
+                  "Gestionar las operaciones",
+                  "Operar infraestructura de TI"
+                ],
+                [
+                  "DSS02",
+                  "Gestionar solicitudes de servicio",
+                  "Atender peticiones de usuarios"
+                ],
+                [
+                  "DSS03",
+                  "Gestionar problemas",
+                  "Identificar y resolver problemas"
+                ],
+                [
+                  "DSS04",
+                  "Gestionar la continuidad",
+                  "Asegurar continuidad del negocio"
+                ],
+                [
+                  "DSS05",
+                  "Gestionar servicios de seguridad",
+                  "Operar controles de seguridad"
+                ],
+                [
+                  "DSS06",
+                  "Gestionar procesos de negocio",
+                  "Soportar procesos del negocio"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dominio-mea-monitorear-evaluar-y-valorar",
+          "title": "Dominio MEA - Monitorear, Evaluar y Valorar",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Nombre",
+                "Funcion clave"
+              ],
+              "rows": [
+                [
+                  "MEA01",
+                  "Monitorear desempeno y conformidad",
+                  "Medir resultados de TI"
+                ],
+                [
+                  "MEA02",
+                  "Monitorear sistema de gobierno",
+                  "Evaluar gobierno de TI"
+                ],
+                [
+                  "MEA03",
+                  "Monitorear conformidad externa",
+                  "Cumplir leyes y regulaciones"
+                ],
+                [
+                  "MEA04",
+                  "Proporcionar gobierno de TI",
+                  "Asegurar gobierno efectivo"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "interrelaciones-con-otros-marcos",
+          "title": "Interrelaciones con Otros Marcos",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "COBIT",
+                "ITIL",
+                "ISO 27001",
+                "PMBOK"
+              ],
+              "rows": [
+                [
+                  "APO11",
+                  "Practica de gestion de proyectos",
+                  "-",
+                  "Gestion de proyectos"
+                ],
+                [
+                  "BAI06",
+                  "Practica de gestion de riesgos",
+                  "A.12 Gestion de riesgos",
+                  "Gestion de riesgos"
+                ],
+                [
+                  "DSS01",
+                  "Entregar y soportar",
+                  "A.12 Operaciones",
+                  "-"
+                ],
+                [
+                  "MEA01",
+                  "Monitorear y revisar",
+                  "A.18 Revision",
+                  "Monitoreo"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "sort",
+              "title": "Ordena los dominios de proceso de COBIT",
+              "items": [
+                "EDM: Evaluar, Dirigir y Monitorear",
+                "APO: Alinear, Planificar y Organizar",
+                "BAI: Construir, Adquirir e Implementar",
+                "DSS: Entregar, Servir y Soportar",
+                "MEA: Monitorear, Evaluar y Valorar"
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Procesos COBIT por dominio",
+              "pairs": [
+                {
+                  "left": "EDM01",
+                  "right": "Gestion del marco de gobierno"
+                },
+                {
+                  "left": "APO01",
+                  "right": "Gestion de la estrategia de TI"
+                },
+                {
+                  "left": "BAI01",
+                  "right": "Gestion de programas de cambio"
+                },
+                {
+                  "left": "DSS01",
+                  "right": "Gestion de operaciones"
+                },
+                {
+                  "left": "MEA01",
+                  "right": "Monitoreo y evaluacion del desempeno"
+                }
+              ]
+            },
+            {
+              "type": "truefalse",
+              "title": "Mapa de Procesos COBIT",
+              "tf": [
+                {
+                  "statement": "COBIT tiene 5 dominios de proceso.",
+                  "answer": true,
+                  "explanation": "EDM, APO, BAI, DSS y MEA."
+                },
+                {
+                  "statement": "El dominio EDM es operativo.",
+                  "answer": false,
+                  "explanation": "EDM es de gobierno, no operativo. Evalua, dirige y monitorea."
+                },
+                {
+                  "statement": "APO contiene procesos de gestion de riesgos.",
+                  "answer": true,
+                  "explanation": "APO incluye APO12 (Gestion de riesgos) entre otros."
+                },
+                {
+                  "statement": "DSS se enfoca en planificacion.",
+                  "answer": false,
+                  "explanation": "DSS se enfoca en entrega de servicios, no en planificacion."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-19",
+          "title": "COBIT 2019 - Mapa de Procesos",
+          "url": "https://www.isaca.org",
+          "type": "link",
+          "description": "Mapa visual de los 40 procesos de COBIT 2019."
+        }
+      ]
+    },
+    {
+      "id": "gestion-cambio-organizacional",
+      "slug": "gestion-cambio-organizacional",
+      "title": "Gestion del Cambio en TI",
+      "emoji": "🔄",
+      "accent": "#6DD4A0",
+      "category": "gestion-proyectos",
+      "difficulty": "intermedio",
+      "order": 13,
+      "description": "Como gestionar el cambio organizacional cuando se implementan nuevas tecnologias. Modelos de cambio (Kotter, ADKAR), resistencia al cambio, comunicacion y gestion de la transicion.",
+      "tags": [
+        "gestion-cambio",
+        "kotter",
+        "ADKAR",
+        "resistencia",
+        "transicion"
+      ],
+      "keyTakeaway": "El 70% de los proyectos de TI fracasan por factores humanos, no tecnicos. Gestionar el cambio es tan importante como la implementacion tecnica.",
+      "sources": [
+        {
+          "title": "Programa Administracion Sistemas de Informacion",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Syllabus del curso"
+        }
+      ],
+      "sections": [
+        {
+          "id": "por-que-fallan-los-proyectos-de-ti",
+          "title": "Por que fallan los proyectos de TI?",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "danger",
+              "text": "Segun McKinsey, el 70% de las iniciativas de transformation digital fracasan. La causa principal NO es la tecnologia, sino la resistencia al cambio y la falta de gestion del factor humano."
+            },
+            {
+              "type": "definition",
+              "term": "Gestion del Cambio",
+              "text": "Conjunto de procesos, herramientas y tecnicas para gestionar el aspecto humano de la transition de un estado actual a un estado futuro deseado. Busca minimizar la resistencia y maximizar la efectividad del cambio."
+            }
+          ]
+        },
+        {
+          "id": "modelos-de-gestion-del-cambio",
+          "title": "Modelos de Gestion del Cambio",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Modelo de Kotter (8 Pasos)"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Paso",
+                "Accion",
+                "Ejemplo en TI"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "Crear urgencia",
+                  "Mostrar consecuencias de no cambiar"
+                ],
+                [
+                  "2",
+                  "Formar equipo directivo",
+                  "Involucrar lideres de area"
+                ],
+                [
+                  "3",
+                  "Desarrollar vision",
+                  "Definir como sera el futuro"
+                ],
+                [
+                  "4",
+                  "Comunicar la vision",
+                  "Socializar el cambio"
+                ],
+                [
+                  "5",
+                  "Empoderar acciones",
+                  "Remover barreras"
+                ],
+                [
+                  "6",
+                  "Generar victorias tempranas",
+                  "Pilotos exitosos"
+                ],
+                [
+                  "7",
+                  "Consolidar ganancias",
+                  "Expandir gradualmente"
+                ],
+                [
+                  "8",
+                  "Anclar en cultura",
+                  "Hacer el cambio permanente"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "No saltes pasos. El error mas comun es intentar implementar la solucion antes de crear urgencia y alinear al liderazgo."
+            },
+            {
+              "type": "heading",
+              "text": "Modelo ADKAR"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Fase",
+                "Que logra"
+              ],
+              "rows": [
+                [
+                  "Awareness (Consciencia)",
+                  "El usuario entiende POR QUE cambiar"
+                ],
+                [
+                  "Deseo (Deseo)",
+                  "El usuario QUIERE participar"
+                ],
+                [
+                  "Knowledge (Conocimiento)",
+                  "El usuario SABE COMO usar la nueva herramienta"
+                ],
+                [
+                  "Ability (Habilidad) puede USAR la herramienta"
+                ],
+                [
+                  "Reinforcement (Refuerzo)",
+                  "El usuario MANTIENE el cambio"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fuentes-de-resistencia-al-cambio",
+          "title": "Fuentes de Resistencia al Cambio",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Tipo",
+                "Ejemplo",
+                "Estrategia"
+              ],
+              "rows": [
+                [
+                  "Racional",
+                  "\"No tengo tiempo para aprender\"",
+                  "Capacitacion, automatizar tareas"
+                ],
+                [
+                  "Emocional",
+                  "\"Tengo miedo de perder mi trabajo\"",
+                  "Comunicacion, redefinicion de roles"
+                ],
+                [
+                  "Politica",
+                  "\"Pierdo control con esta herramienta\"",
+                  "Involucrar en la决策, empower"
+                ],
+                [
+                  "Cultural \"Siempre lo hemos hecho asi\"",
+                  "Mostrar beneficios, quick wins"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "La resistencia al cambio NO es un problema. Es una senal de que algo necesita ser comunicado o disenado de mejor manera."
+            }
+          ]
+        },
+        {
+          "id": "comunicacion-del-cambio",
+          "title": "Comunicacion del Cambio",
+          "blocks": [
+            {
+              "type": "flow",
+              "title": "Estrategia de Comunicacion",
+              "steps": [
+                "Fase 1: Preparar el terreno (crear consciencia)",
+                "Fase 2: Narrar la historia (vision clara)",
+                "Fase 3: Involucrar a todos (participacion activa)",
+                "Fase 4: Reforzar continuamente (celebrar exitos)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "essay",
+              "title": "Analisis de Gestion del Cambio",
+              "essay": [
+                {
+                  "question": "Explica por que la resistencia al cambio es el principal obstaculo en proyectos de TI.",
+                  "hint": "Considera factores humanos, culturales y organizacionales.",
+                  "model": "La resistencia al cambio surge del miedo a lo desconocido, la perdida de control y la comodidad con procesos actuales. Las personas necesitan entender el por que del cambio, recibir capacitacion y ver resultados tempranos para adoptar nuevas formas de trabajo.",
+                  "rubric": [
+                    "Identifica causas humanas",
+                    "Menciona factores culturales",
+                    "Propone estrategias de mitigacion"
+                  ]
+                },
+                {
+                  "question": "Disena un plan de gestion del cambio para implementar un ERP en una empresa mediana.",
+                  "hint": "Piensa en comunicacion, capacitacion y soporte.",
+                  "model": "1) Comunicar la vision y beneficios, 2) Capacitar por roles, 3) Implementar por fases con pilotos, 4) Establecer champions de cambio, 5) Medir y ajustar continuamente.",
+                  "rubric": [
+                    "Incluye comunicacion",
+                    "Incluye capacitacion",
+                    "Propone fases",
+                    "Menciona metricas"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Fases de la gestion del cambio",
+              "pairs": [
+                {
+                  "left": "Conciencia",
+                  "right": "Entender por que es necesario el cambio"
+                },
+                {
+                  "left": "Deseo",
+                  "right": "Querer participar en el cambio"
+                },
+                {
+                  "left": "Conocimiento",
+                  "right": "Saber como cambiar"
+                },
+                {
+                  "left": "Habilidad",
+                  "right": "Poder implementar el cambio"
+                },
+                {
+                  "left": "Refuerzo",
+                  "right": "Mantener el cambio a largo plazo"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-20",
+          "title": "Leading Change - John Kotter",
+          "url": "https://www.kotterinc.com/",
+          "type": "book",
+          "description": "Libro de referencia sobre liderazgo del cambio organizacional."
+        }
+      ]
+    },
+    {
+      "id": "habilidades-sociales-trabajo-equipo-2",
+      "slug": "habilidades-sociales-trabajo-equipo-2",
+      "title": "Liderazgo y Gestion de Equipos de TI",
+      "emoji": "👥",
+      "accent": "#EAAE87",
+      "category": "rh-ti",
+      "difficulty": "intermedio",
+      "order": 14,
+      "description": "Liderazgo transformacional en TI, formacion de equipos de alto desempeno, delegacion efectiva, retroalimentacion constructiva y gestion de equipos remotos o hibridos.",
+      "tags": [
+        "liderazgo",
+        "equipos",
+        "delegacion",
+        "retroalimentacion",
+        "remoto"
+      ],
+      "keyTakeaway": "Liderar equipos de TI requiere equilibrar la excelencia tecnica con las habilidades sociales. El mejor codigo no vale nada si el equipo no esta alineado y motivado.",
+      "sources": [
+        {
+          "title": "Programa Administracion Sistemas de Informacion",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Syllabus del curso"
+        }
+      ],
+      "sections": [
+        {
+          "id": "estilos-de-liderazgo-en-ti",
+          "title": "Estilos de Liderazgo en TI",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Estilo",
+                "Cuando aplicar",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Directivo",
+                  "Crisis, incidentes criticos",
+                  "Caida de servidor en produccion"
+                ],
+                [
+                  "Delegativo",
+                  "Equipos maduros, tareas claras",
+                  "Senior developers en sprint"
+                ],
+                [
+                  "Participativo",
+                  "Diseno, toma de decisiones",
+                  "Revision de arquitectura"
+                ],
+                [
+                  "Coaching",
+                  "Desarrollo de talento",
+                  "Junior que esta aprendiendo"
+                ],
+                [
+                  "Visionario",
+                  "Direccion estrategica",
+                  "Definicion de roadmap de TI"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "No hay un estilo unico correcto. Un buen líder de TI adapta su estilo segun la situacion, la madurez del equipo y la criticidad de la tarea."
+            }
+          ]
+        },
+        {
+          "id": "formacion-de-equipos-de-alto-desempeno",
+          "title": "Formacion de Equipos de Alto Desempeno",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Segun Patrick Lencioni (Los 5 Disfunciones de un Equipo), los equipos eficaces superan estas barreras:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ausencia de confianza — Los miembros no se sienten seguros de ser vulnerables",
+                "Evitar el conflicto — No discuten abiertamente las diferencias",
+                "Falta de compromiso — No se alinean en decisiones",
+                "Evitar la responsabilidad — No se sostienen mutuamente",
+                "Desatencion al resultado — Priorizan intereses individuales"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "flow",
+              "title": "Construccion de Confianza",
+              "steps": [
+                "Ser vulnerable como lider (admitir errores)",
+                "Reconocer las contribuciones de cada miembro",
+                "Crear espacio seguro para opiniones distintas",
+                "Cumplir lo que prometes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "delegacion-efectiva",
+          "title": "Delegacion Efectiva",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Nivel",
+                "Cuando usar",
+                "Herramienta"
+              ],
+              "rows": [
+                [
+                  "Decir",
+                  "Tareas repetitivas, urgentes",
+                  "Instrucciones claras"
+                ],
+                [
+                  "Vender",
+                  "Cambios que requieren compra",
+                  "Persuadir con beneficios"
+                ],
+                [
+                  "Participar",
+                  "Decisiones complejas",
+                  "Tomar decision juntos"
+                ],
+                [
+                  "Delegar",
+                  "Expertos, tareas conocidas",
+                  "Definir resultado, no metodo"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Delegar NO es lo mismo que abandonar. La delegacion efectiva incluye: definir expectativas claras, establecer checkpoints, dar autonomia y estar disponible para apoyo."
+            }
+          ]
+        },
+        {
+          "id": "retroalimentacion-constructiva",
+          "title": "Retroalimentacion Constructiva",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "El modelo SBI (Situacion, Comportamiento, Impacto) es efectivo para dar feedback:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Paso",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Situacion",
+                  "\"En la revision de codigo de ayer...\""
+                ],
+                [
+                  "Comportamiento",
+                  "\"vi que no se siguieron los estandares de naming\""
+                ],
+                [
+                  "Impacto",
+                  "\"esto dificulta el mantenimiento para el resto del equipo\""
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "success",
+              "text": "La retroalimentacion debe ser oportuna (cerca del evento), especifica (no generalizaciones) y orientada a la accion (que puede mejorar)."
+            }
+          ]
+        },
+        {
+          "id": "equipos-remotos-e-hibridos",
+          "title": "Equipos Remotos e Hibridos",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Desafio",
+                "Solucion"
+              ],
+              "rows": [
+                [
+                  "Comunicacion asincronica",
+                  "Estandarizar herramientas (Slack, Teams)"
+                ],
+                [
+                  "Bonding del equipo",
+                  "Rituals virtuales (coffee, retrospective)"
+                ],
+                [
+                  "Productividad",
+                  "Medir por resultados, no por horas"
+                ],
+                [
+                  "Burnout",
+                  "Respetar horarios, right to disconnect"
+                ],
+                [
+                  "Conocimiento",
+                  "Documentacion viva, pair programming virtual"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "essay",
+              "title": "Liderazgo en TI",
+              "essay": [
+                {
+                  "question": "Analiza la diferencia entre liderazgo y gestion en el contexto de TI.",
+                  "hint": "Piensa en vision vs operacion.",
+                  "model": "La gestion se enfoca en procesos, recursos y resultados operativos. El liderazgo inspira, define vision y cultiva innovacion. En TI, ambos son necesarios: gestionar infraestructura eficientemente y liderar la transformacion digital.",
+                  "rubric": [
+                    "Define gestion",
+                    "Define liderazgo",
+                    "Relaciona con contexto TI"
+                  ]
+                },
+                {
+                  "question": "Describe como un lider de TI puede motivar a su equipo durante un proyecto dificil.",
+                  "hint": "Considera reconocimiento, autonomia y desarrollo.",
+                  "model": "Un lider de TI motiva reconociendo logros, dando autonomia para tomar decisiones tecnicas, proporcionando oportunidades de aprendizaje, y comunicando claramente el impacto del trabajo del equipo en el negocio.",
+                  "rubric": [
+                    "Menciona reconocimiento",
+                    "Habla de autonomia",
+                    "Incluye desarrollo profesional"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "truefalse",
+              "title": "Liderazgo Transformacional",
+              "tf": [
+                {
+                  "statement": "Un lider tecnico debe saber mas que todos los miembros de su equipo.",
+                  "answer": false,
+                  "explanation": "El lider tecnico facilita, no controla. Su valor esta en vision y soporte, no en ser el experto en todo."
+                },
+                {
+                  "statement": "El feedback constructivo fortalece al equipo.",
+                  "answer": true,
+                  "explanation": "El feedback especifico, oportuno y respetuoso permite crecimiento continuo."
+                },
+                {
+                  "statement": "La delegation es un signo de debilidad.",
+                  "answer": false,
+                  "explanation": "Delegar empodera al equipo y permite al lider enfocarse en estrategia."
+                },
+                {
+                  "statement": "Un buen lider siempre tiene la respuesta.",
+                  "answer": false,
+                  "explanation": "Un buen lider facilita que el equipo encuentre las respuestas."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "id": "res-21",
+          "title": "Los 5 Disfunciones de un Equipo - Patrick Lencioni",
+          "url": "https://www.tablegroup.com/",
+          "type": "book",
+          "description": "Libro de referencia sobre construccion de equipos de alto desempeno."
+        }
+      ]
+    }
+  ],
+  "glossary": []
+}

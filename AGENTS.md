@@ -64,11 +64,13 @@ El parser (`backend/src/convert/md.js`) usa formato pipe-separated, NO JSON:
 
 ## Otros
 
-- El estilo de la UI es el skill `vibrant`; las fuentes académicas/técnicas van con el skill `research`.
+- El estilo de la UI es el skill `awesome` (variante artistic); las fuentes académicas/técnicas van con el skill `research`.
 - Mensajes de commit en español, imperativo breve (ej. "Completa Fase 3: ...").
 - Los snapshots de `.playwright-mcp/` están ignorados: no se commitean.
-- Paleta de colores: #6C5CE7 (primario), #F7A072 (secundario), superficies claras (#FFFFFF, #F5F3FF).
+- Paleta de colores: #3B82F6 (primario azul), #8B5CF6 (secundario violeta), #111827 (ink/negro), #FFFFFF (superficies).
 - Tema claro fijo (sin toggle dark/light).
+- Fuentes: Inter (body), Limelight (display), JetBrains Mono (mono).
+- Estilo artistico: bordes negros de 2px, esquinas sin radio, sombras offset, etiquetas uppercase.
 
 ## Estado verificado (2026-08-22)
 

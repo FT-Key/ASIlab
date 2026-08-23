@@ -1,6 +1,6 @@
 import { useTopics } from '../lib/topicContext'
 import { useState, useMemo } from 'react'
-import { MagnifyingGlass } from '@phosphor-icons/react'
+import { MagnifyingGlass, BookOpenText, Warning } from '@phosphor-icons/react'
 import { motion } from 'motion/react'
 
 export default function GlossaryPage() {
@@ -26,23 +26,31 @@ export default function GlossaryPage() {
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-[60vh]">
-        <div className="w-12 h-12 border-4 border-primary/30 border-t-primary rounded-full animate-spin" />
+        <div className="w-12 h-12 border-4 border-ink/30 border-t-ink animate-spin" />
       </div>
     )
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
+    <div className="max-w-6xl mx-auto px-6 py-8">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-        <h1 className="font-display text-3xl gradient-text mb-2">Glosario</h1>
-        <p className="text-text-muted text-sm mb-8">
-          Terminos clave de Administracion de Sistemas de Informacion.
-        </p>
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-12 h-12 bg-ink flex items-center justify-center">
+            <BookOpenText size={24} className="text-white" weight="fill" />
+          </div>
+          <div>
+            <h1 className="font-display text-4xl text-ink">Glosario</h1>
+            <p className="text-text-muted text-sm font-mono tracking-wider uppercase">
+              Terminos clave de Administracion de Sistemas de Informacion.
+            </p>
+          </div>
+        </div>
       </motion.div>
 
-      <div className="flex flex-col sm:flex-row gap-3 mb-6">
+      {/* Search and Filters */}
+      <div className="flex flex-col sm:flex-row gap-4 mb-6">
         <div className="relative flex-1 max-w-md">
-          <MagnifyingGlass size={18} className="absolute left-3 top-1/2 -translate-y-1/2 text-text-dim" />
+          <MagnifyingGlass size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/50" />
           <input
             type="text"
             placeholder="Buscar termino..."
@@ -51,12 +59,12 @@ export default function GlossaryPage() {
             className="input-field w-full pl-10"
           />
         </div>
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex flex-wrap gap-2">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setSelectedCategory(selectedCategory === cat ? null : cat)}
-              className={`tag text-[10px] transition-all ${selectedCategory === cat ? 'tag-purple' : 'bg-surface-overlay/30 text-text-dim border border-transparent hover:border-primary/20'}`}
+              className={`tag transition-all ${selectedCategory === cat ? 'tag-purple' : 'border-2 border-ink text-text-dim hover:bg-ink hover:text-white'}`}
             >
               {cat}
             </button>
@@ -64,10 +72,13 @@ export default function GlossaryPage() {
         </div>
       </div>
 
+      {/* Terms List */}
       {filtered.length === 0 ? (
         <div className="text-center py-16">
-          <div className="text-4xl mb-4">📖</div>
-          <div className="text-text-dim text-sm">No se encontraron terminos para "{search}"</div>
+          <div className="border-2 border-ink p-8 inline-block">
+            <Warning size={48} className="text-text-dim mx-auto mb-4" weight="light" />
+            <div className="text-text-dim text-sm font-mono tracking-wider uppercase">No se encontraron terminos</div>
+          </div>
         </div>
       ) : (
         <div className="space-y-2">
@@ -77,14 +88,14 @@ export default function GlossaryPage() {
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.02 }}
-              className="glass-card p-4"
+              className="border-2 border-ink p-4 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
             >
               <div className="flex items-start gap-3">
-                <div className="w-1 h-full min-h-[2rem] rounded-full bg-primary shrink-0" />
+                <div className="w-1 h-full min-h-[2rem] bg-ink shrink-0" />
                 <div>
-                  <div className="text-sm font-bold text-primary-light">{term.term}</div>
-                  <div className="text-xs text-text-dim mt-0.5">{term.category || 'General'}</div>
-                  <div className="text-sm text-text-muted mt-1 leading-relaxed">{term.definition}</div>
+                  <div className="text-sm font-bold text-primary font-mono">{term.term}</div>
+                  <div className="text-[10px] text-text-dim mt-0.5 font-mono tracking-wider uppercase">{term.category || 'General'}</div>
+                  <div className="text-sm text-text-muted mt-1.5 leading-relaxed">{term.definition}</div>
                 </div>
               </div>
             </motion.div>
