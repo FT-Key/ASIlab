@@ -83,17 +83,17 @@ export default function AdminDashboard() {
               initial={{ opacity: 0, x: -16 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: i * 0.03 }}
-              className="glass-card p-4 flex items-center gap-4"
+              className="glass-card p-3 sm:p-4 flex flex-wrap sm:flex-nowrap items-center gap-2 sm:gap-4"
             >
-              <span className="text-2xl">{topic.emoji}</span>
+              <span className="text-xl sm:text-2xl">{topic.emoji}</span>
               <div className="flex-1 min-w-0">
-                <div className="text-sm font-semibold text-text truncate">{topic.title}</div>
-                <div className="text-xs text-text-dim">
+                <div className="text-xs sm:text-sm font-semibold text-text truncate">{topic.title}</div>
+                <div className="text-[10px] sm:text-xs text-text-dim">
                   {topic.category} &middot; {topic.difficulty} &middot; {total} secciones
                 </div>
               </div>
-              <div className="text-xs text-text-dim w-16 text-right">{completed}/{total}</div>
-              <div className="w-24 h-1.5 rounded-full bg-surface-overlay overflow-hidden">
+              <div className="hidden sm:block text-xs text-text-dim w-16 text-right">{completed}/{total}</div>
+              <div className="hidden sm:block w-24 h-1.5 rounded-full bg-surface-overlay overflow-hidden">
                 <div
                   className="h-full rounded-full"
                   style={{
@@ -102,18 +102,20 @@ export default function AdminDashboard() {
                   }}
                 />
               </div>
-              <Link
-                to={`/admin/topic/${topic.slug}`}
-                className="w-8 h-8 rounded-lg flex items-center justify-center text-text-dim hover:text-primary-light hover:bg-primary/10 transition-all"
-              >
-                <PencilSimple size={16} />
-              </Link>
-              <Link
-                to={`/topic/${topic.slug}`}
-                className="w-8 h-8 rounded-lg flex items-center justify-center text-text-dim hover:text-primary-light hover:bg-primary/10 transition-all"
-              >
-                <ArrowRight size={16} />
-              </Link>
+              <div className="flex items-center gap-1">
+                <Link
+                  to={`/admin/topic/${topic.slug}`}
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-text-dim hover:text-primary-light hover:bg-primary/10 transition-all"
+                >
+                  <PencilSimple size={16} />
+                </Link>
+                <Link
+                  to={`/topic/${topic.slug}`}
+                  className="w-8 h-8 rounded-lg flex items-center justify-center text-text-dim hover:text-primary-light hover:bg-primary/10 transition-all"
+                >
+                  <ArrowRight size={16} />
+                </Link>
+              </div>
             </motion.div>
           )
         })}

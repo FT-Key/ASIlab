@@ -65,9 +65,9 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         className="mb-8"
       >
-        <div className="border-2 border-ink p-8 relative overflow-hidden bg-white">
+        <div className="border-2 border-ink p-6 sm:p-8 relative bg-white">
           {/* Decorative grid */}
-          <div className="absolute top-0 right-0 w-64 h-64 opacity-5">
+          <div className="absolute top-0 right-0 w-64 h-64 opacity-5 overflow-hidden">
             <div className="grid grid-cols-4 grid-rows-4 gap-1 h-full">
               {Array.from({ length: 16 }).map((_, i) => (
                 <div key={i} className="bg-ink" style={{ opacity: i % 3 === 0 ? 1 : 0.3 }} />
@@ -80,7 +80,7 @@ export default function Home() {
               Plataforma de Estudio · 14 Temas
             </p>
             
-            <h1 className="font-display text-5xl md:text-7xl leading-[0.95] tracking-tight mb-6">
+            <h1 className="font-display text-3xl sm:text-5xl md:text-7xl leading-[0.95] tracking-tight mb-6">
               ADMINISTRACION
               <br />
               DE <span className="text-primary">SISTEMAS</span>
@@ -88,25 +88,25 @@ export default function Home() {
               DE INFORMACION.
             </h1>
             
-            <p className="text-text-muted text-base max-w-xl mb-8 leading-relaxed">
+            <p className="text-text-muted text-sm sm:text-base max-w-xl mb-6 sm:mb-8 leading-relaxed">
               Marco integral de gobierno, gestion y estrategia de TI basado en 
               <span className="font-semibold text-ink"> COBIT, ITIL, ISO 38500 y PMBOK</span>.
             </p>
 
             {/* Framework pills */}
-            <div className="flex flex-wrap gap-3 mb-8">
+            <div className="flex flex-wrap gap-2 sm:gap-3 mb-6 sm:mb-8">
               {FRAMEWORKS.map((fw) => {
                 const Icon = fw.icon
                 return (
                   <div
                     key={fw.name}
-                    className="flex items-center gap-2 px-4 py-2 text-xs font-semibold uppercase tracking-wider border-2 border-ink transition-all hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)]"
+                    className="flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 text-[10px] sm:text-xs font-semibold uppercase tracking-wider border-2 border-ink transition-all hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)]"
                     style={{
                       background: fw.color,
                       color: 'white',
                     }}
                   >
-                    <Icon size={14} weight="bold" />
+                    <Icon size={12} weight="bold" />
                     {fw.name}
                   </div>
                 )
