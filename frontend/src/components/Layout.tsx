@@ -10,6 +10,7 @@ import {
 } from '@phosphor-icons/react'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import AdSense from './AdSense'
 
 const NAV_ITEMS = [
   { to: '/', label: 'Inicio', icon: House },
@@ -30,13 +31,13 @@ export default function Layout() {
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <header className="sticky top-0 z-50 border-b-2 border-ink bg-white">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 bg-ink flex items-center justify-center text-white font-display text-lg group-hover:bg-primary transition-colors">
-              S
+              A
             </div>
             <div className="hidden sm:block">
-              <div className="font-display text-sm tracking-wide text-text">SistemasLab</div>
+              <div className="font-display text-sm tracking-wide text-text">ASILab</div>
               <div className="text-[10px] text-text-dim tracking-[0.2em] uppercase font-mono">Admin SI</div>
             </div>
           </Link>
@@ -103,28 +104,51 @@ export default function Layout() {
         </AnimatePresence>
       </header>
 
-      <main className="flex-1">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={location.pathname}
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.2 }}
-          >
-            <Outlet />
-          </motion.div>
-        </AnimatePresence>
-      </main>
+      <div className="flex-1 flex">
+        {/* Ad sidebar izquierdo */}
+        <aside className="hidden xl:block w-64 shrink-0 p-4">
+          <div className="sticky top-24">
+            <AdSense
+              slot="1111111111"
+              className="min-h-[600px] border border-gray-200"
+            />
+          </div>
+        </aside>
+
+        {/* Contenido principal */}
+        <main className="flex-1 min-w-0">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={location.pathname}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Outlet />
+            </motion.div>
+          </AnimatePresence>
+        </main>
+
+        {/* Ad sidebar derecho */}
+        <aside className="hidden xl:block w-64 shrink-0 p-4">
+          <div className="sticky top-24">
+            <AdSense
+              slot="2222222222"
+              className="min-h-[600px] border border-gray-200"
+            />
+          </div>
+        </aside>
+      </div>
 
       <footer className="border-t-2 border-ink bg-white">
-        <div className="max-w-6xl mx-auto px-6 py-8">
+        <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-ink flex items-center justify-center text-white font-display text-xs">
-                S
+                A
               </div>
-              <span className="text-sm text-text-dim">SistemasLab — Administracion de Sistemas de Informacion</span>
+              <span className="text-sm text-text-dim">ASILab — Administracion de Sistemas de Informacion</span>
             </div>
             <div className="text-xs text-text-dim font-mono tracking-wider uppercase">
               {loading ? 'Cargando...' : `${topics.length} temas`}
