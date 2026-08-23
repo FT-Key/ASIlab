@@ -11,7 +11,7 @@ interface EssayProps {
 export default function EssayQuiz({ questions, title }: EssayProps) {
   const [drafts, setDrafts] = useState<Record<number, string>>({})
   const [revealed, setRevealed] = useState<Set<number>>(new Set())
-  const [checked, setChecked] = useState<Set<number>>(new Set())
+  const [checked, setChecked] = useState<Set<string>>(new Set())
 
   const toggleReveal = (i: number) => {
     setRevealed((r) => new Set(r).add(i))

@@ -1,3 +1,4 @@
+import React from 'react'
 import { motion } from 'motion/react'
 
 interface ArchDiagramProps {
@@ -92,7 +93,7 @@ function ITILLifecycle() {
   )
 }
 
-const diagrams: Record<string, () => JSX.Element> = {
+const diagrams: Record<string, () => React.JSX.Element> = {
   'gobierno-ti': GobiernoTI,
   'erp-arquitectura': ERPA,
   'itil-lifecycle': ITILLifecycle,

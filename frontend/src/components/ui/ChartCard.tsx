@@ -39,7 +39,7 @@ export function PieChartCard({ title, data }: { title: string; data: ChartData[]
             innerRadius={50}
             outerRadius={80}
             dataKey="value"
-            label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+            label={({ name, percent }) => `${name} ${((percent || 0) * 100).toFixed(0)}%`}
           >
             {data.map((entry, i) => (
               <Cell key={i} fill={entry.color || 'var(--color-primary)'} />
