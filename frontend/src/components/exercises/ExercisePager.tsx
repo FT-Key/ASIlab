@@ -63,21 +63,21 @@ export default function ExercisePager({ blocks, title }: ExercisePagerProps) {
           {renderExercise(exercises[current])}
         </motion.div>
       </AnimatePresence>
-      <div className="flex items-center justify-between mt-4">
+      <div className="flex items-center justify-between mt-4 gap-2">
         <button
           onClick={() => setCurrent((c) => Math.max(0, c - 1))}
           disabled={current === 0}
-          className="text-text-dim hover:text-text disabled:opacity-30 flex items-center gap-1 text-sm transition-colors"
+          className="text-text-dim hover:text-text disabled:opacity-30 flex items-center gap-1 text-xs sm:text-sm transition-colors shrink-0"
         >
-          <ArrowLeft size={16} /> Anterior
+          <ArrowLeft size={14} /> Anterior
         </button>
-        <span className="text-xs text-text-dim">{current + 1} / {exercises.length}</span>
+        <span className="text-[10px] sm:text-xs text-text-dim shrink-0">{current + 1} / {exercises.length}</span>
         <button
           onClick={() => setCurrent((c) => Math.min(exercises.length - 1, c + 1))}
           disabled={current === exercises.length - 1}
-          className="text-text-dim hover:text-text disabled:opacity-30 flex items-center gap-1 text-sm transition-colors"
+          className="text-text-dim hover:text-text disabled:opacity-30 flex items-center gap-1 text-xs sm:text-sm transition-colors shrink-0"
         >
-          Siguiente <ArrowRight size={16} />
+          Siguiente <ArrowRight size={14} />
         </button>
       </div>
     </div>

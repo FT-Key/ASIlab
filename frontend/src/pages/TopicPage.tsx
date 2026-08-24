@@ -182,20 +182,20 @@ export default function TopicPage() {
             </div>
 
             {/* Sticky Navigation */}
-            <div className="sticky bottom-0 bg-white border-t-2 border-ink pt-4 pb-2 -mx-6 px-6 mt-6">
-              <div className="flex items-center justify-between">
+            <div className="sticky bottom-0 bg-white border-t-2 border-ink pt-4 pb-3 -mx-6 px-6 mt-6">
+              <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
                 <button
                   onClick={() => setActiveSection((s) => Math.max(0, s - 1))}
                   disabled={activeSection === 0}
-                  className="btn-secondary flex items-center gap-1.5 disabled:opacity-30 disabled:cursor-not-allowed text-xs"
+                  className="btn-secondary flex items-center justify-center gap-1.5 disabled:opacity-30 disabled:cursor-not-allowed text-xs w-full sm:w-auto"
                 >
                   <ArrowLeft size={14} />
                   Anterior
                 </button>
 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center justify-center gap-2">
                   {!completedSections.includes(section?.id || '') && (
-                    <button onClick={markComplete} className="btn-primary flex items-center gap-1.5 text-xs">
+                    <button onClick={markComplete} className="btn-primary flex items-center justify-center gap-1.5 text-xs w-full sm:w-auto">
                       <CheckCircle size={14} />
                       Marcar completa
                     </button>
@@ -210,7 +210,7 @@ export default function TopicPage() {
                 <button
                   onClick={() => setActiveSection((s) => Math.min(topic.sections.length - 1, s + 1))}
                   disabled={activeSection === topic.sections.length - 1}
-                  className="btn-secondary flex items-center gap-1.5 disabled:opacity-30 disabled:cursor-not-allowed text-xs"
+                  className="btn-secondary flex items-center justify-center gap-1.5 disabled:opacity-30 disabled:cursor-not-allowed text-xs w-full sm:w-auto"
                 >
                   Siguiente
                   <ArrowRight size={14} />

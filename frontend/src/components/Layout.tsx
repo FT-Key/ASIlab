@@ -116,7 +116,7 @@ export default function Layout() {
         </aside>
 
         {/* Contenido principal */}
-        <main className="flex-1 min-w-0">
+        <main className="flex-1 min-w-0 overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={location.pathname}
