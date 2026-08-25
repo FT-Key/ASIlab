@@ -60,15 +60,12 @@ La cadena de valor NO es lineal. Las actividades se ejecutan de forma iterativa 
 La dimension de personas es la mas subestimada en proyectos de TI. El 70% de las fallas en servicios de TI se deben a factores humanos, no tecnicos.
 :::
 
-### Dimension 2: Procesos y Flujos de Trabajo
+### Dimension 2: Informacion y Tecnologia
 
-Incluye todos los procesos necesarios para gestionar servicios:
+Incluye tanto la informacion que gestiona el servicio como la tecnologia que lo soporta:
 
-- **Procesos de gestion** — Strategize, Design, Transition, Deliver, Improve
-- **Procesos de soporte** — Incidente, problema, cambio, solicitud de servicio
-- **Flujos de trabajo** — Secuencias de actividades con reglas de negocio
-
-### Dimension 3: Tecnologia y Herramientas
+- **Informacion y conocimiento** — Datos del negocio, bases de conocimiento, seguridad de la informacion, cumplimiento de proteccion de datos
+- **Tecnologia y herramientas** — Aplicaciones, infraestructura y plataformas necesarias para el servicio
 
 | Capa | Ejemplos |
 |------|----------|
@@ -78,11 +75,19 @@ Incluye todos los procesos necesarios para gestionar servicios:
 | Comunicacion | Teams, Slack, email |
 | Seguridad | Firewalls, SIEM, IAM |
 
-### Dimension 4: Socios y Proveedores
+### Dimension 3: Socios y Proveedores
 
 - **Tipos de relacion**: Contratos, alianzas, acuerdos de nivel de servicio (SLA)
 - **Gestion de proveedores**: Evaluacion, seleccion, monitoreo, desempeno
-- **Estrategia de abastecimiento**: Make or buy, multi-proveedor, partner
+- **Estrategia de abastecimiento**: Hacer o comprar (make or buy), multi-proveedor, asociacion (partner)
+
+### Dimension 4: Flujos de Valor y Procesos
+
+Incluye todos los flujos y procesos necesarios para gestionar servicios:
+
+- **Flujos de valor** — Secuencia de pasos que transforma una demanda en un resultado con valor (ejemplo: de solicitud a servicio entregado)
+- **Procesos de soporte** — Incidente, problema, cambio, solicitud de servicio
+- **Flujos de trabajo** — Actividades ordenadas con reglas de negocio y responsables definidos
 
 :::callout success
 Las 4 dimensiones deben considerarse de forma equilibrada. Un enfoque solo en tecnologia sin considerar personas, procesos y proveedores garantiza el fracaso.
@@ -99,8 +104,8 @@ Las 4 dimensiones deben considerarse de forma equilibrada. Un enfoque solo en te
 :::arch itil-lifecycle
 
 :::truefalse Dimensiones del SVS
-1. El SVS de ITIL 4 tiene 4 dimensiones. || Falso || Son 4 dimensiones: organizacion y personas, informacion y tecnologia, partners y proveedores, flujos de trabajo y procesos.
+1. El SVS tiene 4 componentes. || Falso || El SVS tiene 5 componentes: Estrategia de Servicio, Cadena de Valor del Servicio, Practicas de Gestion, Gobierno y Controles, y Mejora Continua. Lo que SI tiene 4 son las dimensiones del modelo.
 2. La cultura organizacional afecta la entrega de servicios. || Verdadero || La cultura es un factor critico en la dimension de organizacion y personas.
-3. Los partners no forman parte del SVS. || Falso || Partners y proveedores es una de las 4 dimensiones del SVS.
-4. El SVS incluye continuamente la mejora. || Verdadero || La mejora continua es un componente central del SVS.
+3. Los socios y proveedores no forman parte del modelo. || Falso || Socios y Proveedores es una de las 4 dimensiones de ITIL.
+4. La mejora continua es un componente del SVS. || Verdadero || La mejora continua es uno de los 5 componentes centrales del SVS.
 :::

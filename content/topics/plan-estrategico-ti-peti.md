@@ -33,13 +33,13 @@ El PETI debe estar alineado con el Plan Estrategico Institucional (PEI) de la or
 
 | PEI (Negocio) | PETI (TI) |
 |---------------|-----------|
-| Aumentar ventas en 20% | Implementar CRM y e-commerce |
-| Reducir costos operativos | Automatizar procesos con RPA |
+| Aumentar ventas en 20% | Implementar CRM (Customer Relationship Management: sistema para gestionar la relacion con clientes) y comercio electronico |
+| Reducir costos operativos | Automatizar procesos con RPA (Robotic Process Automation: software que automatiza tareas repetitivas) |
 | Mejorar experiencia del cliente | Portal unificado y app movil |
 | Cumplir regulaciones | Implementar seguridad y auditoria |
 
 ### 3. Objetivos Estrategicos de TI
-Deben ser SMART (Specific, Measurable, Achievable, Relevant, Time-bound).
+Deben ser SMART: **S**pecific (especificos), **M**easurable (medibles), **A**chievable (alcanzables), **R**elevant (relevantes), **T**ime-bound (con plazo definido).
 
 ### 4. Iniciativas Estrategicas
 Proyectos y programas que materializan los objetivos.
@@ -48,10 +48,14 @@ Proyectos y programas que materializan los objetivos.
 Presupuesto, personal, infraestructura, proveedores.
 
 ### 6. Indicadores (KPIs)
-Metricas que miden el avance y el impacto de TI.
+Metricas que miden el avance y el impacto de TI. KPI significa Key Performance Indicator: indicador clave de desempeno.
 
 :::callout warning
 Un PETI sin indicadores medibles es solo un documento bonito. Cada iniciativa debe tener KPIs claros con metas definidas.
+:::
+
+:::definition Quick Win
+Victoria rapida: mejora de bajo esfuerzo y alto impacto visible que se logra en poco tiempo. Los Quick Wins generan confianza en el plan estrategico y momentum para las iniciativas mas grandes.
 :::
 
 ## Metodologia de Desarrollo del PETI

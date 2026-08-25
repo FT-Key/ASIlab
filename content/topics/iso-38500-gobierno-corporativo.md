@@ -51,7 +51,7 @@ Los directivos deben revisar y aprobar la estrategia de TI, y asegurar que la es
 
 ### 3. Adquisicion
 :::definition Adquisicion (ISO 38500)
-Las adquisiciones de TI deben ser oportunas,法制 y manejo de riesgos. Los procesos de adquisicion deben ser transparentes y justos.
+Las adquisiciones de TI deben realizarse por necesidad real del negocio, de forma oportuna, transparente y justa, considerando el costo total de propiedad y el manejo de riesgos. Los procesos de compra no deben favorecer intereses particulares.
 :::
 
 ### 4. Desempeno
@@ -75,7 +75,7 @@ El uso de TI debe considerar el comportamiento humano. Los sistemas deben disena
 |----------|-------------|
 | Estrategia | La TI apoya la estrategia del negocio |
 | Valor | La TI genera valor para la organizacion |
-| Balanced | La TI equilibra beneficios, oportunidades y costos |
+| Equilibrio | La TI equilibra beneficios, oportunidades, costos y riesgos |
 | Responsabilidad | Los roles de gobierno estan claros |
 | Cumplimiento | La TI cumple con leyes y regulaciones |
 | Comportamiento | La TI considera el factor humano |
@@ -95,11 +95,12 @@ Para implementar ISO 38500: (1) Evaluar el estado actual de TI, (2) Establecer u
 :::
 
 :::match Principios ISO 38500
-- Responsabilidad | Quien toma las decisiones de TI
+- Responsabilidad | Cada directivo responde por el uso de TI en su area
 - Estrategia | Alineamiento con objetivos del negocio
-- Adquisicion | Decisiones de compra de TI
-- Desempeno | Medicion y optimizacion de sistemas
+- Adquisicion | Compras de TI justas, transparentes y por necesidad real
+- Desempeno | Sistemas eficientes y efectivos para el negocio
 - Conformidad | Cumplimiento de leyes y regulaciones
+- Comportamiento Humano | Diseno de sistemas pensando en las personas
 :::
 
 :::essay Analisis de Gobierno TI

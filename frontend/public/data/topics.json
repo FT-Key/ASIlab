@@ -1,9 +1,9 @@
 {
   "meta": {
     "version": 1,
-    "lastUpdated": "2026-08-22",
+    "lastUpdated": "2026-08-25",
     "source": "content/topics/*.md",
-    "description": "Generado por backend/src/convert/build.js desde archivos Markdown. Los temas se editan en content/topics/ y luego se corre npm run build:content."
+    "description": "Generado por build.js"
   },
   "categories": [],
   "topics": [
@@ -21,7 +21,7 @@
         "caso-estudio",
         "industria",
         "produccion",
-        "transformation-digital"
+        "transformacion-digital"
       ],
       "keyTakeaway": "La administracion de SI en sector industrial requiere alinear la tecnologia con los procesos productivos, la cadena de suministro y la gestion de calidad para generar ventaja competitiva.",
       "sources": [
@@ -46,7 +46,12 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Este caso de estudio analiza la transformation digital de un ingenio azucarero colombiano, donde los sistemas de informacion pasaron de ser herramientas de soporte a componentes estrategicos del negocio."
+              "text": "Este caso de estudio analiza la transformacion digital de un ingenio azucarero colombiano, donde los sistemas de informacion pasaron de ser herramientas de soporte a componentes estrategicos del negocio."
+            },
+            {
+              "type": "definition",
+              "term": "Transformacion Digital",
+              "text": "Proceso por el cual una organizacion integra tecnologias digitales en todas sus areas, cambiando la forma en que opera y entrega valor. No es solo comprar computadores: es rediseñar procesos y cultura alrededor de los datos y los sistemas."
             },
             {
               "type": "paragraph",
@@ -124,9 +129,49 @@
               ]
             },
             {
+              "type": "paragraph",
+              "text": "Estas siglas nombran tipos de sistemas que debes saber distinguir. Cada uno resuelve una necesidad distinta:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "SCADA (Supervisory Control And Data Acquisition) — Sistema que supervisa y controla maquinas y procesos industriales en tiempo real: lee sensores (temperatura, presion, flujo) y permite operar la planta desde pantallas de control. Si se cae, la planta se detiene.",
+                "ERP (Enterprise Resource Planning) — Sistema que integra en una sola base de datos las areas administrativas de la empresa: finanzas, recursos humanos, compras, inventarios y contabilidad. Su valor es que toda el area administrativa trabaje con la misma informacion.",
+                "MES (Manufacturing Execution System) — Sistema que gestiona la produccion en tiempo real dentro de la planta: ordenes de fabricacion, trazabilidad de lotes y rendimiento de las lineas. Es el puente entre el piso de planta (SCADA) y la administracion (ERP).",
+                "LIMS (Laboratory Information Management System) — Sistema que administra la informacion del laboratorio de calidad: muestras, analisis fisicoquimicos, resultados y certificaciones del producto.",
+                "WMS (Warehouse Management System) — Sistema que gestiona el almacen: ubicaciones, entradas, salidas y despachos de inventario.",
+                "BI (Business Intelligence) — Herramienta de analisis que consolida datos de los demas sistemas para generar tableros, reportes e indicadores que apoyan la toma de decisiones gerenciales."
+              ]
+            },
+            {
               "type": "callout",
               "tone": "warning",
               "text": "Un fallo en el sistema SCADA puede detener toda la produccion, generando perdidas de miles de dolares por hora. La disponibilidad de estos sistemas es critica."
+            }
+          ]
+        },
+        {
+          "id": "conceptos-financieros-y-de-gestion-del-caso",
+          "title": "Conceptos Financieros y de Gestion del Caso",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Ademas de los sistemas, el caso usa terminos de gestion que debes manejar:"
+            },
+            {
+              "type": "definition",
+              "term": "ROI (Return on Investment)",
+              "text": "Retorno de la inversion. Mide cuanto gana un proyecto respecto a lo que costo: ROI = (Beneficios - Costos) / Costos x 100. Un ROI positivo indica que la inversion dejo mas dinero del que consumio."
+            },
+            {
+              "type": "definition",
+              "term": "KPI (Key Performance Indicator)",
+              "text": "Indicador clave de desempeno. Metrica que mide que tan bien esta logrando una organizacion o proceso sus objetivos (ejemplo: toneladas de azucar producidas por dia, porcentaje de disponibilidad del sistema)."
+            },
+            {
+              "type": "definition",
+              "term": "SLA (Service Level Agreement)",
+              "text": "Acuerdo de nivel de servicio. Compromiso formal entre el proveedor de un servicio y el cliente sobre los niveles esperados (disponibilidad, tiempos de respuesta) y las sanciones si no se cumplen. Ejemplo: \"el sistema estara disponible el 99.5% del tiempo\"."
             }
           ]
         },
@@ -140,14 +185,14 @@
                 "Reduccion de costos operativos mediante automatizacion de procesos",
                 "Mejora en la toma de decisiones con datos en tiempo real",
                 "Cumplimiento normativo en areas ambientales y de seguridad",
-                "Sostenibilidad a traves de la generacion de energia con bagazo",
+                "Sostenibilidad a traves de la generacion de energia con bagazo: los ingenios modernos queman el bagazo (residuo fibroso de la cana) en calderas para generar electricidad y pueden autoabastecer entre el 80% y el 90% de su demanda energetica",
                 "Competitividad en mercados internacionales"
               ],
               "ordered": true
             },
             {
               "type": "flow",
-              "title": "Proceso de Transformation Digital",
+              "title": "Proceso de Transformacion Digital",
               "steps": [
                 "Diagnostico del estado actual de TI",
                 "Definicion de la estrategia digital",
@@ -200,7 +245,7 @@
                   "explanation": "Los ingenios modernos pueden autoabastecerse hasta el 90% de su demanda energetica con bagazo."
                 },
                 {
-                  "question": "¿Cual es el primer paso en una transformation digital?",
+                  "question": "¿Cual es el primer paso en una transformacion digital?",
                   "options": [
                     "Comprar hardware",
                     "Capacitar personal",
@@ -263,7 +308,7 @@
                   "title": "Desarrollo a Medida",
                   "prompt": "Desarrollar a medida da control total pero requiere equipo tecnico propio y mantenimiento continuo.",
                   "isFinal": true,
-                  "verdict": "Opcion viable para procesos muy especificos, pero costly a largo plazo.",
+                  "verdict": "Opcion viable para procesos muy especificos, pero costosa a largo plazo.",
                   "options": []
                 },
                 {
@@ -279,7 +324,7 @@
                   "title": "Fases",
                   "prompt": "Implementacion por fases: primero finanzas, luego produccion, luego logistica.",
                   "isFinal": true,
-                  "verdict": "Balance entre rapidez y completitud. Permite learning organization.",
+                  "verdict": "Balance entre rapidez y completitud. Permite que la organizacion aprenda y se adapte en cada etapa.",
                   "options": []
                 }
               ]
@@ -290,11 +335,11 @@
               "pairs": [
                 {
                   "left": "ERP",
-                  "right": "Sistema de planificacion de recursos"
+                  "right": "Sistema de planificacion de recursos empresariales (finanzas, RRHH, compras)"
                 },
                 {
                   "left": "ROI",
-                  "right": "Retorno de inversion"
+                  "right": "Retorno de inversion: ganancia respecto a lo invertido"
                 },
                 {
                   "left": "KPI",
@@ -307,22 +352,6 @@
               ]
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-01",
-          "title": "Caso de Estudio Ingenio Azucarero - Universidad Agustiniana",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento de clase U1 con el caso de estudio del ingenio azucarero colombiano."
-        },
-        {
-          "id": "res-02",
-          "title": "Fabricacion de Azucar - Acciones Proactivas",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "link",
-          "description": "Documento U1 sobre acciones proactivas en la fabricacion de azucar."
         }
       ]
     },
@@ -415,7 +444,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Segun研究 de Harvard Business Review, las organizaciones que alinean TI con el negocio tienen 38% mas probabilidad de superar a sus competidores en rentabilidad."
+              "text": "Segun estudios de Harvard Business Review, las organizaciones que alinean TI con el negocio tienen 38% mas probabilidad de superar a sus competidores en rentabilidad."
             }
           ]
         },
@@ -431,7 +460,7 @@
               "type": "list",
               "items": [
                 "Estrategia del negocio — Mision, vision, objetivos",
-                "Estrategia de TI — Arquitectura, infraestructura, applications",
+                "Estrategia de TI — Arquitectura, infraestructura, aplicaciones",
                 "Infraestructura organizacional — Estructura, procesos, cultura",
                 "Infraestructura de TI — Hardware, red, plataformas"
               ],
@@ -508,7 +537,7 @@
               "items": [
                 "Estructura de gobierno — Comites, roles, responsabilidades",
                 "Procesos de decision — Aprobacion de proyectos, asignacion de recursos",
-                "Medicion de desempeno — KPIs, balanced scorecard",
+                "Medicion de desempeno — KPIs y balanced scorecard (BSC: tablero de mando integral que organiza los indicadores en perspectivas financieras, de clientes, de procesos y de aprendizaje)",
                 "Gestion de riesgos — Evaluacion y mitigacion de riesgos de TI"
               ]
             },
@@ -629,22 +658,6 @@
             }
           ]
         }
-      ],
-      "resources": [
-        {
-          "id": "res-03",
-          "title": "El Valor de Negocio en la Administracion de TI",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U21 sobre el valor de negocio de la administracion de TI."
-        },
-        {
-          "id": "res-04",
-          "title": "COBIT 2019 Framework - ISACA",
-          "url": "https://www.isaca.org",
-          "type": "book",
-          "description": "Marco oficial de gobierno y gestion de TI de ISACA."
-        }
       ]
     },
     {
@@ -739,6 +752,11 @@
               "type": "callout",
               "tone": "warning",
               "text": "Estos marcos no son excluyentes. Las organizaciones maduras utilizan los tres de forma complementaria: COBIT para el gobierno, ITIL para la operacion de servicios, e ISO 38500 para establecer principios."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Otros marcos que acompanan estos tres durante el curso: **PMBOK** (gestion de proyectos) e **ISO 27001** (seguridad de la informacion). No son marcos de gobierno de TI, pero se integran con ellos."
             }
           ]
         },
@@ -748,15 +766,72 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "COBIT (Control Objectives for Information and Related Technologies) es el framework mas completo para el gobierno y gestion de TI. Sus componentes principales:"
+              "text": "COBIT (Control Objectives for Information and Related Technologies) es el framework mas completo para el gobierno y gestion de TI, publicado por ISACA. Sus componentes principales:"
+            },
+            {
+              "type": "heading",
+              "text": "Los 5 Dominios"
+            },
+            {
+              "type": "paragraph",
+              "text": "Los dominios agrupan los procesos por su proposito. Cada sigla indica las actividades que cubre:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Dominio",
+                "Significado",
+                "Que hace",
+                "Tipo"
+              ],
+              "rows": [
+                [
+                  "EDM",
+                  "Evaluar, Dirigir y Monitorear",
+                  "El tablero directivo evalua la estrategia, dirige su ejecucion y monitorea los resultados",
+                  "Gobierno"
+                ],
+                [
+                  "APO",
+                  "Alinear, Planificar y Organizar",
+                  "Prepara la estrategia de TI, el presupuesto, la organizacion y los recursos para ejecutarla",
+                  "Gestion"
+                ],
+                [
+                  "BAI",
+                  "Construir, Adquirir e Implementar",
+                  "Desarrolla o compra soluciones y las pone en operacion",
+                  "Gestion"
+                ],
+                [
+                  "DSS",
+                  "Entregar, Servir y Soportar",
+                  "Opera los servicios dia a dia y da soporte a los usuarios",
+                  "Gestion"
+                ],
+                [
+                  "MEA",
+                  "Monitorear, Evaluar y Valorar",
+                  "Mide el desempeno, verifica el cumplimiento y reporta al gobierno",
+                  "Gestion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Diferencia clave: EDM es el unico dominio de GOBIERNO (lo ejerce la alta direccion). Los otros cuatro son de GESTION (los ejecutan los equipos operativos)."
+            },
+            {
+              "type": "heading",
+              "text": "Otros componentes"
             },
             {
               "type": "list",
               "items": [
-                "5 Dominios: EDM (Evaluar, Dirigir, Monitorear), APO (Alinear, Planificar y Organizar), BAI (Construir, Adquirir e Implementar), DSS (Entregar, Servir y Soportar), MEA (Monitorear, Evaluar y Valorar)",
-                "40 Objetivos de Gobierno y Gestion",
-                "5 Dominios de Habilidades: Procesos, Estructura Organizacional, Informacion, Personas, Politicas",
-                "Sistema de Metricas: Unidades de Desempeno y Fuentes de Evidencia"
+                "40 Objetivos de Gobierno y Gestion: cada uno es un proceso con metas concretas (ejemplo: APO12 Gestionar el riesgo), distribuidos asi: 5 en EDM, 14 en APO, 11 en BAI, 6 en DSS y 4 en MEA.",
+                "Factores de diseño: caracteristicas de la organizacion (tamano, estrategia, perfil de riesgo) que determinan COMO configurar el gobierno; no hay una receta unica.",
+                "Sistema de metricas: cascada de metas donde cada objetivo tiene metricas (unidades de desempeno) y evidencias que prueban si se cumplio."
               ]
             }
           ]
@@ -767,15 +842,65 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "ITIL (Information Technology Infrastructure Library) se enfoca en la gestion de servicios de TI. Su modelo de valor incluye:"
+              "text": "ITIL (Information Technology Infrastructure Library) se enfoca en la gestion de servicios de TI: como diseñar, entregar y mejorar los servicios que los usuarios consumen."
+            },
+            {
+              "type": "heading",
+              "text": "Las 4 Dimensiones"
+            },
+            {
+              "type": "paragraph",
+              "text": "Son las perspectivas que SIEMPRE debes considerar al gestionar un servicio; omitir una causa fallas:"
             },
             {
               "type": "list",
               "items": [
-                "4 Dimensiones: Organizacion y Personas, Procesos y Flujos de Trabajo, Tecnologia y Herramientas, Socios y Proveedores",
-                "5 Componentes del SVS: Estrategia de Servicio, Cadena de Valor, Practicas, Gobierno y Controles, Mejora Continua",
-                "Principios Guia: Enfoque en el valor, Empezar donde estas, Progresar de forma iterativa, Visibilidad y transparencia, Trabajar y pensar de forma integral, Simplificar y practicar, Optimizar y automatizar"
-              ]
+                "Organizacion y Personas — estructura, roles, cultura y habilidades del equipo",
+                "Informacion y Tecnologia — datos, conocimiento y herramientas necesarias",
+                "Socios y Proveedores — contratos y relaciones con terceros",
+                "Flujos de Valor y Procesos — actividades organizadas para entregar el servicio"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "Los 5 Componentes del SVS (Sistema de Valor de Servicio)"
+            },
+            {
+              "type": "paragraph",
+              "text": "El SVS describe como la organizacion convierte la demanda en valor:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Estrategia de Servicio — decide que servicios ofrecer y hacia donde ir",
+                "Cadena de Valor del Servicio — modelo operativo con las actividades para crear y entregar el valor",
+                "Practicas de Gestion — conjuntos de recursos y procesos para realizar el trabajo (ejemplo: gestion de incidentes)",
+                "Gobierno y Controles — direccion, evaluacion y monitoreo del sistema",
+                "Mejora Continua — evolucion constante de productos, servicios y practicas"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "Los Principios Guia"
+            },
+            {
+              "type": "paragraph",
+              "text": "Recomendaciones universales que orientan las decisiones:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Enfoque en el valor — Todo lo que hagamos debe crear valor para el negocio y los clientes",
+                "Empezar donde estas — No reinventar la rueda; evaluar el contexto actual",
+                "Progresar de forma iterativa — Avanzar en ciclos con retroalimentacion, no en grandes saltos",
+                "Colaborar y promover la visibilidad — Trabajar con otros y hacer transparentes los resultados",
+                "Pensar y trabajar de forma integral — Evitar el trabajo en silos; el servicio es un todo",
+                "Simplificar y practicar — Procesos simples y practicos, eliminar lo que no agrega valor",
+                "Optimizar y automatizar — Mejorar continuamente y automatizar donde sea posible"
+              ],
+              "ordered": true
             }
           ]
         },
@@ -785,17 +910,17 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "ISO 38500 es una norma internacional que establece principios para el gobierno corporativo de TI. Sus 6 principios:"
+              "text": "ISO/IEC 38500 es una norma internacional que establece principios para el gobierno corporativo de TI. Define QUE debe cuidar la alta direccion al usar TI (no entra en detalles tecnicos). Sus 6 principios, explicados brevemente (en la unidad de ISO 38500 se profundiza en cada uno):"
             },
             {
               "type": "list",
               "items": [
-                "Responsabilidad — Los directivos son responsables del uso de TI",
-                "Estrategia — La TI debe soportar la estrategia del negocio",
-                "Adquisicion — Las adquisiciones de TI deben ser correctas",
-                "Desempeno — Los sistemas de TI deben operar eficientemente",
-                "Conformidad — El uso de TI debe cumplir leyes y regulaciones",
-                "Comportamiento — El comportamiento humano debe ser considerado"
+                "Responsabilidad — Cada directivo responde por el uso de TI en su area y debe rendir cuentas de forma transparente",
+                "Estrategia — La TI debe planificarse para soportar los objetivos del negocio",
+                "Adquisicion — Las compras de TI deben ser justas, transparentes y basadas en necesidades reales",
+                "Desempeno — Los sistemas deben funcionar de forma eficiente y efectiva para el negocio",
+                "Conformidad — El uso de TI debe cumplir leyes, regulaciones y politicas aplicables",
+                "Comportamiento Humano — Los sistemas deben disenarse considerando a las personas que los usaran"
               ],
               "ordered": true
             },
@@ -899,22 +1024,6 @@
             }
           ]
         }
-      ],
-      "resources": [
-        {
-          "id": "res-05",
-          "title": "Introduccion a COBIT, ITIL e ISO 38500",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U22 con introduccion a los tres marcos de referencia."
-        },
-        {
-          "id": "res-06",
-          "title": "ISO/IEC 38500:2015 - IT Governance",
-          "url": "https://www.iso.org/standard/68083.html",
-          "type": "norma",
-          "description": "Norma internacional de gobierno corporativo de TI."
-        }
       ]
     },
     {
@@ -994,11 +1103,11 @@
               "rows": [
                 [
                   "Aumentar ventas en 20%",
-                  "Implementar CRM y e-commerce"
+                  "Implementar CRM (Customer Relationship Management: sistema para gestionar la relacion con clientes) y comercio electronico"
                 ],
                 [
                   "Reducir costos operativos",
-                  "Automatizar procesos con RPA"
+                  "Automatizar procesos con RPA (Robotic Process Automation: software que automatiza tareas repetitivas)"
                 ],
                 [
                   "Mejorar experiencia del cliente",
@@ -1016,7 +1125,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Deben ser SMART (Specific, Measurable, Achievable, Relevant, Time-bound)."
+              "text": "Deben ser SMART: Specific (especificos), Measurable (medibles), Achievable (alcanzables), Relevant (relevantes), Time-bound (con plazo definido)."
             },
             {
               "type": "heading",
@@ -1040,12 +1149,17 @@
             },
             {
               "type": "paragraph",
-              "text": "Metricas que miden el avance y el impacto de TI."
+              "text": "Metricas que miden el avance y el impacto de TI. KPI significa Key Performance Indicator: indicador clave de desempeno."
             },
             {
               "type": "callout",
               "tone": "warning",
               "text": "Un PETI sin indicadores medibles es solo un documento bonito. Cada iniciativa debe tener KPIs claros con metas definidas."
+            },
+            {
+              "type": "definition",
+              "term": "Quick Win",
+              "text": "Victoria rapida: mejora de bajo esfuerzo y alto impacto visible que se logra en poco tiempo. Los Quick Wins generan confianza en el plan estrategico y momentum para las iniciativas mas grandes."
             }
           ]
         },
@@ -1231,15 +1345,6 @@
             }
           ]
         }
-      ],
-      "resources": [
-        {
-          "id": "res-07",
-          "title": "Plan Estrategico de TI (PETI)",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U23 sobre planificacion estrategica de TI."
-        }
       ]
     },
     {
@@ -1347,7 +1452,7 @@
             {
               "type": "definition",
               "term": "Adquisicion (ISO 38500)",
-              "text": "Las adquisiciones de TI deben ser oportunas,法制 y manejo de riesgos. Los procesos de adquisicion deben ser transparentes y justos."
+              "text": "Las adquisiciones de TI deben realizarse por necesidad real del negocio, de forma oportuna, transparente y justa, considerando el costo total de propiedad y el manejo de riesgos. Los procesos de compra no deben favorecer intereses particulares."
             },
             {
               "type": "heading",
@@ -1398,8 +1503,8 @@
                   "La TI genera valor para la organizacion"
                 ],
                 [
-                  "Balanced",
-                  "La TI equilibra beneficios, oportunidades y costos"
+                  "Equilibrio",
+                  "La TI equilibra beneficios, oportunidades, costos y riesgos"
                 ],
                 [
                   "Responsabilidad",
@@ -1477,7 +1582,7 @@
               "pairs": [
                 {
                   "left": "Responsabilidad",
-                  "right": "Quien toma las decisiones de TI"
+                  "right": "Cada directivo responde por el uso de TI en su area"
                 },
                 {
                   "left": "Estrategia",
@@ -1485,15 +1590,19 @@
                 },
                 {
                   "left": "Adquisicion",
-                  "right": "Decisiones de compra de TI"
+                  "right": "Compras de TI justas, transparentes y por necesidad real"
                 },
                 {
                   "left": "Desempeno",
-                  "right": "Medicion y optimizacion de sistemas"
+                  "right": "Sistemas eficientes y efectivos para el negocio"
                 },
                 {
                   "left": "Conformidad",
                   "right": "Cumplimiento de leyes y regulaciones"
+                },
+                {
+                  "left": "Comportamiento Humano",
+                  "right": "Diseno de sistemas pensando en las personas"
                 }
               ]
             },
@@ -1524,22 +1633,6 @@
               ]
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-08",
-          "title": "Que es la ISO 38500",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U24 sobre la norma ISO 38500."
-        },
-        {
-          "id": "res-09",
-          "title": "ISO 38500 - Buen Gobierno de las TIC",
-          "url": "https://www.iso.org",
-          "type": "norma",
-          "description": "PDF sobre el gobierno corporativo de las tecnologias de la informacion segun ISO."
         }
       ]
     },
@@ -1611,11 +1704,66 @@
               "title": "5 Componentes del SVS",
               "steps": [
                 "Estrategia de Servicio (que servicios ofrecer)",
-                "Cadena de Valor (como entregar valor)",
+                "Cadena de Valor del Servicio (como entregar valor)",
                 "Practicas de Gestion (herramientas y procesos)",
                 "Gobierno y Controles (direccion y regulacion)",
                 "Mejora Continua (evolucion constante)"
               ]
+            },
+            {
+              "type": "heading",
+              "text": "La Cadena de Valor del Servicio"
+            },
+            {
+              "type": "paragraph",
+              "text": "Es el modelo operativo del SVS: un conjunto interconectado de 6 actividades que transforman las demandas (inputs) en productos y servicios (outputs):"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Actividad",
+                "Que hace"
+              ],
+              "rows": [
+                [
+                  "Planificar",
+                  "Alinear la cadena con la estrategia"
+                ],
+                [
+                  "Mejorar",
+                  "Mejora continua en toda la cadena"
+                ],
+                [
+                  "Involucrar (Engagement)",
+                  "Interactuar con usuarios y stakeholders"
+                ],
+                [
+                  "Disenar y Transicionar",
+                  "Crear o modificar servicios"
+                ],
+                [
+                  "Obtener/Construir",
+                  "Comprar o desarrollar componentes"
+                ],
+                [
+                  "Entregar y Soportar",
+                  "Operar el servicio y dar soporte"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Servicios y Ofertas de Servicio"
+            },
+            {
+              "type": "definition",
+              "term": "Servicio (ITIL 4)",
+              "text": "Medio para habilitar la creacion de valor co-creado con el consumidor, sin que este tenga que asumir costos o riesgos especificos."
+            },
+            {
+              "type": "definition",
+              "term": "Oferta de Servicio (Service Offering)",
+              "text": "Paquete formal que la organizacion presenta al cliente e incluye uno o mas servicios y productos, combinados para atender una necesidad concreta. Puede incluir bienes, acceso a recursos y acciones de servicio (ejemplo: plan de internet + router + soporte 24/7)."
             }
           ]
         },
@@ -1623,6 +1771,10 @@
           "id": "las-4-dimensiones-de-itil",
           "title": "Las 4 Dimensiones de ITIL",
           "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Las dimensiones son perspectivas que deben equilibrarse en TODA decision sobre servicios:"
+            },
             {
               "type": "table",
               "columns": [
@@ -1637,19 +1789,19 @@
                   "Departamento de TI, capacitacion"
                 ],
                 [
-                  "Procesos y Flujos de Trabajo",
-                  "Procesos, procedimientos, flujos de trabajo",
-                  "Gestion de incidentes, cambios"
-                ],
-                [
-                  "Tecnologia y Herramientas",
-                  "Herramientas, plataformas, aplicaciones",
-                  "ServiceNow, Jira, SAP"
+                  "Informacion y Tecnologia",
+                  "Datos, conocimiento, herramientas y plataformas",
+                  "ServiceNow, Jira, SAP, base de datos de configuracion"
                 ],
                 [
                   "Socios y Proveedores",
                   "Relaciones con proveedores, contratos",
                   "SLA con Microsoft, AWS"
+                ],
+                [
+                  "Flujos de Valor y Procesos",
+                  "Actividades y flujos organizados para entregar valor",
+                  "Gestion de incidentes, cambios"
                 ]
               ]
             },
@@ -1731,7 +1883,7 @@
                     "5"
                   ],
                   "answer": 2,
-                  "explanation": "ITIL 4 tiene 4 dimensiones: Organizacion y Personas, Procesos, Tecnologia, Socios y Proveedores."
+                  "explanation": "ITIL 4 tiene 4 dimensiones: Organizacion y Personas, Informacion y Tecnologia, Socios y Proveedores, y Flujos de Valor y Procesos."
                 },
                 {
                   "question": "¿Cuantas practicas tiene ITIL 4?",
@@ -1745,27 +1897,28 @@
                   "explanation": "ITIL 4 tiene 34 practicas de gestion."
                 },
                 {
-                  "question": "¿Cual es el componente central del SVS?",
+                  "question": "¿Cuantas actividades tiene la Cadena de Valor del Servicio?",
                   "options": [
-                    "Cadena de Valor",
-                    "Estrategia de Servicio",
-                    "Practicas",
-                    "Mejora Continua"
+                    "4",
+                    "5",
+                    "6",
+                    "7"
                   ],
-                  "answer": 0,
-                  "explanation": "La Estrategia de Servicio es el componente central que dirige todas las demas actividades del SVS."
+                  "answer": 2,
+                  "explanation": "Son 6: Planificar, Mejorar, Involucrar, Disenar y Transicionar, Obtener/Construir, y Entregar y Soportar."
                 }
               ]
             },
             {
               "type": "sort",
-              "title": "Ordena los valores de ITIL 4",
+              "title": "Principios Guia de ITIL 4 (en orden)",
               "items": [
-                "Enfocarse en el valor",
+                "Enfoque en el valor",
                 "Empezar donde estas",
                 "Progresar de forma iterativa",
-                "Desarrollar visualmente",
-                "Mantenerlo simple y practico",
+                "Colaborar y promover la visibilidad",
+                "Pensar y trabajar de forma integral",
+                "Simplificar y practicar",
                 "Optimizar y automatizar"
               ]
             },
@@ -1785,46 +1938,30 @@
                   "explanation": "ITIL 4 introduce la cadena de valor como modelo operativo."
                 },
                 {
-                  "question": "Cuantos componentes tiene la cadena de valor?",
+                  "question": "Cuantos componentes tiene el SVS?",
                   "options": [
                     "4",
-                    "6",
+                    "5",
                     "8",
                     "10"
                   ],
                   "answer": 1,
-                  "explanation": "6 componentes: planificar, mejorar, involucrar, diseno y transicion, obtener/construir, entregar y soportar."
+                  "explanation": "5 componentes: Estrategia de Servicio, Cadena de Valor del Servicio, Practicas de Gestion, Gobierno y Controles, y Mejora Continua."
                 },
                 {
                   "question": "Que es un service offering en ITIL 4?",
                   "options": [
                     "Un ticket de soporte",
-                    "Un paquete de servicios que ofrece la organizacion",
+                    "Un paquete formal de servicios y productos que se ofrece al cliente",
                     "Una auditoria",
                     "Un contrato"
                   ],
                   "answer": 1,
-                  "explanation": "Un service offering es un paquete que incluye productos, servicios y soporte."
+                  "explanation": "Un service offering combina servicios, productos y acciones de servicio para atender una necesidad concreta."
                 }
               ]
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-10",
-          "title": "Que es ITIL",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U25 sobre ITIL y sus dimensiones."
-        },
-        {
-          "id": "res-11",
-          "title": "ITIL 4 Foundation - Axelos",
-          "url": "https://www.axelos.com/certifications/itil-service-management",
-          "type": "book",
-          "description": "Certificacion oficial ITIL 4 Foundation."
         }
       ]
     },
@@ -1957,7 +2094,7 @@
             },
             {
               "type": "paragraph",
-              "text": "BAI01 Gestionar el programa de cambios, BAI02 Gestionar la definicion de requisitos, BAI03 Gestionar la solucion de problemas, BAI10 Gestionar la configuracion, BAI11 Gestionar los proyectos."
+              "text": "BAI01 Gestionar el programa de cambios, BAI02 Gestionar la definicion de requisitos, BAI03 Gestionar la identificacion y construccion de soluciones, BAI10 Gestionar la configuracion, BAI11 Gestionar los proyectos."
             },
             {
               "type": "heading",
@@ -2025,6 +2162,74 @@
               "type": "callout",
               "tone": "warning",
               "text": "COBIT 2019 NO exige alcanzar nivel 5 en todos los procesos. El nivel objetivo depende de las necesidades del negocio y el contexto de la organizacion."
+            }
+          ]
+        },
+        {
+          "id": "los-principios-del-sistema-de-gobierno",
+          "title": "Los Principios del Sistema de Gobierno",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "COBIT 2019 establece 6 principios que debe cumplir un sistema de gobierno de TI. No basta con nombrarlos: debes poder explicar cada uno."
+            },
+            {
+              "type": "heading",
+              "text": "1. Proporcionar valor a las partes interesadas"
+            },
+            {
+              "type": "definition",
+              "term": "Valor a las partes interesadas",
+              "text": "El proposito del gobierno es crear valor para los stakeholders (accionistas, clientes, empleados). Esto se logra equilibrando tres elementos: beneficios, riesgo y recursos. Ademas, conecta las necesidades de las partes interesadas con metas empresariales y luego con metas de TI (cascada de metas)."
+            },
+            {
+              "type": "heading",
+              "text": "2. Enfoque holistico"
+            },
+            {
+              "type": "definition",
+              "term": "Enfoque holistico",
+              "text": "Un sistema de gobierno funciona solo si varios componentes trabajan JUNTOS: procesos, estructuras organizacionales, principios y politicas, informacion, cultura y personas. Optimizar un componente aisladamente no sirve; deben considerarse todos como un todo."
+            },
+            {
+              "type": "heading",
+              "text": "3. Sistema de gobierno dinamico"
+            },
+            {
+              "type": "definition",
+              "term": "Sistema de gobierno dinamico",
+              "text": "El gobierno no es estatico: sus actividades (Evaluar, Dirigir, Monitorear) interactuan continuamente con las actividades de gestion (Alinear/Planificar, Construir, Entregar). Ademas, cambios externos (nuevas regulaciones, tecnologia) o internos (estrategia) obligan a reajustar el sistema constantemente."
+            },
+            {
+              "type": "heading",
+              "text": "4. Gobierno separado de la gestion"
+            },
+            {
+              "type": "definition",
+              "term": "Gobierno separado de la gestion",
+              "text": "Son actividades DIFERENTES con responsables diferentes. El GOBIERNO (tablero directivo) evalua las necesidades, dirige la priorizacion y monitorea el desempeno. La GESTION (equipos operativos) planea, construye, ejecuta y mide las actividades alineadas con la direccion dada por el gobierno."
+            },
+            {
+              "type": "heading",
+              "text": "5. Sistema de gobierno de extremo a extremo"
+            },
+            {
+              "type": "definition",
+              "term": "Gobierno end-to-end",
+              "text": "El sistema de gobierno cubre TODA la organizacion, no solo el area de TI. Los procesos de negocio dependen de TI y viceversa: gobernar solo \"los computadores\" deja fuera decisiones clave sobre informacion y automatizacion dentro de los procesos del negocio."
+            },
+            {
+              "type": "heading",
+              "text": "6. Enfoque basado en informacion"
+            },
+            {
+              "type": "definition",
+              "term": "Basado en informacion",
+              "text": "La informacion es el elemento que sostiene el funcionamiento de la organizacion y su toma de decisiones. Cada proceso de COBIT produce y consume informacion, por eso el framework trata la informacion como base para mantener el gobierno funcionando y generar resultados.  ## Metas en Cascada (Goals Cascade)  :::definition Goals Cascade Mecanismo de COBIT para traducir las necesidades y metas de las partes interesadas en metas empresariales (del negocio), luego en metas de TI y finalmente en objetivos de proceso. Asi se garantiza que cada proceso de TI exista para servir a un objetivo real del negocio."
+            },
+            {
+              "type": "paragraph",
+              "text": "Ejemplo simplificado: el stakeholder quiere \"crecer ingresos\" (meta de interesados) → el negocio define \"expandir canal digital\" (meta empresarial) → TI define \"servicio e-commerce disponible 24/7\" (meta de TI) → activar procesos de continuidad y seguridad de COBIT (objetivos de proceso)."
             }
           ]
         },
@@ -2110,15 +2315,15 @@
               "title": "COBIT 2019",
               "questions": [
                 {
-                  "question": "Cuantos objetivos de gobierno tiene COBIT 2019?",
+                  "question": "Cuantos objetivos tiene el dominio EDM?",
                   "options": [
                     "3",
                     "5",
-                    "17",
-                    "25"
+                    "14",
+                    "11"
                   ],
-                  "answer": 2,
-                  "explanation": "COBIT 2019 define 17 objetivos de gobierno y gestion."
+                  "answer": 1,
+                  "explanation": "EDM tiene 5 objetivos (EDM01 a EDM05) y es el unico dominio de gobierno."
                 },
                 {
                   "question": "Que son los goals cascade en COBIT?",
@@ -2146,22 +2351,6 @@
             }
           ]
         }
-      ],
-      "resources": [
-        {
-          "id": "res-12",
-          "title": "Que es COBIT 2019",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U26 sobre COBIT 2019."
-        },
-        {
-          "id": "res-13",
-          "title": "COBIT 2019 Core Framework - ISACA",
-          "url": "https://www.isaca.org/resources/cobit",
-          "type": "book",
-          "description": "Documentacion oficial de COBIT 2019 de ISACA."
-        }
       ]
     },
     {
@@ -2173,14 +2362,14 @@
       "category": "gestion-proyectos",
       "difficulty": "intermedio",
       "order": 8,
-      "description": "Guia de los Fundamentos para la Gestion de Proyectos (PMBOK) Octava Edicion. Principios, dominios de desempeno, enfoques agiles y como gestionar proyectos de TI de forma efectiva.",
+      "description": "Guia PMBOK 8va Edicion (2025) de PMI. 6 principios, 7 dominios de desempeno, 40 procesos y enfoques hibridos para gestionar proyectos de TI de forma efectiva.",
       "tags": [
         "PMBOK",
         "gestion-proyectos",
         "dominios-desempeno",
         "agile"
       ],
-      "keyTakeaway": "PMBOK 8 introduce principios universales y dominios de desempeno que aplican a cualquier metodologia, integrando enfoques agiles y predictivos de forma hibrida.",
+      "keyTakeaway": "PMBOK 8 simplifica la guia a 6 principios fundamentales y 7 dominios de desempeno, reintroduciendo guia de procesos de forma no prescriptiva e integrando enfoques agiles y predictivos.",
       "sources": [
         {
           "title": "Gestion de Proyectos PMBOK 8",
@@ -2189,7 +2378,7 @@
           "description": "Documento U31"
         },
         {
-          "title": "Guia PMBOK 8va Edicion",
+          "title": "PMBOK Guide 8th Edition",
           "url": "https://www.pmi.org",
           "source": "PMI",
           "description": "Project Management Institute"
@@ -2208,80 +2397,91 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "PMBOK 8 (2021) es un cambio significativo respecto a ediciones anteriores. Pasa de 49 procesos a 8 principios y 8 dominios de desempeno, haciendose mas flexible e inclusivo de enfoques agiles."
+              "text": "PMBOK 8 (2025) es la edicion mas reciente. Simplifica la guia a 6 principios fundamentales y 7 dominios de desempeno, reintroduciendo guia de procesos de forma no prescriptiva. Retiene la base de la 7ma edicion pero la hace mas accionable."
             }
           ]
         },
         {
-          "id": "diferencias-clave-vs-pmbok-7",
-          "title": "Diferencias Clave vs PMBOK 7",
+          "id": "diferencias-clave-entre-ediciones",
+          "title": "Diferencias Clave entre Ediciones",
           "blocks": [
             {
               "type": "table",
               "columns": [
                 "Aspecto",
-                "PMBOK 7",
-                "PMBOK 8"
+                "PMBOK 6 (2017)",
+                "PMBOK 7 (2021)",
+                "PMBOK 8 (2025)"
               ],
               "rows": [
                 [
                   "Estructura",
                   "49 procesos en 5 grupos",
-                  "8 principios + 8 dominios"
+                  "12 principios + 8 dominios",
+                  "6 principios + 7 dominios + 40 procesos"
                 ],
                 [
                   "Enfoque",
-                  "Mayormente predictivo",
+                  "Predictivo",
+                  "Hibrido (agil + predictivo)",
                   "Hibrido (agil + predictivo)"
                 ],
                 [
                   "Entregables",
                   "Prescriptivo",
-                  "Orientado a valores"
+                  "Orientado a valores",
+                  "Orientado a valores + guia de procesos"
                 ],
                 [
-                  "Gestion de riesgos",
-                  "Basada en procesos",
-                  "Basada en principios"
-                ],
-                [
-                  "Personal",
-                  "Roles definidos",
-                  "Enfoque en liderazgo"
+                  "Procesos",
+                  "49 procesos definidos",
+                  "Sin procesos (solo principios y dominios)",
+                  "40 procesos reintroducidos de forma no prescriptiva"
                 ]
               ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "La 7ma edicion (2021) elimino los procesos y se enfoco solo en principios y dominios. La 8va edicion (2025) reintegra guia de procesos pero de forma flexible, no prescriptiva."
             }
           ]
         },
         {
-          "id": "los-8-principios-de-gestion-de-proyectos",
-          "title": "Los 8 Principios de Gestion de Proyectos",
+          "id": "los-6-principios-de-gestion-de-proyectos-pmbok-8",
+          "title": "Los 6 Principios de Gestion de Proyectos (PMBOK 8)",
           "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Los principios guian el comportamiento y las decisiones del equipo del proyecto, sin importar la metodologia utilizada:"
+            },
             {
               "type": "list",
               "items": [
-                "Ser un grupo de personas diligent, respetuoso y compasivo — Liderazgo con empatia",
-                "Enfocarse en el valor — Todo proyecto debe generar valor medible",
-                "Reconocer, integrar y liderar a las partes interesadas — Stakeholder engagement",
-                "Promover una cultura de confianza y ucz — Ambiente psicologico seguro",
-                "Cultivar un equipo de alto desempeno —Equipos auto-organizados y motivados",
-                "Integrar los procesos de manera sistemica — Pensamiento de sistemas",
-                "Adaptar el enfoque segun el contexto — No hay una unica forma correcta",
-                "La calidad es el enfoque — Calidad desde el inicio, no al final"
+                "Adoptar una vision holistica — El proyecto es parte de un sistema mayor; considerar todas las interacciones y contextos",
+                "Enfocarse en el valor — Todo proyecto debe generar valor medible para el negocio y las partes interesadas",
+                "Incorporar la gestion de responsabilidades (stewardship) — Actuar con integridad, cuidado y responsabilidad con los recursos y el entorno",
+                "Liderar con responsabilidad (lead accountably) — Demostrar liderazgo adaptativo y rendir cuentas de los resultados",
+                "Integrar la sostenibilidad — Considerar impactos ambientales, sociales y de gobernanza en las decisiones del proyecto",
+                "Construir equipos empoderados — Fomentar equipos colaborativos con autonomia y liderazgo compartido"
               ],
               "ordered": true
             },
             {
               "type": "callout",
               "tone": "idea",
-              "text": "Los principios de PMBOK 8 son agnosticos de metodologia. Aplican igual a proyectos waterfall, agile, hibridos o de cualquier tipo."
+              "text": "Los 6 principios de PMBOK 8 son agnosticos de metodologia. Aplican igual a proyectos waterfall, agile, hibridos o de cualquier tipo."
             }
           ]
         },
         {
-          "id": "los-8-dominios-de-desempeno",
-          "title": "Los 8 Dominios de Desempeno",
+          "id": "los-7-dominios-de-desempeno-pmbok-8",
+          "title": "Los 7 Dominios de Desempeno (PMBOK 8)",
           "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Los dominios son actividades interrelacionadas criticas para la entrega efectiva de resultados del proyecto:"
+            },
             {
               "type": "table",
               "columns": [
@@ -2290,49 +2490,49 @@
               ],
               "rows": [
                 [
-                  "Stakeholders",
-                  "Partes interesadas y sus necesidades"
+                  "Gobernanza",
+                  "Direccion, supervision y toma de decisiones del proyecto"
                 ],
                 [
-                  "Equipo",
-                  "Desarrollo y liderazgo del equipo"
+                  "Alcance",
+                  "Definicion y control de que incluye y que no incluye el proyecto"
                 ],
                 [
-                  "Enfoque y Ciclo de Vida",
-                  "Seleccion de metodologia y fases"
+                  "Cronograma",
+                  "Planificacion, secuenciacion y gestion del tiempo"
                 ],
                 [
-                  "Planificacion",
-                  "Alcance, cronograma, costos, riesgos"
+                  "Finanzas",
+                  "Presupuesto, control de costos y retorno de inversion"
                 ],
                 [
-                  "Proyecto de Trabajo",
-                  "Actividades tecnicas del proyecto"
+                  "Partes Interesadas (Stakeholders)",
+                  "Identificacion, involucramiento y gestion de stakeholders"
                 ],
                 [
-                  "Entrega de Valor",
-                  "Generacion de beneficios al negocio"
+                  "Recursos",
+                  "Gestion de personal, infraestructura y materiales"
                 ],
                 [
-                  "Medicion",
-                  "Metricas, KPIs e indicadores"
-                ],
-                [
-                  "Gestion de Incertidumbre",
-                  "Riesgos, oportunidades, volatilidad"
+                  "Riesgo",
+                  "Identificacion, evaluacion y respuesta a amenazas y oportunidades"
                 ]
               ]
             },
             {
-              "type": "flow",
-              "title": "Ciclo de Vida Hibrido",
-              "steps": [
-                "Inicio: Definir alcance y partes interesadas",
-                "Planificacion: Elegir enfoque (agil/predictivo)",
-                "Ejecucion: Trabajo iterativo o secuencial",
-                "Monitoreo: Metricas adaptativas",
-                "Cierre: Entrega de valor y lecciones aprendidas"
-              ]
+              "type": "callout",
+              "tone": "info",
+              "text": "PMBOK 8 reduce los dominios de 8 a 7 respecto a la 7ma edicion. El dominio \"Proyecto de Trabajo\" y \"Medicion\" se integran en los demas dominios."
+            }
+          ]
+        },
+        {
+          "id": "evolucion-de-areas-de-conocimiento-a-dominios",
+          "title": "Evolucion de Areas de Conocimiento a Dominios",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "En ediciones anteriores (PMBOK 6), el conocimiento se organizaba en 10 areas de conocimiento: integracion, alcance, cronograma (tiempo), costos, calidad, recursos, comunicaciones, riesgos, adquisiciones y partes interesadas. PMBOK 7 y 8 las reorganizan en dominios de desempeno, pero los conceptos base siguen siendo los mismos y por eso se estudian: definir QUE incluye el proyecto (alcance), planificar CUANDO (tiempo), CUANTO cuesta (costo), con que estandares (calidad) y contra que amenazas (riesgo)."
             }
           ]
         },
@@ -2378,6 +2578,17 @@
           ]
         },
         {
+          "id": "entregables",
+          "title": "Entregables",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Entregable (Deliverable)",
+              "text": "Cualquier producto, resultado o capacidad verificable que debe producirse para completar un proyecto o una fase. Ejemplos: un modulo de software terminado, un documento de requisitos aprobado, un servidor configurado."
+            }
+          ]
+        },
+        {
           "id": "autoevaluacion",
           "title": "Autoevaluacion",
           "blocks": [
@@ -2394,27 +2605,35 @@
             },
             {
               "type": "match",
-              "title": "Areas de conocimiento PMBOK",
+              "title": "Dominios de desempeno PMBOK 8",
               "pairs": [
                 {
+                  "left": "Gobernanza",
+                  "right": "Direccion y supervision del proyecto"
+                },
+                {
                   "left": "Alcance",
-                  "right": "Definir que incluye el proyecto"
+                  "right": "Que incluye y que no incluye el proyecto"
                 },
                 {
-                  "left": "Tiempo",
-                  "right": "Planificar cronograma"
+                  "left": "Cronograma",
+                  "right": "Gestion del tiempo y secuenciacion"
                 },
                 {
-                  "left": "Costo",
+                  "left": "Finanzas",
                   "right": "Presupuesto y control de costos"
                 },
                 {
-                  "left": "Calidad",
-                  "right": "Estandares y verificacion"
+                  "left": "Stakeholders",
+                  "right": "Gestion de partes interesadas"
+                },
+                {
+                  "left": "Recursos",
+                  "right": "Gestion de personal e infraestructura"
                 },
                 {
                   "left": "Riesgo",
-                  "right": "Identificar y mitigar amenazas"
+                  "right": "Amenazas y oportunidades"
                 }
               ]
             },
@@ -2423,57 +2642,66 @@
               "title": "PMBOK 8a Edicion",
               "questions": [
                 {
-                  "question": "Cuantas areas de conocimiento tiene PMBOK?",
+                  "question": "Cuantos principios tiene PMBOK 8?",
                   "options": [
-                    "5",
+                    "6",
                     "8",
                     "10",
-                    "13"
+                    "12"
+                  ],
+                  "answer": 0,
+                  "explanation": "PMBOK 8 tiene 6 principios fundamentales."
+                },
+                {
+                  "question": "Cuantos dominios de desempeno tiene PMBOK 8?",
+                  "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "8"
                   ],
                   "answer": 2,
-                  "explanation": "PMBOK 6ta edicion tiene 10 areas; la 8ta enfatiza principios sobre procesos."
+                  "explanation": "PMBOK 8 tiene 7 dominios de desempeno."
                 },
                 {
-                  "question": "Que es un deliverable?",
+                  "question": "Que reintroduce PMBOK 8 que la 7ma edicion elimino?",
                   "options": [
-                    "Una reunion",
-                    "Un producto o resultado verificable",
-                    "Un riesgo",
-                    "Un presupuesto"
+                    "Grupos de procesos",
+                    "Guia de procesos no prescriptiva",
+                    "49 procesos obligatorios",
+                    "Certificaciones"
                   ],
                   "answer": 1,
-                  "explanation": "Un deliverable es cualquier producto, resultado o capacidad para realizar un servicio."
-                },
-                {
-                  "question": "Cual es la diferencia principal de PMBOK 8?",
-                  "options": [
-                    "Mas procesos",
-                    "Enfoque en principios y resultados",
-                    "Solo Agile",
-                    "Menos documentacion"
-                  ],
-                  "answer": 1,
-                  "explanation": "PMBOK 8 prioriza principios flexibles sobre procesos rigidos."
+                  "explanation": "PMBOK 8 reintroduce guia de procesos de forma no prescriptiva."
                 }
               ]
+            },
+            {
+              "type": "truefalse",
+              "title": "PMBOK 8",
+              "tf": [
+                {
+                  "statement": "PMBOK 8 tiene 8 principios y 8 dominios.",
+                  "answer": false,
+                  "explanation": "PMBOK 8 tiene 6 principios y 7 dominios de desempeno."
+                },
+                {
+                  "statement": "PMBOK 8 es agnostico de metodologia.",
+                  "answer": true,
+                  "explanation": "Los principios y dominios aplican a cualquier enfoque (agile, predictivo, hibrido)."
+                },
+                {
+                  "statement": "La 7ma edicion elimino los procesos completamente.",
+                  "answer": true,
+                  "explanation": "PMBOK 7 se enfoco solo en principios y dominios, sin guia de procesos. La 8va los reintegra."
+                }
+              ]
+            },
+            {
+              "type": "arch",
+              "kind": "gobierno-ti"
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-14",
-          "title": "Gestion de Proyectos PMBOK 8",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U31 sobre la guia PMBOK 8va edicion."
-        },
-        {
-          "id": "res-15",
-          "title": "PMBOK Guide - 8th Edition - PMI",
-          "url": "https://www.pmi.org/pmbok-guide-standards/foundations/PMBOK",
-          "type": "book",
-          "description": "Guia oficial del Project Management Institute."
         }
       ]
     },
@@ -2600,7 +2828,7 @@
               "items": [
                 "Empatia tecnica — Entender las restricciones de otros roles",
                 "Flexibilidad — Adaptarse a diferentes estilos de trabajo",
-                "Transparencia — Compartir problemas y blockerias abiertamente",
+                "Transparencia — Compartir problemas y bloqueos abiertamente",
                 "Colaboracion — Buscar soluciones conjuntas, no imponer las propias"
               ]
             },
@@ -2692,40 +2920,31 @@
             },
             {
               "type": "match",
-              "title": "Tipos de inteligencia",
+              "title": "Componentes de la inteligencia emocional (Goleman)",
               "pairs": [
                 {
-                  "left": "Logico-matematica",
-                  "right": "Razonamiento y analisis"
+                  "left": "Autoconciencia",
+                  "right": "Reconocer tus propias emociones y su impacto"
                 },
                 {
-                  "left": "Linguistica",
-                  "right": "Comunicacion verbal"
+                  "left": "Autorregulacion",
+                  "right": "Controlar las reacciones impulsivas"
                 },
                 {
-                  "left": "Interpersonal",
-                  "right": "Entender a otros"
+                  "left": "Motivacion",
+                  "right": "Mantener el enfoque en los objetivos"
                 },
                 {
-                  "left": "Intrapersonal",
-                  "right": "Autoconocimiento"
+                  "left": "Empatia",
+                  "right": "Comprender las emociones de otros"
                 },
                 {
-                  "left": "Espacial",
-                  "right": "Visualizacion y diseño"
+                  "left": "Habilidades sociales",
+                  "right": "Construir y mantener relaciones"
                 }
               ]
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-16",
-          "title": "Programa Administracion Sistemas de Informacion 2026",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Syllabus del curso con habilidades blandas requeridas."
         }
       ]
     },
@@ -2890,6 +3109,31 @@
           ]
         },
         {
+          "id": "conceptos-clave-de-la-gestion-estrategica",
+          "title": "Conceptos Clave de la Gestion Estrategica",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Estos tres terminos aparecen con frecuencia en evaluaciones y debes saber definirlos:"
+            },
+            {
+              "type": "definition",
+              "term": "Deuda Tecnica",
+              "text": "Conjunto de atajos o decisiones de corto plazo en tecnologia (codigo improvisado, infraestructura sin actualizar, documentacion omitida) que ahorran tiempo HOY pero generan costos y problemas mayores MANANA: mas errores, mantenimiento lento e imposibilidad de crecer. Como una deuda financiera, acumula \"intereses\" mientras no se pague."
+            },
+            {
+              "type": "definition",
+              "term": "Benchmarking",
+              "text": "Practica de comparar los procesos, servicios y metricas propias con las mejores practicas del sector (lideres de la industria) para identificar brechas, aprender de los mejores y fijar metas realistas de mejora."
+            },
+            {
+              "type": "definition",
+              "term": "Portafolio de Servicios de TI",
+              "text": "Conjunto completo de servicios que el area de TI ofrece al negocio. Es la puerta de entrada a la demanda: documenta cada servicio, su publico objetivo y su valor, permitiendo priorizar inversiones y gestionar expectativas."
+            }
+          ]
+        },
+        {
           "id": "autoevaluacion",
           "title": "Autoevaluacion",
           "blocks": [
@@ -2986,15 +3230,6 @@
               "kind": "gobierno-ti"
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-17",
-          "title": "Valor de Negocio en la Administracion de TI",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U21 sobre administracion estrategica de TI."
         }
       ]
     },
@@ -3152,23 +3387,18 @@
             },
             {
               "type": "heading",
-              "text": "Dimension 2: Procesos y Flujos de Trabajo"
+              "text": "Dimension 2: Informacion y Tecnologia"
             },
             {
               "type": "paragraph",
-              "text": "Incluye todos los procesos necesarios para gestionar servicios:"
+              "text": "Incluye tanto la informacion que gestiona el servicio como la tecnologia que lo soporta:"
             },
             {
               "type": "list",
               "items": [
-                "Procesos de gestion — Strategize, Design, Transition, Deliver, Improve",
-                "Procesos de soporte — Incidente, problema, cambio, solicitud de servicio",
-                "Flujos de trabajo — Secuencias de actividades con reglas de negocio"
+                "Informacion y conocimiento — Datos del negocio, bases de conocimiento, seguridad de la informacion, cumplimiento de proteccion de datos",
+                "Tecnologia y herramientas — Aplicaciones, infraestructura y plataformas necesarias para el servicio"
               ]
-            },
-            {
-              "type": "heading",
-              "text": "Dimension 3: Tecnologia y Herramientas"
             },
             {
               "type": "table",
@@ -3201,14 +3431,30 @@
             },
             {
               "type": "heading",
-              "text": "Dimension 4: Socios y Proveedores"
+              "text": "Dimension 3: Socios y Proveedores"
             },
             {
               "type": "list",
               "items": [
                 "Tipos de relacion: Contratos, alianzas, acuerdos de nivel de servicio (SLA)",
                 "Gestion de proveedores: Evaluacion, seleccion, monitoreo, desempeno",
-                "Estrategia de abastecimiento: Make or buy, multi-proveedor, partner"
+                "Estrategia de abastecimiento: Hacer o comprar (make or buy), multi-proveedor, asociacion (partner)"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Dimension 4: Flujos de Valor y Procesos"
+            },
+            {
+              "type": "paragraph",
+              "text": "Incluye todos los flujos y procesos necesarios para gestionar servicios:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Flujos de valor — Secuencia de pasos que transforma una demanda en un resultado con valor (ejemplo: de solicitud a servicio entregado)",
+                "Procesos de soporte — Incidente, problema, cambio, solicitud de servicio",
+                "Flujos de trabajo — Actividades ordenadas con reglas de negocio y responsables definidos"
               ]
             },
             {
@@ -3270,9 +3516,9 @@
               "title": "Dimensiones del SVS",
               "tf": [
                 {
-                  "statement": "El SVS de ITIL 4 tiene 4 dimensiones.",
+                  "statement": "El SVS tiene 4 componentes.",
                   "answer": false,
-                  "explanation": "Son 4 dimensiones: organizacion y personas, informacion y tecnologia, partners y proveedores, flujos de trabajo y procesos."
+                  "explanation": "El SVS tiene 5 componentes: Estrategia de Servicio, Cadena de Valor del Servicio, Practicas de Gestion, Gobierno y Controles, y Mejora Continua. Lo que SI tiene 4 son las dimensiones del modelo."
                 },
                 {
                   "statement": "La cultura organizacional afecta la entrega de servicios.",
@@ -3280,27 +3526,18 @@
                   "explanation": "La cultura es un factor critico en la dimension de organizacion y personas."
                 },
                 {
-                  "statement": "Los partners no forman parte del SVS.",
+                  "statement": "Los socios y proveedores no forman parte del modelo.",
                   "answer": false,
-                  "explanation": "Partners y proveedores es una de las 4 dimensiones del SVS."
+                  "explanation": "Socios y Proveedores es una de las 4 dimensiones de ITIL."
                 },
                 {
-                  "statement": "El SVS incluye continuamente la mejora.",
+                  "statement": "La mejora continua es un componente del SVS.",
                   "answer": true,
-                  "explanation": "La mejora continua es un componente central del SVS."
+                  "explanation": "La mejora continua es uno de los 5 componentes centrales del SVS."
                 }
               ]
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-18",
-          "title": "ITIL las 4 Dimensiones y 5 Componentes del SVS",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Material de clase sobre las dimensiones de ITIL 4 y el SVS."
         }
       ]
     },
@@ -3451,23 +3688,23 @@
                 ],
                 [
                   "APO08",
-                  "Gestionar la calidad",
-                  "Asegurar calidad de servicios"
+                  "Gestionar las relaciones",
+                  "Gestionar la relacion con el negocio y stakeholders"
                 ],
                 [
                   "APO09",
-                  "Gestionar la seguridad",
-                  "Proteger la informacion"
+                  "Gestionar acuerdos de servicio",
+                  "Definir y mantener SLAs con clientes internos y externos"
                 ],
                 [
                   "APO10",
                   "Gestionar proveedores",
-                  "Administrar relaciones con vendors"
+                  "Administrar relaciones con terceros"
                 ],
                 [
                   "APO11",
-                  "Gestionar proyectos",
-                  "Dirigir proyectos de TI"
+                  "Gestionar la calidad",
+                  "Asegurar calidad de servicios y procesos"
                 ],
                 [
                   "APO12",
@@ -3476,13 +3713,13 @@
                 ],
                 [
                   "APO13",
-                  "Gestionar la seguridad (defensa)",
+                  "Gestionar la seguridad",
                   "Seguridad de la informacion"
                 ],
                 [
                   "APO14",
-                  "Gestionar el ciclo de vida",
-                  "Administrar servicios de TI"
+                  "Gestionar los datos",
+                  "Administrar datos corporativos como activo"
                 ]
               ]
             }
@@ -3503,7 +3740,7 @@
                 [
                   "BAI01",
                   "Gestionar el programa de cambios",
-                  "Evaluar e implementar cambios"
+                  "Evaluar e implementar programas de cambio"
                 ],
                 [
                   "BAI02",
@@ -3512,8 +3749,8 @@
                 ],
                 [
                   "BAI03",
-                  "Gestionar solucion de problemas",
-                  "Resolver problemas de TI"
+                  "Gestionar la identificacion y construccion de soluciones",
+                  "Disenar y construir soluciones"
                 ],
                 [
                   "BAI04",
@@ -3527,28 +3764,28 @@
                 ],
                 [
                   "BAI06",
-                  "Gestionar riesgos de TI",
-                  "Mitigar riesgos operativos"
+                  "Gestionar los cambios de TI",
+                  "Controlar cambios individuales en sistemas"
                 ],
                 [
                   "BAI07",
-                  "Gestionar la adquisicion de TI",
-                  "Comprar tecnologia"
+                  "Gestionar la aceptacion y transicion de cambios",
+                  "Poner en produccion lo cambiado"
                 ],
                 [
                   "BAI08",
-                  "Gestionar la adquisicion de conocimiento",
-                  "Capturar learnings"
+                  "Gestionar el conocimiento",
+                  "Capturar aprendizajes y compartirlos"
                 ],
                 [
                   "BAI09",
-                  "Gestionar las salvaguardas de datos",
-                  "Proteger activos de informacion"
+                  "Gestionar los activos",
+                  "Administrar activos de TI"
                 ],
                 [
                   "BAI10",
                   "Gestionar la configuracion",
-                  "Administrar activos de TI"
+                  "Mantener registro exacto de configuraciones"
                 ],
                 [
                   "BAI11",
@@ -3646,6 +3883,10 @@
           "title": "Interrelaciones con Otros Marcos",
           "blocks": [
             {
+              "type": "paragraph",
+              "text": "COBIT se integra con otros marcos: ITIL aporta la operacion de servicios, ISO 27001 es la norma de seguridad de la informacion (sus controles \"A.\" son medidas de seguridad) y PMBOK organiza los proyectos. Ejemplos de correspondencia:"
+            },
+            {
               "type": "table",
               "columns": [
                 "COBIT",
@@ -3661,7 +3902,7 @@
                   "Gestion de proyectos"
                 ],
                 [
-                  "BAI06",
+                  "APO12",
                   "Practica de gestion de riesgos",
                   "A.12 Gestion de riesgos",
                   "Gestion de riesgos"
@@ -3751,15 +3992,6 @@
             }
           ]
         }
-      ],
-      "resources": [
-        {
-          "id": "res-19",
-          "title": "COBIT 2019 - Mapa de Procesos",
-          "url": "https://www.isaca.org",
-          "type": "link",
-          "description": "Mapa visual de los 40 procesos de COBIT 2019."
-        }
       ]
     },
     {
@@ -3796,12 +4028,12 @@
             {
               "type": "callout",
               "tone": "danger",
-              "text": "Segun McKinsey, el 70% de las iniciativas de transformation digital fracasan. La causa principal NO es la tecnologia, sino la resistencia al cambio y la falta de gestion del factor humano."
+              "text": "Segun McKinsey, el 70% de las iniciativas de transformacion digital fracasan. La causa principal NO es la tecnologia, sino la resistencia al cambio y la falta de gestion del factor humano."
             },
             {
               "type": "definition",
               "term": "Gestion del Cambio",
-              "text": "Conjunto de procesos, herramientas y tecnicas para gestionar el aspecto humano de la transition de un estado actual a un estado futuro deseado. Busca minimizar la resistencia y maximizar la efectividad del cambio."
+              "text": "Conjunto de procesos, herramientas y tecnicas para gestionar el aspecto humano de la transicion de un estado actual a un estado futuro deseado. Busca minimizar la resistencia y maximizar la efectividad del cambio."
             }
           ]
         },
@@ -3873,30 +4105,41 @@
               "text": "Modelo ADKAR"
             },
             {
+              "type": "paragraph",
+              "text": "ADKAR es un acronimo: cada letra es una fase que el usuario debe superar, EN ORDEN. Si una fase falla, las siguientes no funcionan:"
+            },
+            {
               "type": "table",
               "columns": [
                 "Fase",
+                "Significado",
                 "Que logra"
               ],
               "rows": [
                 [
-                  "Awareness (Consciencia)",
+                  "A — Awareness",
+                  "Consciencia",
                   "El usuario entiende POR QUE cambiar"
                 ],
                 [
-                  "Deseo (Deseo)",
-                  "El usuario QUIERE participar"
+                  "D — Desire",
+                  "Deseo",
+                  "El usuario QUIERE participar en el cambio"
                 ],
                 [
-                  "Knowledge (Conocimiento)",
+                  "K — Knowledge",
+                  "Conocimiento",
                   "El usuario SABE COMO usar la nueva herramienta"
                 ],
                 [
-                  "Ability (Habilidad) puede USAR la herramienta"
+                  "A — Ability",
+                  "Habilidad",
+                  "El usuario PUEDE usar la herramienta en su trabajo real"
                 ],
                 [
-                  "Reinforcement (Refuerzo)",
-                  "El usuario MANTIENE el cambio"
+                  "R — Reinforcement",
+                  "Refuerzo",
+                  "El usuario MANTIENE el cambio en el tiempo"
                 ]
               ]
             }
@@ -3927,10 +4170,11 @@
                 [
                   "Politica",
                   "\"Pierdo control con esta herramienta\"",
-                  "Involucrar en la决策, empower"
+                  "Involucrar en las decisiones, dar participacion"
                 ],
                 [
-                  "Cultural \"Siempre lo hemos hecho asi\"",
+                  "Cultural",
+                  "\"Siempre lo hemos hecho asi\"",
                   "Mostrar beneficios, quick wins"
                 ]
               ]
@@ -4016,15 +4260,6 @@
               ]
             }
           ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-20",
-          "title": "Leading Change - John Kotter",
-          "url": "https://www.kotterinc.com/",
-          "type": "book",
-          "description": "Libro de referencia sobre liderazgo del cambio organizacional."
         }
       ]
     },
@@ -4225,8 +4460,8 @@
                   "Estandarizar herramientas (Slack, Teams)"
                 ],
                 [
-                  "Bonding del equipo",
-                  "Rituals virtuales (coffee, retrospective)"
+                  "Cohesion del equipo",
+                  "Rituales virtuales (cafe virtual, retrospectivas)"
                 ],
                 [
                   "Productividad",
@@ -4234,7 +4469,7 @@
                 ],
                 [
                   "Burnout",
-                  "Respetar horarios, right to disconnect"
+                  "Respetar horarios, derecho a la desconexion"
                 ],
                 [
                   "Conocimiento",
@@ -4289,7 +4524,7 @@
                   "explanation": "El feedback especifico, oportuno y respetuoso permite crecimiento continuo."
                 },
                 {
-                  "statement": "La delegation es un signo de debilidad.",
+                  "statement": "La delegacion es un signo de debilidad.",
                   "answer": false,
                   "explanation": "Delegar empodera al equipo y permite al lider enfocarse en estrategia."
                 },
@@ -4302,14 +4537,2030 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "id": "admin-general-planificacion-estrategica",
+      "slug": "admin-general-planificacion-estrategica",
+      "title": "Administracion General y Planificacion Estrategica",
+      "emoji": "🎯",
+      "accent": "#3B82F6",
+      "category": "admin-general",
+      "difficulty": "intermedio",
+      "order": 15,
+      "description": "Conceptos fundamentales de administracion general: definicion, funcion administrativa (PODIO), planificacion estrategica vs tactica, FODA, objetivos SMART, modelo de negocio y cadenas de valor. Base para la toma de decisiones en organizaciones.",
+      "tags": [
+        "admin-general",
+        "PODIO",
+        "FODA",
+        "estrategia",
+        "planificacion",
+        "objetivos-SMART"
       ],
-      "resources": [
+      "keyTakeaway": "La administracion es planificar, organizar, dirigir integrar y controlar. La estrategia se define desde la mision y vision, se analiza con FODA, se traduce en objetivos SMART y se ejecuta en etapas de planificacion estrategica.",
+      "sources": [
         {
-          "id": "res-21",
-          "title": "Los 5 Disfunciones de un Equipo - Patrick Lencioni",
-          "url": "https://www.tablegroup.com/",
-          "type": "book",
-          "description": "Libro de referencia sobre construccion de equipos de alto desempeno."
+          "title": "Resumen primer parcial",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
+        },
+        {
+          "title": "Resumen clases admin de rec",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Notas de clase"
+        },
+        {
+          "title": "Primer Parcial Administracion de Recursos",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Thompson - Administracion Estrategica"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-la-administracion",
+          "title": "Que es la Administracion?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Administracion",
+              "text": "Ciencia social que estudia como las organizaciones y sus integrantes trabajan en conjunto para alcanzar objetivos de manera eficiente y eficaz. La administracion es el proceso de planificar, organizar, dirigir integrar y controlar los recursos (humanos, economicos, materiales y tecnologicos) de una organizacion para alcanzar metas de forma eficiente y eficaz."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "La administracion no es exclusiva de las empresas. Tambien se aplica en hogares, gobiernos, hospitales y cualquier organizacion que necesite usar recursos para alcanzar objetivos."
+            }
+          ]
+        },
+        {
+          "id": "la-funcion-administrativa-podio",
+          "title": "La Funcion Administrativa: PODIO",
+          "blocks": []
+        },
+        {
+          "id": "funcion-administrativa-podio",
+          "title": "Funcion Administrativa PODIO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Planificar",
+                "Organizar",
+                "Dirigir",
+                "Integrar",
+                "Controlar"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "Planificar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Definir objetivos y trazar las estrategias y acciones necesarias para alcanzarlos. Es la primera funcion porque sin un plan no hay rumbo claro."
+            },
+            {
+              "type": "heading",
+              "text": "Organizar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Estructurar los recursos (personas, areas, presupuesto) para ejecutar el plan. Define quien hace que, cuando y como."
+            },
+            {
+              "type": "heading",
+              "text": "Dirigir"
+            },
+            {
+              "type": "paragraph",
+              "text": "Liderar, motivar e influir en las personas para que ejecuten las actividades con compromiso. Incluye la toma de decisiones y la comunicacion."
+            },
+            {
+              "type": "heading",
+              "text": "Integrar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Conectar las partes de la organizacion para que trabajen de forma coordinada. Asegura que los esfuerzos individuales se alineen con los objetivos colectivos."
+            },
+            {
+              "type": "heading",
+              "text": "Controlar"
+            },
+            {
+              "type": "paragraph",
+              "text": "Verificar que las actividades se esten realizando conforme al plan, identificar desviaciones y tomar acciones correctivas."
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "PODIO es la base para evaluar el desempeno de un gerente. La auditoria CRMR (Revision de los Recursos Informaticos de la Direccion) evalua precisamente si un gerente cumple bien estas cinco funciones."
+            }
+          ]
+        },
+        {
+          "id": "estrategia-vs-tactica",
+          "title": "Estrategia vs Tactica",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Concepto",
+                "Horizonte",
+                "Pregunta",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Vision",
+                  "Largo plazo (5-10 anos)",
+                  "¿Quienes queremos ser?",
+                  "Ser lider regional en soluciones de TI"
+                ],
+                [
+                  "Estrategia",
+                  "Mediano plazo (2-5 anos)",
+                  "¿Como llegamos alla?",
+                  "Expandir a 3 paises con alianzas locales"
+                ],
+                [
+                  "Mision",
+                  "Permanente",
+                  "¿Para que existimos?",
+                  "Proveer tecnologia que transforme negocios"
+                ],
+                [
+                  "Politicas",
+                  "Reglas generales",
+                  "¿Que podemos y que no?",
+                  "Politica de inversion minima por proyecto"
+                ],
+                [
+                  "Objetivos",
+                  "Corto-mediano plazo",
+                  "¿Que queremos lograr?",
+                  "Aumentar ingresos 20% este ano"
+                ],
+                [
+                  "Tactica",
+                  "Corto plazo (meses)",
+                  "¿Que hacemos hoy?",
+                  "Capacitar al equipo en nuevas herramientas"
+                ],
+                [
+                  "Planes operativos",
+                  "Dia a dia",
+                  "¿Quien lo hace?",
+                  "Horarios, tareas, presupuestos asignados"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "La estrategia responde a \"hacer las cosas correctas\". La tactica responde a \"hacer las cosas correctamente\". Ambas son necesarias."
+            }
+          ]
+        },
+        {
+          "id": "analisis-foda",
+          "title": "Analisis FODA",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "FODA",
+              "text": "Herramienta de analisis estrategico que evalua factores internos (Fortalezas y Debilidades) y externos (Oportunidades y Amenazas) de una organizacion. Tambien se llama analisis DAFO."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Factor",
+                "Interno/Externo",
+                "Descripcion",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Fortalezas (F)",
+                  "Interno",
+                  "Que hace bien la organizacion?",
+                  "Equipo tecnico capacitado, marca reconocida"
+                ],
+                [
+                  "Debilidades (D)",
+                  "Interno",
+                  "Donde le falta capacidad?",
+                  "Presupuesto limitado, personal escaso"
+                ],
+                [
+                  "Oportunidades (O)",
+                  "Externo",
+                  "Que oportunidades aprovechar?",
+                  "Nuevo mercado, gobierno digital"
+                ],
+                [
+                  "Amenazas (A)",
+                  "Externo",
+                  "Que la puede perjudicar?",
+                  "Competencia fuerte, cambios regulatorios"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "danger",
+              "text": "El error mas comun en FODA es confundir debilidades con amenazas o fortalezas con oportunidades. Las debilidades y fortalezas son INTERNAS (la empresa las controla). Las oportunidades y amenazas son EXTERNAS (no las controla)."
+            }
+          ]
+        },
+        {
+          "id": "objetivos-smart",
+          "title": "Objetivos SMART",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Objetivos SMART",
+              "text": "Criterio para formular objetivos claros y medibles. SMART es un acronimo que indica las caracteristicas que debe tener un objetivo bien planteado."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Letra",
+                "Significado",
+                "Pregunta",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "S",
+                  "Specific (Especifico)",
+                  "¿Que exactamente se quiere lograr?",
+                  "Aumentar la base de clientes"
+                ],
+                [
+                  "M",
+                  "Measurable (Medible)",
+                  "¿Como se mide el progreso?",
+                  "En un 15%"
+                ],
+                [
+                  "A",
+                  "Achievable (Alcanzable)",
+                  "¿Es realista con los recursos?",
+                  "Si, con inversion en marketing"
+                ],
+                [
+                  "R",
+                  "Relevant (Relevante)",
+                  "¿Por que es importante?",
+                  "Porque incrementa ingresos"
+                ],
+                [
+                  "T",
+                  "Time-bound (Temporal)",
+                  "¿Para cuando?",
+                  "En los proximos 6 meses"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Un objetivo NO SMART: \"Mejorar las ventas\". Un objetivo SMART: \"Aumentar las ventas en un 15% en el proximo trimestre mediante campanas de marketing digital\"."
+            }
+          ]
+        },
+        {
+          "id": "las-4-etapas-de-la-planificacion-estrategica",
+          "title": "Las 4 Etapas de la Planificacion Estrategica",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Etapa Basica: Definir la razon de ser (mision) y hacia donde vamos (vision)",
+                "Etapa de Atencion al Tiempo: Analizar el entorno (FODA) y elegir estrategias",
+                "Etapa de Potenciacion: Analizar factores criticos internos (personal, organizacion, personalidad del gerente)",
+                "Etapa de Aplicacion: Definir politicas, programas, presupuestos, controles e instrumentacion"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "Etapa 1: Basica"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Definir la razon de ser de la empresa",
+                "Establecer que es la organizacion y hacia donde va",
+                "Componentes: Plan de inversion, plan de mercado, politicas, objetivos, tacticas"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Etapa 2: Atencion al Tiempo"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Estudiar el entorno presente y futuro",
+                "Analizar clientes, competidores, proveedores, canales de distribucion, sustitutos",
+                "Aplicar FODA y definir estrategias"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Etapa 3: Potenciacion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Analizar el capital intelectual de la empresa",
+                "Definir la estructura organizativa y los cargos",
+                "Evaluar personalidad del gerente, dominio tecnico y capacidad de comunicacion"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Etapa 4: Aplicacion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Definir politicas, procedimientos, programas y presupuestos",
+                "Establecer controles e instrumentacion",
+                "Ejecutar y evaluar resultados"
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Las etapas no se saltan. Comenzar sin mision clara o sin FODA genera planes debiles que fallan en la ejecucion."
+            }
+          ]
+        },
+        {
+          "id": "el-modelo-de-negocio-y-la-estrategia",
+          "title": "El Modelo de Negocio y la Estrategia",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Concepto",
+                "Que es",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Modelo de Negocio",
+                  "Idea general de como la empresa generara ingresos y sera sostenible",
+                  "Vender productos, ofrecer servicios por suscripcion"
+                ],
+                [
+                  "Estrategia del Negocio",
+                  "Que tipo de ventajas competitivas busca la empresa",
+                  "Liderazgo en costo, diferenciacion, enfoque"
+                ],
+                [
+                  "Estrategia Corporativa",
+                  "Como se estructuran las unidades de negocio",
+                  "Diversificacion, integracion vertical"
+                ],
+                [
+                  "Objetivos Estrategicos",
+                  "Metas concretas y medibles para la estrategia",
+                  "Captar 100 clientes nuevos en 6 meses"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Las 4 Estrategias de Exito"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Un lider indiscutido — Ser el mejor en algo concreto (ejemplo: Xiaomi en calidad-precio)",
+                "Superar a la competencia — Hacer mejor lo que otros hacen",
+                "Ser innovador — Ofrecer algo que nadie ofrece",
+                "Influenciar — Ser tan influyente que el mercado te sigue"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "Las 5 Estrategias Competitivas GENERICAS (Thompson)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Ser el lider en costos totales mas bajos — Operar con costos menores que los competidores",
+                "Diferenciarse de los competidores — Ofrecer algo unico que otros no tienen",
+                "Concentrarse en un segmento reducido del mercado — Enfocarse en un nicho especifico",
+                "Estrategia de mejor costo — Ofrecer mejor relacion calidad-precio",
+                "Estrategia hibida — Combinar elementos de las anteriores"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "Thompson afirma que las 5 estrategias GENERICAS son las unicas que generan exito sostenido. Las organizaciones deben combinarlas con sus ventajas y debilidades internas."
+            }
+          ]
+        },
+        {
+          "id": "la-cadena-de-valor",
+          "title": "La Cadena de Valor",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Cadena de Valor",
+              "text": "Modelo que identifica las actividades principales y de apoyo que agregan valor al producto o servicio desde la concepcion hasta la entrega al cliente. Cada eslabon debe aportar valor."
+            },
+            {
+              "type": "heading",
+              "text": "Actividades Principales"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Logistica de entrada — Recepcion y almacenamiento de insumos",
+                "Operaciones — Transformacion de insumos en productos",
+                "Logistica de salida — Distribucion del producto al cliente",
+                "Marketing y ventas — Posicionamiento y promocion",
+                "Servicio postventa — Soporte y mantenimiento"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "Actividades de Apoyo"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Infraestructura — Administracion, finanzas, legal",
+                "Gestion de RRHH — Reclutamiento, capacitacion, evaluacion",
+                "Desarrollo tecnologico — Investigacion, innovacion",
+                "Adquisiciones — Compras y proveedores"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "El cliente percibe el valor segun lo que recibe. Los competidores ofrecen cosas similares. La estrategia debe convertir lo poco diferente en una ventaja competitiva que genere utilidades."
+            }
+          ]
+        },
+        {
+          "id": "formula-del-exito",
+          "title": "Formula del Exito",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Formula del Exito",
+              "text": "Que las personas perciban mas valor en el producto/servicio que lo que les cuesta, mas las ventajas que el producto ofrece sobre los productos de la competencia. Utilidades = Ingresos - Costos."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Factor",
+                "Que evalua",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Valor percibido",
+                  "Beneficio que recibe el cliente",
+                  "Calidad, servicio, imagen"
+                ],
+                [
+                  "Costo",
+                  "Precio que paga el cliente",
+                  "Precio de venta"
+                ],
+                [
+                  "Ventajas competitivas",
+                  "Diferencia vs competencia",
+                  "Mejor precio, mejor servicio"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tipos-de-planificacion",
+          "title": "Tipos de Planificacion",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Tipo",
+                "Horizonte",
+                "Quien planifica",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Estrategica",
+                  "Largo plazo (3-10 anos)",
+                  "Alta direccion",
+                  "Expansion a nuevos mercados"
+                ],
+                [
+                  "Tactica",
+                  "Mediano plazo (1-3 anos)",
+                  "Mandos medios",
+                  "Implementar nuevo sistema ERP"
+                ],
+                [
+                  "Operativa",
+                  "Corto plazo (dia-a-dia)",
+                  "Primer nivel",
+                  "Horarios de produccion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "La planificacion operativa depende de la planificacion tactica, que a su vez depende de la planificacion estrategica. Si la estrategia es debil, todos los planes inferiores fallaran."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Administracion General",
+              "questions": [
+                {
+                  "question": "Que significa PODIO?",
+                  "options": [
+                    "Plan, Organizar, Dirigir, Integrar, Operar",
+                    "Plan, Organizar, Dirigir, Integrar, Controlar",
+                    "Produccion, Organizacion, Direccion, Informacion, Control",
+                    "Presupuesto, Organizacion, Desarrollo, Implementacion, Control"
+                  ],
+                  "answer": 1,
+                  "explanation": "PODIO significa Planificar, Organizar, Dirigir, Integrar y Controlar."
+                },
+                {
+                  "question": "En el analisis FODA, las amenazas son factores:",
+                  "options": [
+                    "Internos de la empresa",
+                    "Externos del entorno",
+                    "Ambos a la vez",
+                    "Ninguno de los dos"
+                  ],
+                  "answer": 1,
+                  "explanation": "Las amenazas son factores EXTERNOS que la empresa no controla."
+                },
+                {
+                  "question": "Un objetivo NO SMART es:",
+                  "options": [
+                    "Aumentar ventas 15% en 6 meses",
+                    "Mejorar la calidad del servicio",
+                    "Reducir costos en 10% para diciembre",
+                    "Capacitar a 50 empleados este trimestre"
+                  ],
+                  "answer": 1,
+                  "explanation": "\"Mejorar la calidad del servicio\" no es SMART porque no es medible ni temporal."
+                }
+              ]
+            },
+            {
+              "type": "truefalse",
+              "title": "Administracion Estrategica",
+              "tf": [
+                {
+                  "statement": "La estrategia se define despues de la mision y vision.",
+                  "answer": true,
+                  "explanation": "La mision y vision son la base para definir la estrategia."
+                },
+                {
+                  "statement": "La tactica responde a \"hacer las cosas correctas\".",
+                  "answer": false,
+                  "explanation": "La tactica responde a \"hacer las cosas correctamente\". La estrategia responde a \"hacer las cosas correctas\"."
+                },
+                {
+                  "statement": "PODIO significa Planificar, Organizar, Dirigir, Integrar y Controlar.",
+                  "answer": true,
+                  "explanation": "Es la secuencia de la funcion administrativa."
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Relaciona conceptos",
+              "pairs": [
+                {
+                  "left": "FODA",
+                  "right": "Analisis de fortalezas, debilidades, oportunidades y amenazas"
+                },
+                {
+                  "left": "PODIO",
+                  "right": "Funcion administrativa: planificar, organizar, dirigir, integrar, controlar"
+                },
+                {
+                  "left": "SMART",
+                  "right": "Criterio para formular objetivos especificos, medibles, alcanzables, relevantes y temporales"
+                },
+                {
+                  "left": "Cadena de Valor",
+                  "right": "Modelo de actividades que agregan valor al producto/servicio"
+                }
+              ]
+            },
+            {
+              "type": "arch",
+              "kind": "gobierno-ti"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "auditoria-informatica",
+      "slug": "auditoria-informatica",
+      "title": "Auditoria Informatica",
+      "emoji": "🔍",
+      "accent": "#E87C7C",
+      "category": "auditoria-ti",
+      "difficulty": "intermedio",
+      "order": 16,
+      "description": "Conceptos, caracteristicas, clasificacion, entorno auditable, tecnicas, herramientas, controles, metodologias de trabajo y metodos de evaluacion de la auditoria informatica. Incluye CRMR y diferencias entre auditoria global y parcial.",
+      "tags": [
+        "auditoria-informatica",
+        "CRMR",
+        "controles",
+        "metodologia-auditoria",
+        "entorno-auditable"
+      ],
+      "keyTakeaway": "La auditoria informatica evalua el entorno tecnologico para encontrar debilidades y amenazas que afectan la calidad de los procesos y la confiabilidad de la informacion. El auditor debe dominar tecnicas, herramientas y metodologias para llegar a conclusiones fundamentadas.",
+      "sources": [
+        {
+          "title": "Resumen libro auditoria",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Libro de auditoria informatica"
+        },
+        {
+          "title": "Resumen primer parcial",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
+        },
+        {
+          "title": "EXAMEN PARCIAL I DE ADM REC",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Examen practico"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-la-auditoria-informatica",
+          "title": "Que es la Auditoria Informatica?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Auditoria Informatica",
+              "text": "Proceso sistematico de evaluacion del entorno tecnologico de una organizacion para identificar debilidades y amenazas que puedan afectar la calidad de los procesos, la confiabilidad de la informacion y la eficiencia de las operaciones. El auditor busca problemas y propone soluciones."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "La auditoria informatica NO es solo revisar computadores. Es evaluar toda la tecnologia: hardware, software, datos, personas, procesos y procedimientos que conforman el entorno informatico."
+            }
+          ]
+        },
+        {
+          "id": "caracteristicas-de-la-auditoria-informatica",
+          "title": "Caracteristicas de la Auditoria Informatica",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Es un proceso sistematico — Sigue una metodologia y procedimientos estructurados",
+                "Busca debilidades y amenazas — Identifica vulnerabilidades en el entorno",
+                "Evalua la calidad — Mide si los procesos y la informacion cumplen estandares",
+                "Es independiente — El auditor no debe tener conflicto de intereses",
+                "Es continua — Se realiza de forma periodica, no una sola vez",
+                "Genera recomendaciones — No solo encuentra problemas, propone soluciones"
+              ],
+              "ordered": true
+            }
+          ]
+        },
+        {
+          "id": "clasificacion-de-la-auditoria-informatica",
+          "title": "Clasificacion de la Auditoria Informatica",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Tipo",
+                "Enfoque",
+                "Que evalua",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Por areas especificas",
+                  "Tecnico",
+                  "Aplicaciones, desarrollo, produccion",
+                  "Revisar si una BD esta bien disenada"
+                ],
+                [
+                  "Por areas generales",
+                  "Gerencial",
+                  "Gestion, estrategia, organizacion",
+                  "Evaluar si el gerente planifica bien (PODIO)"
+                ],
+                [
+                  "Global",
+                  "Integral",
+                  "Todos los aspectos tecnicos y gerenciales",
+                  "Auditoria completa del departamento de TI"
+                ],
+                [
+                  "Parcial (CRMR)",
+                  "Gerencial",
+                  "Deficiencias organizativas y gerenciales",
+                  "Revisar la gestion de un area especifica"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "La auditoria global estudia todos los problemas tecnicos, parametros, configuraciones y controles. La auditoria parcial (CRMR) es mas corta porque se enfoca solo en deficiencias gerenciales."
+            }
+          ]
+        },
+        {
+          "id": "el-entorno-auditable",
+          "title": "El Entorno Auditable",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Entorno Auditable",
+              "text": "Todo aquello que puede ser evaluado por un auditor. Incluye los sistemas, procesos, datos, personas, controles y procedimientos que conforman la infraestructura tecnologica de la organizacion."
+            },
+            {
+              "type": "heading",
+              "text": "Que es parte del entorno auditable?"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Componente",
+                "Que incluye",
+                "Que evalua el auditor"
+              ],
+              "rows": [
+                [
+                  "Aplicaciones",
+                  "Software, sistemas, plataformas",
+                  "Funcionalidad, seguridad, eficiencia"
+                ],
+                [
+                  "Infraestructura",
+                  "Hardware, redes, servidores",
+                  "Disponibilidad, capacidad, mantenimiento"
+                ],
+                [
+                  "Datos",
+                  "Bases de datos, archivos, respaldos",
+                  "Integridad, confiabilidad, accesibilidad"
+                ],
+                [
+                  "Personas",
+                  "Personal de TI, usuarios",
+                  "Competencia, procedimientos, controles"
+                ],
+                [
+                  "Procesos",
+                  "Metodos de trabajo, flujos",
+                  "Eficiencia, efectividad, cumplimiento"
+                ],
+                [
+                  "Seguridad",
+                  "Politicas, controles de acceso",
+                  "Proteccion, prevencion, deteccion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "En el examen se pregunta a que area especifica pertenece cada componente. Por ejemplo: \"aplicaciones\" pertenece a Desarrollo y Produccion, y la fila que necesita de ambos es SISTEMAS."
+            },
+            {
+              "type": "heading",
+              "text": "Areas Especificas vs Generales"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Area",
+                "Enfoque",
+                "Ejemplo de evaluacion"
+              ],
+              "rows": [
+                [
+                  "Desarrollo",
+                  "Creacion de software",
+                  "Metodologia de desarrollo, calidad del codigo"
+                ],
+                [
+                  "Produccion",
+                  "Operacion de sistemas",
+                  "Disponibilidad, rendimiento, respaldos"
+                ],
+                [
+                  "Sistemas",
+                  "Integracion de ambos",
+                  "Arquitectura, integracion, gobierno"
+                ],
+                [
+                  "Gerencia",
+                  "Gestion y estrategia",
+                  "Planificacion, organizacion, control (PODIO)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tecnicas-de-auditoria",
+          "title": "Tecnicas de Auditoria",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Tecnica",
+                "Que hace",
+                "Cuando se usa"
+              ],
+              "rows": [
+                [
+                  "Entrevista",
+                  "Recopila informacion mediante preguntas directas",
+                  "Para entender procesos y percepciones"
+                ],
+                [
+                  "Cuestionario",
+                  "Estandariza la recoleccion de datos",
+                  "Para evaluar multiples areas de forma consistente"
+                ],
+                [
+                  "Observacion directa",
+                  "Ve como trabajan las personas",
+                  "Para verificar cumplimiento de procedimientos"
+                ],
+                [
+                  "Inspeccion visual",
+                  "Revisa documentacion y registros",
+                  "Para verificar que existan politicas y registros"
+                ],
+                [
+                  "Prueba de cumplimiento",
+                  "Verifica si se siguen los procedimientos",
+                  "Para confirmar que los controles funcionan"
+                ],
+                [
+                  "Prueba sustantiva",
+                  "Evalua la exactitud de los datos",
+                  "Para validar la confiabilidad de la informacion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "El auditor combina tecnicas segun el objetivo. No basta con una sola tecnica; la combinacion da conclusiones mas solidas."
+            }
+          ]
+        },
+        {
+          "id": "herramientas-de-auditoria",
+          "title": "Herramientas de Auditoria",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Herramienta",
+                "Para que sirve",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Software de auditoria",
+                  "Automatiza pruebas y analisis",
+                  "ACL, IDEA, CAT"
+                ],
+                [
+                  "Hojas de calculo",
+                  "Analiza datos y genera reportes",
+                  "Excel, Google Sheets"
+                ],
+                [
+                  "Herramientas de monitoreo",
+                  "Supervisa la operacion en tiempo real",
+                  "Nagios, Zabbix"
+                ],
+                [
+                  "Simuladores",
+                  "Prueban escenarios sin afectar produccion",
+                  "Entornos de prueba"
+                ],
+                [
+                  "Generadores de informes",
+                  "Documentan hallazgos y recomendaciones",
+                  "Plantillas de auditoria"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "controles-de-auditoria",
+          "title": "Controles de Auditoria",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Controles de Auditoria",
+              "text": "Mecanismos de prevencion, deteccion y correccion que protegen los activos de TI, aseguran la integridad de la informacion y garantizan el cumplimiento de politicas y procedimientos."
+            },
+            {
+              "type": "heading",
+              "text": "Tipos de Controles"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Tipo",
+                "Funcion",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Preventivos",
+                  "Evitan que ocurran problemas",
+                  "Controles de acceso, autenticacion"
+                ],
+                [
+                  "Detectivos",
+                  "Identifican problemas que ya ocurrieron",
+                  "Logs de auditoria, alarmas"
+                ],
+                [
+                  "Correctivos",
+                  "Corrigen problemas detectados",
+                  "Restauracion de respaldos, parches"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Controles por Area"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Area",
+                "Controles tipicos"
+              ],
+              "rows": [
+                [
+                  "Seguridad",
+                  "Permisos, contraseñas, firewall, cifrado"
+                ],
+                [
+                  "Disponibilidad",
+                  "Respaldos, planes de continuidad, redundancia"
+                ],
+                [
+                  "Integridad",
+                  "Validaciones, sumas de verificacion, auditoria de datos"
+                ],
+                [
+                  "Confidencialidad",
+                  "Cifrado, politicas de acceso, NDA"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metodologia-de-trabajo-del-auditor",
+          "title": "Metodologia de Trabajo del Auditor",
+          "blocks": [
+            {
+              "type": "flow",
+              "title": "Metodologia de Auditoria",
+              "steps": [
+                "1. Planificacion: Definir alcance, objetivos, recursos y cronograma",
+                "2. Recopilacion: Aplicar tecnicas y herramientas para obtener evidencia",
+                "3. Analisis: Evaluar la evidencia y encontrar debilidades y amenazas",
+                "4. Conclusiones: Formular hallazgos, opiniones y recomendaciones",
+                "5. Informe: Documentar resultados y presentar a la direccion"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Fase 1: Planificacion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Definir el alcance de la auditoria",
+                "Establecer objetivos claros",
+                "Asignar recursos (personas, tiempo, herramientas)",
+                "Crear el cronograma de actividades"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Fase 2: Recopilacion de Informacion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Aplicar entrevistas, cuestionarios y observacion",
+                "Revisar documentacion y registros",
+                "Realizar pruebas de cumplimiento y sustantivas",
+                "Recopilar evidencia objetiva"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Fase 3: Analisis"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Evaluar la evidencia obtenida",
+                "Identificar debilidades y amenazas",
+                "Clasificar los hallazgos por criticidad",
+                "Comparar con estandares y mejores practicas"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Fase 4: Conclusiones"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Formular hallazgos fundamentados",
+                "Emitir opiniones sobre el estado del entorno",
+                "Proponer recomendaciones accionables",
+                "Priorizar acciones correctivas"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Fase 5: Informe de Auditoria"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Documentar hallazgos, conclusiones y recomendaciones",
+                "Presentar a la direccion y areas involucradas",
+                "Establecer plan de seguimiento",
+                "Definir plazos para implementar acciones correctivas"
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "El informe es el producto final de la auditoria. Debe ser claro, conciso y fundamentado. Un informe sin evidencia no tiene valor."
+            }
+          ]
+        },
+        {
+          "id": "metodos-de-evaluacion-de-auditoria",
+          "title": "Metodos de Evaluacion de Auditoria",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Metodo",
+                "Descripcion",
+                "Cuando se usa"
+              ],
+              "rows": [
+                [
+                  "Conformidad",
+                  "Verifica el cumplimiento de normas y procedimientos",
+                  "Para evaluar si se siguen las politicas"
+                ],
+                [
+                  "Sustantivo",
+                  "Evalua la exactitud y confiabilidad de los datos",
+                  "Para validar la informacion"
+                ],
+                [
+                  "De cumplimiento",
+                  "Confirma que los controles estan operativos",
+                  "Para verificar que los controles funcionan"
+                ],
+                [
+                  "Integral",
+                  "Combina multiples metodos",
+                  "Para auditorias completas"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "la-revision-de-los-recursos-informaticos-de-la-direccion-crmr",
+          "title": "La Revision de los Recursos Informaticos de la Direccion (CRMR)",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "CRMR",
+              "text": "Metodologia de auditoria abreviada que se enfoca en evaluar las debilidades y amenazas en la gestion de los directores de area. Es mas corta que la auditoria global porque no busca problemas tecnicos, sino deficiencias organizativas y gerenciales."
+            },
+            {
+              "type": "heading",
+              "text": "Objetivos de CRMR"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Evaluar el grado de bondad o ineficiencia de los procedimientos y metodos de gestion",
+                "Identificar y fijar responsabilidades",
+                "Mejorar la flexibilidad de realizacion de actividades",
+                "Aumentar la productividad",
+                "Disminuir costes",
+                "Mejorar los metodos y procedimientos de direccion"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "heading",
+              "text": "Alcance del CRMR"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Nivel",
+                "Descripcion",
+                "Que incluye"
+              ],
+              "rows": [
+                [
+                  "Reducido",
+                  "Senala areas con potencialidad de beneficios",
+                  "Identificacion de oportunidades"
+                ],
+                [
+                  "Medio",
+                  "Establece conclusiones y recomendaciones",
+                  "Como la auditoria ordinaria"
+                ],
+                [
+                  "Amplio",
+                  "Incluye planes de accion e implementacion",
+                  "Tecnicas de implementacion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "CRMR se aplica mas a deficiencias organizativas y gerenciales que a problemas tecnicos. Evalua si el gerente sabe planificar, organizar, dirigir integrar y controlar (PODIO)."
+            },
+            {
+              "type": "heading",
+              "text": "Auditoria Global vs CRMR"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Aspecto",
+                "Auditoria Global",
+                "CRMR"
+              ],
+              "rows": [
+                [
+                  "Alcance",
+                  "Todos los aspectos tecnicos y gerenciales",
+                  "Solo deficiencias gerenciales"
+                ],
+                [
+                  "Profundidad",
+                  "Alta (estudia todos los problemas)",
+                  "Menor (enfoque en gestion)"
+                ],
+                [
+                  "Velocidad",
+                  "Lenta (abarcadora)",
+                  "Rapida (focalizada)"
+                ],
+                [
+                  "Resultado",
+                  "Informe completo con recomendaciones tecnicas",
+                  "Soluciones rapidas a problemas concretos"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "clasificacion-de-auditoria-por-funcion",
+          "title": "Clasificacion de Auditoria por Funcion",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Funcion",
+                "Que evalua",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Funcion de Direccion",
+                  "Planificacion, organizacion, integracion",
+                  "Si el gerente planifica y organiza bien"
+                ],
+                [
+                  "Funcion de Operacion",
+                  "Ejecucion de procesos operativos",
+                  "Si los sistemas funcionan correctamente"
+                ],
+                [
+                  "Funcion de Produccion",
+                  "Generacion de servicios y productos",
+                  "Si la produccion es eficiente"
+                ],
+                [
+                  "Funcion de Soporte",
+                  "Servicio tecnico y ayuda al usuario",
+                  "Si el soporte resuelve problemas a tiempo"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Para la funcion de produccion se busca: operatividad, confiabilidad, seguridad y disponibilidad."
+            }
+          ]
+        },
+        {
+          "id": "areas-de-auditoria-por-area-especifica",
+          "title": "Areas de Auditoria por Area Especifica",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Area",
+                "Que evalua"
+              ],
+              "rows": [
+                [
+                  "Aplicaciones (Desarrollo)",
+                  "Metodologia de desarrollo, calidad del software, pruebas"
+                ],
+                [
+                  "Aplicaciones (Produccion)",
+                  "Operacion de sistemas, disponibilidad, rendimiento"
+                ],
+                [
+                  "Sistemas",
+                  "Arquitectura, integracion, gobierno tecnologico"
+                ],
+                [
+                  "Gerencia",
+                  "Gestion, estrategia, planificacion (PODIO)"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "En el examen se pregunta a que area especifica pertenece cada componente. Las areas especificas son: Desarrollo, Produccion y Sistemas. La fila que necesita de Desarrollo y Produccion es SISTEMAS."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "Auditoria Informatica",
+              "questions": [
+                {
+                  "question": "Que busca la auditoria informatica?",
+                  "options": [
+                    "Instalar software nuevo",
+                    "Encontrar debilidades y amenazas en el entorno tecnologico",
+                    "Vender computadores",
+                    "Contratar mas personal"
+                  ],
+                  "answer": 1,
+                  "explanation": "La auditoria informatica evalua el entorno tecnologico para identificar debilidades y amenazas."
+                },
+                {
+                  "question": "Que evalua el CRMR?",
+                  "options": [
+                    "Problemas tecnicos de hardware",
+                    "Deficiencias organizativas y gerenciales",
+                    "Ventas de la empresa",
+                    "Satisfaccion del cliente"
+                  ],
+                  "answer": 1,
+                  "explanation": "CRMR evalua deficiencias organizativas y gerenciales (PODIO), no problemas tecnicos."
+                },
+                {
+                  "question": "Que tecnica permite ver como trabajan las personas?",
+                  "options": [
+                    "Entrevista",
+                    "Cuestionario",
+                    "Observacion directa",
+                    "Prueba sustantiva"
+                  ],
+                  "answer": 2,
+                  "explanation": "La observacion directa permite ver como trabajan las personas en su entorno real."
+                }
+              ]
+            },
+            {
+              "type": "truefalse",
+              "title": "Auditoria Informatica",
+              "tf": [
+                {
+                  "statement": "La auditoria global es mas rapida que CRMR.",
+                  "answer": false,
+                  "explanation": "La auditoria global es mas lenta porque es abarcadora. CRMR es mas rapida porque es focalizada."
+                },
+                {
+                  "statement": "Los controles preventivos evitan que ocurran problemas.",
+                  "answer": true,
+                  "explanation": "Los controles preventivos se aplican antes de que el problema suceda."
+                },
+                {
+                  "statement": "El informe es el producto final de la auditoria.",
+                  "answer": true,
+                  "explanation": "El informe documenta hallazgos, conclusiones y recomendaciones."
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Tipos de controles",
+              "pairs": [
+                {
+                  "left": "Preventivos",
+                  "right": "Evitan que ocurran problemas"
+                },
+                {
+                  "left": "Detectivos",
+                  "right": "Identifican problemas que ya ocurrieron"
+                },
+                {
+                  "left": "Correctivos",
+                  "right": "Corrigen problemas detectados"
+                },
+                {
+                  "left": "CRMR",
+                  "right": "Revision abreviada de gestion gerencial"
+                }
+              ]
+            },
+            {
+              "type": "arch",
+              "kind": "gobierno-ti"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iso-12207-ingenieria-software",
+      "slug": "iso-12207-ingenieria-software",
+      "title": "ISO 12207 - Procesos del Ciclo de Vida del Software",
+      "emoji": "⚙️",
+      "accent": "#6DD4A0",
+      "category": "iso-ingenieria",
+      "difficulty": "intermedio",
+      "order": 17,
+      "description": "Norma ISO/IEC 12207 que establece un marco comun para los procesos del ciclo de vida del software. Procesos principales, de apoyo y organizativos. Relacion con la auditoria informatica y la normalizacion de procesos.",
+      "tags": [
+        "ISO-12207",
+        "ciclo-vida-software",
+        "procesos",
+        "normalizacion",
+        "ingenieria-software"
+      ],
+      "keyTakeaway": "ISO 12207 es el marco de referencia mas importante para normalizar los procesos del ciclo de vida del software. Organiza las actividades en procesos principales, de apoyo y organizativos, permitiendo que organizaciones de cualquier tamano trabajen con estandares internacionales.",
+      "sources": [
+        {
+          "title": "Resumen primer parcial",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
+        },
+        {
+          "title": "RESUMEN PRIMER PARCIAL",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
+        },
+        {
+          "title": "EXAMEN PARCIAL I DE ADM REC",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Examen practico"
+        }
+      ],
+      "sections": [
+        {
+          "id": "que-es-iso-12207",
+          "title": "Que es ISO 12207?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "ISO/IEC 12207",
+              "text": "Norma internacional que establece un marco comun para los procesos del ciclo de vida del software. Define una estructura estandar de procesos que pueden usar organizaciones de cualquier tipo y tamano para desarrollar, mantener y adquirir software de forma consistente y de calidad."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "ISO 12207 no define COMO hacer cada proceso, sino QUE procesos deben existir. Cada organizacion adapta los procesos a su contexto, pero la estructura base es la misma."
+            }
+          ]
+        },
+        {
+          "id": "importancia-de-la-normalizacion",
+          "title": "Importancia de la Normalizacion",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Beneficio",
+                "Que aporta"
+              ],
+              "rows": [
+                [
+                  "Comunica un lenguaje comun",
+                  "Todos los involucrados hablan el mismo idioma tecnico"
+                ],
+                [
+                  "Reduce tiempos de desarrollo",
+                  "Procesos estandarizados evitan retrabajo"
+                ],
+                [
+                  "Aumenta la calidad del producto",
+                  "Cada paso tiene criterios claros de calidad"
+                ],
+                [
+                  "Facilita la integracion",
+                  "Diferentes equipos pueden trabajar juntos"
+                ],
+                [
+                  "Reduce costos",
+                  "Menos errores = menos correcciones = menor costo"
+                ],
+                [
+                  "Mejora la satisfaccion del usuario",
+                  "Producto final mas cercano a lo que el usuario necesita"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "ISO 12207 no es un metodo de desarrollo. Es un MARCO que organiza los procesos. La organizacion debe definir como implementar cada proceso segun su contexto."
+            }
+          ]
+        },
+        {
+          "id": "estructura-de-procesos-de-iso-12207",
+          "title": "Estructura de Procesos de ISO 12207",
+          "blocks": [
+            {
+              "type": "flow",
+              "title": "Tres Categorias de Procesos",
+              "steps": [
+                "Procesos Principales (5): el core del ciclo de vida del software",
+                "Procesos de Apoyo (8): soportan a los principales",
+                "Procesos Organizativos (4): gestionan la organizacion"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "procesos-principales",
+          "title": "Procesos Principales",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Son las actividades fundamentales del ciclo de vida del software. Cada proceso tiene objetivos claros:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Que hace",
+                "Objetivo principal"
+              ],
+              "rows": [
+                [
+                  "Adquisicion",
+                  "Obtener un producto o servicio de un proveedor",
+                  "Definir requisitos y seleccionar proveedor"
+                ],
+                [
+                  "Suministro",
+                  "Entregar un producto o servicio a un cliente",
+                  "Cumplir con los requisitos acordados"
+                ],
+                [
+                  "Desarrollo",
+                  "Crear el producto de software",
+                  "Transformar requisitos en software funcional"
+                ],
+                [
+                  "Operacion",
+                  "Usar y mantener el software en produccion",
+                  "Asegurar que funcione correctamente"
+                ],
+                [
+                  "Mantencion",
+                  "Corregir errores y mejorar el software",
+                  "Mantener la calidad y relevancia del software"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "Estos 5 procesos se encadenan: Adquisicion → Suministro → Desarrollo → Operacion → Mantencion. Cada uno genera outputs que son inputs del siguiente."
+            },
+            {
+              "type": "heading",
+              "text": "Detalle de cada Proceso Principal"
+            },
+            {
+              "type": "heading",
+              "text": "1. Proceso de Adquisicion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Definir lo que se necesita comprar o contratar",
+                "Establecer requisitos para el proveedor",
+                "Evaluar ofertas y seleccionar",
+                "Gestionar el contrato"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "2. Proceso de Suministro"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Entender los requisitos del cliente",
+                "Planificar la entrega",
+                "Desarrollar y entregar el producto",
+                "Soporte post-venta"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "3. Proceso de Desarrollo"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Analisis de requisitos",
+                "Diseno del sistema",
+                "Codificacion",
+                "Pruebas",
+                "Integracion"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "4. Proceso de Operacion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Instalacion en produccion",
+                "Monitoreo continuo",
+                "Soporte a usuarios",
+                "Gestion de incidentes"
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "5. Proceso de Mantencion"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Correccion de errores",
+                "Adaptacion a cambios",
+                "Mejora de funcionalidades",
+                "Optimizacion de rendimiento"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "procesos-de-apoyo",
+          "title": "Procesos de Apoyo",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "No son parte del ciclo de vida directo, pero son necesarios para que los procesos principales funcionen bien. ISO 12207 define 8 procesos de apoyo:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Que hace",
+                "Para que sirve"
+              ],
+              "rows": [
+                [
+                  "Documentacion",
+                  "Crea y mantiene documentacion",
+                  "Que todos tengan informacion clara"
+                ],
+                [
+                  "Gestion de la configuracion",
+                  "Controla versiones y cambios",
+                  "Que no se pierdan cambios ni versiones"
+                ],
+                [
+                  "Aseguramiento de la calidad",
+                  "Establece marcos para garantizar calidad",
+                  "Que los procesos y productos cumplan estandares"
+                ],
+                [
+                  "Verificacion",
+                  "Confirma que cumple requisitos",
+                  "Que el producto sea lo que se pidio"
+                ],
+                [
+                  "Validacion",
+                  "Confirma que satisface la necesidad real",
+                  "Que el producto sea util para el usuario"
+                ],
+                [
+                  "Revision conjunta",
+                  "Evalua el producto en puntos clave",
+                  "Detectar problemas temprano"
+                ],
+                [
+                  "Auditoria",
+                  "Evalua el cumplimiento de procesos",
+                  "Que se sigan los procedimientos"
+                ],
+                [
+                  "Solucion de problemas",
+                  "Resuelve incidencias",
+                  "Que los problemas se resuelvan rapido"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "La verificacion pregunta \"¿hicimos el producto correctamente?\". La validacion pregunta \"¿hicimos el producto correcto?\". Son diferentes: una evalua calidad tecnica, la otra evalua utilidad para el usuario."
+            }
+          ]
+        },
+        {
+          "id": "procesos-organizativos",
+          "title": "Procesos Organizativos",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Gestionan la organizacion como un todo, no un proyecto especifico. ISO 12207 define 4 procesos organizativos:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Proceso",
+                "Que hace",
+                "Objetivo"
+              ],
+              "rows": [
+                [
+                  "Gestion",
+                  "Define actividades genericas del manager del ciclo de vida",
+                  "Planificar, ejecutar, controlar y cerrar procesos"
+                ],
+                [
+                  "Infraestructura",
+                  "Establece y mantiene la infraestructura subyacente",
+                  "Hardware, software, estandares, herramientas y instalaciones"
+                ],
+                [
+                  "Mejora",
+                  "Evalua, mide, controla y mejora los procesos del ciclo de vida",
+                  "Mejora continua de procesos organisation-wide"
+                ],
+                [
+                  "Capacitacion",
+                  "Identifica y provee habilidades y conocimientos al personal",
+                  "Personal con competencias adecuadas en tiempo oportuno"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "relacion-con-la-auditoria-informatica",
+          "title": "Relacion con la Auditoria Informatica",
+          "blocks": [
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "ISO 12207 proporciona el marco para que la auditoria informatica evalua si la organizacion tiene y sigue procesos estandarizados para el ciclo de vida del software. Un auditor verifica que existan los procesos documentados y que se cumplan."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Proceso ISO 12207",
+                "Que evalua la auditoria"
+              ],
+              "rows": [
+                [
+                  "Gestion de configuracion",
+                  "¿Se controlan los cambios correctamente?"
+                ],
+                [
+                  "Verificacion",
+                  "¿Se prueban los productos antes de entregar?"
+                ],
+                [
+                  "Auditoria interna",
+                  "¿Se evaluan los procesos periodicamente?"
+                ],
+                [
+                  "Documentacion",
+                  "¿Existe documentacion actualizada?"
+                ],
+                [
+                  "Gestion de proyectos",
+                  "¿Se planifican y controlan los proyectos?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "separacion-de-entornos",
+          "title": "Separacion de Entornos",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Una práctica clave que ISO 12207 y la auditoria informatica promueven es la separacion de entornos de trabajo:"
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Entorno",
+                "Para que sirve",
+                "Quien lo usa"
+              ],
+              "rows": [
+                [
+                  "Desarrollo",
+                  "Crear y modificar el software",
+                  "Programadores"
+                ],
+                [
+                  "Pruebas",
+                  "Validar el software antes de produccion",
+                  "Equipo de QA"
+                ],
+                [
+                  "Produccion",
+                  "Operar el software para el negocio",
+                  "Usuarios finales"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "danger",
+              "text": "Si no se separan los entornos, un programador puede hacer cambios directamente en produccion y causar fallos en el sistema operativo de la empresa. La separacion de entornos es un control fundamental de seguridad."
+            },
+            {
+              "type": "heading",
+              "text": "Por que separar entornos?"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Seguridad — Evita que cambios en desarrollo afecten la operacion",
+                "Control de cambios — Permite probar antes de implementar",
+                "Estabilidad — Produccion no se ve afectada por pruebas",
+                "Trazabilidad — Se puede rastrear cada cambio desde su origen"
+              ],
+              "ordered": true
+            }
+          ]
+        },
+        {
+          "id": "relacion-con-otros-marcos",
+          "title": "Relacion con OTROS Marcos",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Marco",
+                "Que define",
+                "Como se relaciona con ISO 12207"
+              ],
+              "rows": [
+                [
+                  "COBIT",
+                  "Gobierno y gestion de TI",
+                  "ISO 12207 alimenta los procesos de BAI (Construir, Adquirir e Implementar)"
+                ],
+                [
+                  "ITIL",
+                  "Gestion de servicios",
+                  "ISO 12207 define como se desarrolla el software que ITIL opera"
+                ],
+                [
+                  "ISO 38500",
+                  "Gobierno corporativo",
+                  "ISO 12207 implementa los principios de gobierno en procesos de software"
+                ],
+                [
+                  "PMBOK",
+                  "Gestion de proyectos",
+                  "ISO 12207 complementa con procesos especificos de software"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "La auditoria informatica puede usar ISO 12207 como referencia para evaluar si la organizacion tiene procesos adecuados de desarrollo y mantenimiento de software."
+            }
+          ]
+        },
+        {
+          "id": "autoevaluacion",
+          "title": "Autoevaluacion",
+          "blocks": [
+            {
+              "type": "quiz",
+              "title": "ISO 12207",
+              "questions": [
+                {
+                  "question": "Cuantos procesos principales tiene ISO 12207?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "7"
+                  ],
+                  "answer": 2,
+                  "explanation": "ISO 12207 tiene 5 procesos principales: Adquisicion, Suministro, Desarrollo, Operacion y Mantencion."
+                },
+                {
+                  "question": "Cuantos procesos de apoyo tiene ISO 12207?",
+                  "options": [
+                    "5",
+                    "7",
+                    "8",
+                    "10"
+                  ],
+                  "answer": 2,
+                  "explanation": "ISO 12207 tiene 8 procesos de apoyo: Documentacion, Configuracion, Aseguramiento de calidad, Verificacion, Validacion, Revision conjunta, Auditoria y Solucion de problemas."
+                },
+                {
+                  "question": "Cuantos procesos organizativos tiene ISO 12207?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                  ],
+                  "answer": 1,
+                  "explanation": "ISO 12207 tiene 4 procesos organizativos: Gestion, Infraestructura, Mejora y Capacitacion."
+                }
+              ]
+            },
+            {
+              "type": "truefalse",
+              "title": "ISO 12207",
+              "tf": [
+                {
+                  "statement": "ISO 12207 define COMO hacer cada proceso.",
+                  "answer": false,
+                  "explanation": "ISO 12207 define QUE procesos deben existir, no COMO implementarlos."
+                },
+                {
+                  "statement": "La verificacion y la validacion son lo mismo.",
+                  "answer": false,
+                  "explanation": "Verificacion = ¿lo hicimos correctamente? Validacion = ¿es lo que el usuario necesita?"
+                },
+                {
+                  "statement": "Los procesos de apoyo son opcionales.",
+                  "answer": false,
+                  "explanation": "Son necesarios para que los procesos principales funcionen bien."
+                }
+              ]
+            },
+            {
+              "type": "match",
+              "title": "Categorias de procesos ISO 12207",
+              "pairs": [
+                {
+                  "left": "Principales (5)",
+                  "right": "Adquisicion, Suministro, Desarrollo, Operacion, Mantencion"
+                },
+                {
+                  "left": "Apoyo (8)",
+                  "right": "Documentacion, Configuracion, Aseguramiento de calidad, Verificacion, Validacion, Revision conjunta, Auditoria, Solucion de problemas"
+                },
+                {
+                  "left": "Organizativos (4)",
+                  "right": "Gestion, Infraestructura, Mejora, Capacitacion"
+                }
+              ]
+            },
+            {
+              "type": "path",
+              "title": "Decisiones de Desarrollo",
+              "nodes": [
+                {
+                  "id": "1",
+                  "title": "Situacion",
+                  "prompt": "Tu empresa desarrolla software sin procesos estandarizados. Los proyectos siempre se retrasan. Que haces?",
+                  "options": [
+                    {
+                      "label": "Implementar ISO 12207",
+                      "target": "2"
+                    },
+                    {
+                      "label": "Contratar mas programadores",
+                      "target": "3"
+                    },
+                    {
+                      "label": "Comprar software listo",
+                      "target": "4"
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "title": "ISO 12207",
+                  "prompt": "ISO 12207 proporciona un marco de procesos que organiza el ciclo de vida del software, reduciendo retrasos y mejorando calidad.",
+                  "isFinal": true,
+                  "verdict": "Excelente decision. Establecer procesos claros desde el inicio evita problemas mayores despues.",
+                  "options": []
+                },
+                {
+                  "id": "3",
+                  "title": "Mas personal",
+                  "prompt": "Contratar mas programadores no resuelve el problema de proceso. Si no hay orden, mas personas generan mas caos.",
+                  "isFinal": true,
+                  "verdict": "Solucion a corto plazo. Sin procesos, el problema persiste independientemente del tamano del equipo.",
+                  "options": []
+                },
+                {
+                  "id": "4",
+                  "title": "Software listo",
+                  "prompt": "Comprar software listo puede funcionar si se adapta, pero no resuelve la capacidad interna de desarrollo de la organizacion.",
+                  "isFinal": true,
+                  "verdict": "Solucion viable para necesidades puntuales, pero no para la capacidad de desarrollo organizacional.",
+                  "options": []
+                }
+              ]
+            },
+            {
+              "type": "arch",
+              "kind": "gobierno-ti"
+            }
+          ]
         }
       ]
     }

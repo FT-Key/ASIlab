@@ -15,11 +15,11 @@ sources:
 ## Por que fallan los proyectos de TI?
 
 :::callout danger
-Segun McKinsey, el 70% de las iniciativas de transformation digital fracasan. La causa principal NO es la tecnologia, sino la resistencia al cambio y la falta de gestion del factor humano.
+Segun McKinsey, el 70% de las iniciativas de transformacion digital fracasan. La causa principal NO es la tecnologia, sino la resistencia al cambio y la falta de gestion del factor humano.
 :::
 
 :::definition Gestion del Cambio
-Conjunto de procesos, herramientas y tecnicas para gestionar el aspecto humano de la transition de un estado actual a un estado futuro deseado. Busca minimizar la resistencia y maximizar la efectividad del cambio.
+Conjunto de procesos, herramientas y tecnicas para gestionar el aspecto humano de la transicion de un estado actual a un estado futuro deseado. Busca minimizar la resistencia y maximizar la efectividad del cambio.
 :::
 
 ## Modelos de Gestion del Cambio
@@ -43,13 +43,15 @@ No saltes pasos. El error mas comun es intentar implementar la solucion antes de
 
 ### Modelo ADKAR
 
-| Fase | Que logra |
-|------|-----------|
-| **A**wareness (Consciencia) | El usuario entiende POR QUE cambiar |
-| **D**eseo (Deseo) | El usuario QUIERE participar |
-| **K**nowledge (Conocimiento) | El usuario SABE COMO usar la nueva herramienta |
-| **A**bility (Habilidad) puede USAR la herramienta |
-| **R**einforcement (Refuerzo) | El usuario MANTIENE el cambio |
+ADKAR es un acronimo: cada letra es una fase que el usuario debe superar, EN ORDEN. Si una fase falla, las siguientes no funcionan:
+
+| Fase | Significado | Que logra |
+|------|-------------|-----------|
+| **A** — Awareness | Consciencia | El usuario entiende POR QUE cambiar |
+| **D** — Desire | Deseo | El usuario QUIERE participar en el cambio |
+| **K** — Knowledge | Conocimiento | El usuario SABE COMO usar la nueva herramienta |
+| **A** — Ability | Habilidad | El usuario PUEDE usar la herramienta en su trabajo real |
+| **R** — Reinforcement | Refuerzo | El usuario MANTIENE el cambio en el tiempo |
 
 ## Fuentes de Resistencia al Cambio
 
@@ -57,8 +59,8 @@ No saltes pasos. El error mas comun es intentar implementar la solucion antes de
 |------|---------|------------|
 | **Racional** | "No tengo tiempo para aprender" | Capacitacion, automatizar tareas |
 | **Emocional** | "Tengo miedo de perder mi trabajo" | Comunicacion, redefinicion de roles |
-| **Politica** | "Pierdo control con esta herramienta" | Involucrar en la决策, empower |
-| **Cultural** "Siempre lo hemos hecho asi" | Mostrar beneficios, quick wins |
+| **Politica** | "Pierdo control con esta herramienta" | Involucrar en las decisiones, dar participacion |
+| **Cultural** | "Siempre lo hemos hecho asi" | Mostrar beneficios, quick wins |
 
 :::callout idea
 La resistencia al cambio NO es un problema. Es una senal de que algo necesita ser comunicado o disenado de mejor manera.

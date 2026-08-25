@@ -30,20 +30,45 @@ El SVS describe como las organizaciones crean valor al combinar componentes y ac
 
 :::flow 5 Componentes del SVS
 - Estrategia de Servicio (que servicios ofrecer)
-- Cadena de Valor (como entregar valor)
+- Cadena de Valor del Servicio (como entregar valor)
 - Practicas de Gestion (herramientas y procesos)
 - Gobierno y Controles (direccion y regulacion)
 - Mejora Continua (evolucion constante)
 :::
 
+### La Cadena de Valor del Servicio
+
+Es el modelo operativo del SVS: un conjunto interconectado de **6 actividades** que transforman las demandas (inputs) en productos y servicios (outputs):
+
+| Actividad | Que hace |
+|-----------|----------|
+| **Planificar** | Alinear la cadena con la estrategia |
+| **Mejorar** | Mejora continua en toda la cadena |
+| **Involucrar (Engagement)** | Interactuar con usuarios y stakeholders |
+| **Disenar y Transicionar** | Crear o modificar servicios |
+| **Obtener/Construir** | Comprar o desarrollar componentes |
+| **Entregar y Soportar** | Operar el servicio y dar soporte |
+
+### Servicios y Ofertas de Servicio
+
+:::definition Servicio (ITIL 4)
+Medio para habilitar la creacion de valor co-creado con el consumidor, sin que este tenga que asumir costos o riesgos especificos.
+:::
+
+:::definition Oferta de Servicio (Service Offering)
+Paquete formal que la organizacion presenta al cliente e incluye uno o mas servicios y productos, combinados para atender una necesidad concreta. Puede incluir bienes, acceso a recursos y acciones de servicio (ejemplo: plan de internet + router + soporte 24/7).
+:::
+
 ## Las 4 Dimensiones de ITIL
+
+Las dimensiones son perspectivas que deben equilibrarse en TODA decision sobre servicios:
 
 | Dimension | Que abarca | Ejemplo |
 |-----------|------------|---------|
 | **Organizacion y Personas** | Estructura, roles, cultura, habilidades | Departamento de TI, capacitacion |
-| **Procesos y Flujos de Trabajo** | Procesos, procedimientos, flujos de trabajo | Gestion de incidentes, cambios |
-| **Tecnologia y Herramientas** | Herramientas, plataformas, aplicaciones | ServiceNow, Jira, SAP |
+| **Informacion y Tecnologia** | Datos, conocimiento, herramientas y plataformas | ServiceNow, Jira, SAP, base de datos de configuracion |
 | **Socios y Proveedores** | Relaciones con proveedores, contratos | SLA con Microsoft, AWS |
+| **Flujos de Valor y Procesos** | Actividades y flujos organizados para entregar valor | Gestion de incidentes, cambios |
 
 :::callout warning
 Las 4 dimensiones deben considerarse de forma equilibrada. Enfocarse solo en tecnologia ignorando personas y procesos es la causa #1 de fracaso en proyectos de TI.
@@ -77,22 +102,23 @@ ITIL 4 no exige implementar todas las practicas. Las organizaciones deben selecc
 ## Autoevaluacion
 
 :::quiz
-1. ¿Cuantas dimensiones tiene ITIL 4? || 2 || 3 || 4 || 5 || 2 || ITIL 4 tiene 4 dimensiones: Organizacion y Personas, Procesos, Tecnologia, Socios y Proveedores.
+1. ¿Cuantas dimensiones tiene ITIL 4? || 2 || 3 || 4 || 5 || 2 || ITIL 4 tiene 4 dimensiones: Organizacion y Personas, Informacion y Tecnologia, Socios y Proveedores, y Flujos de Valor y Procesos.
 2. ¿Cuantas practicas tiene ITIL 4? || 26 || 30 || 34 || 40 || 2 || ITIL 4 tiene 34 practicas de gestion.
-3. ¿Cual es el componente central del SVS? || Cadena de Valor || Estrategia de Servicio || Practicas || Mejora Continua || 0 || La Estrategia de Servicio es el componente central que dirige todas las demas actividades del SVS.
+3. ¿Cuantas actividades tiene la Cadena de Valor del Servicio? || 4 || 5 || 6 || 7 || 2 || Son 6: Planificar, Mejorar, Involucrar, Disenar y Transicionar, Obtener/Construir, y Entregar y Soportar.
 :::
 
-:::sort Ordena los valores de ITIL 4
-- Enfocarse en el valor
+:::sort Principios Guia de ITIL 4 (en orden)
+- Enfoque en el valor
 - Empezar donde estas
 - Progresar de forma iterativa
-- Desarrollar visualmente
-- Mantenerlo simple y practico
+- Colaborar y promover la visibilidad
+- Pensar y trabajar de forma integral
+- Simplificar y practicar
 - Optimizar y automatizar
 :::
 
 :::quiz ITIL 4 Fundamentos
 1. Que reemplaza el ciclo de vida de ITIL v3? || Procesos || Cadena de valor del servicio || Governance || Matriz RACI || 1 || ITIL 4 introduce la cadena de valor como modelo operativo.
-2. Cuantos componentes tiene la cadena de valor? || 4 || 6 || 8 || 10 || 1 || 6 componentes: planificar, mejorar, involucrar, diseno y transicion, obtener/construir, entregar y soportar.
-3. Que es un service offering en ITIL 4? || Un ticket de soporte || Un paquete de servicios que ofrece la organizacion || Una auditoria || Un contrato || 1 || Un service offering es un paquete que incluye productos, servicios y soporte.
+2. Cuantos componentes tiene el SVS? || 4 || 5 || 8 || 10 || 1 || 5 componentes: Estrategia de Servicio, Cadena de Valor del Servicio, Practicas de Gestion, Gobierno y Controles, y Mejora Continua.
+3. Que es un service offering en ITIL 4? || Un ticket de soporte || Un paquete formal de servicios y productos que se ofrece al cliente || Una auditoria || Un contrato || 1 || Un service offering combina servicios, productos y acciones de servicio para atender una necesidad concreta.
 :::

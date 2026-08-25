@@ -73,6 +73,22 @@ La gestion del cambio es critica para el exito de iniciativas de TI:
 - **Formacion** — Capacitar en nuevas herramientas y procesos
 - **Refuerzo** — Celebrar exitos y mantener el momentum
 
+## Conceptos Clave de la Gestion Estrategica
+
+Estos tres terminos aparecen con frecuencia en evaluaciones y debes saber definirlos:
+
+:::definition Deuda Tecnica
+Conjunto de atajos o decisiones de corto plazo en tecnologia (codigo improvisado, infraestructura sin actualizar, documentacion omitida) que ahorran tiempo HOY pero generan costos y problemas mayores MANANA: mas errores, mantenimiento lento e imposibilidad de crecer. Como una deuda financiera, acumula "intereses" mientras no se pague.
+:::
+
+:::definition Benchmarking
+Practica de comparar los procesos, servicios y metricas propias con las mejores practicas del sector (lideres de la industria) para identificar brechas, aprender de los mejores y fijar metas realistas de mejora.
+:::
+
+:::definition Portafolio de Servicios de TI
+Conjunto completo de servicios que el area de TI ofrece al negocio. Es la puerta de entrada a la demanda: documenta cada servicio, su publico objetivo y su valor, permitiendo priorizar inversiones y gestionar expectativas.
+:::
+
 ## Autoevaluacion
 
 :::path Decisiones Estrategicas de TI

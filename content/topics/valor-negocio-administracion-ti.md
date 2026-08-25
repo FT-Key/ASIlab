@@ -32,7 +32,7 @@ La administracion de TI tradicional se enfocaba en la disponibilidad y el costo.
 | Satisfaccion | Experiencia del cliente | NPS, retencion |
 
 :::callout info
-Segun研究 de Harvard Business Review, las organizaciones que alinean TI con el negocio tienen 38% mas probabilidad de superar a sus competidores en rentabilidad.
+Segun estudios de Harvard Business Review, las organizaciones que alinean TI con el negocio tienen 38% mas probabilidad de superar a sus competidores en rentabilidad.
 :::
 
 ## Alineacion Estrategica de TI
@@ -40,7 +40,7 @@ Segun研究 de Harvard Business Review, las organizaciones que alinean TI con el
 La alineacion estrategica busca que la estrategia de TI este sincronizada con la estrategia del negocio. El modelo de Henderson y Venkatraman (1993) propone cuatro dominios:
 
 1. **Estrategia del negocio** — Mision, vision, objetivos
-2. **Estrategia de TI** — Arquitectura, infraestructura, applications
+2. **Estrategia de TI** — Arquitectura, infraestructura, aplicaciones
 3. **Infraestructura organizacional** — Estructura, procesos, cultura
 4. **Infraestructura de TI** — Hardware, red, plataformas
 
@@ -77,7 +77,7 @@ El gobierno de TI define como se toman las decisiones sobre la inversion tecnolo
 
 - **Estructura de gobierno** — Comites, roles, responsabilidades
 - **Procesos de decision** — Aprobacion de proyectos, asignacion de recursos
-- **Medicion de desempeno** — KPIs, balanced scorecard
+- **Medicion de desempeno** — KPIs y balanced scorecard (BSC: tablero de mando integral que organiza los indicadores en perspectivas financieras, de clientes, de procesos y de aprendizaje)
 - **Gestion de riesgos** — Evaluacion y mitigacion de riesgos de TI
 
 :::callout success

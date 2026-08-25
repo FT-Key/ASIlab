@@ -50,28 +50,28 @@ EDM no tiene procesos operativos. Son actividades de gobierno del tablero direct
 | APO05 | Gestionar la cartera | Priorizar proyectos de TI |
 | APO06 | Gestionar el presupuesto y costos | Controlar finanzas de TI |
 | APO07 | Gestionar los recursos humanos | Desarrollar talento de TI |
-| APO08 | Gestionar la calidad | Asegurar calidad de servicios |
-| APO09 | Gestionar la seguridad | Proteger la informacion |
-| APO10 | Gestionar proveedores | Administrar relaciones con vendors |
-| APO11 | Gestionar proyectos | Dirigir proyectos de TI |
+| APO08 | Gestionar las relaciones | Gestionar la relacion con el negocio y stakeholders |
+| APO09 | Gestionar acuerdos de servicio | Definir y mantener SLAs con clientes internos y externos |
+| APO10 | Gestionar proveedores | Administrar relaciones con terceros |
+| APO11 | Gestionar la calidad | Asegurar calidad de servicios y procesos |
 | APO12 | Gestionar el riesgo | Evaluar y mitigar riesgos |
-| APO13 | Gestionar la seguridad (defensa) | Seguridad de la informacion |
-| APO14 | Gestionar el ciclo de vida | Administrar servicios de TI |
+| APO13 | Gestionar la seguridad | Seguridad de la informacion |
+| APO14 | Gestionar los datos | Administrar datos corporativos como activo |
 
 ## Dominio BAI - Construir, Adquirir e Implementar
 
 | Proceso | Nombre | Funcion clave |
 |---------|--------|---------------|
-| BAI01 | Gestionar el programa de cambios | Evaluar e implementar cambios |
+| BAI01 | Gestionar el programa de cambios | Evaluar e implementar programas de cambio |
 | BAI02 | Gestionar definicion de requisitos | Capturar necesidades |
-| BAI03 | Gestionar solucion de problemas | Resolver problemas de TI |
+| BAI03 | Gestionar la identificacion y construccion de soluciones | Disenar y construir soluciones |
 | BAI04 | Gestionar la disponibilidad y capacidad | Asegurar recursos suficientes |
 | BAI05 | Gestionar el cambio organizacional | Facilitar la adopcion |
-| BAI06 | Gestionar riesgos de TI | Mitigar riesgos operativos |
-| BAI07 | Gestionar la adquisicion de TI | Comprar tecnologia |
-| BAI08 | Gestionar la adquisicion de conocimiento | Capturar learnings |
-| BAI09 | Gestionar las salvaguardas de datos | Proteger activos de informacion |
-| BAI10 | Gestionar la configuracion | Administrar activos de TI |
+| BAI06 | Gestionar los cambios de TI | Controlar cambios individuales en sistemas |
+| BAI07 | Gestionar la aceptacion y transicion de cambios | Poner en produccion lo cambiado |
+| BAI08 | Gestionar el conocimiento | Capturar aprendizajes y compartirlos |
+| BAI09 | Gestionar los activos | Administrar activos de TI |
+| BAI10 | Gestionar la configuracion | Mantener registro exacto de configuraciones |
 | BAI11 | Gestionar proyectos | Ejecutar proyectos de TI |
 
 ## Dominio DSS - Entregar, Servir y Soportar
@@ -96,10 +96,12 @@ EDM no tiene procesos operativos. Son actividades de gobierno del tablero direct
 
 ## Interrelaciones con Otros Marcos
 
+COBIT se integra con otros marcos: **ITIL** aporta la operacion de servicios, **ISO 27001** es la norma de seguridad de la informacion (sus controles "A." son medidas de seguridad) y **PMBOK** organiza los proyectos. Ejemplos de correspondencia:
+
 | COBIT | ITIL | ISO 27001 | PMBOK |
 |-------|------|-----------|-------|
 | APO11 | Practica de gestion de proyectos | - | Gestion de proyectos |
-| BAI06 | Practica de gestion de riesgos | A.12 Gestion de riesgos | Gestion de riesgos |
+| APO12 | Practica de gestion de riesgos | A.12 Gestion de riesgos | Gestion de riesgos |
 | DSS01 | Entregar y soportar | A.12 Operaciones | - |
 | MEA01 | Monitorear y revisar | A.18 Revision | Monitoreo |
 

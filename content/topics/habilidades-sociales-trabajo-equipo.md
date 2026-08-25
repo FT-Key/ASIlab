@@ -56,7 +56,7 @@ Los equipos de TI son multidisciplinarios: desarrolladores, analistas, operacion
 
 - **Empatia tecnica** — Entender las restricciones de otros roles
 - **Flexibilidad** — Adaptarse a diferentes estilos de trabajo
-- **Transparencia** — Compartir problemas y blockerias abiertamente
+- **Transparencia** — Compartir problemas y bloqueos abiertamente
 - **Colaboracion** — Buscar soluciones conjuntas, no imponer las propias
 
 ### 4. Gestion de Conflictos
@@ -90,10 +90,10 @@ Un profesional de TI con inteligencia emocional puede liderar equipos en situaci
 3. Cual es un beneficio del trabajo en equipo efectivo? || Menos reuniones || Mejores soluciones y mayor innovacion || Mas documentacion || Menos comunicacion || 1 || Los equipos diversos generan soluciones mas creativas y robustas.
 :::
 
-:::match Tipos de inteligencia
-- Logico-matematica | Razonamiento y analisis
-- Linguistica | Comunicacion verbal
-- Interpersonal | Entender a otros
-- Intrapersonal | Autoconocimiento
-- Espacial | Visualizacion y diseño
+:::match Componentes de la inteligencia emocional (Goleman)
+- Autoconciencia | Reconocer tus propias emociones y su impacto
+- Autorregulacion | Controlar las reacciones impulsivas
+- Motivacion | Mantener el enfoque en los objetivos
+- Empatia | Comprender las emociones de otros
+- Habilidades sociales | Construir y mantener relaciones
 :::

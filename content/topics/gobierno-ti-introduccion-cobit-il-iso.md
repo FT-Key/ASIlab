@@ -36,33 +36,81 @@ El gobierno de TI no es lo mismo que la gestion de TI. El gobierno responde a la
 Estos marcos no son excluyentes. Las organizaciones maduras utilizan los tres de forma complementaria: COBIT para el gobierno, ITIL para la operacion de servicios, e ISO 38500 para establecer principios.
 :::
 
+:::callout info
+Otros marcos que acompanan estos tres durante el curso: **PMBOK** (gestion de proyectos) e **ISO 27001** (seguridad de la informacion). No son marcos de gobierno de TI, pero se integran con ellos.
+:::
+
 ## COBIT 2019
 
-COBIT (Control Objectives for Information and Related Technologies) es el framework mas completo para el gobierno y gestion de TI. Sus componentes principales:
+COBIT (Control Objectives for Information and Related Technologies) es el framework mas completo para el gobierno y gestion de TI, publicado por ISACA. Sus componentes principales:
 
-- **5 Dominios**: EDM (Evaluar, Dirigir, Monitorear), APO (Alinear, Planificar y Organizar), BAI (Construir, Adquirir e Implementar), DSS (Entregar, Servir y Soportar), MEA (Monitorear, Evaluar y Valorar)
-- **40 Objetivos de Gobierno y Gestion**
-- **5 Dominios de Habilidades**: Procesos, Estructura Organizacional, Informacion, Personas, Politicas
-- **Sistema de Metricas**: Unidades de Desempeno y Fuentes de Evidencia
+### Los 5 Dominios
+
+Los dominios agrupan los procesos por su proposito. Cada sigla indica las actividades que cubre:
+
+| Dominio | Significado | Que hace | Tipo |
+|---------|-------------|----------|------|
+| **EDM** | Evaluar, Dirigir y Monitorear | El tablero directivo evalua la estrategia, dirige su ejecucion y monitorea los resultados | Gobierno |
+| **APO** | Alinear, Planificar y Organizar | Prepara la estrategia de TI, el presupuesto, la organizacion y los recursos para ejecutarla | Gestion |
+| **BAI** | Construir, Adquirir e Implementar | Desarrolla o compra soluciones y las pone en operacion | Gestion |
+| **DSS** | Entregar, Servir y Soportar | Opera los servicios dia a dia y da soporte a los usuarios | Gestion |
+| **MEA** | Monitorear, Evaluar y Valorar | Mide el desempeno, verifica el cumplimiento y reporta al gobierno | Gestion |
+
+:::callout info
+Diferencia clave: EDM es el unico dominio de GOBIERNO (lo ejerce la alta direccion). Los otros cuatro son de GESTION (los ejecutan los equipos operativos).
+:::
+
+### Otros componentes
+
+- **40 Objetivos de Gobierno y Gestion**: cada uno es un proceso con metas concretas (ejemplo: APO12 Gestionar el riesgo), distribuidos asi: 5 en EDM, 14 en APO, 11 en BAI, 6 en DSS y 4 en MEA.
+- **Factores de diseño**: caracteristicas de la organizacion (tamano, estrategia, perfil de riesgo) que determinan COMO configurar el gobierno; no hay una receta unica.
+- **Sistema de metricas**: cascada de metas donde cada objetivo tiene metricas (unidades de desempeno) y evidencias que prueban si se cumplio.
 
 ## ITIL 4
 
-ITIL (Information Technology Infrastructure Library) se enfoca en la gestion de servicios de TI. Su modelo de valor incluye:
+ITIL (Information Technology Infrastructure Library) se enfoca en la gestion de servicios de TI: como diseñar, entregar y mejorar los servicios que los usuarios consumen.
 
-- **4 Dimensiones**: Organizacion y Personas, Procesos y Flujos de Trabajo, Tecnologia y Herramientas, Socios y Proveedores
-- **5 Componentes del SVS**: Estrategia de Servicio, Cadena de Valor, Practicas, Gobierno y Controles, Mejora Continua
-- **Principios Guia**: Enfoque en el valor, Empezar donde estas, Progresar de forma iterativa, Visibilidad y transparencia, Trabajar y pensar de forma integral, Simplificar y practicar, Optimizar y automatizar
+### Las 4 Dimensiones
+
+Son las perspectivas que SIEMPRE debes considerar al gestionar un servicio; omitir una causa fallas:
+
+1. **Organizacion y Personas** — estructura, roles, cultura y habilidades del equipo
+2. **Informacion y Tecnologia** — datos, conocimiento y herramientas necesarias
+3. **Socios y Proveedores** — contratos y relaciones con terceros
+4. **Flujos de Valor y Procesos** — actividades organizadas para entregar el servicio
+
+### Los 5 Componentes del SVS (Sistema de Valor de Servicio)
+
+El SVS describe como la organizacion convierte la demanda en valor:
+
+1. **Estrategia de Servicio** — decide que servicios ofrecer y hacia donde ir
+2. **Cadena de Valor del Servicio** — modelo operativo con las actividades para crear y entregar el valor
+3. **Practicas de Gestion** — conjuntos de recursos y procesos para realizar el trabajo (ejemplo: gestion de incidentes)
+4. **Gobierno y Controles** — direccion, evaluacion y monitoreo del sistema
+5. **Mejora Continua** — evolucion constante de productos, servicios y practicas
+
+### Los Principios Guia
+
+Recomendaciones universales que orientan las decisiones:
+
+1. **Enfoque en el valor** — Todo lo que hagamos debe crear valor para el negocio y los clientes
+2. **Empezar donde estas** — No reinventar la rueda; evaluar el contexto actual
+3. **Progresar de forma iterativa** — Avanzar en ciclos con retroalimentacion, no en grandes saltos
+4. **Colaborar y promover la visibilidad** — Trabajar con otros y hacer transparentes los resultados
+5. **Pensar y trabajar de forma integral** — Evitar el trabajo en silos; el servicio es un todo
+6. **Simplificar y practicar** — Procesos simples y practicos, eliminar lo que no agrega valor
+7. **Optimizar y automatizar** — Mejorar continuamente y automatizar donde sea posible
 
 ## ISO 38500
 
-ISO 38500 es una norma internacional que establece principios para el gobierno corporativo de TI. Sus 6 principios:
+ISO/IEC 38500 es una norma internacional que establece principios para el gobierno corporativo de TI. Define QUE debe cuidar la alta direccion al usar TI (no entra en detalles tecnicos). Sus 6 principios, explicados brevemente (en la unidad de ISO 38500 se profundiza en cada uno):
 
-1. **Responsabilidad** — Los directivos son responsables del uso de TI
-2. **Estrategia** — La TI debe soportar la estrategia del negocio
-3. **Adquisicion** — Las adquisiciones de TI deben ser correctas
-4. **Desempeno** — Los sistemas de TI deben operar eficientemente
-5. **Conformidad** — El uso de TI debe cumplir leyes y regulaciones
-6. **Comportamiento** — El comportamiento humano debe ser considerado
+1. **Responsabilidad** — Cada directivo responde por el uso de TI en su area y debe rendir cuentas de forma transparente
+2. **Estrategia** — La TI debe planificarse para soportar los objetivos del negocio
+3. **Adquisicion** — Las compras de TI deben ser justas, transparentes y basadas en necesidades reales
+4. **Desempeno** — Los sistemas deben funcionar de forma eficiente y efectiva para el negocio
+5. **Conformidad** — El uso de TI debe cumplir leyes, regulaciones y politicas aplicables
+6. **Comportamiento Humano** — Los sistemas deben disenarse considerando a las personas que los usaran
 
 :::callout idea
 ISO 38500 es ideal para Tableros Directivos porque ofrece principios claros y ejecutables sin entrar en detalle operativo.

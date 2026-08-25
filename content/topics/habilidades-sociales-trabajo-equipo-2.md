@@ -75,9 +75,9 @@ La retroalimentacion debe ser oportuna (cerca del evento), especifica (no genera
 | Desafio | Solucion |
 |---------|----------|
 | Comunicacion asincronica | Estandarizar herramientas (Slack, Teams) |
-| Bonding del equipo | Rituals virtuales (coffee, retrospective) |
+| Cohesion del equipo | Rituales virtuales (cafe virtual, retrospectivas) |
 | Productividad | Medir por resultados, no por horas |
-| Burnout | Respetar horarios, right to disconnect |
+| Burnout | Respetar horarios, derecho a la desconexion |
 | Conocimiento | Documentacion viva, pair programming virtual |
 
 ## Autoevaluacion
@@ -90,6 +90,6 @@ La retroalimentacion debe ser oportuna (cerca del evento), especifica (no genera
 :::truefalse Liderazgo Transformacional
 1. Un lider tecnico debe saber mas que todos los miembros de su equipo. || Falso || El lider tecnico facilita, no controla. Su valor esta en vision y soporte, no en ser el experto en todo.
 2. El feedback constructivo fortalece al equipo. || Verdadero || El feedback especifico, oportuno y respetuoso permite crecimiento continuo.
-3. La delegation es un signo de debilidad. || Falso || Delegar empodera al equipo y permite al lider enfocarse en estrategia.
+3. La delegacion es un signo de debilidad. || Falso || Delegar empodera al equipo y permite al lider enfocarse en estrategia.
 4. Un buen lider siempre tiene la respuesta. || Falso || Un buen lider facilita que el equipo encuentre las respuestas.
 :::
