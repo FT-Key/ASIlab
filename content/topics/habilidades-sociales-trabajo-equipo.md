@@ -5,7 +5,7 @@ accent: "#EAAE87"
 category: Gestión de Personas
 difficulty: principiante
 order: 14
-unit: "Unidad 4 · Gestión de Personas"
+unit: "Gestión de Personas"
 description: Fundamentos de las habilidades blandas para el profesional de TI: comunicación efectiva, escucha activa, inteligencia emocional, trabajo en equipo básico y gestión de conflictos, con un caso aplicado.
 tags: [habilidades-blandas, comunicacion, inteligencia-emocional, conflictos, trabajo-equipo]
 keyTakeaway: El exito en TI no depende solo de la competencia técnica. Comunicar a no técnicos, escuchar, manejar las emociones y resolver conflictos determinan la capacidad de aportar valor en la organización.

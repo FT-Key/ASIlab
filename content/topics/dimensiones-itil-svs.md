@@ -5,7 +5,7 @@ accent: "#7CB3E8"
 category: Gobierno de TI
 difficulty: intermedio
 order: 7
-unit: "Unidad 2 · Gobierno de TI y Marcos de Referencia"
+unit: "Gobierno de TI y Marcos de Referencia"
 description: Análisis profundo de las 4 dimensiones de ITIL 4 y los 5 componentes del Sistema de Valor de Servicio (SVS). Como se integran para crear valor, con diagnostico por dimensión aplicado a una empresa de logística.
 tags: [ITIL, 4-dimensiones, SVS, cadena-valor, practicas, co-creacion-valor]
 keyTakeaway: Las 4 dimensiones (Organización y Personas, Información y Tecnología, Socios y Proveedores, Flujos de Valor y Procesos) se analizan juntas en cada decisión; el SVS conecta esos recursos con la cadena de valor para co-crear valor con el cliente.

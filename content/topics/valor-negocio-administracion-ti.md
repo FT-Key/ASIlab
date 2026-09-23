@@ -5,7 +5,7 @@ accent: "#EAAE87"
 category: Administración Estratégica
 difficulty: intermedio
 order: 3
-unit: "Unidad 2 · Gobierno de TI y Marcos de Referencia"
+unit: "Gobierno de TI y Marcos de Referencia"
 description: Como la Administración de TI crea valor: dimensiones del valor, output vs outcome, alineación estratégica (Henderson y Venkatraman), ROI de TI, gobierno corporativo y el caso Rockin1000 como modelo de negocio multifacetico y sostenible.
 tags: [valor-negocio, ROI, output-outcome, alineacion-estrategica, Rockin1000, gobierno-corporativo]
 keyTakeaway: La TI deja de ser centro de costo y genera valor cuando se alinea con el negocio. El exito se mide por el outcome (beneficio real, como una comunidad de 100,000 musicos), no solo por el output (el producto entregado).

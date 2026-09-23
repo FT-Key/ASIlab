@@ -5,7 +5,7 @@ accent: "#F0C97D"
 category: Gestión de Proyectos
 difficulty: intermedio
 order: 10
-unit: "Unidad 3 · Gestión de Proyectos TIC"
+unit: "Gestión de Proyectos TIC"
 description: Guía PMBOK 8va Edición (2025) de PMI. Los 6 principios (holística, valor, calidad integrada, liderazgo responsable, sostenibilidad, entorno empoderado), los 7 dominios de desempeno, las 5 areas de enfoque y los 40 procesos, con la matriz Dominio x Area de Enfoque, output vs outcome, IA y tailoring. Con caso de zafra y Rockin1000.
 tags: [PMBOK, gestion-proyectos, dominios-desempeno, focus-areas, matriz, output-outcome, IA, tailoring]
 keyTakeaway: PMBOK 8 combina 6 principios, 7 dominios de desempeno y 5 areas de enfoque con 40 procesos. El exito se mide por el valor (outcome), no solo por entregar a tiempo y en presupuesto (output). Los dominios son el QUE; las areas de enfoque son el CUANDO/COMO.

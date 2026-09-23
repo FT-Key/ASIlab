@@ -5,7 +5,7 @@ accent: "#7CB3E8"
 category: Gobierno de TI
 difficulty: intermedio
 order: 6
-unit: "Unidad 2 · Gobierno de TI y Marcos de Referencia"
+unit: "Gobierno de TI y Marcos de Referencia"
 description: Marco de referencia ITIL 4 para la gestión de servicios de TI. Evolución desde ITIL v3, el Sistema de Valor de Servicio (SVS), la cadena de valor, las 4 dimensiones, los 7 principios guía, las 34 prácticas, la mejora continua y casos de empresa reales.
 tags: [ITIL, gestion-servicios, SVS, practicas, co-creacion-valor, CSI]
 keyTakeaway: ITIL 4 no es un cambio de nombre de ITIL v3. Pasa de procesos y ciclo de vida a prácticas y Sistema de Valor de Servicio, donde el valor se co-crea con el consumidor y se integra con Agile, Lean y DevOps.

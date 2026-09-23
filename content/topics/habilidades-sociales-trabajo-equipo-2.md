@@ -5,7 +5,7 @@ accent: "#EAAE87"
 category: Gestión de Personas
 difficulty: intermedio
 order: 15
-unit: "Unidad 4 · Gestión de Personas"
+unit: "Gestión de Personas"
 description: Liderazgo situacional en TI, formación de equipos de alto desempeno (Lencioni), delegación efectiva, retroalimentación con el modelo SBI y gestión de equipos remotos o híbridos, con un caso aplicado.
 tags: [liderazgo, equipos, delegacion, retroalimentacion, remoto]
 keyTakeaway: Liderar equipos de TI requiere adaptar el estilo a la situación, construir confianza, delegar con claridad y dar retroalimentación específica. El mejor código no vale nada si el equipo no esta alineado y motivado.

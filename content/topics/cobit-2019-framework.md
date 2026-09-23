@@ -5,7 +5,7 @@ accent: "#D4A0E8"
 category: Gobierno de TI
 difficulty: avanzado
 order: 8
-unit: "Unidad 2 · Gobierno de TI y Marcos de Referencia"
+unit: "Gobierno de TI y Marcos de Referencia"
 description: Framework COBIT 2019 de ISACA. Distinción entre gobernanza (ciclo EDM) y gestión (ciclo PBRM), los 5 dominios, los 40 objetivos, los 7 componentes del sistema de gobierno, los 6 principios y el modelo de capacidades. Con caso de alineación negocio-TI.
 tags: [COBIT, gobierno-TI, EDM, PBRM, APO, BAI, DSS, MEA, componentes]
 keyTakeaway: COBIT 2019 separa la gobernanza (EDM, responsabilidad del Consejo) de la gestión (PBRM: Plan, Build, Run, Monitor = APO, BAI, DSS, MEA) y construye el sistema con 7 componentes que deben funcionar juntos de forma holística.

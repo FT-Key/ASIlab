@@ -5,7 +5,7 @@ accent: "#7C61D4"
 category: Administración Estratégica
 difficulty: intermedio
 order: 2
-unit: "Unidad 1 · Administración Estratégica y Planificación"
+unit: "Administración Estratégica y Planificación"
 description: Guía completa de administración estratégica de TI. Parte de la administración general (PODIO, estrategia vs táctica, tipos de planificación, modelo de negocio, cadena de valor), desarrolla el análisis estratégico (FODA y PESTEL aplicados a TI, objetivos SMART, benchmarking, deuda técnica), los 3 pilares, la alineación estratégica, la arquitectura empresarial (TOGAF) y la gestión del cambio, y culmina con el PETI (estructura, metodología, cascada estratégica y Balanced Scorecard de TI). Con el ejemplo integrador de Logística Andina.
 tags: [estrategia-TI, admin-general, PODIO, FODA, PESTEL, SMART, arquitectura-empresarial, TOGAF, PETI, balanced-scorecard, KPIs, cascada]
 keyTakeaway: La administración estratégica de TI convierte la tecnología en ventaja competitiva. La administración (PODIO) y la planificación (estrategia, táctica, operativa) dan el marco; FODA y PESTEL el diagnostico; SMART los objetivos; y el PETI con su cascada y su BSC de TI traduce la estrategia del negocio (PEI) en iniciativas medibles que llegan hasta la operación.

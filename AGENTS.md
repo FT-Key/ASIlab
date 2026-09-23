@@ -66,12 +66,12 @@ El parser (`backend/src/convert/md.js`) usa formato pipe-separated, NO JSON:
 ## Orden de estudio y unidades
 
 - El campo `order:` del frontmatter define el orden del grid del Home (1..15, contiguo).
-- El campo `unit:` agrupa los temas en el Home por bloque, alineado al programa oficial:
-  - Unidad 1 · Administración Estratégica y Planificación
-  - Unidad 2 · Gobierno de TI y Marcos de Referencia
-  - Unidad 3 · Gestión de Proyectos TIC
+- El campo `unit:` agrupa los temas en el Home por bloque temático (sin numeración de unidad):
+  - Administración Estratégica y Planificación
+  - Gobierno de TI y Marcos de Referencia
+  - Gestión de Proyectos TIC
   - Auditoría y Calidad (complementos)
-  - Unidad 4 · Gestión de Personas
+  - Gestión de Personas
 - Orden vigente: caso ingenio → admin estratégica/PETI → valor de negocio → gobierno intro → ISO 38500 → ITIL 4 → dimensiones ITIL → COBIT 2019 → mapa COBIT → PMBOK 8 → gestión del cambio → auditoría → ISO 12207 → habilidades sociales → liderazgo.
 - Prerequisitos: la intro a marcos va antes de ISO 38500/ITIL/COBIT; cada profundización (dimensiones ITIL, mapa COBIT) va justo después de su tema base; auditoría antes de ISO 12207.
 

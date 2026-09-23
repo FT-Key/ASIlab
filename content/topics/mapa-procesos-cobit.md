@@ -5,7 +5,7 @@ accent: "#D4A0E8"
 category: Gobierno de TI
 difficulty: avanzado
 order: 9
-unit: "Unidad 2 · Gobierno de TI y Marcos de Referencia"
+unit: "Gobierno de TI y Marcos de Referencia"
 description: Mapa completo de los 40 objetivos de COBIT 2019 con su nombre y función, organizados por dominio (EDM, APO, BAI, DSS, MEA) y su correspondencia con el ciclo PBRM. Incluye interrelaciones con ITIL, ISO 27001 y PMBOK.
 tags: [COBIT, mapa-procesos, EDM, APO, BAI, DSS, MEA, PBRM]
 keyTakeaway: Los 40 objetivos de COBIT 2019 se reparten en 5 dominios: 5 de gobierno (EDM) y 35 de gestión (APO 14, BAI 11, DSS 6, MEA 4), que siguen el ciclo Plan-Build-Run-Monitor.

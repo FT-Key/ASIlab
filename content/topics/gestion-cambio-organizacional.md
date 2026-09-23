@@ -5,7 +5,7 @@ accent: "#6DD4A0"
 category: Gestión de Proyectos
 difficulty: intermedio
 order: 11
-unit: "Unidad 3 · Gestión de Proyectos TIC"
+unit: "Gestión de Proyectos TIC"
 description: Como gestionar el cambio organizacional cuando se implementan nuevas tecnologías. Modelos de cambio (Kotter, ADKAR), fuentes de resistencia, comunicación, gestión de la transición y un caso aplicado de implementación de ERP.
 tags: [gestion-cambio, kotter, ADKAR, resistencia, transicion]
 keyTakeaway: El 70% de los proyectos de TI fracasan por factores humanos, no técnicos. ADKAR explica que cada persona debe superar Conciencia, Deseo, Conocimiento, Habilidad y Refuerzo, en ese orden, para que el cambio se sostenga.

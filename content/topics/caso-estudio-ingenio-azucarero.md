@@ -5,7 +5,7 @@ accent: "#7C61D4"
 category: Administración Estratégica
 difficulty: principiante
 order: 1
-unit: "Unidad 1 · Administración Estratégica y Planificación"
+unit: "Administración Estratégica y Planificación"
 description: Caso real de administración de SI en un ingenio azucarero de Tucumán (Argentina) con referencia al Valle del Cauca (Colombia). El proceso fabril completo desde la solicitud de caña al productor hasta el azúcar, el alcohol y la energía, con el nombre de cada etapa, los subproductos, el flujo de datos y la aplicación de PMBOK 8, COBIT e ITIL.
 tags: [caso-estudio, ingenio, zafra, Tucuman, Colombia, caña, proceso-fabril, subproductos, SCADA, MES, LIMS, PMBOK, COBIT, ITIL]
 keyTakeaway: Un ingenio transforma una materia prima perecedera (la caña) en azúcar, alcohol y energía en un período crítico (la zafra). Cada etapa del proceso genera datos críticos; el Administrador de SI convierte esos datos en continuidad, calidad y valor de negocio usando PMBOK 8, COBIT e ITIL.

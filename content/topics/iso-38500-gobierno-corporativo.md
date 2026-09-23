@@ -5,7 +5,7 @@ accent: "#E87C7C"
 category: Gobierno de TI
 difficulty: intermedio
 order: 5
-unit: "Unidad 2 · Gobierno de TI y Marcos de Referencia"
+unit: "Gobierno de TI y Marcos de Referencia"
 description: Norma internacional ISO/IEC 38500 para el gobierno corporativo de TI. Los 6 principios en profundidad con violaciones tipicas, el modelo E-D-M paso a paso, la distinción gobierno vs gestión, ISO 38500 vs ITIL, la alineación con ISO 37000 (2024) y el monitoreo en ágiles. Con casos de financiera y monitoreo invasivo.
 tags: [ISO-38500, gobierno-corporativo, norma-internacional, principios, EDM, ISO-37000, accountability]
 keyTakeaway: ISO 38500 dice QUE y POR QUE debe cuidar el órgano de gobierno (6 principios + ciclo Evaluar-Dirigir-Monitorear), mientras que ITIL dice COMO se opera. La accountability es indelegable; el directorio puede delegar la operación al CIO, nunca la responsabilidad final.
