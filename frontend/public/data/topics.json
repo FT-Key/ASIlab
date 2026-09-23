@@ -50,7 +50,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Este caso analiza un ingenio azucarero colombiano donde los sistemas de informacion pasaron de ser herramientas de soporte a componentes estrategicos. El foco es la **zafra**: la temporada de cosecha y molienda, un proyecto de alta presion con una ventana fija de 4 a 6 meses."
+              "text": "Este caso analiza un ingenio azucarero colombiano donde los sistemas de informacion pasaron de ser herramientas de soporte a componentes estrategicos. El foco es la zafra: la temporada de cosecha y molienda, un proyecto de alta presion con una ventana fija de 4 a 6 meses."
             },
             {
               "type": "definition",
@@ -273,7 +273,7 @@
               "type": "callout",
               "tone": "success",
               "title": "Por que los tres",
-              "text": "**PMBOK 8** da la estructura de gobierno y ejecucion diaria del proyecto. **COBIT** da el alineamiento estrategico y la gestion de riesgos desde la alta direccion. **ITIL** da el manual de operaciones y respuesta a incidentes. Uno solo no basta: ITIL sin COBIT opera bien pero se desalinea; COBIT sin ITIL tiene estrategia pero falla en ejecucion; PMBOK sin ITIL gestiona el proyecto pero no la operacion continua."
+              "text": "PMBOK 8 da la estructura de gobierno y ejecucion diaria del proyecto. COBIT da el alineamiento estrategico y la gestion de riesgos desde la alta direccion. ITIL da el manual de operaciones y respuesta a incidentes. Uno solo no basta: ITIL sin COBIT opera bien pero se desalinea; COBIT sin ITIL tiene estrategia pero falla en ejecucion; PMBOK sin ITIL gestiona el proyecto pero no la operacion continua."
             }
           ]
         },
@@ -933,7 +933,7 @@
               "type": "callout",
               "tone": "warning",
               "title": "El error clasico",
-              "text": "Entregar el producto (output) en tiempo y presupuesto **no garantiza** el valor. Si el cliente no obtiene el beneficio esperado (outcome), la inversion de TI fracaso aunque el entregable exista."
+              "text": "Entregar el producto (output) en tiempo y presupuesto no garantiza el valor. Si el cliente no obtiene el beneficio esperado (outcome), la inversion de TI fracaso aunque el entregable exista."
             }
           ]
         },
@@ -1128,7 +1128,7 @@
               "type": "callout",
               "tone": "idea",
               "title": "Leccion de gestion de proyecto",
-              "text": "Rockin1000 muestra el equilibrio que busca PMBOK 8: **vision estrategica** (unir a traves de la musica) con **tacticas concretas** (alcance definido de 1,000 musicos, plataforma de gestion, comunicacion por auriculares con click). Y demuestra sostenibilidad (ESG): conciertos beneficos y estructura de Sociedad Benefit."
+              "text": "Rockin1000 muestra el equilibrio que busca PMBOK 8: vision estrategica (unir a traves de la musica) con tacticas concretas (alcance definido de 1,000 musicos, plataforma de gestion, comunicacion por auriculares con click). Y demuestra sostenibilidad (ESG): conciertos beneficos y estructura de Sociedad Benefit."
             },
             {
               "type": "paragraph",
@@ -1648,13 +1648,13 @@
             {
               "type": "definition",
               "term": "Gobierno de TI",
-              "text": "Conjunto de **liderazgo, estructuras organizacionales y procesos** que aseguran que la TI soporte y extienda las estrategias y objetivos de la organizacion. Provee la direccion estrategica, asegura que los objetivos se alcanzan, gestiona los riesgos y verifica que los recursos se usen de manera responsable."
+              "text": "Conjunto de liderazgo, estructuras organizacionales y procesos que aseguran que la TI soporte y extienda las estrategias y objetivos de la organizacion. Provee la direccion estrategica, asegura que los objetivos se alcanzan, gestiona los riesgos y verifica que los recursos se usen de manera responsable."
             },
             {
               "type": "callout",
               "tone": "info",
               "title": "Que vs como",
-              "text": "El gobierno de TI **no** es lo mismo que la gestion de TI. El gobierno responde \"**¿que debemos hacer y por que?**\"; la gestion responde \"**¿como lo hacemos?**\". Confundirlos es el error mas comun: se delegan decisiones estrategicas al nivel operativo o se microgestiona desde la direccion."
+              "text": "El gobierno de TI no es lo mismo que la gestion de TI. El gobierno responde \"¿que debemos hacer y por que?\"; la gestion responde \"¿como lo hacemos?\". Confundirlos es el error mas comun: se delegan decisiones estrategicas al nivel operativo o se microgestiona desde la direccion."
             }
           ]
         },
@@ -1696,7 +1696,7 @@
               "type": "callout",
               "tone": "danger",
               "title": "Accountability indelegable",
-              "text": "El organo de gobierno puede **delegar tareas operativas** en la gestion (por ejemplo, elegir al proveedor), pero **nunca la responsabilidad final**. Si algo falla, el directorio sigue rindiendo cuentas ante los stakeholders y el regulador."
+              "text": "El organo de gobierno puede delegar tareas operativas en la gestion (por ejemplo, elegir al proveedor), pero nunca la responsabilidad final. Si algo falla, el directorio sigue rindiendo cuentas ante los stakeholders y el regulador."
             },
             {
               "type": "paragraph",
@@ -1748,13 +1748,13 @@
               "type": "callout",
               "tone": "warning",
               "title": "No son excluyentes",
-              "text": "Las organizaciones maduras usan los tres de forma complementaria: **COBIT** para el gobierno y la gestion integral, **ITIL** para la operacion de servicios, e **ISO 38500** para establecer los principios del organo de gobierno."
+              "text": "Las organizaciones maduras usan los tres de forma complementaria: COBIT para el gobierno y la gestion integral, ITIL para la operacion de servicios, e ISO 38500 para establecer los principios del organo de gobierno."
             },
             {
               "type": "callout",
               "tone": "info",
               "title": "Otros marcos del curso",
-              "text": "Acompanan a estos tres: **PMBOK** (gestion de proyectos) e **ISO 27001** (seguridad de la informacion). No son marcos de gobierno de TI, pero se integran con ellos."
+              "text": "Acompanan a estos tres: PMBOK (gestion de proyectos) e ISO 27001 (seguridad de la informacion). No son marcos de gobierno de TI, pero se integran con ellos."
             }
           ]
         },
@@ -1815,7 +1815,7 @@
               "type": "callout",
               "tone": "info",
               "title": "Dato clave",
-              "text": "**EDM** es el unico dominio de **gobierno** (lo ejerce la alta direccion). Los otros cuatro (APO, BAI, DSS, MEA) son de **gestion**. COBIT tiene 40 objetivos en total (5 EDM, 14 APO, 11 BAI, 6 DSS, 4 MEA). En la unidad de COBIT se profundiza."
+              "text": "EDM es el unico dominio de gobierno (lo ejerce la alta direccion). Los otros cuatro (APO, BAI, DSS, MEA) son de gestion. COBIT tiene 40 objetivos en total (5 EDM, 14 APO, 11 BAI, 6 DSS, 4 MEA). En la unidad de COBIT se profundiza."
             }
           ]
         },
@@ -1869,7 +1869,7 @@
               "type": "callout",
               "tone": "idea",
               "title": "Novedad 2024",
-              "text": "La version 2024 de ISO 38500 se alinea con **ISO 37000** y adopta sus principios, integrando tres resultados del buen gobierno: **desempeno efectivo, gestion responsable y comportamiento etico**. En la unidad de ISO 38500 se profundiza en cada principio."
+              "text": "La version 2024 de ISO 38500 se alinea con ISO 37000 y adopta sus principios, integrando tres resultados del buen gobierno: desempeno efectivo, gestion responsable y comportamiento etico. En la unidad de ISO 38500 se profundiza en cada principio."
             }
           ]
         },
@@ -1916,7 +1916,7 @@
               "type": "callout",
               "tone": "success",
               "title": "Como se complementan",
-              "text": "El directorio **gobierna** con ISO 38500 (principios y rumbo); los equipos **gestionan** los servicios con ITIL (practicas). COBIT actua como puente: integra gobierno (EDM) y gestion (APO, BAI, DSS, MEA) en un solo sistema. Uno da la direccion, los otros la ejecutan."
+              "text": "El directorio gobierna con ISO 38500 (principios y rumbo); los equipos gestionan los servicios con ITIL (practicas). COBIT actua como puente: integra gobierno (EDM) y gestion (APO, BAI, DSS, MEA) en un solo sistema. Uno da la direccion, los otros la ejecutan."
             }
           ]
         },
@@ -1960,7 +1960,7 @@
               "type": "callout",
               "tone": "success",
               "title": "Correctivo",
-              "text": "El directorio retoma su rol: **evalua** si el ERP soporta la estrategia, **dirige** aprobando la inversion y el riesgo, y **monitorea** con reportes. El CIO **gestiona**: selecciona al proveedor, construye e implementa y opera el servicio, reportando resultados al gobierno."
+              "text": "El directorio retoma su rol: evalua si el ERP soporta la estrategia, dirige aprobando la inversion y el riesgo, y monitorea con reportes. El CIO gestiona: selecciona al proveedor, construye e implementa y opera el servicio, reportando resultados al gobierno."
             }
           ]
         },
@@ -2465,7 +2465,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "El PETI **no** es una lista de compras de hardware. Responde: \"¿Como la TI ayuda al negocio a alcanzar sus objetivos?\" Traduce el **PEI** (Plan Estrategico Institucional, del negocio) en iniciativas de TI medibles."
+              "text": "El PETI no es una lista de compras de hardware. Responde: \"¿Como la TI ayuda al negocio a alcanzar sus objetivos?\" Traduce el PEI (Plan Estrategico Institucional, del negocio) en iniciativas de TI medibles."
             }
           ]
         },
@@ -3208,13 +3208,13 @@
             {
               "type": "definition",
               "term": "ISO/IEC 38500",
-              "text": "Norma internacional que proporciona un marco para el gobierno corporativo de las tecnologias de la informacion (TI). Establece principios, un modelo y un marco de gobierno que ayudan a los organos de gobierno a **evaluar, dirigir y monitorear** el uso de TI en la organizacion."
+              "text": "Norma internacional que proporciona un marco para el gobierno corporativo de las tecnologias de la informacion (TI). Establece principios, un modelo y un marco de gobierno que ayudan a los organos de gobierno a evaluar, dirigir y monitorear el uso de TI en la organizacion."
             },
             {
               "type": "callout",
               "tone": "info",
               "title": "Que y por que, no como",
-              "text": "ISO 38500 NO describe como implementar el gobierno de TI: establece **QUE** debe cuidar la alta direccion y **POR QUE**. Es una guia de alto nivel para el directorio o consejo, no un manual operativo. El \"COMO\" lo aportan marcos como ITIL 4 (servicios) o COBIT (gobierno y gestion integral)."
+              "text": "ISO 38500 NO describe como implementar el gobierno de TI: establece QUE debe cuidar la alta direccion y POR QUE. Es una guia de alto nivel para el directorio o consejo, no un manual operativo. El \"COMO\" lo aportan marcos como ITIL 4 (servicios) o COBIT (gobierno y gestion integral)."
             },
             {
               "type": "heading",
@@ -3254,7 +3254,7 @@
               "type": "callout",
               "tone": "warning",
               "title": "Ojo con los numeros",
-              "text": "El curso y el evaluativo trabajan con los **6 principios clasicos** (Responsabilidad, Estrategia, Adquisicion, Desempeno, Conformidad, Comportamiento Humano). La version 2024 adopta los 11 principios de ISO 37000, pero mantiene la esencia: los 6 siguen siendo la base para estudiar."
+              "text": "El curso y el evaluativo trabajan con los 6 principios clasicos (Responsabilidad, Estrategia, Adquisicion, Desempeno, Conformidad, Comportamiento Humano). La version 2024 adopta los 11 principios de ISO 37000, pero mantiene la esencia: los 6 siguen siendo la base para estudiar."
             }
           ]
         },
@@ -3299,7 +3299,7 @@
               "type": "callout",
               "tone": "idea",
               "title": "Regla para no confundirse",
-              "text": "Si la tarea la hace el **directorio o consejo** (evaluar, dirigir, monitorear) es **gobierno**. Si la hace el **CIO y su equipo** (planificar, construir, operar, medir el dia a dia) es **gestion**."
+              "text": "Si la tarea la hace el directorio o consejo (evaluar, dirigir, monitorear) es gobierno. Si la hace el CIO y su equipo (planificar, construir, operar, medir el dia a dia) es gestion."
             }
           ]
         },
@@ -3361,7 +3361,7 @@
             {
               "type": "definition",
               "term": "Desempeno = fit for purpose",
-              "text": "\"Fit for purpose\" significa que la TI **sirve al proposito del negocio**, no que sea la mas rapida o la mas nueva. Un sistema puede ser tecnicamente perfecto y aun asi fallar el principio de Desempeno si no satisface las necesidades actuales y futuras."
+              "text": "\"Fit for purpose\" significa que la TI sirve al proposito del negocio, no que sea la mas rapida o la mas nueva. Un sistema puede ser tecnicamente perfecto y aun asi fallar el principio de Desempeno si no satisface las necesidades actuales y futuras."
             }
           ]
         },
@@ -3403,7 +3403,7 @@
               "type": "callout",
               "tone": "danger",
               "title": "Accountability indelegable",
-              "text": "El organo de gobierno **puede delegar tareas operativas** en la gestion (por ejemplo, que el CIO seleccione al proveedor o configure el modelo). Lo que **NO puede delegar** es la **responsabilidad final ni la rendicion de cuentas (accountability)**: si algo falla, el directorio sigue siendo el responsable ante los stakeholders y el regulador."
+              "text": "El organo de gobierno puede delegar tareas operativas en la gestion (por ejemplo, que el CIO seleccione al proveedor o configure el modelo). Lo que NO puede delegar es la responsabilidad final ni la rendicion de cuentas (accountability): si algo falla, el directorio sigue siendo el responsable ante los stakeholders y el regulador."
             },
             {
               "type": "paragraph",
@@ -3461,7 +3461,7 @@
               "type": "callout",
               "tone": "info",
               "title": "No son rivales",
-              "text": "ISO 38500 no reemplaza a ITIL. El directorio **gobierna** con ISO 38500 (principios y rumbo) y los equipos **gestionan** los servicios con ITIL (practicas detalladas). Uno da la direccion; el otro la ejecuta."
+              "text": "ISO 38500 no reemplaza a ITIL. El directorio gobierna con ISO 38500 (principios y rumbo) y los equipos gestionan los servicios con ITIL (practicas detalladas). Uno da la direccion; el otro la ejecuta."
             }
           ]
         },
@@ -3486,7 +3486,7 @@
               "type": "callout",
               "tone": "idea",
               "title": "Modelo ampliado",
-              "text": "Ademas de E-D-M, la version 2024 subraya **involucrar a las partes interesadas** (engage stakeholders) y propone un marco de gobierno con elementos como direccion, capacidad, politica, delegacion, desempeno y accountability. Para el curso, E-D-M sigue siendo el modelo central."
+              "text": "Ademas de E-D-M, la version 2024 subraya involucrar a las partes interesadas (engage stakeholders) y propone un marco de gobierno con elementos como direccion, capacidad, politica, delegacion, desempeno y accountability. Para el curso, E-D-M sigue siendo el modelo central."
             }
           ]
         },
@@ -3514,7 +3514,7 @@
               "type": "callout",
               "tone": "warning",
               "title": "Velocity no es gobierno",
-              "text": "La velocity mide la capacidad interna del equipo. El gobierno mide si el trabajo produce **valor estrategico dentro del riesgo aceptado**. Confundirlos es microgestionar."
+              "text": "La velocity mide la capacidad interna del equipo. El gobierno mide si el trabajo produce valor estrategico dentro del riesgo aceptado. Confundirlos es microgestionar."
             }
           ]
         },
@@ -3580,7 +3580,7 @@
               "type": "callout",
               "tone": "success",
               "title": "Evitar recurrencia",
-              "text": "La leccion no es solo corregir el caso: hay que **hacer obligatorio el analisis legal** dentro del proceso de adquisicion, para que no vuelva a comprarse tecnologia sin pasar por cumplimiento."
+              "text": "La leccion no es solo corregir el caso: hay que hacer obligatorio el analisis legal dentro del proceso de adquisicion, para que no vuelva a comprarse tecnologia sin pasar por cumplimiento."
             }
           ]
         },
@@ -4139,7 +4139,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "ITIL es un marco de **buenas practicas**: no certifica a la empresa ni impone pasos obligatorios. Su valor esta en el vocabulario comun y en las practicas probadas que propone. La certificacion oficial es individual (ITIL 4 Foundation) y la administra PeopleCert/Axelos."
+              "text": "ITIL es un marco de buenas practicas: no certifica a la empresa ni impone pasos obligatorios. Su valor esta en el vocabulario comun y en las practicas probadas que propone. La certificacion oficial es individual (ITIL 4 Foundation) y la administra PeopleCert/Axelos."
             }
           ]
         },
@@ -4199,7 +4199,7 @@
             {
               "type": "callout",
               "tone": "warning",
-              "text": "El responsable de TI que dice \"tenemos 26 procesos documentados y funcionan, ITIL 4 es lo mismo\" comete dos errores: (1) confunde procesos con practicas, y (2) ignora que el exito ya no se mide por procesos cumplidos sino por **valor co-creado con el cliente**."
+              "text": "El responsable de TI que dice \"tenemos 26 procesos documentados y funcionan, ITIL 4 es lo mismo\" comete dos errores: (1) confunde procesos con practicas, y (2) ignora que el exito ya no se mide por procesos cumplidos sino por valor co-creado con el cliente."
             },
             {
               "type": "heading",
@@ -4223,7 +4223,7 @@
             {
               "type": "definition",
               "term": "SVS (Service Value System)",
-              "text": "Modelo que describe como TODOS los componentes y actividades de una organizacion trabajan juntos para facilitar la **co-creacion de valor**. Toma una demanda u oportunidad como entrada y produce valor como salida."
+              "text": "Modelo que describe como TODOS los componentes y actividades de una organizacion trabajan juntos para facilitar la co-creacion de valor. Toma una demanda u oportunidad como entrada y produce valor como salida."
             },
             {
               "type": "flow",
@@ -4293,7 +4293,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "La cadena de valor **NO es lineal ni secuencial**. Las actividades se combinan de forma iterativa y paralela, igual que un equipo agil. Un **flujo de valor** es la secuencia concreta de pasos que sigue una demanda hasta convertirse en valor (ejemplo: \"de solicitud a servicio entregado\")."
+              "text": "La cadena de valor NO es lineal ni secuencial. Las actividades se combinan de forma iterativa y paralela, igual que un equipo agil. Un flujo de valor es la secuencia concreta de pasos que sigue una demanda hasta convertirse en valor (ejemplo: \"de solicitud a servicio entregado\")."
             },
             {
               "type": "example",
@@ -4309,7 +4309,7 @@
             {
               "type": "definition",
               "term": "Servicio (ITIL 4)",
-              "text": "Medio para habilitar la creacion de valor **co-creado con el consumidor**, sin que este tenga que asumir costos o riesgos especificos."
+              "text": "Medio para habilitar la creacion de valor co-creado con el consumidor, sin que este tenga que asumir costos o riesgos especificos."
             },
             {
               "type": "definition",
@@ -4343,7 +4343,7 @@
             {
               "type": "callout",
               "tone": "warning",
-              "text": "Cumplir el alcance, el tiempo y el presupuesto **no garantiza** valor. Ese es el error clasico del caso de Tienda Andina: el proyecto \"salio bien\" en plazo y costo, pero el cliente no puede comprar con comodidad y el negocio pierde ventas."
+              "text": "Cumplir el alcance, el tiempo y el presupuesto no garantiza valor. Ese es el error clasico del caso de Tienda Andina: el proyecto \"salio bien\" en plazo y costo, pero el cliente no puede comprar con comodidad y el negocio pierde ventas."
             }
           ]
         },
@@ -4464,7 +4464,7 @@
             {
               "type": "callout",
               "tone": "idea",
-              "text": "Los principios guia se aplican **juntos**, no de a uno. Ante un caso, preguntate: ¿esto crea valor? ¿estoy partiendo de lo que ya existe? ¿lo puedo validar en ciclos? ¿es visible para todos? ¿es simple? ¿se puede automatizar?"
+              "text": "Los principios guia se aplican juntos, no de a uno. Ante un caso, preguntate: ¿esto crea valor? ¿estoy partiendo de lo que ya existe? ¿lo puedo validar en ciclos? ¿es visible para todos? ¿es simple? ¿se puede automatizar?"
             }
           ]
         },
@@ -4526,7 +4526,7 @@
             {
               "type": "callout",
               "tone": "success",
-              "text": "ITIL 4 **no exige** implementar las 34 practicas. Cada organizacion selecciona las que mejor se adapten a su contexto. Lo importante es entender que practica resuelve que problema."
+              "text": "ITIL 4 no exige implementar las 34 practicas. Cada organizacion selecciona las que mejor se adapten a su contexto. Lo importante es entender que practica resuelve que problema."
             }
           ]
         },
@@ -4565,7 +4565,7 @@
             {
               "type": "callout",
               "tone": "danger",
-              "text": "Esto es un **fracaso en la co-creacion de valor**: se cumplio el alcance, pero el cliente no puede obtener valor. No se aplicaron bien los principios de centrarse en el valor, colaborar y promover la visibilidad, ni avanzar de forma iterativa con retroalimentacion. La solucion no es gastar a ciegas: es medir la experiencia del usuario, realinear el flujo de valor y validar cada mejora en ciclos."
+              "text": "Esto es un fracaso en la co-creacion de valor: se cumplio el alcance, pero el cliente no puede obtener valor. No se aplicaron bien los principios de centrarse en el valor, colaborar y promover la visibilidad, ni avanzar de forma iterativa con retroalimentacion. La solucion no es gastar a ciegas: es medir la experiencia del usuario, realinear el flujo de valor y validar cada mejora en ciclos."
             },
             {
               "type": "heading",
@@ -5108,7 +5108,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "COBIT 2019 es la evolucion de COBIT 5. Mejora el modelo de diseno de gobierno, las capacidades de proceso y las buenas practicas. No es un manual operativo: es un marco de **que** debe gobernarse y **quien** lo hace."
+              "text": "COBIT 2019 es la evolucion de COBIT 5. Mejora el modelo de diseno de gobierno, las capacidades de proceso y las buenas practicas. No es un manual operativo: es un marco de que debe gobernarse y quien lo hace."
             }
           ]
         },
@@ -5158,7 +5158,7 @@
             {
               "type": "callout",
               "tone": "warning",
-              "text": "Error frecuente: delegar decisiones estrategicas al nivel operativo, o microgestionar desde la direccion. La gobernanza **dirige** y **monitorea**; la gestion **planifica, construye, ejecuta y mide** dentro de esa direccion."
+              "text": "Error frecuente: delegar decisiones estrategicas al nivel operativo, o microgestionar desde la direccion. La gobernanza dirige y monitorea; la gestion planifica, construye, ejecuta y mide dentro de esa direccion."
             }
           ]
         },
@@ -5202,7 +5202,7 @@
             {
               "type": "callout",
               "tone": "idea",
-              "text": "Regla para no equivocarse: si la actividad la hace el Consejo/Alta Direccion (evaluar, dirigir, monitorear), es **gobernanza**. Si la hace el CIO y su equipo (planificar, construir, operar, medir), es **gestion**."
+              "text": "Regla para no equivocarse: si la actividad la hace el Consejo/Alta Direccion (evaluar, dirigir, monitorear), es gobernanza. Si la hace el CIO y su equipo (planificar, construir, operar, medir), es gestion."
             }
           ]
         },
@@ -5252,7 +5252,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Mnemotecnia: **P**lan → **A**PO, **B**uild → **B**AI, **R**un → **D**SS, **M**onitor → **M**EA. Las letras iniciales de las fases coinciden con la idea de cada dominio."
+              "text": "Mnemotecnia: Plan → APO, Build → BAI, Run → DSS, Monitor → MEA. Las letras iniciales de las fases coinciden con la idea de cada dominio."
             }
           ]
         },
@@ -5310,7 +5310,7 @@
             {
               "type": "callout",
               "tone": "warning",
-              "text": "EDM es el **unico** dominio de gobierno. Los otros cuatro (APO, BAI, DSS, MEA) son de gestion. Si te preguntan \"quien gobierna\", la respuesta es EDM, no APO."
+              "text": "EDM es el unico dominio de gobierno. Los otros cuatro (APO, BAI, DSS, MEA) son de gestion. Si te preguntan \"quien gobierna\", la respuesta es EDM, no APO."
             }
           ]
         },
@@ -5386,7 +5386,7 @@
             {
               "type": "example",
               "title": "Dos componentes que explican el enfoque holistico",
-              "text": "1. **Cultura, etica y comportamiento**: puedes tener el mejor comite de gobierno (estructura) y los mejores procesos, pero si la cultura premia ocultar errores, el gobierno fracasa. El comportamiento humano es un engranaje real. 2. **Informacion**: sin datos confiables y oportunos, el Consejo no puede evaluar ni monitorear; tomaria decisiones a ciegas. La informacion conecta la gobernanza con la gestion."
+              "text": "1. Cultura, etica y comportamiento: puedes tener el mejor comite de gobierno (estructura) y los mejores procesos, pero si la cultura premia ocultar errores, el gobierno fracasa. El comportamiento humano es un engranaje real. 2. Informacion: sin datos confiables y oportunos, el Consejo no puede evaluar ni monitorear; tomaria decisiones a ciegas. La informacion conecta la gobernanza con la gestion."
             }
           ]
         },
@@ -5532,7 +5532,7 @@
             {
               "type": "callout",
               "tone": "warning",
-              "text": "COBIT 2019 **no exige** alcanzar nivel 5 en todos los procesos. El nivel objetivo depende de las necesidades del negocio y su contexto."
+              "text": "COBIT 2019 no exige alcanzar nivel 5 en todos los procesos. El nivel objetivo depende de las necesidades del negocio y su contexto."
             }
           ]
         },
@@ -5576,7 +5576,7 @@
             {
               "type": "callout",
               "tone": "success",
-              "text": "Resultado esperado: la gobernanza **dirige** (que TI soporte la estrategia) y la gestion **ejecuta** (construir y operar), conectadas por **Estructuras** (comites y roles) e **Informacion** (reportes y KPIs). Asi se cierra la brecha negocio-TI."
+              "text": "Resultado esperado: la gobernanza dirige (que TI soporte la estrategia) y la gestion ejecuta (construir y operar), conectadas por Estructuras (comites y roles) e Informacion (reportes y KPIs). Asi se cierra la brecha negocio-TI."
             }
           ]
         },
@@ -6089,7 +6089,7 @@
               "type": "callout",
               "tone": "info",
               "title": "Que cambia en la 8va edicion",
-              "text": "PMBOK 8 (2025) mantiene el espiritu de la 7ma edicion (orientada a principios) pero **reintroduce estructura practica**: **6 principios**, **7 dominios de desempeno**, **5 areas de enfoque (Focus Areas)** y **40 procesos** adaptables a proyectos agiles, predictivos o hibridos. Ademas integra de forma explicita **IA, automatizacion y analitica de datos**."
+              "text": "PMBOK 8 (2025) mantiene el espiritu de la 7ma edicion (orientada a principios) pero reintroduce estructura practica: 6 principios, 7 dominios de desempeno, 5 areas de enfoque (Focus Areas) y 40 procesos adaptables a proyectos agiles, predictivos o hibridos. Ademas integra de forma explicita IA, automatizacion y analitica de datos."
             },
             {
               "type": "table",
@@ -6130,7 +6130,7 @@
               "type": "callout",
               "tone": "warning",
               "title": "La 8va no es prescriptiva",
-              "text": "Los 40 procesos **no** son obligatorios ni secuenciales: son guias adaptables (\"tailoring\"). El equipo decide cuales aplicar segun el contexto."
+              "text": "Los 40 procesos no son obligatorios ni secuenciales: son guias adaptables (\"tailoring\"). El equipo decide cuales aplicar segun el contexto."
             }
           ]
         },
@@ -6186,7 +6186,7 @@
               "type": "callout",
               "tone": "idea",
               "title": "Principios = mentalidad",
-              "text": "Un proyecto puede entregar todo a tiempo y aun asi **vulnerar** un principio. Por ejemplo, entregar a tiempo pero sin valor para el cliente rompe el **Foco en el valor**."
+              "text": "Un proyecto puede entregar todo a tiempo y aun asi vulnerar un principio. Por ejemplo, entregar a tiempo pero sin valor para el cliente rompe el Foco en el valor."
             }
           ]
         },
@@ -6222,7 +6222,7 @@
               "type": "callout",
               "tone": "warning",
               "title": "Cumplir el alcance no es exito",
-              "text": "Un proyecto puede entregar todos sus componentes (output) en tiempo y presupuesto, pero si el cliente **no puede usarlos** para mejorar su negocio, se vulnero el principio de **Foco en el valor**. El exito se mide por el outcome."
+              "text": "Un proyecto puede entregar todos sus componentes (output) en tiempo y presupuesto, pero si el cliente no puede usarlos para mejorar su negocio, se vulnero el principio de Foco en el valor. El exito se mide por el outcome."
             }
           ]
         },
@@ -6466,7 +6466,7 @@
               "type": "callout",
               "tone": "info",
               "title": "Matriz de comunicaciones",
-              "text": "Definir la **matriz de comunicaciones** y la frecuencia de reportes es **Interesados / Planificacion** (proceso \"Planificar las Comunicaciones\")."
+              "text": "Definir la matriz de comunicaciones y la frecuencia de reportes es Interesados / Planificacion (proceso \"Planificar las Comunicaciones\")."
             }
           ]
         },
@@ -6533,7 +6533,7 @@
               "type": "callout",
               "tone": "success",
               "title": "Los tres marcos juntos",
-              "text": "**PMBOK 8** da la estructura de gobierno y ejecucion del proyecto; **COBIT** da el alineamiento estrategico y la gestion de riesgos de la alta direccion; **ITIL** da el manual de operacion y respuesta a incidentes. Ninguno basta solo: ITIL sin COBIT opera bien pero se desalinea; COBIT sin ITIL tiene estrategia pero falla en ejecucion; PMBOK sin ITIL gestiona el proyecto pero no la operacion continua."
+              "text": "PMBOK 8 da la estructura de gobierno y ejecucion del proyecto; COBIT da el alineamiento estrategico y la gestion de riesgos de la alta direccion; ITIL da el manual de operacion y respuesta a incidentes. Ninguno basta solo: ITIL sin COBIT opera bien pero se desalinea; COBIT sin ITIL tiene estrategia pero falla en ejecucion; PMBOK sin ITIL gestiona el proyecto pero no la operacion continua."
             }
           ]
         },
@@ -7104,7 +7104,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Este tema cubre los **fundamentos** (comunicacion, escucha, inteligencia emocional, conflictos). Para liderazgo, delegacion y equipos de alto desempeno, continua con \"Liderazgo y Gestion de Equipos de TI\"."
+              "text": "Este tema cubre los fundamentos (comunicacion, escucha, inteligencia emocional, conflictos). Para liderazgo, delegacion y equipos de alto desempeno, continua con \"Liderazgo y Gestion de Equipos de TI\"."
             }
           ]
         },
@@ -7723,7 +7723,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "No es comprar la ultima tecnologia. Es decidir **QUE** tecnologias implementar, **COMO** implementarlas y **PARA QUE** proposito, todo alineado con la estrategia del negocio."
+              "text": "No es comprar la ultima tecnologia. Es decidir QUE tecnologias implementar, COMO implementarlas y PARA QUE proposito, todo alineado con la estrategia del negocio."
             }
           ]
         },
@@ -7827,7 +7827,7 @@
             {
               "type": "callout",
               "tone": "danger",
-              "text": "El error clasico: confundir una **debilidad** interna (deuda tecnica) con una **amenaza** externa (ransomware). La primera la controla la empresa; la segunda, no."
+              "text": "El error clasico: confundir una debilidad interna (deuda tecnica) con una amenaza externa (ransomware). La primera la controla la empresa; la segunda, no."
             }
           ]
         },
@@ -7883,7 +7883,7 @@
               "type": "callout",
               "tone": "idea",
               "title": "FODA + PESTEL",
-              "text": "El **PESTEL** mira afuera (macro-entorno) y el **FODA** combina adentro y afuera para decidir. Juntos alimentan la estrategia de TI."
+              "text": "El PESTEL mira afuera (macro-entorno) y el FODA combina adentro y afuera para decidir. Juntos alimentan la estrategia de TI."
             }
           ]
         },
@@ -7908,7 +7908,7 @@
             {
               "type": "callout",
               "tone": "success",
-              "text": "El framework **TOGAF** (The Open Group Architecture Framework) es el estandar mas utilizado para disenar arquitectura empresarial."
+              "text": "El framework TOGAF (The Open Group Architecture Framework) es el estandar mas utilizado para disenar arquitectura empresarial."
             }
           ]
         },
@@ -7975,7 +7975,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "El detalle de la cascada y del BSC de TI se desarrolla en el tema **PETI**. Aqui basta entender que cada proyecto debe rastrearse hasta la estrategia."
+              "text": "El detalle de la cascada y del BSC de TI se desarrolla en el tema PETI. Aqui basta entender que cada proyecto debe rastrearse hasta la estrategia."
             }
           ]
         },
@@ -8588,7 +8588,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Un **flujo de valor** es la secuencia concreta de pasos que sigue una demanda hasta convertirse en valor. Ejemplo: el cliente pide una mejora (Involucrar) → se disena (Disenar) → se construye (Obtener/Construir) → se entrega (Entregar y Soportar) → se mide (Mejorar)."
+              "text": "Un flujo de valor es la secuencia concreta de pasos que sigue una demanda hasta convertirse en valor. Ejemplo: el cliente pide una mejora (Involucrar) → se disena (Disenar) → se construye (Obtener/Construir) → se entrega (Entregar y Soportar) → se mide (Mejorar)."
             }
           ]
         },
@@ -8738,7 +8738,7 @@
             {
               "type": "callout",
               "tone": "success",
-              "text": "Las 4 dimensiones se analizan **juntas**. Un enfoque solo en tecnologia, sin personas, informacion ni proveedores, garantiza el fracaso del servicio."
+              "text": "Las 4 dimensiones se analizan juntas. Un enfoque solo en tecnologia, sin personas, informacion ni proveedores, garantiza el fracaso del servicio."
             }
           ]
         },
@@ -9246,7 +9246,7 @@
             {
               "type": "definition",
               "term": "Mapa de Procesos COBIT",
-              "text": "Taxonomia que organiza los 40 objetivos de gobierno y gestion de TI en 5 dominios. No es un diagrama de flujo: es una clasificacion logica que indica **que** se hace y **en que** dominio."
+              "text": "Taxonomia que organiza los 40 objetivos de gobierno y gestion de TI en 5 dominios. No es un diagrama de flujo: es una clasificacion logica que indica que se hace y en que dominio."
             },
             {
               "type": "table",
@@ -9343,7 +9343,7 @@
             {
               "type": "callout",
               "tone": "warning",
-              "text": "EDM no tiene procesos operativos: son actividades del tablero directivo. Si ejecutas EDM01, actúas como **gobierno**, no como gestion."
+              "text": "EDM no tiene procesos operativos: son actividades del tablero directivo. Si ejecutas EDM01, actúas como gobierno, no como gestion."
             }
           ]
         },
@@ -9661,13 +9661,13 @@
             {
               "type": "example",
               "title": "Diferencia con un control de contraseñas",
-              "text": "**Evaluate:** revisas los registros y ves que el **95%** de usuarios cambió su contraseña en los últimos 90 días (un dato duro). **Assess:** un auditor revisa **cómo** se gestiona el cambio (si el procedimiento está documentado, si hay excepciones, si el sistema fuerza el cambio) y emite un **juicio**: \"el control es adecuado, pero hay riesgo en el 5% incumplidor; se recomienda automatizar\"."
+              "text": "Evaluate: revisas los registros y ves que el 95% de usuarios cambió su contraseña en los últimos 90 días (un dato duro). Assess: un auditor revisa cómo se gestiona el cambio (si el procedimiento está documentado, si hay excepciones, si el sistema fuerza el cambio) y emite un juicio: \"el control es adecuado, pero hay riesgo en el 5% incumplidor; se recomienda automatizar\"."
             },
             {
               "type": "callout",
               "tone": "idea",
               "title": "No puedes valorar sin evaluar",
-              "text": "Primero **evalúas** (necesitas datos), luego **valoras** (interpretas con criterio). Los números no cuentan toda la historia, y el juicio sin datos es una opinión. Por eso MEA incluye ambos."
+              "text": "Primero evalúas (necesitas datos), luego valoras (interpretas con criterio). Los números no cuentan toda la historia, y el juicio sin datos es una opinión. Por eso MEA incluye ambos."
             }
           ]
         },
@@ -9723,7 +9723,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Una misma realidad se ve con tres lentes: COBIT dice **que** gobernar y quien responde (gobierno vs gestion); ITIL dice **como** operar el servicio; PMBOK dice **como** ejecutar el proyecto. No compiten: se complementan."
+              "text": "Una misma realidad se ve con tres lentes: COBIT dice que gobernar y quien responde (gobierno vs gestion); ITIL dice como operar el servicio; PMBOK dice como ejecutar el proyecto. No compiten: se complementan."
             }
           ]
         },
@@ -10806,7 +10806,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Este tema es la continuacion **avanzada** de \"Habilidades Sociales y Trabajo en Equipo\": aqui el foco es liderar y gestionar personas, no solo relacionarse. Para comunicacion, escucha e inteligencia emocional, revisa el tema de fundamentos."
+              "text": "Este tema es la continuacion avanzada de \"Habilidades Sociales y Trabajo en Equipo\": aqui el foco es liderar y gestionar personas, no solo relacionarse. Para comunicacion, escucha e inteligencia emocional, revisa el tema de fundamentos."
             },
             {
               "type": "table",
@@ -11681,7 +11681,7 @@
             {
               "type": "callout",
               "tone": "danger",
-              "text": "El error mas comun es confundir debilidades con amenazas o fortalezas con oportunidades. Fortalezas y debilidades son **internas** (la empresa las controla); oportunidades y amenazas son **externas** (no las controla)."
+              "text": "El error mas comun es confundir debilidades con amenazas o fortalezas con oportunidades. Fortalezas y debilidades son internas (la empresa las controla); oportunidades y amenazas son externas (no las controla)."
             }
           ]
         },
@@ -11692,7 +11692,7 @@
             {
               "type": "definition",
               "term": "PESTEL",
-              "text": "Herramienta que analiza el **entorno externo** de la organizacion en seis dimensiones: Politica, Economica, Social, Tecnologica, Ecologica y Legal. Complementa al FODA aportando el contexto macro donde compite la empresa."
+              "text": "Herramienta que analiza el entorno externo de la organizacion en seis dimensiones: Politica, Economica, Social, Tecnologica, Ecologica y Legal. Complementa al FODA aportando el contexto macro donde compite la empresa."
             },
             {
               "type": "table",
@@ -11738,7 +11738,7 @@
               "type": "callout",
               "tone": "idea",
               "title": "FODA + PESTEL",
-              "text": "El **PESTEL** mira afuera (macro-entorno) y el **FODA** combina adentro y afuera para decidir. Juntos son la base del analisis estrategico."
+              "text": "El PESTEL mira afuera (macro-entorno) y el FODA combina adentro y afuera para decidir. Juntos son la base del analisis estrategico."
             }
           ]
         },
@@ -12573,7 +12573,7 @@
             {
               "type": "callout",
               "tone": "idea",
-              "text": "Interna vs externa no es \"buena vs mala\": la interna conoce la organizacion pero puede perder objetividad; la externa aporta independencia pero requiere mas tiempo de contextualizacion. Lo importante es la **independencia** del juicio."
+              "text": "Interna vs externa no es \"buena vs mala\": la interna conoce la organizacion pero puede perder objetividad; la externa aporta independencia pero requiere mas tiempo de contextualizacion. Lo importante es la independencia del juicio."
             }
           ]
         },
@@ -12958,7 +12958,7 @@
             {
               "type": "callout",
               "tone": "info",
-              "text": "Un hallazgo bien redactado tiene 4 partes: **condicion** (que se encontro), **criterio** (que deberia ser), **causa** (por que ocurre) y **efecto** (que riesgo genera). Sin evidencia en el papel de trabajo, el hallazgo no se sostiene."
+              "text": "Un hallazgo bien redactado tiene 4 partes: condicion (que se encontro), criterio (que deberia ser), causa (por que ocurre) y efecto (que riesgo genera). Sin evidencia en el papel de trabajo, el hallazgo no se sostiene."
             }
           ]
         },

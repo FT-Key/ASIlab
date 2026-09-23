@@ -134,18 +134,18 @@ function parseDirective(lines, start) {
         block.tone = 'idea'
         block.title = rest || undefined
       }
-      block.text = text
+      block.text = cleanInline(text)
       break
     }
     case 'definition':
       block.type = 'definition'
-      block.term = rest || 'Término'
-      block.text = text
+      block.term = cleanInline(rest || 'Término')
+      block.text = cleanInline(text)
       break
     case 'example':
       block.type = 'example'
       block.title = rest || undefined
-      block.text = text
+      block.text = cleanInline(text)
       break
     case 'flow':
       block.type = 'flow'
