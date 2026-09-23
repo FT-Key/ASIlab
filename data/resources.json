@@ -47,15 +47,6 @@
       "description": "Norma internacional de gobierno corporativo de TI."
     }
   ],
-  "plan-estrategico-ti-peti": [
-    {
-      "id": "res-07",
-      "title": "Plan Estrategico de TI (PETI)",
-      "url": "https://uniagustiniana.edu.co",
-      "type": "pdf",
-      "description": "Documento U23 sobre planificacion estrategica de TI."
-    }
-  ],
   "iso-38500-gobierno-corporativo": [
     {
       "id": "res-08",
@@ -129,13 +120,20 @@
       "description": "Syllabus del curso con habilidades blandas requeridas."
     }
   ],
-  "admin-estrategica-ti": [
+  "administracion-estrategica-ti-peti": [
     {
       "id": "res-17",
       "title": "Valor de Negocio en la Administracion de TI",
       "url": "https://uniagustiniana.edu.co",
       "type": "pdf",
       "description": "Documento U21 sobre administracion estrategica de TI."
+    },
+    {
+      "id": "res-07",
+      "title": "Plan Estrategico de TI (PETI)",
+      "url": "https://uniagustiniana.edu.co",
+      "type": "pdf",
+      "description": "Documento U23 sobre planificacion estrategica de TI."
     }
   ],
   "dimensiones-itil-svs": [

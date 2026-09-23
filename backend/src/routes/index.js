@@ -27,6 +27,7 @@ import {
   validateBlockIndex,
   validateCsvFile,
   validateTopicBody,
+  requireAdmin,
 } from '../middleware/security.js'
 
 const router = Router()
@@ -59,60 +60,60 @@ router.get('/topics/:slug', validateSlug, asyncHandler(async (req, res) => {
   res.json(topic)
 }))
 
-router.post('/topics', validateTopicBody, asyncHandler(async (req, res) => {
+router.post('/topics', requireAdmin, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await createTopic(req.body ?? {})
   res.status(201).json(topic)
 }))
 
-router.put('/topics/:slug', validateSlug, validateTopicBody, asyncHandler(async (req, res) => {
+router.put('/topics/:slug', requireAdmin, validateSlug, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await updateTopic(req.params.slug, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.delete('/topics/:slug', validateSlug, asyncHandler(async (req, res) => {
+router.delete('/topics/:slug', requireAdmin, validateSlug, asyncHandler(async (req, res) => {
   const deleted = await deleteTopic(req.params.slug)
   if (!deleted) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json({ ok: true })
 }))
 
-router.put('/topics/:slug/resources', validateSlug, asyncHandler(async (req, res) => {
+router.put('/topics/:slug/resources', requireAdmin, validateSlug, asyncHandler(async (req, res) => {
   const topic = await updateTopicResources(req.params.slug, req.body?.resources)
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.put('/topics/:slug/sources', validateSlug, asyncHandler(async (req, res) => {
+router.put('/topics/:slug/sources', requireAdmin, validateSlug, asyncHandler(async (req, res) => {
   const topic = await updateTopicSources(req.params.slug, req.body?.sources)
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.post('/topics/:slug/sections', validateSlug, validateTopicBody, asyncHandler(async (req, res) => {
+router.post('/topics/:slug/sections', requireAdmin, validateSlug, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await addTopicSection(req.params.slug, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.status(201).json(topic)
 }))
 
-router.put('/topics/:slug/sections/:sectionId', validateSlug, validateSectionId, validateTopicBody, asyncHandler(async (req, res) => {
+router.put('/topics/:slug/sections/:sectionId', requireAdmin, validateSlug, validateSectionId, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await updateTopicSection(req.params.slug, req.params.sectionId, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.delete('/topics/:slug/sections/:sectionId', validateSlug, validateSectionId, asyncHandler(async (req, res) => {
+router.delete('/topics/:slug/sections/:sectionId', requireAdmin, validateSlug, validateSectionId, asyncHandler(async (req, res) => {
   const topic = await deleteTopicSection(req.params.slug, req.params.sectionId)
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.json(topic)
 }))
 
-router.post('/topics/:slug/sections/:sectionId/blocks', validateSlug, validateSectionId, validateTopicBody, asyncHandler(async (req, res) => {
+router.post('/topics/:slug/sections/:sectionId/blocks', requireAdmin, validateSlug, validateSectionId, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await addTopicBlock(req.params.slug, req.params.sectionId, req.body ?? {})
   if (!topic) return res.status(404).json({ error: 'Tema no encontrado' })
   res.status(201).json(topic)
 }))
 
-router.put('/topics/:slug/sections/:sectionId/blocks/:blockIndex', validateSlug, validateSectionId, validateBlockIndex, validateTopicBody, asyncHandler(async (req, res) => {
+router.put('/topics/:slug/sections/:sectionId/blocks/:blockIndex', requireAdmin, validateSlug, validateSectionId, validateBlockIndex, validateTopicBody, asyncHandler(async (req, res) => {
   const topic = await updateTopicBlock(
     req.params.slug,
     req.params.sectionId,
@@ -123,7 +124,7 @@ router.put('/topics/:slug/sections/:sectionId/blocks/:blockIndex', validateSlug,
   res.json(topic)
 }))
 
-router.delete('/topics/:slug/sections/:sectionId/blocks/:blockIndex', validateSlug, validateSectionId, validateBlockIndex, asyncHandler(async (req, res) => {
+router.delete('/topics/:slug/sections/:sectionId/blocks/:blockIndex', requireAdmin, validateSlug, validateSectionId, validateBlockIndex, asyncHandler(async (req, res) => {
   const topic = await deleteTopicBlock(
     req.params.slug,
     req.params.sectionId,

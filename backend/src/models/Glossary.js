@@ -4,6 +4,7 @@ const glossarySchema = new Schema(
   {
     term: { type: String, required: true, unique: true },
     definition: { type: String, required: true },
+    category: { type: String, default: 'General' },
   },
   { timestamps: true }
 )

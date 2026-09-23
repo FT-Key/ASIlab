@@ -1,6 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
 import { useTopics } from '../../lib/topicContext'
-import { api } from '../../api/client'
 import BlockRenderer from '../../components/BlockRenderer'
 import { ArrowLeft, Plus, Trash } from '@phosphor-icons/react'
 import { useState } from 'react'

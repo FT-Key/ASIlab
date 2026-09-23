@@ -58,9 +58,20 @@ El parser (`backend/src/convert/md.js`) usa formato pipe-separated, NO JSON:
 ## Editar contenido
 
 1. Editar los archivos `content/topics/*.md` (bloques `:::tipo` con pipe-separated).
-2. `npm run build:content` para regenerar `data/topics.json`.
-3. `npm run seed` si la API lee de la base.
-4. `npm run build` para typecheck del frontend.
+2. Editar el glosario en `content/glossary.json` (array de `{ term, definition, category }`).
+3. `npm run build:content` para regenerar `data/topics.json` (incluye el glosario).
+4. `npm run seed` si la API lee de la base.
+5. `npm run build` para typecheck del frontend.
+
+## Sitio público y seguridad de la API
+
+- El sitio es **público** (estudiantes). El panel `/admin` es **solo de desarrollo**: se registra únicamente cuando `import.meta.env.DEV` es verdadero y se elimina del bundle de producción.
+- El frontend **no tiene cliente de escritura**: `frontend/src/api/client.ts` fue eliminado. La administración se hace editando `content/` + `npm run build:content` + `npm run seed`.
+- Todas las mutaciones de la API (`POST/PUT/DELETE` en `/api/topics`, secciones, bloques) están protegidas por el middleware `requireAdmin` (`backend/src/middleware/security.js`):
+  - Con `ADMIN_TOKEN` configurado: exige el header `x-admin-token` (comparación en tiempo constante).
+  - Sin `ADMIN_TOKEN`: permite escritura solo si `NODE_ENV === 'development'` (explícito); en cualquier otro caso responde `403`.
+- Los rate-limiters de escritura se registran **antes** del router (si se mueven después, nunca se ejecutan).
+- No usar scripts inline en `index.html` (el CSP de Helmet solo permite `'self'`); el arranque de tema vive en `frontend/public/theme-init.js`.
 
 ## Otros
 
@@ -68,19 +79,20 @@ El parser (`backend/src/convert/md.js`) usa formato pipe-separated, NO JSON:
 - Mensajes de commit en español, imperativo breve (ej. "Completa Fase 3: ...").
 - Los snapshots de `.playwright-mcp/` están ignorados: no se commitean.
 - Paleta de colores: #3B82F6 (primario azul), #8B5CF6 (secundario violeta), #111827 (ink/negro), #FFFFFF (superficies).
-- Tema claro fijo (sin toggle dark/light).
+- Tema claro y oscuro con toggle (clase `dark` en `<html>`, persistido en `localStorage` clave `asilab-theme`, default segun `prefers-color-scheme`).
 - Fuentes: Inter (body), Limelight (display), JetBrains Mono (mono).
 - Estilo artistico: bordes negros de 2px, esquinas sin radio, sombras offset, etiquetas uppercase.
 
-## Estado verificado (2026-08-22)
+## Estado verificado (2026-09-22)
 
-- **MongoDB Atlas**: 14 temas sembrados en `administracion_sistemas.topics`
-- **Build frontend**: `npx vite build` compila sin errores (3.53s)
-- **Build content**: `npm run build:content` genera `data/topics.json` con 14 temas
+- **MongoDB Atlas**: 15 temas y 69 términos de glosario (10 categorías) en `administracion_sistemas`
+- **Build frontend**: `npx tsc -b && npx vite build` sin errores
+- **Build content**: `npm run build:content` genera `data/topics.json` con 15 temas + 69 términos
 - **Seed**: `npm run seed` siembra MongoDB correctamente
 - **Frontend**: React 19 + Vite 8 + Tailwind 4 + TypeScript 6
 - **Backend**: Express 4 + Mongoose 8, puerto 4001
-- **Ejercicios**: 14 temas con Quiz, TrueFalse, Match, Sort, Essay, Path, Arch
+- **Ejercicios**: 15 temas con Quiz, TrueFalse, Match, Sort, Essay, Path, Arch
+- **Admin**: panel dev-only (`import.meta.env.DEV`), fuera del bundle de producción
 
 ### Comandos verificados
 ```powershell

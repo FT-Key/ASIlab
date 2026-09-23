@@ -31,7 +31,7 @@ export default function RecursosPage() {
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <div className="flex items-center gap-3 mb-4">
           <div className="w-12 h-12 bg-ink flex items-center justify-center">
-            <Books size={24} className="text-white" weight="fill" />
+            <Books size={24} className="text-on-ink" weight="fill" />
           </div>
           <div>
             <h1 className="font-display text-4xl text-ink">Recursos</h1>
@@ -67,7 +67,7 @@ export default function RecursosPage() {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.03 }}
-                className="border-2 border-ink p-4 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all group"
+                className="border-2 border-ink p-4 bg-surface hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all group"
               >
                 <div className="flex items-start gap-3">
                   <div className={`w-10 h-10 ${config.color} flex items-center justify-center shrink-0`}>

@@ -133,11 +133,8 @@ if (process.env.NODE_ENV !== 'test') {
   app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'))
 }
 
-// --- Routes with mutation rate limiting ---
-app.use('/api', routes)
-
-// Apply stricter rate limits to mutating endpoints
-app.use('/api/topics', (req, res, next) => {
+// --- Rate limiting for mutating endpoints (must run BEFORE the router) ---
+app.use('/api', (req, res, next) => {
   if (['POST', 'PUT', 'DELETE'].includes(req.method)) {
     return mutationLimiter(req, res, next)
   }
@@ -150,6 +147,9 @@ app.use('/api/topics', (req, res, next) => {
   }
   next()
 })
+
+// --- Routes ---
+app.use('/api', routes)
 
 // --- Static File Serving ---
 if (SERVE_STATIC) {

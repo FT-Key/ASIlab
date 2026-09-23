@@ -1,6 +1,6 @@
 const DANGEROUS_PROTOCOLS = /^\s*(javascript|data|vbscript|blob)\s*:/i
 
-export function sanitizeUrl(url) {
+export function sanitizeUrl(url: unknown): string | null {
   if (typeof url !== 'string') return null
   const trimmed = url.trim()
   if (!trimmed) return null

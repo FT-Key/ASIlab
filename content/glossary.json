@@ -1,0 +1,347 @@
+[
+  {
+    "term": "Gobierno de TI",
+    "definition": "Sistema de dirección y control que asegura que las TI sostienen y extienden la estrategia y los objetivos del negocio. Evalúa necesidades, dirige la ejecución y monitorea el desempeño (modelo EDM).",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "Alineación estratégica",
+    "definition": "Grado en que las iniciativas, inversiones y capacidades de TI están conectadas con los objetivos del negocio, de modo que la tecnología habilita y no solo soporta la estrategia.",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "EDM",
+    "definition": "En COBIT, dominio de gobierno con tres prácticas: Evaluar (Evaluate), Dirigir (Direct) y Monitorear (Monitor). Es responsabilidad de la junta y la alta dirección, distinta de la gestión diaria.",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "Cascada de metas (Goals Cascade)",
+    "definition": "Mecanismo de COBIT 2019 que traduce las necesidades de los interesados en metas corporativas, luego en metas de alineación de TI y finalmente en objetivos de gobierno y gestión medibles.",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "Modelo de diseño de gobierno",
+    "definition": "En COBIT 2019, conjunto de 11 factores de diseño (estrategia empresarial, metas, perfil de riesgo, tamaño, entre otros) que permiten adaptar el sistema de gobierno a cada organización.",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "Nivel de capacidad",
+    "definition": "Escala de 0 a 5 en COBIT 2019 que mide qué tan completo y maduro es un proceso de gobierno o gestión, desde inexistente (0) hasta optimizado (5).",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "Comité de dirección de TI (Steering Committee)",
+    "definition": "Órgano de decisión que reúne a negocio y TI para priorizar inversiones, resolver conflictos y supervisar el portafolio de iniciativas tecnológicas.",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "COBIT 2019",
+    "definition": "Marco de ISACA para el gobierno y la gestión de las TI empresariales. Define 40 objetivos (5 de gobierno y 35 de gestión), 7 componentes y un modelo de diseño adaptable. Es un marco de referencia, no una norma certificable.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "ITIL 4",
+    "definition": "Marco de AXELOS para la gestión de servicios de TI. Introduce el Sistema de Valor del Servicio (SVS), las 4 dimensiones, los 7 principios guía y 34 prácticas de gestión.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "ISO/IEC 38500",
+    "definition": "Norma internacional de gobierno corporativo de las TI. Establece 6 principios (responsabilidad, estrategia, adquisición, desempeño, conformidad y comportamiento humano) y el modelo Evaluar-Dirigir-Monitorear.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "ISO/IEC 27001",
+    "definition": "Norma certificable para establecer, implementar, mantener y mejorar un Sistema de Gestión de Seguridad de la Información (SGSI). Es la referencia para la seguridad de la información.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "ISO/IEC 12207",
+    "definition": "Norma que define los procesos del ciclo de vida del software (adquisición, desarrollo, operación y mantenimiento) y su relación con el sistema y los procesos organizacionales.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "PMBOK",
+    "definition": "Guía del PMI que compila buenas prácticas de dirección de proyectos: grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre) y áreas de conocimiento.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "TOGAF",
+    "definition": "Marco de The Open Group para arquitectura empresarial. Su núcleo es el Método de Desarrollo de Arquitectura (ADM), un ciclo iterativo para diseñar arquitecturas de negocio, datos, aplicaciones y tecnología.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "NIST CSF",
+    "definition": "Marco de Ciberseguridad del NIST (EE. UU.) organizado en cinco funciones: Identificar, Proteger, Detectar, Responder y Recuperar. Ayuda a gestionar el riesgo cibernético de forma estructurada.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "Marco de referencia vs norma",
+    "definition": "Una norma (ISO, IEEE) es un requisito verificable y a menudo certificable; un marco de referencia (COBIT, ITIL, PMBOK) ofrece buenas prácticas recomendadas y adaptables, sin obligatoriedad legal.",
+    "category": "Marcos y Normas"
+  },
+  {
+    "term": "Servicio",
+    "definition": "En ITIL 4, medio para habilitar la co-creación de valor al facilitar los resultados que los clientes quieren alcanzar, sin que estos gestionen los costos y riesgos asociados.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Sistema de Valor del Servicio (SVS)",
+    "definition": "Modelo de ITIL 4 que describe cómo los componentes y actividades de la organización trabajan juntos para crear valor: principios guía, gobierno, cadena de valor, prácticas y mejora continua.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Cadena de Valor del Servicio",
+    "definition": "Modelo operativo de ITIL 4 con seis actividades (Planear, Mejorar, Involucrar, Diseñar y Transicionar, Obtener/Construir, Entregar y Soportar) que transforman demanda en valor.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Las 4 dimensiones de ITIL",
+    "definition": "Perspectivas que toda práctica debe considerar: Organizaciones y personas, Información y tecnología, Socios y proveedores, y Flujos de valor y procesos.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Práctica (ITIL 4)",
+    "definition": "Conjunto de recursos organizacionales diseñados para realizar un trabajo o lograr un objetivo. ITIL 4 define 34 prácticas, agrupadas en generales, de gestión de servicios y técnicas.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "SLA (Acuerdo de Nivel de Servicio)",
+    "definition": "Acuerdo documentado entre un proveedor y un cliente que define los servicios esperados y los niveles de calidad medibles (disponibilidad, tiempos de respuesta, etc.).",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "OLA (Acuerdo de Nivel Operacional)",
+    "definition": "Acuerdo interno entre equipos de TI que respalda el cumplimiento de un SLA con el cliente; define responsabilidades y tiempos entre áreas internas.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Incidente",
+    "definition": "Interrupción no planificada o reducción de la calidad de un servicio. Su objetivo es restaurar la operación lo antes posible, no necesariamente eliminar la causa raíz.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Problema",
+    "definition": "Causa o causas potenciales de uno o más incidentes. La gestión de problemas busca identificar la causa raíz para prevenir recurrencias.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Cambio",
+    "definition": "Adición, modificación o eliminación de algo que podría afectar a los servicios. La habilitación del cambio evalúa riesgo, autoriza y programa su implementación.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Mesa de servicio (Service Desk)",
+    "definition": "Punto único de contacto entre el proveedor de servicios y los usuarios, encargado de registrar, clasificar y resolver incidentes y solicitudes.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Mejora continua (CSI)",
+    "definition": "Actividad recurrente para alinear los servicios con las necesidades cambiantes del negocio mediante la mejora de servicios, procesos y tecnología de forma iterativa.",
+    "category": "Gestión de Servicios"
+  },
+  {
+    "term": "Proyecto",
+    "definition": "Esfuerzo temporal emprendido para crear un producto, servicio o resultado único. Tiene inicio y fin definidos, alcance, presupuesto y recursos acotados.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "Programa",
+    "definition": "Conjunto de proyectos y actividades relacionados gestionados de forma coordinada para obtener beneficios que no se lograrían gestionándolos individualmente.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "Portafolio",
+    "definition": "Colección de proyectos, programas y operaciones agrupados para facilitar la gestión estratégica y la priorización de inversiones según el valor esperado.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "Acta de constitución (Project Charter)",
+    "definition": "Documento que autoriza formalmente la existencia de un proyecto y otorga al director la autoridad para aplicar recursos a sus actividades.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "EDT / WBS",
+    "definition": "Estructura de Desglose del Trabajo: descomposición jerárquica del alcance total del proyecto en entregables y paquetes de trabajo manejables.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "Ruta crítica",
+    "definition": "Secuencia de actividades dependientes que determina la duración mínima del proyecto. Cualquier retraso en ella retrasa la fecha de término.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "Gestión del valor ganado (EVM)",
+    "definition": "Técnica que integra alcance, cronograma y costo para medir el desempeño del proyecto mediante indicadores como CPI, SPI y variaciones.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "Interesados (Stakeholders)",
+    "definition": "Personas u organizaciones que pueden afectar o ser afectadas por el proyecto. Su identificación y gestión del involucramiento es clave para el éxito.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "Riesgo",
+    "definition": "Evento o condición incierta que, si ocurre, tiene efecto positivo o negativo sobre los objetivos. Se gestiona identificando, analizando y planificando respuestas.",
+    "category": "Gestión de Proyectos"
+  },
+  {
+    "term": "PETI",
+    "definition": "Plan Estratégico de TI: documento que traduce la estrategia del negocio en iniciativas, proyectos y arquitectura tecnológica para un horizonte plurianual.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "Planeación estratégica",
+    "definition": "Proceso de formular la misión, visión, objetivos y cursos de acción de la organización, y de asignar recursos para alcanzarlos en el mediano y largo plazo.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "FODA (SWOT)",
+    "definition": "Herramienta de diagnóstico que cruza Fortalezas y Debilidades internas con Oportunidades y Amenazas del entorno para orientar la estrategia.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "PESTEL",
+    "definition": "Análisis del entorno macro: factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales que condicionan la estrategia.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "Objetivos SMART",
+    "definition": "Criterio para redactar objetivos: Específicos, Medibles, Alcanzables, Relevantes y con Plazo definido. Facilita su seguimiento y evaluación.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "Cuadro de mando integral (BSC)",
+    "definition": "Sistema de gestión que traduce la estrategia en objetivos e indicadores en cuatro perspectivas: financiera, clientes, procesos internos y aprendizaje y crecimiento.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "Cadena de valor (Porter)",
+    "definition": "Modelo que descompone la organización en actividades primarias y de apoyo para identificar dónde se genera valor y ventaja competitiva.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "Gestión del cambio organizacional",
+    "definition": "Disciplina que planifica y acompaña la transición de personas y procesos hacia un nuevo estado, reduciendo la resistencia y asegurando la adopción.",
+    "category": "Administración y Estrategia"
+  },
+  {
+    "term": "Arquitectura empresarial",
+    "definition": "Práctica de describir y alinear la estructura de negocio, datos, aplicaciones y tecnología de la organización con su estrategia, usando marcos como TOGAF.",
+    "category": "Arquitectura Empresarial"
+  },
+  {
+    "term": "Arquitectura de TI",
+    "definition": "Vista de la arquitectura empresarial centrada en la infraestructura, plataformas, redes y estándares tecnológicos que soportan las aplicaciones y servicios.",
+    "category": "Arquitectura Empresarial"
+  },
+  {
+    "term": "ERM (Gestión de riesgo empresarial)",
+    "definition": "Enfoque integral para identificar, evaluar y tratar los riesgos de toda la organización (estratégicos, operativos, financieros y de TI) de forma coordinada.",
+    "category": "Gobierno de TI"
+  },
+  {
+    "term": "DIKW",
+    "definition": "Jerarquía que distingue Datos (hechos crudos), Información (datos con contexto), Conocimiento (información interpretada) y Sabiduría (aplicación para decidir).",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "KPI",
+    "definition": "Indicador Clave de Desempeño: métrica que mide el avance hacia un objetivo relevante y permite evaluar si la estrategia se está cumpliendo.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "KRI",
+    "definition": "Indicador Clave de Riesgo: métrica anticipada que alerta sobre la exposición creciente a un riesgo antes de que se materialice.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "BI (Inteligencia de Negocio)",
+    "definition": "Conjunto de tecnologías y procesos que transforman datos en información accionable mediante reportes, tableros y análisis para apoyar la decisión.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "Data Warehouse",
+    "definition": "Repositorio central, integrado y orientado a temas que consolida datos de múltiples fuentes para análisis y reportería histórica.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "ETL",
+    "definition": "Extract, Transform, Load: proceso de extraer datos de orígenes, transformarlos (limpieza, normalización) y cargarlos en un destino analítico.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "OLAP",
+    "definition": "Procesamiento Analítico en Línea: tecnología que permite analizar datos multidimensionalmente (cubos) mediante operaciones como drill-down y slice-and-dice.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "ERP",
+    "definition": "Sistema de Planificación de Recursos Empresariales que integra en una sola plataforma los procesos de finanzas, compras, inventario, RR. HH. y producción.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "CRM",
+    "definition": "Sistema de Gestión de la Relación con Clientes que centraliza el historial, las interacciones y el ciclo de vida comercial para mejorar la atención y las ventas.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "Gobierno de datos (Data Governance)",
+    "definition": "Conjunto de políticas, roles y procesos que aseguran la calidad, disponibilidad, integridad y uso responsable de los datos como activo organizacional.",
+    "category": "Datos y Analítica"
+  },
+  {
+    "term": "Tríada CIA",
+    "definition": "Principios de la seguridad de la información: Confidencialidad (acceso autorizado), Integridad (exactitud y no alteración) y Disponibilidad (acceso cuando se requiere).",
+    "category": "Seguridad de la Información"
+  },
+  {
+    "term": "Gestión de riesgos de TI",
+    "definition": "Proceso de identificar, analizar, evaluar y tratar los riesgos asociados a los activos y servicios de información, según su impacto y probabilidad.",
+    "category": "Seguridad de la Información"
+  },
+  {
+    "term": "Control",
+    "definition": "Medida o mecanismo (preventivo, detectivo o correctivo) que reduce la probabilidad o el impacto de un riesgo y ayuda a cumplir los objetivos de la organización.",
+    "category": "Seguridad de la Información"
+  },
+  {
+    "term": "Vulnerabilidad y amenaza",
+    "definition": "La vulnerabilidad es una debilidad que puede ser explotada; la amenaza es la causa potencial de un incidente que aprovecha esa debilidad. El riesgo combina ambas con el impacto.",
+    "category": "Seguridad de la Información"
+  },
+  {
+    "term": "Auditoría informática",
+    "definition": "Evaluación independiente de los sistemas, controles y procesos de TI para verificar que salvaguardan los activos, mantienen la integridad de los datos y cumplen los objetivos.",
+    "category": "Auditoría y Control"
+  },
+  {
+    "term": "Hallazgo de auditoría",
+    "definition": "Desviación significativa documentada durante la auditoría, con evidencia suficiente, criterio aplicado, causa y efecto, sobre la cual se emiten recomendaciones.",
+    "category": "Auditoría y Control"
+  },
+  {
+    "term": "COSO",
+    "definition": "Marco de referencia para el control interno y la gestión de riesgos corporativos, basado en componentes como ambiente de control, evaluación de riesgos y actividades de control.",
+    "category": "Auditoría y Control"
+  },
+  {
+    "term": "Valor de negocio de TI",
+    "definition": "Beneficios (económicos, estratégicos, operativos o de cumplimiento) que la tecnología aporta al negocio, logrando los objetivos con un costo y riesgo óptimos.",
+    "category": "Métricas y Valor"
+  },
+  {
+    "term": "ROI",
+    "definition": "Retorno de la Inversión: relación entre el beneficio neto obtenido y el costo de la inversión. Se usa para justificar y priorizar iniciativas de TI.",
+    "category": "Métricas y Valor"
+  },
+  {
+    "term": "TCO",
+    "definition": "Costo Total de Propiedad: suma de todos los costos directos e indirectos de un activo de TI durante su ciclo de vida (adquisición, operación, soporte y retiro).",
+    "category": "Métricas y Valor"
+  },
+  {
+    "term": "Madurez (modelo CMMI)",
+    "definition": "Grado de formalización y mejora de los procesos de una organización, descrito en niveles que van de inicial y caótico hasta optimizado y en mejora continua.",
+    "category": "Métricas y Valor"
+  }
+]

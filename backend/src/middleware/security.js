@@ -1,8 +1,32 @@
+import { timingSafeEqual } from 'node:crypto'
+
 const SAFE_SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const SAFE_ID = /^[a-zA-Z0-9_-]{1,128}$/
 const SAFE_FILE = /^[a-zA-Z0-9._-]+$/
 const MAX_SLUG_LEN = 200
 const MAX_ID_LEN = 128
+
+function safeEqual(a, b) {
+  const bufA = Buffer.from(String(a))
+  const bufB = Buffer.from(String(b))
+  if (bufA.length !== bufB.length) return false
+  return timingSafeEqual(bufA, bufB)
+}
+
+// Las rutas de escritura (POST/PUT/DELETE) quedan bloqueadas salvo autorizacion.
+// - Si existe ADMIN_TOKEN, se exige el header x-admin-token (comparacion en tiempo constante).
+// - Sin ADMIN_TOKEN solo se permite escribir con NODE_ENV=development explicito.
+//   En cualquier otro caso (produccion, NODE_ENV sin definir, staging) se rechaza.
+export function requireAdmin(req, res, next) {
+  const configured = process.env.ADMIN_TOKEN
+  if (configured) {
+    const provided = req.get('x-admin-token') || ''
+    if (provided && safeEqual(provided, configured)) return next()
+    return res.status(401).json({ error: 'No autorizado' })
+  }
+  if (process.env.NODE_ENV === 'development') return next()
+  return res.status(403).json({ error: 'La administracion esta deshabilitada. Configure ADMIN_TOKEN.' })
+}
 
 export function validateSlug(req, res, next) {
   const { slug } = req.params
@@ -38,8 +62,7 @@ export function validateCsvFile(req, res, next) {
   next()
 }
 
-export function validateTopicBody(req, res, next) {
-  const body = req.body
+export function validateTopicBody(req, res, next) {  const body = req.body
   if (!body || typeof body !== 'object' || Array.isArray(body)) {
     return res.status(400).json({ error: 'Body inválido' })
   }

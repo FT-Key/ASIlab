@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-display: 'Limelight', cursive;
   --font-body: 'Inter', sans-serif;
@@ -31,8 +33,29 @@
 
   --color-ink: #111827;
   --color-ground: #FFFFFF;
+  --color-on-ink: #FFFFFF;
   --color-accent-alt: #DB2777;
   --color-teal: #0D9488;
+}
+
+html.dark {
+  --color-surface: #111827;
+  --color-surface-raised: #1A2233;
+  --color-surface-overlay: #1F2937;
+  --color-surface-page: #0B0F19;
+
+  --color-text: #F9FAFB;
+  --color-text-muted: #CBD5E1;
+  --color-text-dim: #94A3B8;
+
+  --color-ink: #F9FAFB;
+  --color-ground: #0B0F19;
+  --color-on-ink: #0B0F19;
+
+  --color-primary-light: #93C5FD;
+  --color-primary-dark: #93C5FD;
+  --color-secondary-light: #C4B5FD;
+  --color-secondary-dark: #C4B5FD;
 }
 
 @layer base {
@@ -40,12 +63,14 @@
     font-family: var(--font-body);
     background: var(--color-surface-page);
     color: var(--color-text);
+    transition: background-color 0.2s ease, color 0.2s ease;
   }
 
   body {
     margin: 0;
     min-height: 100vh;
     background: var(--color-surface-page);
+    transition: background-color 0.2s ease;
   }
 
   *::-webkit-scrollbar {
@@ -115,7 +140,7 @@
   .prose pre code {
     background: none;
     padding: 0;
-    color: white;
+    color: var(--color-on-ink);
   }
 
   /* Glass Cards → Artistic Cards */
@@ -140,7 +165,7 @@
   /* Buttons */
   .btn-primary {
     background: var(--color-ink);
-    color: white;
+    color: var(--color-on-ink);
     padding: 0.75rem 1.5rem;
     border-radius: 0;
     font-weight: 600;
@@ -182,7 +207,7 @@
 
   .btn-secondary:hover {
     background: var(--color-ink);
-    color: white;
+    color: var(--color-on-ink);
     transform: translateY(-2px);
     box-shadow: 4px 4px 0 var(--color-ink);
   }
@@ -266,7 +291,7 @@
   .input-field {
     background: var(--color-ink);
     border: 2px solid var(--color-ink);
-    color: white;
+    color: var(--color-on-ink);
     padding: 0.75rem 1rem;
     border-radius: 0;
     font-size: 0.813rem;
@@ -281,7 +306,8 @@
   }
 
   .input-field::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--color-on-ink);
+    opacity: 0.5;
   }
 
   /* Section Title */

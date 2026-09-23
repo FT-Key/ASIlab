@@ -65,7 +65,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         className="mb-8"
       >
-        <div className="border-2 border-ink p-6 sm:p-8 relative bg-white">
+        <div className="border-2 border-ink p-6 sm:p-8 relative bg-surface">
           {/* Decorative grid */}
           <div className="absolute top-0 right-0 w-64 h-64 opacity-5 overflow-hidden">
             <div className="grid grid-cols-4 grid-rows-4 gap-1 h-full">
@@ -150,7 +150,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="border-2 border-ink p-4 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
+          className="border-2 border-ink p-4 bg-surface hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
         >
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-primary flex items-center justify-center">
@@ -167,7 +167,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.15 }}
-          className="border-2 border-ink p-4 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
+          className="border-2 border-ink p-4 bg-surface hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
         >
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-secondary flex items-center justify-center">
@@ -184,7 +184,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="border-2 border-ink p-4 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
+          className="border-2 border-ink p-4 bg-surface hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
         >
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-success flex items-center justify-center">
@@ -201,7 +201,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25 }}
-          className="border-2 border-ink p-4 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
+          className="border-2 border-ink p-4 bg-surface hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
         >
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-idea flex items-center justify-center">
@@ -239,7 +239,7 @@ export default function Home() {
         className="flex flex-col sm:flex-row gap-4 mb-6"
       >
         <div className="relative flex-1 max-w-md">
-          <MagnifyingGlass size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-white/50" />
+          <MagnifyingGlass size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-on-ink/50" />
           <input
             type="text"
             placeholder="Buscar temas..."
@@ -252,7 +252,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-2">
             <button
               onClick={() => setSelectedCategory(null)}
-              className={`tag transition-all ${!selectedCategory ? 'tag-purple' : 'border-2 border-ink text-text-dim hover:bg-ink hover:text-white'}`}
+              className={`tag transition-all ${!selectedCategory ? 'tag-purple' : 'border-2 border-ink text-text-dim hover:bg-ink hover:text-on-ink'}`}
             >
               Todos
             </button>
@@ -260,7 +260,7 @@ export default function Home() {
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(selectedCategory === cat.slug ? null : cat.slug)}
-                className={`tag transition-all ${selectedCategory === cat.slug ? 'tag-purple' : 'border-2 border-ink text-text-dim hover:bg-ink hover:text-white'}`}
+                className={`tag transition-all ${selectedCategory === cat.slug ? 'tag-purple' : 'border-2 border-ink text-text-dim hover:bg-ink hover:text-on-ink'}`}
               >
                 {cat.name}
               </button>

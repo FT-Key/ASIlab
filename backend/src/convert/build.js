@@ -7,6 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const DATA_PATH = path.resolve(__dirname, '../../../data/topics.json')
 const FRONTEND_DATA = path.resolve(__dirname, '../../../frontend/public/data/topics.json')
 const RESOURCES_PATH = path.resolve(__dirname, '../../../data/resources.json')
+const GLOSSARY_PATH = path.resolve(__dirname, '../../../content/glossary.json')
 const CONTENT_DIR = path.resolve(__dirname, '../../../content/topics')
 
 const files = fs
@@ -31,6 +32,10 @@ const existing = fs.existsSync(DATA_PATH)
   ? JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'))
   : { meta: {}, categories: [], glossary: [] }
 
+const glossary = fs.existsSync(GLOSSARY_PATH)
+  ? JSON.parse(fs.readFileSync(GLOSSARY_PATH, 'utf8'))
+  : (existing.glossary || [])
+
 const out = {
   meta: {
     version: 1,
@@ -41,7 +46,7 @@ const out = {
   },
   categories: existing.categories || [],
   topics,
-  glossary: existing.glossary || [],
+  glossary,
 }
 
 fs.writeFileSync(DATA_PATH, JSON.stringify(out, null, 2) + '\n', 'utf8')
@@ -52,4 +57,5 @@ if (!fs.existsSync(frontendDir)) fs.mkdirSync(frontendDir, { recursive: true })
 fs.copyFileSync(DATA_PATH, FRONTEND_DATA)
 
 console.log(`🏗️  topics.json generado: ${topics.length} temas desde content/topics/*.md`)
+console.log(`📚 Glosario: ${glossary.length} terminos desde content/glossary.json`)
 console.log(`📁 Copiado a frontend/public/data/topics.json`)

@@ -65,10 +65,10 @@ export default function TopicPage() {
         {/* Sidebar */}
         <aside className="lg:w-72 shrink-0">
           <div className="lg:sticky lg:top-24">
-            <div className="border-2 border-ink p-5 mb-4 bg-white">
+            <div className="border-2 border-ink p-5 mb-4 bg-surface">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-12 h-12 bg-ink flex items-center justify-center shrink-0">
-                  <TopicIcon size={24} className="text-white" weight="regular" />
+                  <TopicIcon size={24} className="text-on-ink" weight="regular" />
                 </div>
                 <div>
                   <h1 className="font-display text-xl text-ink leading-tight">{topic.title}</h1>
@@ -93,7 +93,7 @@ export default function TopicPage() {
             </div>
 
             {/* Section Navigation */}
-            <nav className="border-2 border-ink p-3 hidden lg:block bg-white">
+            <nav className="border-2 border-ink p-3 hidden lg:block bg-surface">
               <div className="flex items-center gap-2 text-[10px] text-text-dim font-mono tracking-wider uppercase mb-2 px-2">
                 <List size={12} />
                 Secciones ({topic.sections.length})
@@ -108,7 +108,7 @@ export default function TopicPage() {
                       onClick={() => setActiveSection(i)}
                       className={`w-full text-left px-3 py-2.5 text-xs transition-all flex items-center gap-2.5 ${
                         isActive
-                          ? 'bg-ink text-white font-semibold'
+                          ? 'bg-ink text-on-ink font-semibold'
                           : isComplete
                             ? 'text-success hover:bg-surface-overlay font-medium'
                             : 'text-text-muted hover:bg-surface-overlay'
@@ -118,7 +118,7 @@ export default function TopicPage() {
                         <CheckCircle size={14} weight="fill" />
                       ) : (
                         <span className={`w-5 h-5 border-2 flex items-center justify-center text-[10px] font-bold ${
-                          isActive ? 'border-white text-white' : 'border-current'
+                          isActive ? 'border-on-ink text-on-ink' : 'border-current'
                         }`}>
                           {i + 1}
                         </span>
@@ -135,7 +135,7 @@ export default function TopicPage() {
         {/* Main Content */}
         <div className="flex-1 min-w-0">
           {/* Mobile Progress */}
-          <div className="lg:hidden border-2 border-ink p-3 mb-4 bg-white">
+          <div className="lg:hidden border-2 border-ink p-3 mb-4 bg-surface">
             <div className="flex items-center gap-3">
               <ProgressRing progress={progressPct} size={36} strokeWidth={3} accent={topic.accent} />
               <div className="flex-1">
@@ -156,7 +156,7 @@ export default function TopicPage() {
                 >
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-10 h-10 bg-ink flex items-center justify-center">
-                      <span className="text-sm font-bold text-white font-mono">{activeSection + 1}</span>
+                      <span className="text-sm font-bold text-on-ink font-mono">{activeSection + 1}</span>
                     </div>
                     <div>
                       <h2 className="font-display text-2xl text-ink">{section.title}</h2>
@@ -182,7 +182,7 @@ export default function TopicPage() {
             </div>
 
             {/* Sticky Navigation */}
-            <div className="sticky bottom-0 bg-white border-t-2 border-ink pt-4 pb-3 -mx-6 px-6 mt-6">
+            <div className="sticky bottom-0 bg-surface-page border-t-2 border-ink pt-4 pb-3 -mx-6 px-6 mt-6">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
                 <button
                   onClick={() => setActiveSection((s) => Math.max(0, s - 1))}
@@ -233,7 +233,7 @@ export default function TopicPage() {
                       href={safeUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="block border-2 border-ink p-3 bg-white hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
+                      className="block border-2 border-ink p-3 bg-surface hover:-translate-y-0.5 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all"
                     >
                       <div className="text-sm font-semibold text-primary hover:underline">{src.title}</div>
                       <div className="text-xs text-text-dim mt-0.5">

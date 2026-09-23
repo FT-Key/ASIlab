@@ -2927,747 +2927,6 @@
       ]
     },
     {
-      "id": "plan-estrategico-ti-peti",
-      "slug": "plan-estrategico-ti-peti",
-      "title": "Plan Estrategico de TI - PETI",
-      "emoji": "🗺️",
-      "accent": "#6DD4A0",
-      "category": "gobierno-ti",
-      "difficulty": "intermedio",
-      "order": 4,
-      "description": "Como disenar, implementar y evaluar un Plan Estrategico de Tecnologias de Informacion (PETI). Alineacion con el PEI, cascada PETI -> portafolio -> proyecto, Balanced Scorecard de TI con KPIs y ejemplo integrador de la empresa ficticia Logistica Andina.",
-      "tags": [
-        "PETI",
-        "plan-estrategico",
-        "balanced-scorecard",
-        "KPIs",
-        "portafolio",
-        "cascada-estrategica"
-      ],
-      "keyTakeaway": "El PETI traduce la vision del negocio (PEI) en iniciativas de TI medibles. La cascada PETI -> portafolio -> programa -> proyecto -> operacion convierte la estrategia en ejecucion con KPIs en las 4 perspectivas del BSC de TI.",
-      "sources": [
-        {
-          "title": "COBIT 2019 (APO02 Estrategia y APO05 Cartera)",
-          "url": "https://www.isaca.org/resources/cobit",
-          "source": "ISACA",
-          "description": "Alineacion de TI con el negocio"
-        },
-        {
-          "title": "The Balanced Scorecard - Kaplan y Norton",
-          "url": "https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2",
-          "source": "Harvard Business Review",
-          "description": "Origen del BSC"
-        },
-        {
-          "title": "Plan Estrategico de TI PETI (U23)",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Material de clase"
-        }
-      ],
-      "sections": [
-        {
-          "id": "que-es-un-peti",
-          "title": "Que es un PETI?",
-          "blocks": [
-            {
-              "type": "definition",
-              "term": "Plan Estrategico de TI (PETI)",
-              "text": "Documento que define la direccion estrategica de la tecnologia de informacion en una organizacion. Establece la vision de TI, los objetivos estrategicos, las iniciativas clave, los recursos necesarios y los indicadores de desempeno para un horizonte de 3 a 5 anos."
-            },
-            {
-              "type": "callout",
-              "tone": "info",
-              "text": "El PETI no es una lista de compras de hardware. Responde: \"¿Como la TI ayuda al negocio a alcanzar sus objetivos?\" Traduce el PEI (Plan Estrategico Institucional, del negocio) en iniciativas de TI medibles."
-            }
-          ]
-        },
-        {
-          "id": "estructura-del-peti",
-          "title": "Estructura del PETI",
-          "blocks": [
-            {
-              "type": "table",
-              "columns": [
-                "Componente",
-                "Que define",
-                "Ejemplo (Logistica Andina)"
-              ],
-              "rows": [
-                [
-                  "Vision de TI",
-                  "Como se ve TI a futuro",
-                  "\"Ser la plataforma digital que entrega en menos de 24h\""
-                ],
-                [
-                  "Alineacion con el PEI",
-                  "Como soporta la estrategia del negocio",
-                  "PEI: crecer 20% en e-commerce -> PETI: plataforma logistica integrada"
-                ],
-                [
-                  "Objetivos SMART",
-                  "Metas especificas y medibles",
-                  "\"Integrar 10 clientes de e-commerce al API en 6 meses\""
-                ],
-                [
-                  "Iniciativas",
-                  "Proyectos y programas",
-                  "Ruteo con IA, portal de clientes, ciberseguridad"
-                ],
-                [
-                  "Recursos",
-                  "Presupuesto, personal, proveedores",
-                  "12% del presupuesto corporativo"
-                ],
-                [
-                  "Indicadores (KPIs)",
-                  "Metricas de avance e impacto",
-                  "Disponibilidad 99.9%, satisfaccion 85%"
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Objetivos SMART"
-            },
-            {
-              "type": "paragraph",
-              "text": "Specific, Measurable, Achievable, Relevant, Time-bound."
-            },
-            {
-              "type": "list",
-              "items": [
-                "NO SMART: \"Mejorar la TI\".",
-                "SMART: \"Reducir el tiempo de despacho en 15% en 6 meses automatizando el ruteo\"."
-              ]
-            }
-          ]
-        },
-        {
-          "id": "metodologia-de-desarrollo-del-peti",
-          "title": "Metodologia de Desarrollo del PETI",
-          "blocks": [
-            {
-              "type": "flow",
-              "title": "Desarrollo del PETI",
-              "steps": [
-                "Fase 1: Diagnostico actual (estado de TI)",
-                "Fase 2: Definicion de vision y mision de TI",
-                "Fase 3: Identificacion de brechas",
-                "Fase 4: Definicion de objetivos e iniciativas",
-                "Fase 5: Asignacion de recursos",
-                "Fase 6: Definicion de KPIs",
-                "Fase 7: Aprobacion e implementacion",
-                "Fase 8: Monitoreo y ajuste continuo"
-              ]
-            },
-            {
-              "type": "definition",
-              "term": "Quick Win",
-              "text": "Victoria rapida: mejora de bajo esfuerzo y alto impacto visible que se logra en poco tiempo. Genera confianza y momentum para las iniciativas grandes."
-            }
-          ]
-        },
-        {
-          "id": "la-cascada-del-peti-al-proyecto",
-          "title": "La cascada: del PETI al proyecto",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "La estrategia no se ejecuta sola: baja en cascada hasta el trabajo diario. Cada nivel tiene su horizonte y su responsable."
-            },
-            {
-              "type": "table",
-              "columns": [
-                "Nivel",
-                "Que es",
-                "Ejemplo (Logistica Andina)",
-                "Horizonte"
-              ],
-              "rows": [
-                [
-                  "Estrategia corporativa (PEI)",
-                  "Objetivo del negocio",
-                  "\"Entregas en menos de 24h\"",
-                  "3-5 anos"
-                ],
-                [
-                  "PETI",
-                  "Plan de TI alineado",
-                  "\"Plataforma logistica integrada con ruteo por IA\"",
-                  "3-5 anos"
-                ],
-                [
-                  "Portafolio",
-                  "Conjunto de programas e iniciativas",
-                  "Modernizacion de plataforma, datos y analitica, ciberseguridad",
-                  "1-3 anos"
-                ],
-                [
-                  "Programa",
-                  "Grupo de proyectos relacionados",
-                  "Integracion de la plataforma",
-                  "1-2 anos"
-                ],
-                [
-                  "Proyecto",
-                  "Esfuerzo temporal con alcance y presupuesto",
-                  "Implementar el API de integracion con e-commerce",
-                  "meses"
-                ],
-                [
-                  "Operacion",
-                  "Servicio en produccion",
-                  "Servicio de rastreo en vivo (ITIL)",
-                  "continuo"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "idea",
-              "title": "Cascada en una linea",
-              "text": "Estrategia del negocio -> PETI -> Portafolio -> Programa -> Proyecto -> Operacion. Si un proyecto no se puede rastrear hasta la estrategia, probablemente no deberia existir."
-            }
-          ]
-        },
-        {
-          "id": "balanced-scorecard-de-ti",
-          "title": "Balanced Scorecard de TI",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "El BSC de TI adapta la metodologia de Kaplan y Norton para medir TI en 4 perspectivas. No basta con medir costos: hay que medir el valor en cada perspectiva."
-            },
-            {
-              "type": "table",
-              "columns": [
-                "Perspectiva",
-                "Pregunta clave",
-                "Objetivo (LogiAndina)",
-                "KPI y meta"
-              ],
-              "rows": [
-                [
-                  "Financiera",
-                  "¿Como contribuye TI a la rentabilidad?",
-                  "Reducir el costo de TI por entrega",
-                  "-15% en 12 meses; ROI de proyectos > 20%"
-                ],
-                [
-                  "Clientes",
-                  "¿Como perciben los usuarios la calidad de TI?",
-                  "Mejorar la atencion al usuario interno",
-                  "Satisfaccion 85%; respuesta < 2h"
-                ],
-                [
-                  "Procesos",
-                  "¿Que tan eficientes son los procesos de TI?",
-                  "Asegurar disponibilidad y automatizar",
-                  "Disponibilidad 99.9%; < 4 incidentes criticos/mes"
-                ],
-                [
-                  "Aprendizaje",
-                  "¿Como se capacita y desarrolla el equipo?",
-                  "Fortalecer competencias cloud y datos",
-                  "40h capacitacion/empleado; 5 certificaciones"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "success",
-              "text": "Un BSC de TI bien implementado da a la gerencia un solo tablero con las 4 perspectivas, facilitando decisiones y demostrando el valor de TI (no solo el costo)."
-            }
-          ]
-        },
-        {
-          "id": "ejemplo-integrador-el-peti-de-logistica-andina",
-          "title": "Ejemplo integrador: el PETI de Logistica Andina",
-          "blocks": [
-            {
-              "type": "paragraph",
-              "text": "Logistica Andina quiere crecer 20% en entregas de e-commerce. Su PETI conecta estrategia, iniciativas y medicion:"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Diagnostico: ERP estable pero sistemas aislados y deuda tecnica; sin API para clientes.",
-                "Vision de TI: plataforma logistica integrada que entregue en menos de 24h.",
-                "Objetivos SMART: integrar 10 clientes de e-commerce al API en 6 meses; reducir el tiempo de despacho 15%.",
-                "Iniciativas: API de integracion (proyecto), ruteo con IA (proyecto), tablero de KPIs (quick win).",
-                "KPIs (BSC): las 4 perspectivas de la tabla anterior.",
-                "Cascada: estrategia -> PETI -> portafolio de 3 programas -> programa de integracion -> proyecto API -> servicio de rastreo en operacion."
-              ],
-              "ordered": true
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "text": "Un PETI sin indicadores medibles es solo un documento bonito. Cada iniciativa debe tener KPIs con metas y un responsable."
-            }
-          ]
-        },
-        {
-          "id": "autoevaluacion",
-          "title": "Autoevaluacion",
-          "blocks": [
-            {
-              "type": "heading",
-              "text": "Nivel 1 - Conceptos base"
-            },
-            {
-              "type": "quiz",
-              "title": "PETI - Nivel 1 (memoria)",
-              "questions": [
-                {
-                  "question": "¿Que es un PETI?",
-                  "options": [
-                    "Un tipo de ERP",
-                    "Un plan que alinea TI con la estrategia del negocio",
-                    "Una auditoria tecnica",
-                    "Un contrato de servicio"
-                  ],
-                  "answer": 1,
-                  "explanation": "El PETI traduce la estrategia del negocio en iniciativas de TI."
-                },
-                {
-                  "question": "¿Con que plan del negocio se alinea el PETI?",
-                  "options": [
-                    "Con el PEI",
-                    "Con el SLA",
-                    "Con el WMS",
-                    "Con el CRM"
-                  ],
-                  "answer": 0,
-                  "explanation": "Se alinea con el Plan Estrategico Institucional (PEI)."
-                },
-                {
-                  "question": "¿Cuantas perspectivas tiene el BSC de TI?",
-                  "options": [
-                    "2",
-                    "3",
-                    "4",
-                    "5"
-                  ],
-                  "answer": 2,
-                  "explanation": "Financiera, clientes, procesos y aprendizaje."
-                },
-                {
-                  "question": "¿Que es un Quick Win?",
-                  "options": [
-                    "Un error comun",
-                    "Una mejora de bajo esfuerzo y alto impacto",
-                    "Un tipo de riesgo",
-                    "Un estandar ITIL"
-                  ],
-                  "answer": 1,
-                  "explanation": "Genera confianza y momentum para el plan."
-                },
-                {
-                  "question": "¿Cual es el horizonte tipico del PETI?",
-                  "options": [
-                    "1 mes",
-                    "6 meses",
-                    "3 a 5 anos",
-                    "20 anos"
-                  ],
-                  "answer": 2,
-                  "explanation": "De 3 a 5 anos."
-                },
-                {
-                  "question": "¿Cual es el ultimo eslabon de la cascada estrategica?",
-                  "options": [
-                    "El proyecto",
-                    "El portafolio",
-                    "La operacion",
-                    "El programa"
-                  ],
-                  "answer": 2,
-                  "explanation": "Termina en la operacion (servicio en produccion)."
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Nivel 2 - Comprension"
-            },
-            {
-              "type": "quiz",
-              "title": "PETI - Nivel 2 (comprension)",
-              "questions": [
-                {
-                  "question": "¿Por que el PETI no es una lista de compras?",
-                  "options": [
-                    "Porque no incluye TI",
-                    "Porque responde como la TI ayuda al negocio, no que comprar",
-                    "Porque no tiene presupuesto",
-                    "Porque lo hace el proveedor"
-                  ],
-                  "answer": 1,
-                  "explanation": "El PETI parte de la estrategia del negocio."
-                },
-                {
-                  "question": "¿Que orden sigue la cascada estrategica?",
-                  "options": [
-                    "Proyecto -> estrategia -> PETI",
-                    "Estrategia -> PETI -> portafolio -> programa -> proyecto -> operacion",
-                    "Operacion -> proyecto -> PETI",
-                    "Portafolio -> estrategia -> proyecto"
-                  ],
-                  "answer": 1,
-                  "explanation": "La estrategia baja en cascada hasta la operacion."
-                },
-                {
-                  "question": "Un objetivo \"mejorar la TI\" es incorrecto porque:",
-                  "options": [
-                    "Es muy caro",
-                    "No es medible ni tiene plazo (no es SMART)",
-                    "Lo dijo el proveedor",
-                    "No es de TI"
-                  ],
-                  "answer": 1,
-                  "explanation": "No es especifico, medible ni temporal."
-                },
-                {
-                  "question": "¿Que mide la perspectiva de Procesos del BSC de TI?",
-                  "options": [
-                    "La rentabilidad",
-                    "La eficiencia de los procesos de TI",
-                    "Las horas de capacitacion",
-                    "La marca"
-                  ],
-                  "answer": 1,
-                  "explanation": "Mide disponibilidad, incidentes y automatizacion."
-                },
-                {
-                  "question": "¿Que relacion hay entre portafolio y proyecto?",
-                  "options": [
-                    "Son sinonimos",
-                    "El portafolio agrupa programas e iniciativas que contienen proyectos",
-                    "El proyecto contiene al portafolio",
-                    "No se relacionan"
-                  ],
-                  "answer": 1,
-                  "explanation": "El portafolio agrupa; los proyectos ejecutan."
-                },
-                {
-                  "question": "¿Para que sirve un Quick Win en el PETI?",
-                  "options": [
-                    "Para gastar presupuesto",
-                    "Para generar confianza y momentum con exitos tempranos",
-                    "Para retrasar el plan",
-                    "Para eliminar KPIs"
-                  ],
-                  "answer": 1,
-                  "explanation": "Demuestra valor rapido y sostiene el apoyo."
-                },
-                {
-                  "question": "Si un proyecto no se rastrea hasta la estrategia, ¿que implica?",
-                  "options": [
-                    "Que es obligatorio",
-                    "Que probablemente no deberia existir",
-                    "Que es un quick win",
-                    "Que es un KPI"
-                  ],
-                  "answer": 1,
-                  "explanation": "Todo proyecto debe aportar a la estrategia."
-                },
-                {
-                  "question": "¿Que perspectiva del BSC mide la capacitacion del equipo?",
-                  "options": [
-                    "Financiera",
-                    "Clientes",
-                    "Procesos",
-                    "Aprendizaje"
-                  ],
-                  "answer": 3,
-                  "explanation": "El aprendizaje y desarrollo del equipo."
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Nivel 3 - Escenarios"
-            },
-            {
-              "type": "quiz",
-              "title": "PETI - Nivel 3 (escenarios)",
-              "questions": [
-                {
-                  "question": "Logistica Andina quiere crecer 20% en e-commerce. ¿Que debe hacer primero el PETI?",
-                  "options": [
-                    "Comprar servidores",
-                    "Alinear la vision de TI con la estrategia del negocio",
-                    "Contratar mas personal",
-                    "Implementar un ERP"
-                  ],
-                  "answer": 1,
-                  "explanation": "La alineacion con el PEI es el punto de partida."
-                },
-                {
-                  "question": "La direccion pide reducir costos de TI 20% y los usuarios piden mas funciones. ¿Que hace el PETI?",
-                  "options": [
-                    "Ignorar a los usuarios",
-                    "Balancear ambos objetivos con priorizacion clara",
-                    "Reducir personal",
-                    "Comprar mas licencias"
-                  ],
-                  "answer": 1,
-                  "explanation": "El PETI prioriza y balancea eficiencia e innovacion."
-                },
-                {
-                  "question": "El equipo quiere migrar todo a la nube de una vez. ¿Que recomienda el PETI?",
-                  "options": [
-                    "Migracion incremental con pilotos",
-                    "Migracion total inmediata",
-                    "No migrar nunca",
-                    "Comprar servidores"
-                  ],
-                  "answer": 0,
-                  "explanation": "Se recomienda migracion incremental para reducir riesgo."
-                },
-                {
-                  "question": "Se logra una mejora rapida de bajo esfuerzo y alto impacto. ¿Que es?",
-                  "options": [
-                    "Un KPI",
-                    "Un Quick Win",
-                    "Un riesgo",
-                    "Una deuda tecnica"
-                  ],
-                  "answer": 1,
-                  "explanation": "Es un Quick Win."
-                },
-                {
-                  "question": "Un KPI de disponibilidad del 99.9% pertenece a la perspectiva:",
-                  "options": [
-                    "Financiera",
-                    "Clientes",
-                    "Procesos",
-                    "Aprendizaje"
-                  ],
-                  "answer": 2,
-                  "explanation": "La disponibilidad es un proceso de TI."
-                },
-                {
-                  "question": "El proyecto de API de integracion aporta directamente a:",
-                  "options": [
-                    "Un objetivo del PETI (integracion con e-commerce)",
-                    "Un objetivo personal",
-                    "Nada",
-                    "Al presupuesto"
-                  ],
-                  "answer": 0,
-                  "explanation": "Cada proyecto debe rastrearse a un objetivo del PETI."
-                },
-                {
-                  "question": "La satisfaccion del usuario interno al 85% pertenece a la perspectiva:",
-                  "options": [
-                    "Clientes",
-                    "Procesos",
-                    "Aprendizaje",
-                    "Financiera"
-                  ],
-                  "answer": 0,
-                  "explanation": "Los usuarios son \"clientes\" internos de TI."
-                },
-                {
-                  "question": "El ROI de los proyectos de TI mayor a 20% pertenece a la perspectiva:",
-                  "options": [
-                    "Financiera",
-                    "Clientes",
-                    "Procesos",
-                    "Aprendizaje"
-                  ],
-                  "answer": 0,
-                  "explanation": "El ROI es una medida financiera."
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Practica guiada"
-            },
-            {
-              "type": "sort",
-              "title": "Ordena la cascada estrategica",
-              "items": [
-                "Estrategia corporativa (PEI)",
-                "PETI (plan de TI alineado)",
-                "Portafolio de programas e iniciativas",
-                "Programa de proyectos relacionados",
-                "Proyecto con alcance y presupuesto",
-                "Operacion (servicio en produccion)"
-              ]
-            },
-            {
-              "type": "match",
-              "title": "Relaciona conceptos del PETI",
-              "pairs": [
-                {
-                  "left": "PETI",
-                  "right": "Plan que alinea TI con la estrategia del negocio"
-                },
-                {
-                  "left": "PEI",
-                  "right": "Plan Estrategico Institucional del negocio"
-                },
-                {
-                  "left": "BSC de TI",
-                  "right": "Tablero con 4 perspectivas de indicadores"
-                },
-                {
-                  "left": "Quick Win",
-                  "right": "Mejora de bajo esfuerzo y alto impacto"
-                },
-                {
-                  "left": "Cascada",
-                  "right": "Estrategia -> PETI -> portafolio -> proyecto -> operacion"
-                },
-                {
-                  "left": "KPI",
-                  "right": "Indicador clave de desempeno con meta"
-                }
-              ]
-            },
-            {
-              "type": "truefalse",
-              "title": "PETI",
-              "tf": [
-                {
-                  "statement": "El PETI es una lista de compras de hardware.",
-                  "answer": false,
-                  "explanation": "Es un plan que alinea TI con la estrategia del negocio."
-                },
-                {
-                  "statement": "El PETI se alinea con el PEI de la organizacion.",
-                  "answer": true,
-                  "explanation": "El PEI es su punto de partida."
-                },
-                {
-                  "statement": "El BSC de TI tiene 4 perspectivas.",
-                  "answer": true,
-                  "explanation": "Financiera, clientes, procesos y aprendizaje."
-                },
-                {
-                  "statement": "Un Quick Win es un proyecto de largo plazo.",
-                  "answer": false,
-                  "explanation": "Es una mejora rapida de bajo esfuerzo y alto impacto."
-                },
-                {
-                  "statement": "Todo proyecto debe rastrearse hasta un objetivo del PETI.",
-                  "answer": true,
-                  "explanation": "Si no aporta a la estrategia, no deberia existir."
-                },
-                {
-                  "statement": "Un PETI sin KPIs medibles es solo un documento.",
-                  "answer": true,
-                  "explanation": "Cada iniciativa necesita indicadores con metas."
-                }
-              ]
-            },
-            {
-              "type": "essay",
-              "title": "PETI",
-              "essay": [
-                {
-                  "question": "Explique que es un PETI, como se alinea con el PEI y describa la cascada estrategica hasta la operacion. Use el ejemplo de Logistica Andina.",
-                  "hint": "PEI -> PETI -> portafolio -> programa -> proyecto -> operacion.",
-                  "model": "El PETI es el plan que traduce la estrategia del negocio (PEI) en iniciativas de TI medibles para un horizonte de 3 a 5 anos. En Logistica Andina, el PEI busca crecer 20% en e-commerce; el PETI responde con una plataforma logistica integrada y ruteo por IA. La cascada baja asi: estrategia corporativa (entregas en menos de 24h) -> PETI (plataforma integrada) -> portafolio (modernizacion, datos, ciberseguridad) -> programa de integracion -> proyecto del API con alcance y presupuesto -> operacion del servicio de rastreo. Cada nivel tiene horizonte y responsable, y todo proyecto debe rastrearse hasta la estrategia.",
-                  "rubric": [
-                    "Define PETI y PEI",
-                    "Explica la cascada",
-                    "Usa el ejemplo de Logistica Andina",
-                    "Redaccion y claridad"
-                  ]
-                },
-                {
-                  "question": "Explique que es el BSC de TI, sus 4 perspectivas y de un KPI con meta para cada una usando un ejemplo.",
-                  "hint": "Financiera, clientes, procesos y aprendizaje; cada KPI con meta.",
-                  "model": "El BSC de TI adapta el Balanced Scorecard de Kaplan y Norton para medir TI en 4 perspectivas. Financiera: contribucion a la rentabilidad (ej. ROI de proyectos > 20%). Clientes: percepcion de los usuarios internos (ej. satisfaccion 85%). Procesos: eficiencia de los procesos de TI (ej. disponibilidad 99.9%). Aprendizaje: desarrollo del equipo (ej. 40h de capacitacion por empleado). Asi la gerencia mide el valor de TI en un solo tablero y no solo su costo.",
-                  "rubric": [
-                    "Define el BSC de TI",
-                    "Nombra las 4 perspectivas",
-                    "Da KPI con meta por perspectiva",
-                    "Redaccion y claridad"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "path",
-              "title": "Desarrollo del PETI",
-              "nodes": [
-                {
-                  "id": "1",
-                  "title": "Inicio",
-                  "prompt": "Logistica Andina necesita su PETI. ¿Por donde empiezas?",
-                  "options": [
-                    {
-                      "label": "Diagnosticar el estado actual de TI y entrevistar a la direccion",
-                      "target": "2"
-                    },
-                    {
-                      "label": "Comprar tecnologia emergente",
-                      "target": "3"
-                    }
-                  ]
-                },
-                {
-                  "id": "2",
-                  "title": "Diagnostico",
-                  "prompt": "El diagnostico revela ERP estable pero sistemas aislados y sin API. ¿Que sigue?",
-                  "options": [
-                    {
-                      "label": "Definir vision y objetivos alineados al PEI y priorizar por impacto",
-                      "target": "4"
-                    },
-                    {
-                      "label": "Migrar todo a la nube de una vez",
-                      "target": "5"
-                    }
-                  ]
-                },
-                {
-                  "id": "3",
-                  "title": "Tecnologia primero",
-                  "prompt": "Investigar IA y cloud es util, pero debe partir de las necesidades del negocio, no de la moda.",
-                  "isFinal": true,
-                  "verdict": "La tecnologia sirve al negocio, no al reves.",
-                  "options": []
-                },
-                {
-                  "id": "4",
-                  "title": "Alineacion",
-                  "prompt": "Defines vision, objetivos SMART y KPIs (BSC), priorizas quick wins y armas la cascada PETI -> portafolio -> proyecto.",
-                  "isFinal": true,
-                  "verdict": "Correcto: estrategia alineada y medible.",
-                  "options": []
-                },
-                {
-                  "id": "5",
-                  "title": "Migracion total",
-                  "prompt": "Migrar todo de una vez es riesgoso: alto costo, interrupciones y resistencia al cambio. Mejor incremental.",
-                  "isFinal": true,
-                  "verdict": "Riesgo alto: usa pilotos y avanza por fases.",
-                  "options": []
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "resources": [
-        {
-          "id": "res-07",
-          "title": "Plan Estrategico de TI (PETI)",
-          "url": "https://uniagustiniana.edu.co",
-          "type": "pdf",
-          "description": "Documento U23 sobre planificacion estrategica de TI."
-        }
-      ]
-    },
-    {
       "id": "iso-38500-gobierno-corporativo",
       "slug": "iso-38500-gobierno-corporativo",
       "title": "ISO 38500 - Gobierno Corporativo de TI",
@@ -8229,25 +7488,30 @@
       ]
     },
     {
-      "id": "admin-estrategica-ti",
-      "slug": "admin-estrategica-ti",
-      "title": "Administracion Estrategica de TI",
+      "id": "administracion-estrategica-ti-peti",
+      "slug": "administracion-estrategica-ti-peti",
+      "title": "Administracion Estrategica de TI y Planificacion Estrategica (PETI)",
       "emoji": "🚀",
       "accent": "#7C61D4",
       "category": "admin-estrategica",
       "difficulty": "intermedio",
       "order": 10,
-      "description": "Como la administracion estrategica de TI transforma la tecnologia en ventaja competitiva. Los 3 pilares, alineacion estrategica, FODA y PESTEL aplicados a TI, arquitectura empresarial (TOGAF), gestion del cambio y la cascada estrategia -> PETI -> portafolio -> proyecto. Con ejemplo de Logistica Andina.",
+      "description": "Guia completa de administracion estrategica de TI. Parte de la administracion general (PODIO, estrategia vs tactica, tipos de planificacion, modelo de negocio, cadena de valor), desarrolla el analisis estrategico (FODA y PESTEL aplicados a TI, objetivos SMART, benchmarking, deuda tecnica), los 3 pilares, la alineacion estrategica, la arquitectura empresarial (TOGAF) y la gestion del cambio, y culmina con el PETI (estructura, metodologia, cascada estrategica y Balanced Scorecard de TI). Con el ejemplo integrador de Logistica Andina.",
       "tags": [
         "estrategia-TI",
-        "ventaja-competitiva",
-        "FODA-TI",
+        "admin-general",
+        "PODIO",
+        "FODA",
         "PESTEL",
+        "SMART",
         "arquitectura-empresarial",
         "TOGAF",
+        "PETI",
+        "balanced-scorecard",
+        "KPIs",
         "cascada"
       ],
-      "keyTakeaway": "La administracion estrategica de TI convierte la tecnologia en ventaja competitiva cuando se alinea con el negocio, se analiza con FODA/PESTEL aplicados a TI, se ejecuta en cascada hasta el proyecto y se mide de forma continua.",
+      "keyTakeaway": "La administracion estrategica de TI convierte la tecnologia en ventaja competitiva. La administracion (PODIO) y la planificacion (estrategia, tactica, operativa) dan el marco; FODA y PESTEL el diagnostico; SMART los objetivos; y el PETI con su cascada y su BSC de TI traduce la estrategia del negocio (PEI) en iniciativas medibles que llegan hasta la operacion.",
       "sources": [
         {
           "title": "TOGAF - The Open Group Architecture Framework",
@@ -8256,13 +7520,37 @@
           "description": "Estandar de arquitectura empresarial"
         },
         {
-          "title": "COBIT 2019",
+          "title": "COBIT 2019 (APO02 Estrategia y APO05 Cartera)",
           "url": "https://www.isaca.org/resources/cobit",
           "source": "ISACA",
-          "description": "Gobierno y gestion de TI"
+          "description": "Gobierno, gestion y alineacion de TI con el negocio"
+        },
+        {
+          "title": "The Balanced Scorecard - Kaplan y Norton",
+          "url": "https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2",
+          "source": "Harvard Business Review",
+          "description": "Origen del BSC"
+        },
+        {
+          "title": "Administracion Estrategica (Thompson y Strickland)",
+          "url": "https://www.mheducation.com",
+          "source": "McGraw-Hill",
+          "description": "Texto base de estrategia y ventaja competitiva"
         },
         {
           "title": "Valor de Negocio en la Administracion de TI (U21)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
+        },
+        {
+          "title": "Plan Estrategico de TI PETI (U23)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
+        },
+        {
+          "title": "Resumenes y notas de clase de Administracion de Recursos",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
           "description": "Material de clase"
@@ -8270,25 +7558,139 @@
       ],
       "sections": [
         {
-          "id": "que-es-la-administracion-estrategica-de-ti",
-          "title": "Que es la Administracion Estrategica de TI?",
+          "id": "que-es-la-administracion",
+          "title": "Que es la Administracion?",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Administracion",
+              "text": "Ciencia social que estudia como las organizaciones y sus integrantes trabajan en conjunto para alcanzar objetivos de manera eficiente y eficaz. Es el proceso de planificar, organizar, dirigir, integrar y controlar los recursos (humanos, economicos, materiales y tecnologicos) para alcanzar metas."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "La administracion no es exclusiva de las empresas: tambien se aplica en hogares, gobiernos y hospitales, en cualquier organizacion que use recursos para alcanzar objetivos."
+            }
+          ]
+        },
+        {
+          "id": "la-funcion-administrativa-podio",
+          "title": "La Funcion Administrativa: PODIO",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Planificar",
+                "Organizar",
+                "Dirigir",
+                "Integrar",
+                "Controlar"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Funcion",
+                "Que hace"
+              ],
+              "rows": [
+                [
+                  "Planificar",
+                  "Define objetivos y traza las estrategias y acciones para alcanzarlos"
+                ],
+                [
+                  "Organizar",
+                  "Estructura los recursos (personas, areas, presupuesto): quien hace que, cuando y como"
+                ],
+                [
+                  "Dirigir",
+                  "Lidera, motiva e influye para ejecutar con compromiso; incluye decision y comunicacion"
+                ],
+                [
+                  "Integrar",
+                  "Conecta las partes para que trabajen coordinadas hacia los objetivos colectivos"
+                ],
+                [
+                  "Controlar",
+                  "Verifica que se cumpla el plan, detecta desviaciones y aplica correctivos"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "PODIO es la base para evaluar el desempeno de un gerente. La auditoria CRMR (Revision de los Recursos Informaticos de la Direccion) evalua si el gerente cumple bien estas cinco funciones."
+            }
+          ]
+        },
+        {
+          "id": "estrategia-vs-tactica",
+          "title": "Estrategia vs Tactica",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Concepto",
+                "Horizonte",
+                "Pregunta",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Vision",
+                  "Largo plazo (5-10 anos)",
+                  "¿Quienes queremos ser?",
+                  "Ser lider regional en soluciones de TI"
+                ],
+                [
+                  "Mision",
+                  "Permanente",
+                  "¿Para que existimos?",
+                  "Proveer tecnologia que transforme negocios"
+                ],
+                [
+                  "Estrategia",
+                  "Mediano plazo (2-5 anos)",
+                  "¿Como llegamos alla?",
+                  "Expandir a 3 paises con alianzas locales"
+                ],
+                [
+                  "Objetivos",
+                  "Corto-mediano plazo",
+                  "¿Que queremos lograr?",
+                  "Aumentar ingresos 20% este ano"
+                ],
+                [
+                  "Tactica",
+                  "Corto plazo (meses)",
+                  "¿Que hacemos hoy?",
+                  "Capacitar al equipo en nuevas herramientas"
+                ],
+                [
+                  "Planes operativos",
+                  "Dia a dia",
+                  "¿Quien lo hace?",
+                  "Horarios, tareas, presupuestos asignados"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "La estrategia responde a \"hacer las cosas correctas\"; la tactica, a \"hacer las cosas correctamente\". Ambas son necesarias."
+            }
+          ]
+        },
+        {
+          "id": "los-3-pilares-de-la-administracion-estrategica-de-ti",
+          "title": "Los 3 Pilares de la Administracion Estrategica de TI",
           "blocks": [
             {
               "type": "definition",
               "term": "Administracion Estrategica de TI",
               "text": "Proceso continuo de planificacion, implementacion y monitoreo de la tecnologia de informacion alineada con los objetivos estrategicos de la organizacion. Busca maximizar el valor que la TI genera para el negocio."
             },
-            {
-              "type": "callout",
-              "tone": "info",
-              "text": "No es comprar la ultima tecnologia. Es decidir QUE tecnologias implementar, COMO implementarlas y PARA QUE proposito, todo alineado con la estrategia del negocio."
-            }
-          ]
-        },
-        {
-          "id": "los-3-pilares",
-          "title": "Los 3 Pilares",
-          "blocks": [
             {
               "type": "flow",
               "title": "Tres Pilares",
@@ -8305,6 +7707,151 @@
                 "Gestion de TI — Ejecuta los procesos para entregar servicios de calidad.",
                 "Arquitectura de TI — Define la estructura tecnologica que soporta el negocio actual y futuro."
               ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "No es comprar la ultima tecnologia. Es decidir QUE tecnologias implementar, COMO implementarlas y PARA QUE proposito, todo alineado con la estrategia del negocio."
+            }
+          ]
+        },
+        {
+          "id": "niveles-de-planificacion-estrategica-tactica-y-operativa",
+          "title": "Niveles de Planificacion: Estrategica, Tactica y Operativa",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Tipo",
+                "Horizonte",
+                "Quien planifica",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Estrategica",
+                  "Largo plazo (3-10 anos)",
+                  "Alta direccion",
+                  "Expansion a nuevos mercados"
+                ],
+                [
+                  "Tactica",
+                  "Mediano plazo (1-3 anos)",
+                  "Mandos medios",
+                  "Implementar un ERP"
+                ],
+                [
+                  "Operativa",
+                  "Corto plazo (dia a dia)",
+                  "Primer nivel",
+                  "Horarios de produccion"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "La planificacion operativa depende de la tactica, que depende de la estrategica. Si la estrategia es debil, todos los planes inferiores fallan."
+            }
+          ]
+        },
+        {
+          "id": "las-4-etapas-de-la-planificacion-estrategica",
+          "title": "Las 4 Etapas de la Planificacion Estrategica",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "Etapa Basica: definir la razon de ser (mision) y hacia donde vamos (vision)",
+                "Etapa de Atencion al Tiempo: analizar el entorno (FODA, PESTEL) y elegir estrategias",
+                "Etapa de Potenciacion: analizar factores criticos internos (personal, organizacion, gerente)",
+                "Etapa de Aplicacion: definir politicas, programas, presupuestos y controles"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Las etapas no se saltan. Comenzar sin mision clara o sin analisis del entorno genera planes debiles que fallan en la ejecucion."
+            }
+          ]
+        },
+        {
+          "id": "modelo-de-negocio-y-estrategia",
+          "title": "Modelo de Negocio y Estrategia",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Concepto",
+                "Que es",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "Modelo de Negocio",
+                  "Como la empresa genera ingresos y es sostenible",
+                  "Vender productos o suscripcion"
+                ],
+                [
+                  "Estrategia del Negocio",
+                  "Que ventaja competitiva busca",
+                  "Liderazgo en costo, diferenciacion, enfoque"
+                ],
+                [
+                  "Estrategia Corporativa",
+                  "Como se estructuran las unidades",
+                  "Diversificacion, integracion vertical"
+                ],
+                [
+                  "Objetivos Estrategicos",
+                  "Metas concretas y medibles",
+                  "Captar 100 clientes nuevos en 6 meses"
+                ]
+              ]
+            },
+            {
+              "type": "heading",
+              "text": "Las 5 Estrategias Competitivas Genericas (Thompson)"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Lider en costos totales mas bajos — Operar con costos menores que los competidores",
+                "Diferenciacion — Ofrecer algo unico que otros no tienen",
+                "Concentracion en un segmento (enfoque) — Enfocarse en un nicho especifico",
+                "Mejor costo — Mejor relacion calidad-precio",
+                "Estrategia hibrida — Combinar elementos de las anteriores"
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "text": "Thompson afirma que las 5 estrategias genericas son las que generan exito sostenido; las organizaciones las combinan con sus ventajas y debilidades internas."
+            }
+          ]
+        },
+        {
+          "id": "la-cadena-de-valor",
+          "title": "La Cadena de Valor",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Cadena de Valor",
+              "text": "Modelo que identifica las actividades principales y de apoyo que agregan valor al producto o servicio desde la concepcion hasta la entrega al cliente."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Actividades principales: logistica de entrada, operaciones, logistica de salida, marketing y ventas, servicio postventa.",
+                "Actividades de apoyo: infraestructura, gestion de RRHH, desarrollo tecnologico, adquisiciones."
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Formula del Exito",
+              "text": "Que las personas perciban mas valor en el producto/servicio que lo que les cuesta, mas las ventajas sobre la competencia. Utilidades = Ingresos - Costos."
             }
           ]
         },
@@ -8340,44 +7887,59 @@
             {
               "type": "callout",
               "tone": "warning",
-              "text": "La brecha entre estrategia y operacion es donde fracasan las iniciativas de TI. Un PETI bien estructurado cierra esa brecha (ver el tema de PETI para el detalle de la cascada)."
+              "text": "La brecha entre estrategia y operacion es donde fracasan las iniciativas de TI. Un PETI bien estructurado cierra esa brecha (ver la seccion del PETI mas abajo para el detalle de la cascada)."
             }
           ]
         },
         {
-          "id": "foda-aplicado-a-ti",
-          "title": "FODA aplicado a TI",
+          "id": "analisis-foda",
+          "title": "Analisis FODA",
           "blocks": [
             {
+              "type": "definition",
+              "term": "FODA",
+              "text": "Herramienta de analisis estrategico que evalua factores internos (Fortalezas y Debilidades) y externos (Oportunidades y Amenazas). Tambien se llama DAFO."
+            },
+            {
               "type": "paragraph",
-              "text": "El FODA evalua factores internos (Fortalezas y Debilidades) y externos (Oportunidades y Amenazas). Aplicado a TI, mira la funcion de tecnologia de la organizacion."
+              "text": "El FODA evalua factores internos (Fortalezas y Debilidades) y externos (Oportunidades y Amenazas). La tabla siguiente muestra que evalua cada cuadrante y lo aplica a la funcion de TI de Logistica Andina:"
             },
             {
               "type": "table",
               "columns": [
                 "Factor",
                 "Interno/Externo",
+                "Que evalua",
+                "Ejemplo general (Logistica Andina)",
                 "Ejemplo en TI (Logistica Andina)"
               ],
               "rows": [
                 [
-                  "Fortalezas",
+                  "Fortalezas (F)",
                   "Interno",
+                  "Que hace bien la organizacion?",
+                  "Red de bodegas propia, equipo capacitado",
                   "ERP estable, backups probados, equipo con experiencia"
                 ],
                 [
-                  "Debilidades",
+                  "Debilidades (D)",
                   "Interno",
+                  "Donde le falta capacidad?",
+                  "Deuda tecnica, presupuesto de TI limitado",
                   "Deuda tecnica, sistemas aislados, sin API de integracion"
                 ],
                 [
-                  "Oportunidades",
+                  "Oportunidades (O)",
                   "Externo",
+                  "Que oportunidades aprovechar?",
+                  "Auge del e-commerce, cloud, IA",
                   "Cloud, IA para ruteo, integracion con e-commerce"
                 ],
                 [
-                  "Amenazas",
+                  "Amenazas (A)",
                   "Externo",
+                  "Que la puede perjudicar?",
+                  "Competencia con mejores apps, regulacion",
                   "Ransomware, dependencia de un solo proveedor, obsolescencia"
                 ]
               ]
@@ -8385,17 +7947,18 @@
             {
               "type": "callout",
               "tone": "danger",
-              "text": "El error clasico: confundir una debilidad interna (deuda tecnica) con una amenaza externa (ransomware). La primera la controla la empresa; la segunda, no."
+              "text": "El error mas comun es confundir debilidades con amenazas o fortalezas con oportunidades. Fortalezas y debilidades son internas (la empresa las controla); oportunidades y amenazas son externas (no las controla). El clasico: confundir una debilidad interna (deuda tecnica) con una amenaza externa (ransomware)."
             }
           ]
         },
         {
-          "id": "pestel-aplicado-a-ti",
-          "title": "PESTEL aplicado a TI",
+          "id": "analisis-pestel",
+          "title": "Analisis PESTEL",
           "blocks": [
             {
-              "type": "paragraph",
-              "text": "El PESTEL analiza el entorno externo desde seis dimensiones. Complementa al FODA para entender el contexto donde TI compite."
+              "type": "definition",
+              "term": "PESTEL",
+              "text": "Herramienta que analiza el entorno externo de la organizacion en seis dimensiones: Politica, Economica, Social, Tecnologica, Ecologica y Legal. Complementa al FODA aportando el contexto macro donde compite la empresa."
             },
             {
               "type": "table",
@@ -8441,7 +8004,80 @@
               "type": "callout",
               "tone": "idea",
               "title": "FODA + PESTEL",
-              "text": "El PESTEL mira afuera (macro-entorno) y el FODA combina adentro y afuera para decidir. Juntos alimentan la estrategia de TI."
+              "text": "El PESTEL mira afuera (macro-entorno) y el FODA combina adentro y afuera para decidir. Juntos son la base del analisis estrategico: el PESTEL da el escenario y el FODA define como aprovechar o defenderse."
+            }
+          ]
+        },
+        {
+          "id": "objetivos-smart",
+          "title": "Objetivos SMART",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Letra",
+                "Significado",
+                "Pregunta",
+                "Ejemplo"
+              ],
+              "rows": [
+                [
+                  "S",
+                  "Specific (Especifico)",
+                  "¿Que exactamente se quiere lograr?",
+                  "Aumentar la base de clientes"
+                ],
+                [
+                  "M",
+                  "Measurable (Medible)",
+                  "¿Como se mide el progreso?",
+                  "En un 15%"
+                ],
+                [
+                  "A",
+                  "Achievable (Alcanzable)",
+                  "¿Es realista con los recursos?",
+                  "Si, con inversion en marketing"
+                ],
+                [
+                  "R",
+                  "Relevant (Relevante)",
+                  "¿Por que es importante?",
+                  "Porque incrementa ingresos"
+                ],
+                [
+                  "T",
+                  "Time-bound (Temporal)",
+                  "¿Para cuando?",
+                  "En los proximos 6 meses"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "text": "NO SMART: \"Mejorar las ventas\" o \"Mejorar la TI\" (no son especificos, medibles ni temporales). SMART: \"Aumentar las ventas en 15% en el proximo trimestre con campanas de marketing digital\", o en TI: \"Reducir el tiempo de despacho en 15% en 6 meses automatizando el ruteo\"."
+            }
+          ]
+        },
+        {
+          "id": "conceptos-clave-de-la-gestion-estrategica",
+          "title": "Conceptos Clave de la Gestion Estrategica",
+          "blocks": [
+            {
+              "type": "definition",
+              "term": "Deuda Tecnica",
+              "text": "Atajos o decisiones de corto plazo en tecnologia (codigo improvisado, infraestructura sin actualizar, documentacion omitida) que ahorran tiempo hoy pero generan costos y problemas mayores manana. Como una deuda financiera, acumula \"intereses\"."
+            },
+            {
+              "type": "definition",
+              "term": "Benchmarking",
+              "text": "Practica de comparar los procesos, servicios y metricas propias con las mejores practicas del sector para identificar brechas y fijar metas realistas de mejora."
+            },
+            {
+              "type": "definition",
+              "term": "Portafolio de Servicios de TI",
+              "text": "Conjunto completo de servicios que el area de TI ofrece al negocio. Documenta cada servicio, su publico y su valor, permitiendo priorizar inversiones y gestionar expectativas."
             }
           ]
         },
@@ -8490,33 +8126,152 @@
           ]
         },
         {
-          "id": "conceptos-clave-de-la-gestion-estrategica",
-          "title": "Conceptos Clave de la Gestion Estrategica",
+          "id": "que-es-un-peti",
+          "title": "Que es un PETI?",
           "blocks": [
             {
               "type": "definition",
-              "term": "Deuda Tecnica",
-              "text": "Atajos o decisiones de corto plazo en tecnologia (codigo improvisado, infraestructura sin actualizar, documentacion omitida) que ahorran tiempo hoy pero generan costos y problemas mayores manana. Como una deuda financiera, acumula \"intereses\"."
+              "term": "Plan Estrategico de TI (PETI)",
+              "text": "Documento que define la direccion estrategica de la tecnologia de informacion en una organizacion. Establece la vision de TI, los objetivos estrategicos, las iniciativas clave, los recursos necesarios y los indicadores de desempeno para un horizonte de 3 a 5 anos."
             },
             {
-              "type": "definition",
-              "term": "Benchmarking",
-              "text": "Practica de comparar los procesos, servicios y metricas propias con las mejores practicas del sector para identificar brechas y fijar metas realistas de mejora."
-            },
-            {
-              "type": "definition",
-              "term": "Portafolio de Servicios de TI",
-              "text": "Conjunto completo de servicios que el area de TI ofrece al negocio. Documenta cada servicio, su publico y su valor, permitiendo priorizar inversiones y gestionar expectativas."
+              "type": "callout",
+              "tone": "info",
+              "text": "El PETI no es una lista de compras de hardware. Responde: \"¿Como la TI ayuda al negocio a alcanzar sus objetivos?\" Traduce el PEI (Plan Estrategico Institucional, del negocio) en iniciativas de TI medibles."
             }
           ]
         },
         {
-          "id": "de-la-estrategia-a-la-ejecucion-cascada",
-          "title": "De la Estrategia a la Ejecucion (cascada)",
+          "id": "estructura-del-peti",
+          "title": "Estructura del PETI",
+          "blocks": [
+            {
+              "type": "table",
+              "columns": [
+                "Componente",
+                "Que define",
+                "Ejemplo (Logistica Andina)"
+              ],
+              "rows": [
+                [
+                  "Vision de TI",
+                  "Como se ve TI a futuro",
+                  "\"Ser la plataforma digital que entrega en menos de 24h\""
+                ],
+                [
+                  "Alineacion con el PEI",
+                  "Como soporta la estrategia del negocio",
+                  "PEI: crecer 20% en e-commerce -> PETI: plataforma logistica integrada"
+                ],
+                [
+                  "Objetivos SMART",
+                  "Metas especificas y medibles",
+                  "\"Integrar 10 clientes de e-commerce al API en 6 meses\""
+                ],
+                [
+                  "Iniciativas",
+                  "Proyectos y programas",
+                  "Ruteo con IA, portal de clientes, ciberseguridad"
+                ],
+                [
+                  "Recursos",
+                  "Presupuesto, personal, proveedores",
+                  "12% del presupuesto corporativo"
+                ],
+                [
+                  "Indicadores (KPIs)",
+                  "Metricas de avance e impacto",
+                  "Disponibilidad 99.9%, satisfaccion 85%"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "metodologia-de-desarrollo-del-peti",
+          "title": "Metodologia de Desarrollo del PETI",
+          "blocks": [
+            {
+              "type": "flow",
+              "title": "Desarrollo del PETI",
+              "steps": [
+                "Fase 1: Diagnostico actual (estado de TI)",
+                "Fase 2: Definicion de vision y mision de TI",
+                "Fase 3: Identificacion de brechas",
+                "Fase 4: Definicion de objetivos e iniciativas",
+                "Fase 5: Asignacion de recursos",
+                "Fase 6: Definicion de KPIs",
+                "Fase 7: Aprobacion e implementacion",
+                "Fase 8: Monitoreo y ajuste continuo"
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Quick Win",
+              "text": "Victoria rapida: mejora de bajo esfuerzo y alto impacto visible que se logra en poco tiempo. Genera confianza y momentum para las iniciativas grandes."
+            }
+          ]
+        },
+        {
+          "id": "la-cascada-de-la-estrategia-al-proyecto",
+          "title": "La Cascada: de la Estrategia al Proyecto",
           "blocks": [
             {
               "type": "paragraph",
-              "text": "La administracion estrategica de TI no termina en el plan: baja en cascada hasta la operacion."
+              "text": "La administracion estrategica de TI no termina en el plan: baja en cascada hasta el trabajo diario. Cada nivel tiene su horizonte y su responsable."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Nivel",
+                "Que es",
+                "Ejemplo (Logistica Andina)",
+                "Horizonte"
+              ],
+              "rows": [
+                [
+                  "Estrategia corporativa (PEI)",
+                  "Objetivo del negocio",
+                  "\"Entregas en menos de 24h\"",
+                  "3-5 anos"
+                ],
+                [
+                  "PETI",
+                  "Plan de TI alineado",
+                  "\"Plataforma logistica integrada con ruteo por IA\"",
+                  "3-5 anos"
+                ],
+                [
+                  "Portafolio",
+                  "Conjunto de programas e iniciativas",
+                  "Modernizacion de plataforma, datos y analitica, ciberseguridad",
+                  "1-3 anos"
+                ],
+                [
+                  "Programa",
+                  "Grupo de proyectos relacionados",
+                  "Integracion de la plataforma",
+                  "1-2 anos"
+                ],
+                [
+                  "Proyecto",
+                  "Esfuerzo temporal con alcance y presupuesto",
+                  "Implementar el API de integracion con e-commerce",
+                  "meses"
+                ],
+                [
+                  "Operacion",
+                  "Servicio en produccion",
+                  "Servicio de rastreo en vivo (ITIL)",
+                  "continuo"
+                ]
+              ]
+            },
+            {
+              "type": "callout",
+              "tone": "idea",
+              "title": "Cascada en una linea",
+              "text": "Estrategia del negocio -> PETI -> Portafolio -> Programa -> Proyecto -> Operacion. Si un proyecto no se puede rastrear hasta la estrategia, probablemente no deberia existir."
             },
             {
               "type": "flow",
@@ -8529,11 +8284,83 @@
                 "Proyecto",
                 "Operacion (servicio en produccion)"
               ]
+            }
+          ]
+        },
+        {
+          "id": "balanced-scorecard-de-ti",
+          "title": "Balanced Scorecard de TI",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "El BSC de TI adapta la metodologia de Kaplan y Norton para medir TI en 4 perspectivas. No basta con medir costos: hay que medir el valor en cada perspectiva."
+            },
+            {
+              "type": "table",
+              "columns": [
+                "Perspectiva",
+                "Pregunta clave",
+                "Objetivo (LogiAndina)",
+                "KPI y meta"
+              ],
+              "rows": [
+                [
+                  "Financiera",
+                  "¿Como contribuye TI a la rentabilidad?",
+                  "Reducir el costo de TI por entrega",
+                  "-15% en 12 meses; ROI de proyectos > 20%"
+                ],
+                [
+                  "Clientes",
+                  "¿Como perciben los usuarios la calidad de TI?",
+                  "Mejorar la atencion al usuario interno",
+                  "Satisfaccion 85%; respuesta < 2h"
+                ],
+                [
+                  "Procesos",
+                  "¿Que tan eficientes son los procesos de TI?",
+                  "Asegurar disponibilidad y automatizar",
+                  "Disponibilidad 99.9%; < 4 incidentes criticos/mes"
+                ],
+                [
+                  "Aprendizaje",
+                  "¿Como se capacita y desarrolla el equipo?",
+                  "Fortalecer competencias cloud y datos",
+                  "40h capacitacion/empleado; 5 certificaciones"
+                ]
+              ]
             },
             {
               "type": "callout",
-              "tone": "info",
-              "text": "El detalle de la cascada y del BSC de TI se desarrolla en el tema PETI. Aqui basta entender que cada proyecto debe rastrearse hasta la estrategia."
+              "tone": "success",
+              "text": "Un BSC de TI bien implementado da a la gerencia un solo tablero con las 4 perspectivas, facilitando decisiones y demostrando el valor de TI (no solo el costo)."
+            }
+          ]
+        },
+        {
+          "id": "ejemplo-integrador-el-peti-de-logistica-andina",
+          "title": "Ejemplo Integrador: el PETI de Logistica Andina",
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Logistica Andina quiere crecer 20% en entregas de e-commerce. Su PETI conecta estrategia, iniciativas y medicion:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Diagnostico: ERP estable pero sistemas aislados y deuda tecnica; sin API para clientes.",
+                "Vision de TI: plataforma logistica integrada que entregue en menos de 24h.",
+                "Objetivos SMART: integrar 10 clientes de e-commerce al API en 6 meses; reducir el tiempo de despacho 15%.",
+                "Iniciativas: API de integracion (proyecto), ruteo con IA (proyecto), tablero de KPIs (quick win).",
+                "KPIs (BSC): las 4 perspectivas de la tabla anterior.",
+                "Cascada: estrategia -> PETI -> portafolio de 3 programas -> programa de integracion -> proyecto API -> servicio de rastreo en operacion."
+              ],
+              "ordered": true
+            },
+            {
+              "type": "callout",
+              "tone": "warning",
+              "text": "Un PETI sin indicadores medibles es solo un documento bonito. Cada iniciativa debe tener KPIs con metas y un responsable."
             }
           ]
         },
@@ -8547,8 +8374,96 @@
             },
             {
               "type": "quiz",
-              "title": "Admin Estrategica TI - Nivel 1 (memoria)",
+              "title": "Autoevaluacion - Nivel 1 (conceptos base)",
               "questions": [
+                {
+                  "question": "¿Que estudia la administracion?",
+                  "options": [
+                    "Solo las finanzas",
+                    "Como las organizaciones alcanzan objetivos con eficiencia y eficacia",
+                    "Solo el marketing",
+                    "Solo el personal"
+                  ],
+                  "answer": 1,
+                  "explanation": "Es la ciencia de alcanzar objetivos usando recursos."
+                },
+                {
+                  "question": "¿Que significa PODIO?",
+                  "options": [
+                    "Plan, Organizar, Dirigir, Integrar, Operar",
+                    "Planificar, Organizar, Dirigir, Integrar, Controlar",
+                    "Produccion, Organizacion, Direccion, Informacion, Control",
+                    "Presupuesto, Organizacion, Desarrollo, Implementacion, Control"
+                  ],
+                  "answer": 1,
+                  "explanation": "PODIO = Planificar, Organizar, Dirigir, Integrar y Controlar."
+                },
+                {
+                  "question": "¿Cuantas etapas tiene la planificacion estrategica segun el material?",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "answer": 2,
+                  "explanation": "Cuatro: basica, atencion al tiempo, potenciacion y aplicacion."
+                },
+                {
+                  "question": "¿Que significan las siglas SMART?",
+                  "options": [
+                    "Simple, Medible, Amplio, Real, Temporal",
+                    "Especifico, Medible, Alcanzable, Relevante, Temporal",
+                    "Solo, Medible, Actual, Real",
+                    "Sistema, Meta, Accion, Resultado, Tiempo"
+                  ],
+                  "answer": 1,
+                  "explanation": "Specific, Measurable, Achievable, Relevant, Time-bound."
+                },
+                {
+                  "question": "En el FODA, las amenazas son factores:",
+                  "options": [
+                    "Internos",
+                    "Externos",
+                    "Ambos",
+                    "Ninguno"
+                  ],
+                  "answer": 1,
+                  "explanation": "Son externos: la empresa no los controla."
+                },
+                {
+                  "question": "¿Que analiza el PESTEL?",
+                  "options": [
+                    "Solo lo interno",
+                    "El entorno externo (6 dimensiones)",
+                    "Solo las finanzas",
+                    "Solo la competencia"
+                  ],
+                  "answer": 1,
+                  "explanation": "Politico, economico, social, tecnologico, ecologico y legal."
+                },
+                {
+                  "question": "¿Cuantas dimensiones analiza el PESTEL?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                  ],
+                  "answer": 3,
+                  "explanation": "Politico, economico, social, tecnologico, ecologico y legal."
+                },
+                {
+                  "question": "¿Cuantos pilares tiene la administracion estrategica de TI?",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "answer": 1,
+                  "explanation": "Gobierno, gestion y arquitectura."
+                },
                 {
                   "question": "¿Que es la deuda tecnica?",
                   "options": [
@@ -8583,17 +8498,6 @@
                   "explanation": "Documenta y gestiona los servicios de TI."
                 },
                 {
-                  "question": "¿Cuantos pilares tiene la administracion estrategica de TI?",
-                  "options": [
-                    "2",
-                    "3",
-                    "4",
-                    "5"
-                  ],
-                  "answer": 1,
-                  "explanation": "Gobierno, gestion y arquitectura."
-                },
-                {
                   "question": "¿Que framework es el estandar mas usado de arquitectura empresarial?",
                   "options": [
                     "ITIL",
@@ -8605,15 +8509,70 @@
                   "explanation": "TOGAF, de The Open Group."
                 },
                 {
-                  "question": "¿Que analiza el PESTEL?",
+                  "question": "¿Que es un PETI?",
                   "options": [
-                    "Solo lo interno",
-                    "El entorno externo (6 dimensiones)",
-                    "Solo las finanzas",
-                    "Solo la competencia"
+                    "Un tipo de ERP",
+                    "Un plan que alinea TI con la estrategia del negocio",
+                    "Una auditoria tecnica",
+                    "Un contrato de servicio"
                   ],
                   "answer": 1,
-                  "explanation": "Politico, economico, social, tecnologico, ecologico y legal."
+                  "explanation": "El PETI traduce la estrategia del negocio en iniciativas de TI."
+                },
+                {
+                  "question": "¿Con que plan del negocio se alinea el PETI?",
+                  "options": [
+                    "Con el PEI",
+                    "Con el SLA",
+                    "Con el WMS",
+                    "Con el CRM"
+                  ],
+                  "answer": 0,
+                  "explanation": "Se alinea con el Plan Estrategico Institucional (PEI)."
+                },
+                {
+                  "question": "¿Cual es el horizonte tipico del PETI?",
+                  "options": [
+                    "1 mes",
+                    "6 meses",
+                    "3 a 5 anos",
+                    "20 anos"
+                  ],
+                  "answer": 2,
+                  "explanation": "De 3 a 5 anos."
+                },
+                {
+                  "question": "¿Cuantas perspectivas tiene el BSC de TI?",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "answer": 2,
+                  "explanation": "Financiera, clientes, procesos y aprendizaje."
+                },
+                {
+                  "question": "¿Que es un Quick Win?",
+                  "options": [
+                    "Un error comun",
+                    "Una mejora de bajo esfuerzo y alto impacto",
+                    "Un tipo de riesgo",
+                    "Un estandar ITIL"
+                  ],
+                  "answer": 1,
+                  "explanation": "Genera confianza y momentum para el plan."
+                },
+                {
+                  "question": "¿Cual es el ultimo eslabon de la cascada estrategica?",
+                  "options": [
+                    "El proyecto",
+                    "El portafolio",
+                    "La operacion",
+                    "El programa"
+                  ],
+                  "answer": 2,
+                  "explanation": "Termina en la operacion (servicio en produccion)."
                 }
               ]
             },
@@ -8623,8 +8582,74 @@
             },
             {
               "type": "quiz",
-              "title": "Admin Estrategica TI - Nivel 2 (comprension)",
+              "title": "Autoevaluacion - Nivel 2 (comprension)",
               "questions": [
+                {
+                  "question": "¿Cual es la diferencia entre estrategia y tactica?",
+                  "options": [
+                    "Son iguales",
+                    "La estrategia define que hacer (correcto); la tactica, como hacerlo (correctamente)",
+                    "La tactica es de largo plazo",
+                    "La estrategia es operativa"
+                  ],
+                  "answer": 1,
+                  "explanation": "Estrategia = que; tactica = como."
+                },
+                {
+                  "question": "¿Que funcion administrativa define objetivos y estrategias?",
+                  "options": [
+                    "Controlar",
+                    "Planificar",
+                    "Organizar",
+                    "Dirigir"
+                  ],
+                  "answer": 1,
+                  "explanation": "Planificar es la primera funcion."
+                },
+                {
+                  "question": "La estrategia responde a:",
+                  "options": [
+                    "Hacer las cosas correctamente",
+                    "Hacer las cosas correctas",
+                    "Controlar",
+                    "Organizar"
+                  ],
+                  "answer": 1,
+                  "explanation": "La estrategia define que es lo correcto."
+                },
+                {
+                  "question": "¿Cual es una estrategia competitiva generica de Thompson?",
+                  "options": [
+                    "Liderazgo en costos",
+                    "Duplicar precios",
+                    "Reducir personal",
+                    "Eliminar la competencia"
+                  ],
+                  "answer": 0,
+                  "explanation": "Liderazgo en costos totales mas bajos."
+                },
+                {
+                  "question": "¿Que tipo de planificacion hace la alta direccion a largo plazo?",
+                  "options": [
+                    "Operativa",
+                    "Tactica",
+                    "Estrategica",
+                    "Diaria"
+                  ],
+                  "answer": 2,
+                  "explanation": "La estrategica es de largo plazo y alta direccion."
+                },
+                {
+                  "question": "¿Por que el PESTEL complementa al FODA?",
+                  "options": [
+                    "Porque son iguales",
+                    "Porque el PESTEL analiza el macro-entorno externo que alimenta el analisis FODA",
+                    "Porque reemplaza al FODA",
+                    "Porque es financiero"
+                  ],
+                  "answer": 1,
+                  "explanation": "PESTEL da el contexto externo."
+                },
                 {
                   "question": "¿Que diferencia hay entre FODA y PESTEL?",
                   "options": [
@@ -8635,6 +8660,28 @@
                   ],
                   "answer": 1,
                   "explanation": "PESTEL = entorno externo; FODA = interno + externo."
+                },
+                {
+                  "question": "Un objetivo \"mejorar la calidad del servicio\" NO es SMART porque:",
+                  "options": [
+                    "Es muy caro",
+                    "No es medible ni temporal",
+                    "Es de TI",
+                    "Lo dijo el gerente"
+                  ],
+                  "answer": 1,
+                  "explanation": "Le faltan medicion y plazo."
+                },
+                {
+                  "question": "Un objetivo \"mejorar la TI\" es incorrecto porque:",
+                  "options": [
+                    "Es muy caro",
+                    "No es medible ni tiene plazo (no es SMART)",
+                    "Lo dijo el proveedor",
+                    "No es de TI"
+                  ],
+                  "answer": 1,
+                  "explanation": "No es especifico, medible ni temporal."
                 },
                 {
                   "question": "La deuda tecnica es una:",
@@ -8712,6 +8759,83 @@
                   ],
                   "answer": 1,
                   "explanation": "Termina en la operacion del servicio."
+                },
+                {
+                  "question": "¿Por que el PETI no es una lista de compras?",
+                  "options": [
+                    "Porque no incluye TI",
+                    "Porque responde como la TI ayuda al negocio, no que comprar",
+                    "Porque no tiene presupuesto",
+                    "Porque lo hace el proveedor"
+                  ],
+                  "answer": 1,
+                  "explanation": "El PETI parte de la estrategia del negocio."
+                },
+                {
+                  "question": "¿Que orden sigue la cascada estrategica?",
+                  "options": [
+                    "Proyecto -> estrategia -> PETI",
+                    "Estrategia -> PETI -> portafolio -> programa -> proyecto -> operacion",
+                    "Operacion -> proyecto -> PETI",
+                    "Portafolio -> estrategia -> proyecto"
+                  ],
+                  "answer": 1,
+                  "explanation": "La estrategia baja en cascada hasta la operacion."
+                },
+                {
+                  "question": "¿Que mide la perspectiva de Procesos del BSC de TI?",
+                  "options": [
+                    "La rentabilidad",
+                    "La eficiencia de los procesos de TI",
+                    "Las horas de capacitacion",
+                    "La marca"
+                  ],
+                  "answer": 1,
+                  "explanation": "Mide disponibilidad, incidentes y automatizacion."
+                },
+                {
+                  "question": "¿Que relacion hay entre portafolio y proyecto?",
+                  "options": [
+                    "Son sinonimos",
+                    "El portafolio agrupa programas e iniciativas que contienen proyectos",
+                    "El proyecto contiene al portafolio",
+                    "No se relacionan"
+                  ],
+                  "answer": 1,
+                  "explanation": "El portafolio agrupa; los proyectos ejecutan."
+                },
+                {
+                  "question": "¿Para que sirve un Quick Win en el PETI?",
+                  "options": [
+                    "Para gastar presupuesto",
+                    "Para generar confianza y momentum con exitos tempranos",
+                    "Para retrasar el plan",
+                    "Para eliminar KPIs"
+                  ],
+                  "answer": 1,
+                  "explanation": "Demuestra valor rapido y sostiene el apoyo."
+                },
+                {
+                  "question": "Si un proyecto no se rastrea hasta la estrategia, ¿que implica?",
+                  "options": [
+                    "Que es obligatorio",
+                    "Que probablemente no deberia existir",
+                    "Que es un quick win",
+                    "Que es un KPI"
+                  ],
+                  "answer": 1,
+                  "explanation": "Todo proyecto debe aportar a la estrategia."
+                },
+                {
+                  "question": "¿Que perspectiva del BSC mide la capacitacion del equipo?",
+                  "options": [
+                    "Financiera",
+                    "Clientes",
+                    "Procesos",
+                    "Aprendizaje"
+                  ],
+                  "answer": 3,
+                  "explanation": "El aprendizaje y desarrollo del equipo."
                 }
               ]
             },
@@ -8721,7 +8845,7 @@
             },
             {
               "type": "quiz",
-              "title": "Admin Estrategica TI - Nivel 3 (escenarios)",
+              "title": "Autoevaluacion - Nivel 3 (escenarios)",
               "questions": [
                 {
                   "question": "Logistica Andina tiene sistemas aislados y sin API. En el FODA de TI, esto es:",
@@ -8790,17 +8914,6 @@
                   "explanation": "Falto sensibilizar, formar e involucrar."
                 },
                 {
-                  "question": "Se decide que el proyecto de API aporta al objetivo del PETI. ¿Que se esta haciendo?",
-                  "options": [
-                    "Rastrear el proyecto hasta la estrategia",
-                    "Gastar presupuesto",
-                    "Reducir personal",
-                    "Auditar"
-                  ],
-                  "answer": 0,
-                  "explanation": "Todo proyecto debe aportar a la estrategia."
-                },
-                {
                   "question": "El directorio define como TI soporta el negocio a 3 anos. ¿Que pilar ejerce?",
                   "options": [
                     "Gestion",
@@ -8810,6 +8923,182 @@
                   ],
                   "answer": 1,
                   "explanation": "Definir direccion y supervisar es gobierno."
+                },
+                {
+                  "question": "Logistica Andina analiza el auge del e-commerce. En el FODA es:",
+                  "options": [
+                    "Fortaleza",
+                    "Debilidad",
+                    "Oportunidad",
+                    "Amenaza"
+                  ],
+                  "answer": 2,
+                  "explanation": "Viene del entorno y se puede aprovechar."
+                },
+                {
+                  "question": "Una nueva ley de proteccion de datos es, en el PESTEL:",
+                  "options": [
+                    "Factor politico",
+                    "Factor legal",
+                    "Factor social",
+                    "Factor tecnologico"
+                  ],
+                  "answer": 1,
+                  "explanation": "Es la dimension Legal."
+                },
+                {
+                  "question": "La empresa define \"aumentar ventas 15% en 6 meses\". ¿Que aplico?",
+                  "options": [
+                    "Un objetivo SMART",
+                    "Una amenaza",
+                    "Una debilidad",
+                    "Un plan operativo"
+                  ],
+                  "answer": 0,
+                  "explanation": "Especifico, medible, alcanzable, relevante y temporal."
+                },
+                {
+                  "question": "El gerente define horarios y tareas del dia. ¿Que planificacion aplica?",
+                  "options": [
+                    "Estrategica",
+                    "Tactica",
+                    "Operativa",
+                    "Vision"
+                  ],
+                  "answer": 2,
+                  "explanation": "Es planificacion operativa."
+                },
+                {
+                  "question": "La empresa decide operar con los costos mas bajos del sector. ¿Que estrategia usa?",
+                  "options": [
+                    "Diferenciacion",
+                    "Liderazgo en costos",
+                    "Enfoque",
+                    "Hibrida"
+                  ],
+                  "answer": 1,
+                  "explanation": "Liderazgo en costos totales mas bajos."
+                },
+                {
+                  "question": "Se define la razon de ser y hacia donde va la empresa. ¿Que etapa es?",
+                  "options": [
+                    "Basica",
+                    "Atencion al tiempo",
+                    "Potenciacion",
+                    "Aplicacion"
+                  ],
+                  "answer": 0,
+                  "explanation": "La etapa basica define mision y vision."
+                },
+                {
+                  "question": "Un objetivo que no se puede medir ni tiene plazo es:",
+                  "options": [
+                    "SMART",
+                    "No SMART",
+                    "Una fortaleza",
+                    "Un KPI"
+                  ],
+                  "answer": 1,
+                  "explanation": "Le faltan M y T."
+                },
+                {
+                  "question": "La empresa capacita al equipo en nuevas herramientas. ¿Estrategia o tactica?",
+                  "options": [
+                    "Estrategia",
+                    "Tactica",
+                    "Vision",
+                    "Mision"
+                  ],
+                  "answer": 1,
+                  "explanation": "Es una accion de corto plazo: tactica."
+                },
+                {
+                  "question": "Logistica Andina quiere crecer 20% en e-commerce. ¿Que debe hacer primero el PETI?",
+                  "options": [
+                    "Comprar servidores",
+                    "Alinear la vision de TI con la estrategia del negocio",
+                    "Contratar mas personal",
+                    "Implementar un ERP"
+                  ],
+                  "answer": 1,
+                  "explanation": "La alineacion con el PEI es el punto de partida."
+                },
+                {
+                  "question": "La direccion pide reducir costos de TI 20% y los usuarios piden mas funciones. ¿Que hace el PETI?",
+                  "options": [
+                    "Ignorar a los usuarios",
+                    "Balancear ambos objetivos con priorizacion clara",
+                    "Reducir personal",
+                    "Comprar mas licencias"
+                  ],
+                  "answer": 1,
+                  "explanation": "El PETI prioriza y balancea eficiencia e innovacion."
+                },
+                {
+                  "question": "El equipo quiere migrar todo a la nube de una vez. ¿Que recomienda el PETI?",
+                  "options": [
+                    "Migracion incremental con pilotos",
+                    "Migracion total inmediata",
+                    "No migrar nunca",
+                    "Comprar servidores"
+                  ],
+                  "answer": 0,
+                  "explanation": "Se recomienda migracion incremental para reducir riesgo."
+                },
+                {
+                  "question": "Se logra una mejora rapida de bajo esfuerzo y alto impacto. ¿Que es?",
+                  "options": [
+                    "Un KPI",
+                    "Un Quick Win",
+                    "Un riesgo",
+                    "Una deuda tecnica"
+                  ],
+                  "answer": 1,
+                  "explanation": "Es un Quick Win."
+                },
+                {
+                  "question": "Un KPI de disponibilidad del 99.9% pertenece a la perspectiva:",
+                  "options": [
+                    "Financiera",
+                    "Clientes",
+                    "Procesos",
+                    "Aprendizaje"
+                  ],
+                  "answer": 2,
+                  "explanation": "La disponibilidad es un proceso de TI."
+                },
+                {
+                  "question": "El proyecto de API de integracion aporta directamente a:",
+                  "options": [
+                    "Un objetivo del PETI (integracion con e-commerce)",
+                    "Un objetivo personal",
+                    "Nada",
+                    "Al presupuesto"
+                  ],
+                  "answer": 0,
+                  "explanation": "Cada proyecto debe rastrearse a un objetivo del PETI."
+                },
+                {
+                  "question": "La satisfaccion del usuario interno al 85% pertenece a la perspectiva:",
+                  "options": [
+                    "Clientes",
+                    "Procesos",
+                    "Aprendizaje",
+                    "Financiera"
+                  ],
+                  "answer": 0,
+                  "explanation": "Los usuarios son \"clientes\" internos de TI."
+                },
+                {
+                  "question": "El ROI de los proyectos de TI mayor a 20% pertenece a la perspectiva:",
+                  "options": [
+                    "Financiera",
+                    "Clientes",
+                    "Procesos",
+                    "Aprendizaje"
+                  ],
+                  "answer": 0,
+                  "explanation": "El ROI es una medida financiera."
                 }
               ]
             },
@@ -8823,16 +9112,50 @@
               "items": [
                 "Estrategia corporativa (PEI)",
                 "PETI (plan de TI alineado)",
-                "Portafolio de iniciativas",
-                "Programa",
-                "Proyecto",
-                "Operacion"
+                "Portafolio de programas e iniciativas",
+                "Programa de proyectos relacionados",
+                "Proyecto con alcance y presupuesto",
+                "Operacion (servicio en produccion)"
+              ]
+            },
+            {
+              "type": "sort",
+              "title": "Ordena las 4 etapas de la planificacion estrategica",
+              "items": [
+                "Etapa Basica: mision y vision",
+                "Etapa de Atencion al Tiempo: analisis del entorno (FODA, PESTEL)",
+                "Etapa de Potenciacion: factores criticos internos",
+                "Etapa de Aplicacion: politicas, programas y controles"
               ]
             },
             {
               "type": "match",
-              "title": "Relaciona conceptos estrategicos",
+              "title": "Relaciona los conceptos estrategicos",
               "pairs": [
+                {
+                  "left": "FODA",
+                  "right": "Analisis de fortalezas, debilidades, oportunidades y amenazas"
+                },
+                {
+                  "left": "PESTEL",
+                  "right": "Analisis del entorno externo en 6 dimensiones"
+                },
+                {
+                  "left": "PODIO",
+                  "right": "Planificar, organizar, dirigir, integrar y controlar"
+                },
+                {
+                  "left": "SMART",
+                  "right": "Criterio para objetivos especificos, medibles, alcanzables, relevantes y temporales"
+                },
+                {
+                  "left": "Cadena de Valor",
+                  "right": "Actividades que agregan valor al producto o servicio"
+                },
+                {
+                  "left": "Mision",
+                  "right": "Razon de ser de la organizacion"
+                },
                 {
                   "left": "Deuda tecnica",
                   "right": "Atajos de corto plazo que cuestan a largo plazo"
@@ -8850,19 +9173,65 @@
                   "right": "Framework de arquitectura empresarial"
                 },
                 {
-                  "left": "PESTEL",
-                  "right": "Analisis del entorno externo en 6 dimensiones"
-                },
-                {
                   "left": "Cascada",
                   "right": "Estrategia -> PETI -> portafolio -> proyecto -> operacion"
+                },
+                {
+                  "left": "PETI",
+                  "right": "Plan que alinea TI con la estrategia del negocio"
+                },
+                {
+                  "left": "PEI",
+                  "right": "Plan Estrategico Institucional del negocio"
+                },
+                {
+                  "left": "BSC de TI",
+                  "right": "Tablero con 4 perspectivas de indicadores"
+                },
+                {
+                  "left": "Quick Win",
+                  "right": "Mejora de bajo esfuerzo y alto impacto"
+                },
+                {
+                  "left": "KPI",
+                  "right": "Indicador clave de desempeno con meta"
                 }
               ]
             },
             {
               "type": "truefalse",
-              "title": "Administracion Estrategica de TI",
+              "title": "Administracion Estrategica de TI y PETI",
               "tf": [
+                {
+                  "statement": "La estrategia se define despues de la mision y vision.",
+                  "answer": true,
+                  "explanation": "La mision y vision son la base."
+                },
+                {
+                  "statement": "La tactica responde a \"hacer las cosas correctas\".",
+                  "answer": false,
+                  "explanation": "La tactica es \"hacer las cosas correctamente\"; la estrategia es \"las correctas\"."
+                },
+                {
+                  "statement": "PODIO significa Planificar, Organizar, Dirigir, Integrar y Controlar.",
+                  "answer": true,
+                  "explanation": "Es la funcion administrativa."
+                },
+                {
+                  "statement": "Las amenazas del FODA son internas.",
+                  "answer": false,
+                  "explanation": "Son externas."
+                },
+                {
+                  "statement": "El PESTEL analiza el entorno externo.",
+                  "answer": true,
+                  "explanation": "Seis dimensiones del macro-entorno."
+                },
+                {
+                  "statement": "La planificacion operativa es de largo plazo.",
+                  "answer": false,
+                  "explanation": "Es de corto plazo (dia a dia)."
+                },
                 {
                   "statement": "La deuda tecnica es una amenaza externa.",
                   "answer": false,
@@ -8889,15 +9258,40 @@
                   "explanation": "Viene del entorno y no se controla directamente."
                 },
                 {
-                  "statement": "Todo proyecto debe rastrearse hasta la estrategia del PETI.",
+                  "statement": "El PETI es una lista de compras de hardware.",
+                  "answer": false,
+                  "explanation": "Es un plan que alinea TI con la estrategia del negocio."
+                },
+                {
+                  "statement": "El PETI se alinea con el PEI de la organizacion.",
+                  "answer": true,
+                  "explanation": "El PEI es su punto de partida."
+                },
+                {
+                  "statement": "El BSC de TI tiene 4 perspectivas.",
+                  "answer": true,
+                  "explanation": "Financiera, clientes, procesos y aprendizaje."
+                },
+                {
+                  "statement": "Un Quick Win es un proyecto de largo plazo.",
+                  "answer": false,
+                  "explanation": "Es una mejora rapida de bajo esfuerzo y alto impacto."
+                },
+                {
+                  "statement": "Todo proyecto debe rastrearse hasta un objetivo del PETI.",
                   "answer": true,
                   "explanation": "Si no aporta a la estrategia, no deberia existir."
+                },
+                {
+                  "statement": "Un PETI sin KPIs medibles es solo un documento.",
+                  "answer": true,
+                  "explanation": "Cada iniciativa necesita indicadores con metas."
                 }
               ]
             },
             {
               "type": "essay",
-              "title": "Administracion Estrategica de TI",
+              "title": "Administracion Estrategica de TI y PETI",
               "essay": [
                 {
                   "question": "Explique como se aplican el FODA y el PESTEL a la estrategia de TI. De un ejemplo de cada cuadrante del FODA y una dimension del PESTEL para una empresa de logistica.",
@@ -8911,6 +9305,17 @@
                   ]
                 },
                 {
+                  "question": "Explique que es PODIO y por que la planificacion es la primera funcion administrativa. Relacione PODIO con la evaluacion del desempeno de un gerente.",
+                  "hint": "Planificar, organizar, dirigir, integrar y controlar; sin plan no hay rumbo.",
+                  "model": "PODIO es la funcion administrativa: Planificar (definir objetivos y estrategias), Organizar (estructurar recursos), Dirigir (liderar y motivar), Integrar (coordinar las partes) y Controlar (verificar y corregir). La planificacion es la primera porque sin un plan no hay rumbo claro ni criterios para organizar, dirigir y controlar. PODIO es la base para evaluar a un gerente: la auditoria CRMR revisa si cumple bien estas cinco funciones, de modo que el desempeno se mide por como planifica, organiza, dirige, integra y controla.",
+                  "rubric": [
+                    "Define PODIO",
+                    "Justifica la prioridad de planificar",
+                    "Relaciona con la evaluacion del gerente",
+                    "Redaccion y claridad"
+                  ]
+                },
+                {
                   "question": "Explique los 3 pilares de la administracion estrategica de TI y como la estrategia baja en cascada hasta la operacion.",
                   "hint": "Gobierno, gestion y arquitectura; cascada PETI -> portafolio -> proyecto -> operacion.",
                   "model": "Los 3 pilares son Gobierno de TI (define la direccion, asigna recursos y supervisa), Gestion de TI (ejecuta los procesos y entrega servicios) y Arquitectura de TI (define la estructura tecnologica que soporta el negocio actual y futuro). La estrategia baja en cascada: la estrategia corporativa (PEI) se traduce en el PETI, que se organiza en un portafolio de iniciativas, luego en programas y proyectos, y finalmente en servicios en operacion. Asi cada proyecto se rastrea hasta la estrategia y la organizacion cierra la brecha entre el plan y el dia a dia.",
@@ -8918,6 +9323,28 @@
                     "Nombra los 3 pilares",
                     "Explica la cascada",
                     "Conecta estrategia y operacion",
+                    "Redaccion y claridad"
+                  ]
+                },
+                {
+                  "question": "Explique que es un PETI, como se alinea con el PEI y describa la cascada estrategica hasta la operacion. Use el ejemplo de Logistica Andina.",
+                  "hint": "PEI -> PETI -> portafolio -> programa -> proyecto -> operacion.",
+                  "model": "El PETI es el plan que traduce la estrategia del negocio (PEI) en iniciativas de TI medibles para un horizonte de 3 a 5 anos. En Logistica Andina, el PEI busca crecer 20% en e-commerce; el PETI responde con una plataforma logistica integrada y ruteo por IA. La cascada baja asi: estrategia corporativa (entregas en menos de 24h) -> PETI (plataforma integrada) -> portafolio (modernizacion, datos, ciberseguridad) -> programa de integracion -> proyecto del API con alcance y presupuesto -> operacion del servicio de rastreo. Cada nivel tiene horizonte y responsable, y todo proyecto debe rastrearse hasta la estrategia.",
+                  "rubric": [
+                    "Define PETI y PEI",
+                    "Explica la cascada",
+                    "Usa el ejemplo de Logistica Andina",
+                    "Redaccion y claridad"
+                  ]
+                },
+                {
+                  "question": "Explique que es el BSC de TI, sus 4 perspectivas y de un KPI con meta para cada una usando un ejemplo.",
+                  "hint": "Financiera, clientes, procesos y aprendizaje; cada KPI con meta.",
+                  "model": "El BSC de TI adapta el Balanced Scorecard de Kaplan y Norton para medir TI en 4 perspectivas. Financiera: contribucion a la rentabilidad (ej. ROI de proyectos > 20%). Clientes: percepcion de los usuarios internos (ej. satisfaccion 85%). Procesos: eficiencia de los procesos de TI (ej. disponibilidad 99.9%). Aprendizaje: desarrollo del equipo (ej. 40h de capacitacion por empleado). Asi la gerencia mide el valor de TI en un solo tablero y no solo su costo.",
+                  "rubric": [
+                    "Define el BSC de TI",
+                    "Nombra las 4 perspectivas",
+                    "Da KPI con meta por perspectiva",
                     "Redaccion y claridad"
                   ]
                 }
@@ -8984,6 +9411,126 @@
               ]
             },
             {
+              "type": "path",
+              "title": "Planificacion en Logistica Andina",
+              "nodes": [
+                {
+                  "id": "1",
+                  "title": "Inicio",
+                  "prompt": "Logistica Andina quiere crecer pero no tiene rumbo claro. ¿Que haces primero?",
+                  "options": [
+                    {
+                      "label": "Definir mision y vision, y analizar el entorno (FODA/PESTEL)",
+                      "target": "2"
+                    },
+                    {
+                      "label": "Comprar software de inmediato",
+                      "target": "3"
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "title": "Correcto",
+                  "prompt": "Con la mision, vision y el analisis del entorno defines estrategias y objetivos SMART. ¿Que sigue?",
+                  "options": [
+                    {
+                      "label": "Traducir la estrategia en planes tacticos y operativos",
+                      "target": "4"
+                    },
+                    {
+                      "label": "Ejecutar sin medir",
+                      "target": "5"
+                    }
+                  ]
+                },
+                {
+                  "id": "3",
+                  "title": "Reactivo",
+                  "prompt": "Comprar software sin estrategia es partir de la solucion, no de la necesidad.",
+                  "isFinal": true,
+                  "verdict": "La tecnologia sirve al negocio, no al reves.",
+                  "options": []
+                },
+                {
+                  "id": "4",
+                  "title": "Alineado",
+                  "prompt": "Defines politicas, programas, presupuestos y controles (etapa de aplicacion) y mides con KPIs.",
+                  "isFinal": true,
+                  "verdict": "Correcto: la estrategia baja a la ejecucion con control.",
+                  "options": []
+                },
+                {
+                  "id": "5",
+                  "title": "Sin control",
+                  "prompt": "Ejecutar sin medir impide detectar desviaciones y corregir: falta la funcion Controlar.",
+                  "isFinal": true,
+                  "verdict": "Sin control no se sabe si se cumple el plan.",
+                  "options": []
+                }
+              ]
+            },
+            {
+              "type": "path",
+              "title": "Desarrollo del PETI",
+              "nodes": [
+                {
+                  "id": "1",
+                  "title": "Inicio",
+                  "prompt": "Logistica Andina necesita su PETI. ¿Por donde empiezas?",
+                  "options": [
+                    {
+                      "label": "Diagnosticar el estado actual de TI y entrevistar a la direccion",
+                      "target": "2"
+                    },
+                    {
+                      "label": "Comprar tecnologia emergente",
+                      "target": "3"
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "title": "Diagnostico",
+                  "prompt": "El diagnostico revela ERP estable pero sistemas aislados y sin API. ¿Que sigue?",
+                  "options": [
+                    {
+                      "label": "Definir vision y objetivos alineados al PEI y priorizar por impacto",
+                      "target": "4"
+                    },
+                    {
+                      "label": "Migrar todo a la nube de una vez",
+                      "target": "5"
+                    }
+                  ]
+                },
+                {
+                  "id": "3",
+                  "title": "Tecnologia primero",
+                  "prompt": "Investigar IA y cloud es util, pero debe partir de las necesidades del negocio, no de la moda.",
+                  "isFinal": true,
+                  "verdict": "La tecnologia sirve al negocio, no al reves.",
+                  "options": []
+                },
+                {
+                  "id": "4",
+                  "title": "Alineacion",
+                  "prompt": "Defines vision, objetivos SMART y KPIs (BSC), priorizas quick wins y armas la cascada PETI -> portafolio -> proyecto.",
+                  "isFinal": true,
+                  "verdict": "Correcto: estrategia alineada y medible.",
+                  "options": []
+                },
+                {
+                  "id": "5",
+                  "title": "Migracion total",
+                  "prompt": "Migrar todo de una vez es riesgoso: alto costo, interrupciones y resistencia al cambio. Mejor incremental.",
+                  "isFinal": true,
+                  "verdict": "Riesgo alto: usa pilotos y avanza por fases.",
+                  "options": []
+                }
+              ]
+            },
+            {
               "type": "arch",
               "kind": "gobierno-ti"
             }
@@ -8997,6 +9544,13 @@
           "url": "https://uniagustiniana.edu.co",
           "type": "pdf",
           "description": "Documento U21 sobre administracion estrategica de TI."
+        },
+        {
+          "id": "res-07",
+          "title": "Plan Estrategico de TI (PETI)",
+          "url": "https://uniagustiniana.edu.co",
+          "type": "pdf",
+          "description": "Documento U23 sobre planificacion estrategica de TI."
         }
       ]
     },
@@ -12057,919 +12611,6 @@
       ]
     },
     {
-      "id": "admin-general-planificacion-estrategica",
-      "slug": "admin-general-planificacion-estrategica",
-      "title": "Administracion General y Planificacion Estrategica",
-      "emoji": "🎯",
-      "accent": "#3B82F6",
-      "category": "admin-general",
-      "difficulty": "intermedio",
-      "order": 15,
-      "description": "Conceptos fundamentales de administracion general: la funcion administrativa (PODIO), estrategia vs tactica, FODA y PESTEL, objetivos SMART, las 4 etapas de la planificacion estrategica, modelo de negocio, estrategias competitivas y cadena de valor. Base para decidir en organizaciones.",
-      "tags": [
-        "admin-general",
-        "PODIO",
-        "FODA",
-        "PESTEL",
-        "SMART",
-        "estrategia",
-        "planificacion"
-      ],
-      "keyTakeaway": "La administracion es planificar, organizar, dirigir, integrar y controlar (PODIO). La estrategia parte de la mision y vision, se analiza con FODA y PESTEL, se traduce en objetivos SMART y se ejecuta en 4 etapas de planificacion.",
-      "sources": [
-        {
-          "title": "Administracion Estrategica (Thompson y Strickland)",
-          "url": "https://www.mheducation.com",
-          "source": "McGraw-Hill",
-          "description": "Texto base de estrategia y ventaja competitiva"
-        },
-        {
-          "title": "Resumenes y notas de clase de Administracion de Recursos",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Material de clase"
-        }
-      ],
-      "sections": [
-        {
-          "id": "que-es-la-administracion",
-          "title": "Que es la Administracion?",
-          "blocks": [
-            {
-              "type": "definition",
-              "term": "Administracion",
-              "text": "Ciencia social que estudia como las organizaciones y sus integrantes trabajan en conjunto para alcanzar objetivos de manera eficiente y eficaz. Es el proceso de planificar, organizar, dirigir, integrar y controlar los recursos (humanos, economicos, materiales y tecnologicos) para alcanzar metas."
-            },
-            {
-              "type": "callout",
-              "tone": "info",
-              "text": "La administracion no es exclusiva de las empresas: tambien se aplica en hogares, gobiernos y hospitales, en cualquier organizacion que use recursos para alcanzar objetivos."
-            }
-          ]
-        },
-        {
-          "id": "la-funcion-administrativa-podio",
-          "title": "La Funcion Administrativa: PODIO",
-          "blocks": [
-            {
-              "type": "list",
-              "items": [
-                "Planificar",
-                "Organizar",
-                "Dirigir",
-                "Integrar",
-                "Controlar"
-              ],
-              "ordered": true
-            },
-            {
-              "type": "table",
-              "columns": [
-                "Funcion",
-                "Que hace"
-              ],
-              "rows": [
-                [
-                  "Planificar",
-                  "Define objetivos y traza las estrategias y acciones para alcanzarlos"
-                ],
-                [
-                  "Organizar",
-                  "Estructura los recursos (personas, areas, presupuesto): quien hace que, cuando y como"
-                ],
-                [
-                  "Dirigir",
-                  "Lidera, motiva e influye para ejecutar con compromiso; incluye decision y comunicacion"
-                ],
-                [
-                  "Integrar",
-                  "Conecta las partes para que trabajen coordinadas hacia los objetivos colectivos"
-                ],
-                [
-                  "Controlar",
-                  "Verifica que se cumpla el plan, detecta desviaciones y aplica correctivos"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "text": "PODIO es la base para evaluar el desempeno de un gerente. La auditoria CRMR (Revision de los Recursos Informaticos de la Direccion) evalua si el gerente cumple bien estas cinco funciones."
-            }
-          ]
-        },
-        {
-          "id": "estrategia-vs-tactica",
-          "title": "Estrategia vs Tactica",
-          "blocks": [
-            {
-              "type": "table",
-              "columns": [
-                "Concepto",
-                "Horizonte",
-                "Pregunta",
-                "Ejemplo"
-              ],
-              "rows": [
-                [
-                  "Vision",
-                  "Largo plazo (5-10 anos)",
-                  "¿Quienes queremos ser?",
-                  "Ser lider regional en soluciones de TI"
-                ],
-                [
-                  "Mision",
-                  "Permanente",
-                  "¿Para que existimos?",
-                  "Proveer tecnologia que transforme negocios"
-                ],
-                [
-                  "Estrategia",
-                  "Mediano plazo (2-5 anos)",
-                  "¿Como llegamos alla?",
-                  "Expandir a 3 paises con alianzas locales"
-                ],
-                [
-                  "Objetivos",
-                  "Corto-mediano plazo",
-                  "¿Que queremos lograr?",
-                  "Aumentar ingresos 20% este ano"
-                ],
-                [
-                  "Tactica",
-                  "Corto plazo (meses)",
-                  "¿Que hacemos hoy?",
-                  "Capacitar al equipo en nuevas herramientas"
-                ],
-                [
-                  "Planes operativos",
-                  "Dia a dia",
-                  "¿Quien lo hace?",
-                  "Horarios, tareas, presupuestos asignados"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "idea",
-              "text": "La estrategia responde a \"hacer las cosas correctas\"; la tactica, a \"hacer las cosas correctamente\". Ambas son necesarias."
-            }
-          ]
-        },
-        {
-          "id": "analisis-foda",
-          "title": "Analisis FODA",
-          "blocks": [
-            {
-              "type": "definition",
-              "term": "FODA",
-              "text": "Herramienta de analisis estrategico que evalua factores internos (Fortalezas y Debilidades) y externos (Oportunidades y Amenazas). Tambien se llama DAFO."
-            },
-            {
-              "type": "table",
-              "columns": [
-                "Factor",
-                "Interno/Externo",
-                "Descripcion",
-                "Ejemplo (Logistica Andina)"
-              ],
-              "rows": [
-                [
-                  "Fortalezas (F)",
-                  "Interno",
-                  "Que hace bien la organizacion?",
-                  "Red de bodegas propia, equipo capacitado"
-                ],
-                [
-                  "Debilidades (D)",
-                  "Interno",
-                  "Donde le falta capacidad?",
-                  "Deuda tecnica, presupuesto de TI limitado"
-                ],
-                [
-                  "Oportunidades (O)",
-                  "Externo",
-                  "Que oportunidades aprovechar?",
-                  "Auge del e-commerce, cloud, IA"
-                ],
-                [
-                  "Amenazas (A)",
-                  "Externo",
-                  "Que la puede perjudicar?",
-                  "Competencia con mejores apps, regulacion"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "danger",
-              "text": "El error mas comun es confundir debilidades con amenazas o fortalezas con oportunidades. Fortalezas y debilidades son internas (la empresa las controla); oportunidades y amenazas son externas (no las controla)."
-            }
-          ]
-        },
-        {
-          "id": "analisis-pestel",
-          "title": "Analisis PESTEL",
-          "blocks": [
-            {
-              "type": "definition",
-              "term": "PESTEL",
-              "text": "Herramienta que analiza el entorno externo de la organizacion en seis dimensiones: Politica, Economica, Social, Tecnologica, Ecologica y Legal. Complementa al FODA aportando el contexto macro donde compite la empresa."
-            },
-            {
-              "type": "table",
-              "columns": [
-                "Dimension",
-                "Que analiza",
-                "Ejemplo (Logistica Andina)"
-              ],
-              "rows": [
-                [
-                  "Politico",
-                  "Politicas y gobierno",
-                  "Incentivos al comercio electronico y a mipymes"
-                ],
-                [
-                  "Economico",
-                  "Costos, inflacion, tipo de cambio",
-                  "Costo del combustible y del cloud"
-                ],
-                [
-                  "Social",
-                  "Tendencias de la sociedad",
-                  "Crecimiento de compras online y domicilios"
-                ],
-                [
-                  "Tecnologico",
-                  "Avances tecnologicos",
-                  "IA, IoT para flotas, 5G"
-                ],
-                [
-                  "Ecologico",
-                  "Medio ambiente",
-                  "Regulacion de emisiones; presion por flota electrica"
-                ],
-                [
-                  "Legal",
-                  "Leyes y regulaciones",
-                  "Proteccion de datos, normativa laboral"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "idea",
-              "title": "FODA + PESTEL",
-              "text": "El PESTEL mira afuera (macro-entorno) y el FODA combina adentro y afuera para decidir. Juntos son la base del analisis estrategico."
-            }
-          ]
-        },
-        {
-          "id": "objetivos-smart",
-          "title": "Objetivos SMART",
-          "blocks": [
-            {
-              "type": "table",
-              "columns": [
-                "Letra",
-                "Significado",
-                "Pregunta",
-                "Ejemplo"
-              ],
-              "rows": [
-                [
-                  "S",
-                  "Specific (Especifico)",
-                  "¿Que exactamente se quiere lograr?",
-                  "Aumentar la base de clientes"
-                ],
-                [
-                  "M",
-                  "Measurable (Medible)",
-                  "¿Como se mide el progreso?",
-                  "En un 15%"
-                ],
-                [
-                  "A",
-                  "Achievable (Alcanzable)",
-                  "¿Es realista con los recursos?",
-                  "Si, con inversion en marketing"
-                ],
-                [
-                  "R",
-                  "Relevant (Relevante)",
-                  "¿Por que es importante?",
-                  "Porque incrementa ingresos"
-                ],
-                [
-                  "T",
-                  "Time-bound (Temporal)",
-                  "¿Para cuando?",
-                  "En los proximos 6 meses"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "info",
-              "text": "NO SMART: \"Mejorar las ventas\". SMART: \"Aumentar las ventas en 15% en el proximo trimestre con campanas de marketing digital\"."
-            }
-          ]
-        },
-        {
-          "id": "las-4-etapas-de-la-planificacion-estrategica",
-          "title": "Las 4 Etapas de la Planificacion Estrategica",
-          "blocks": [
-            {
-              "type": "list",
-              "items": [
-                "Etapa Basica: definir la razon de ser (mision) y hacia donde vamos (vision)",
-                "Etapa de Atencion al Tiempo: analizar el entorno (FODA, PESTEL) y elegir estrategias",
-                "Etapa de Potenciacion: analizar factores criticos internos (personal, organizacion, gerente)",
-                "Etapa de Aplicacion: definir politicas, programas, presupuestos y controles"
-              ],
-              "ordered": true
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "text": "Las etapas no se saltan. Comenzar sin mision clara o sin analisis del entorno genera planes debiles que fallan en la ejecucion."
-            }
-          ]
-        },
-        {
-          "id": "el-modelo-de-negocio-y-la-estrategia",
-          "title": "El Modelo de Negocio y la Estrategia",
-          "blocks": [
-            {
-              "type": "table",
-              "columns": [
-                "Concepto",
-                "Que es",
-                "Ejemplo"
-              ],
-              "rows": [
-                [
-                  "Modelo de Negocio",
-                  "Como la empresa genera ingresos y es sostenible",
-                  "Vender productos o suscripcion"
-                ],
-                [
-                  "Estrategia del Negocio",
-                  "Que ventaja competitiva busca",
-                  "Liderazgo en costo, diferenciacion, enfoque"
-                ],
-                [
-                  "Estrategia Corporativa",
-                  "Como se estructuran las unidades",
-                  "Diversificacion, integracion vertical"
-                ],
-                [
-                  "Objetivos Estrategicos",
-                  "Metas concretas y medibles",
-                  "Captar 100 clientes nuevos en 6 meses"
-                ]
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Las 5 Estrategias Competitivas Genericas (Thompson)"
-            },
-            {
-              "type": "list",
-              "items": [
-                "Lider en costos totales mas bajos — Operar con costos menores que los competidores",
-                "Diferenciacion — Ofrecer algo unico que otros no tienen",
-                "Concentracion en un segmento (enfoque) — Enfocarse en un nicho especifico",
-                "Mejor costo — Mejor relacion calidad-precio",
-                "Estrategia hibrida — Combinar elementos de las anteriores"
-              ],
-              "ordered": true
-            },
-            {
-              "type": "callout",
-              "tone": "idea",
-              "text": "Thompson afirma que las 5 estrategias genericas son las que generan exito sostenido; las organizaciones las combinan con sus ventajas y debilidades internas."
-            }
-          ]
-        },
-        {
-          "id": "la-cadena-de-valor",
-          "title": "La Cadena de Valor",
-          "blocks": [
-            {
-              "type": "definition",
-              "term": "Cadena de Valor",
-              "text": "Modelo que identifica las actividades principales y de apoyo que agregan valor al producto o servicio desde la concepcion hasta la entrega al cliente."
-            },
-            {
-              "type": "list",
-              "items": [
-                "Actividades principales: logistica de entrada, operaciones, logistica de salida, marketing y ventas, servicio postventa.",
-                "Actividades de apoyo: infraestructura, gestion de RRHH, desarrollo tecnologico, adquisiciones."
-              ]
-            },
-            {
-              "type": "definition",
-              "term": "Formula del Exito",
-              "text": "Que las personas perciban mas valor en el producto/servicio que lo que les cuesta, mas las ventajas sobre la competencia. Utilidades = Ingresos - Costos."
-            }
-          ]
-        },
-        {
-          "id": "tipos-de-planificacion",
-          "title": "Tipos de Planificacion",
-          "blocks": [
-            {
-              "type": "table",
-              "columns": [
-                "Tipo",
-                "Horizonte",
-                "Quien planifica",
-                "Ejemplo"
-              ],
-              "rows": [
-                [
-                  "Estrategica",
-                  "Largo plazo (3-10 anos)",
-                  "Alta direccion",
-                  "Expansion a nuevos mercados"
-                ],
-                [
-                  "Tactica",
-                  "Mediano plazo (1-3 anos)",
-                  "Mandos medios",
-                  "Implementar un ERP"
-                ],
-                [
-                  "Operativa",
-                  "Corto plazo (dia a dia)",
-                  "Primer nivel",
-                  "Horarios de produccion"
-                ]
-              ]
-            },
-            {
-              "type": "callout",
-              "tone": "warning",
-              "text": "La planificacion operativa depende de la tactica, que depende de la estrategica. Si la estrategia es debil, todos los planes inferiores fallan."
-            }
-          ]
-        },
-        {
-          "id": "autoevaluacion",
-          "title": "Autoevaluacion",
-          "blocks": [
-            {
-              "type": "heading",
-              "text": "Nivel 1 - Conceptos base"
-            },
-            {
-              "type": "quiz",
-              "title": "Admin General - Nivel 1 (memoria)",
-              "questions": [
-                {
-                  "question": "¿Que significa PODIO?",
-                  "options": [
-                    "Plan, Organizar, Dirigir, Integrar, Operar",
-                    "Planificar, Organizar, Dirigir, Integrar, Controlar",
-                    "Produccion, Organizacion, Direccion, Informacion, Control",
-                    "Presupuesto, Organizacion, Desarrollo, Implementacion, Control"
-                  ],
-                  "answer": 1,
-                  "explanation": "PODIO = Planificar, Organizar, Dirigir, Integrar y Controlar."
-                },
-                {
-                  "question": "¿Cuantas dimensiones analiza el PESTEL?",
-                  "options": [
-                    "3",
-                    "4",
-                    "5",
-                    "6"
-                  ],
-                  "answer": 3,
-                  "explanation": "Politico, economico, social, tecnologico, ecologico y legal."
-                },
-                {
-                  "question": "¿Que significan las siglas SMART?",
-                  "options": [
-                    "Simple, Medible, Amplio, Real, Temporal",
-                    "Especifico, Medible, Alcanzable, Relevante, Temporal",
-                    "Solo, Medible, Actual, Real",
-                    "Sistema, Meta, Accion, Resultado, Tiempo"
-                  ],
-                  "answer": 1,
-                  "explanation": "Specific, Measurable, Achievable, Relevant, Time-bound."
-                },
-                {
-                  "question": "En el FODA, las amenazas son factores:",
-                  "options": [
-                    "Internos",
-                    "Externos",
-                    "Ambos",
-                    "Ninguno"
-                  ],
-                  "answer": 1,
-                  "explanation": "Son externos: la empresa no los controla."
-                },
-                {
-                  "question": "¿Cuantas etapas tiene la planificacion estrategica segun el material?",
-                  "options": [
-                    "2",
-                    "3",
-                    "4",
-                    "5"
-                  ],
-                  "answer": 2,
-                  "explanation": "Cuatro: basica, atencion al tiempo, potenciacion y aplicacion."
-                },
-                {
-                  "question": "¿Que estudia la administracion?",
-                  "options": [
-                    "Solo las finanzas",
-                    "Como las organizaciones alcanzan objetivos con eficiencia y eficacia",
-                    "Solo el marketing",
-                    "Solo el personal"
-                  ],
-                  "answer": 1,
-                  "explanation": "Es la ciencia de alcanzar objetivos usando recursos."
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Nivel 2 - Comprension"
-            },
-            {
-              "type": "quiz",
-              "title": "Admin General - Nivel 2 (comprension)",
-              "questions": [
-                {
-                  "question": "¿Cual es la diferencia entre estrategia y tactica?",
-                  "options": [
-                    "Son iguales",
-                    "La estrategia define que hacer (correcto); la tactica, como hacerlo (correctamente)",
-                    "La tactica es de largo plazo",
-                    "La estrategia es operativa"
-                  ],
-                  "answer": 1,
-                  "explanation": "Estrategia = que; tactica = como."
-                },
-                {
-                  "question": "¿Por que el PESTEL complementa al FODA?",
-                  "options": [
-                    "Porque son iguales",
-                    "Porque el PESTEL analiza el macro-entorno externo que alimenta el analisis FODA",
-                    "Porque reemplaza al FODA",
-                    "Porque es financiero"
-                  ],
-                  "answer": 1,
-                  "explanation": "PESTEL da el contexto externo."
-                },
-                {
-                  "question": "Una deuda tecnica es una:",
-                  "options": [
-                    "Oportunidad externa",
-                    "Debilidad interna",
-                    "Amenaza externa",
-                    "Fortaleza"
-                  ],
-                  "answer": 1,
-                  "explanation": "Es interna: la empresa la controla."
-                },
-                {
-                  "question": "Un objetivo \"mejorar la calidad del servicio\" NO es SMART porque:",
-                  "options": [
-                    "Es muy caro",
-                    "No es medible ni temporal",
-                    "Es de TI",
-                    "Lo dijo el gerente"
-                  ],
-                  "answer": 1,
-                  "explanation": "Le faltan medicion y plazo."
-                },
-                {
-                  "question": "¿Que funcion administrativa define objetivos y estrategias?",
-                  "options": [
-                    "Controlar",
-                    "Planificar",
-                    "Organizar",
-                    "Dirigir"
-                  ],
-                  "answer": 1,
-                  "explanation": "Planificar es la primera funcion."
-                },
-                {
-                  "question": "La estrategia responde a:",
-                  "options": [
-                    "Hacer las cosas correctamente",
-                    "Hacer las cosas correctas",
-                    "Controlar",
-                    "Organizar"
-                  ],
-                  "answer": 1,
-                  "explanation": "La estrategia define que es lo correcto."
-                },
-                {
-                  "question": "¿Cual es una estrategia competitiva generica de Thompson?",
-                  "options": [
-                    "Liderazgo en costos",
-                    "Duplicar precios",
-                    "Reducir personal",
-                    "Eliminar la competencia"
-                  ],
-                  "answer": 0,
-                  "explanation": "Liderazgo en costos totales mas bajos."
-                },
-                {
-                  "question": "¿Que tipo de planificacion hace la alta direccion a largo plazo?",
-                  "options": [
-                    "Operativa",
-                    "Tactica",
-                    "Estrategica",
-                    "Diaria"
-                  ],
-                  "answer": 2,
-                  "explanation": "La estrategica es de largo plazo y alta direccion."
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Nivel 3 - Escenarios"
-            },
-            {
-              "type": "quiz",
-              "title": "Admin General - Nivel 3 (escenarios)",
-              "questions": [
-                {
-                  "question": "Logistica Andina analiza el auge del e-commerce. En el FODA es:",
-                  "options": [
-                    "Fortaleza",
-                    "Debilidad",
-                    "Oportunidad",
-                    "Amenaza"
-                  ],
-                  "answer": 2,
-                  "explanation": "Viene del entorno y se puede aprovechar."
-                },
-                {
-                  "question": "Una nueva ley de proteccion de datos es, en el PESTEL:",
-                  "options": [
-                    "Factor politico",
-                    "Factor legal",
-                    "Factor social",
-                    "Factor tecnologico"
-                  ],
-                  "answer": 1,
-                  "explanation": "Es la dimension Legal."
-                },
-                {
-                  "question": "La empresa define \"aumentar ventas 15% en 6 meses\". ¿Que aplico?",
-                  "options": [
-                    "Un objetivo SMART",
-                    "Una amenaza",
-                    "Una debilidad",
-                    "Un plan operativo"
-                  ],
-                  "answer": 0,
-                  "explanation": "Especifico, medible, alcanzable, relevante y temporal."
-                },
-                {
-                  "question": "El gerente define horarios y tareas del dia. ¿Que planificacion aplica?",
-                  "options": [
-                    "Estrategica",
-                    "Tactica",
-                    "Operativa",
-                    "Vision"
-                  ],
-                  "answer": 2,
-                  "explanation": "Es planificacion operativa."
-                },
-                {
-                  "question": "La empresa decide operar con los costos mas bajos del sector. ¿Que estrategia usa?",
-                  "options": [
-                    "Diferenciacion",
-                    "Liderazgo en costos",
-                    "Enfoque",
-                    "Hibrida"
-                  ],
-                  "answer": 1,
-                  "explanation": "Liderazgo en costos totales mas bajos."
-                },
-                {
-                  "question": "Se define la razon de ser y hacia donde va la empresa. ¿Que etapa es?",
-                  "options": [
-                    "Basica",
-                    "Atencion al tiempo",
-                    "Potenciacion",
-                    "Aplicacion"
-                  ],
-                  "answer": 0,
-                  "explanation": "La etapa basica define mision y vision."
-                },
-                {
-                  "question": "Un objetivo que no se puede medir ni tiene plazo es:",
-                  "options": [
-                    "SMART",
-                    "No SMART",
-                    "Una fortaleza",
-                    "Un KPI"
-                  ],
-                  "answer": 1,
-                  "explanation": "Le faltan M y T."
-                },
-                {
-                  "question": "La empresa capacita al equipo en nuevas herramientas. ¿Estrategia o tactica?",
-                  "options": [
-                    "Estrategia",
-                    "Tactica",
-                    "Vision",
-                    "Mision"
-                  ],
-                  "answer": 1,
-                  "explanation": "Es una accion de corto plazo: tactica."
-                }
-              ]
-            },
-            {
-              "type": "heading",
-              "text": "Practica guiada"
-            },
-            {
-              "type": "sort",
-              "title": "Ordena las 4 etapas de la planificacion estrategica",
-              "items": [
-                "Etapa Basica: mision y vision",
-                "Etapa de Atencion al Tiempo: analisis del entorno (FODA, PESTEL)",
-                "Etapa de Potenciacion: factores criticos internos",
-                "Etapa de Aplicacion: politicas, programas y controles"
-              ]
-            },
-            {
-              "type": "match",
-              "title": "Relaciona conceptos de administracion",
-              "pairs": [
-                {
-                  "left": "FODA",
-                  "right": "Analisis de fortalezas, debilidades, oportunidades y amenazas"
-                },
-                {
-                  "left": "PESTEL",
-                  "right": "Analisis del entorno externo en 6 dimensiones"
-                },
-                {
-                  "left": "PODIO",
-                  "right": "Planificar, organizar, dirigir, integrar y controlar"
-                },
-                {
-                  "left": "SMART",
-                  "right": "Criterio para objetivos especificos, medibles, alcanzables, relevantes y temporales"
-                },
-                {
-                  "left": "Cadena de Valor",
-                  "right": "Actividades que agregan valor al producto o servicio"
-                },
-                {
-                  "left": "Mision",
-                  "right": "Razon de ser de la organizacion"
-                }
-              ]
-            },
-            {
-              "type": "truefalse",
-              "title": "Administracion General",
-              "tf": [
-                {
-                  "statement": "La estrategia se define despues de la mision y vision.",
-                  "answer": true,
-                  "explanation": "La mision y vision son la base."
-                },
-                {
-                  "statement": "La tactica responde a \"hacer las cosas correctas\".",
-                  "answer": false,
-                  "explanation": "La tactica es \"hacer las cosas correctamente\"; la estrategia es \"las correctas\"."
-                },
-                {
-                  "statement": "PODIO significa Planificar, Organizar, Dirigir, Integrar y Controlar.",
-                  "answer": true,
-                  "explanation": "Es la funcion administrativa."
-                },
-                {
-                  "statement": "Las amenazas del FODA son internas.",
-                  "answer": false,
-                  "explanation": "Son externas."
-                },
-                {
-                  "statement": "El PESTEL analiza el entorno externo.",
-                  "answer": true,
-                  "explanation": "Seis dimensiones del macro-entorno."
-                },
-                {
-                  "statement": "La planificacion operativa es de largo plazo.",
-                  "answer": false,
-                  "explanation": "Es de corto plazo (dia a dia)."
-                }
-              ]
-            },
-            {
-              "type": "essay",
-              "title": "Administracion General",
-              "essay": [
-                {
-                  "question": "Explique la diferencia entre el analisis FODA y el PESTEL, y como se complementan. De un ejemplo de cada cuadrante del FODA para una empresa de logistica.",
-                  "hint": "FODA = interno (F/D) + externo (O/A); PESTEL = macro-entorno externo en 6 dimensiones.",
-                  "model": "El FODA evalua factores internos y externos de la organizacion: Fortalezas (red de bodegas propia, equipo capacitado), Debilidades (deuda tecnica, presupuesto limitado), Oportunidades (auge del e-commerce, cloud, IA) y Amenazas (competidores con mejores apps, regulacion). El PESTEL analiza el entorno externo en seis dimensiones (politico, economico, social, tecnologico, ecologico y legal) y complementa al FODA aportando el contexto macro. Juntos permiten decidir la estrategia: el PESTEL da el escenario y el FODA define como aprovechar o defenderse.",
-                  "rubric": [
-                    "Diferencia FODA y PESTEL",
-                    "Da ejemplo por cuadrante",
-                    "Explica la complementariedad",
-                    "Redaccion y claridad"
-                  ]
-                },
-                {
-                  "question": "Explique que es PODIO y por que la planificacion es la primera funcion administrativa. Relacione PODIO con la evaluacion del desempeno de un gerente.",
-                  "hint": "Planificar, organizar, dirigir, integrar y controlar; sin plan no hay rumbo.",
-                  "model": "PODIO es la funcion administrativa: Planificar (definir objetivos y estrategias), Organizar (estructurar recursos), Dirigir (liderar y motivar), Integrar (coordinar las partes) y Controlar (verificar y corregir). La planificacion es la primera porque sin un plan no hay rumbo claro ni criterios para organizar, dirigir y controlar. PODIO es la base para evaluar a un gerente: la auditoria CRMR revisa si cumple bien estas cinco funciones, de modo que el desempeno se mide por como planifica, organiza, dirige, integra y controla.",
-                  "rubric": [
-                    "Define PODIO",
-                    "Justifica la prioridad de planificar",
-                    "Relaciona con la evaluacion del gerente",
-                    "Redaccion y claridad"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "path",
-              "title": "Planificacion en Logistica Andina",
-              "nodes": [
-                {
-                  "id": "1",
-                  "title": "Inicio",
-                  "prompt": "Logistica Andina quiere crecer pero no tiene rumbo claro. ¿Que haces primero?",
-                  "options": [
-                    {
-                      "label": "Definir mision y vision, y analizar el entorno (FODA/PESTEL)",
-                      "target": "2"
-                    },
-                    {
-                      "label": "Comprar software de inmediato",
-                      "target": "3"
-                    }
-                  ]
-                },
-                {
-                  "id": "2",
-                  "title": "Correcto",
-                  "prompt": "Con la mision, vision y el analisis del entorno defines estrategias y objetivos SMART. ¿Que sigue?",
-                  "options": [
-                    {
-                      "label": "Traducir la estrategia en planes tacticos y operativos",
-                      "target": "4"
-                    },
-                    {
-                      "label": "Ejecutar sin medir",
-                      "target": "5"
-                    }
-                  ]
-                },
-                {
-                  "id": "3",
-                  "title": "Reactivo",
-                  "prompt": "Comprar software sin estrategia es partir de la solucion, no de la necesidad.",
-                  "isFinal": true,
-                  "verdict": "La tecnologia sirve al negocio, no al reves.",
-                  "options": []
-                },
-                {
-                  "id": "4",
-                  "title": "Alineado",
-                  "prompt": "Defines politicas, programas, presupuestos y controles (etapa de aplicacion) y mides con KPIs.",
-                  "isFinal": true,
-                  "verdict": "Correcto: la estrategia baja a la ejecucion con control.",
-                  "options": []
-                },
-                {
-                  "id": "5",
-                  "title": "Sin control",
-                  "prompt": "Ejecutar sin medir impide detectar desviaciones y corregir: falta la funcion Controlar.",
-                  "isFinal": true,
-                  "verdict": "Sin control no se sabe si se cumple el plan.",
-                  "options": []
-                }
-              ]
-            },
-            {
-              "type": "arch",
-              "kind": "gobierno-ti"
-            }
-          ]
-        }
-      ],
-      "resources": []
-    },
-    {
       "id": "auditoria-informatica",
       "slug": "auditoria-informatica",
       "title": "Auditoria Informatica",
@@ -15060,5 +14701,351 @@
       "resources": []
     }
   ],
-  "glossary": []
+  "glossary": [
+    {
+      "term": "Gobierno de TI",
+      "definition": "Sistema de dirección y control que asegura que las TI sostienen y extienden la estrategia y los objetivos del negocio. Evalúa necesidades, dirige la ejecución y monitorea el desempeño (modelo EDM).",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "Alineación estratégica",
+      "definition": "Grado en que las iniciativas, inversiones y capacidades de TI están conectadas con los objetivos del negocio, de modo que la tecnología habilita y no solo soporta la estrategia.",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "EDM",
+      "definition": "En COBIT, dominio de gobierno con tres prácticas: Evaluar (Evaluate), Dirigir (Direct) y Monitorear (Monitor). Es responsabilidad de la junta y la alta dirección, distinta de la gestión diaria.",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "Cascada de metas (Goals Cascade)",
+      "definition": "Mecanismo de COBIT 2019 que traduce las necesidades de los interesados en metas corporativas, luego en metas de alineación de TI y finalmente en objetivos de gobierno y gestión medibles.",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "Modelo de diseño de gobierno",
+      "definition": "En COBIT 2019, conjunto de 11 factores de diseño (estrategia empresarial, metas, perfil de riesgo, tamaño, entre otros) que permiten adaptar el sistema de gobierno a cada organización.",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "Nivel de capacidad",
+      "definition": "Escala de 0 a 5 en COBIT 2019 que mide qué tan completo y maduro es un proceso de gobierno o gestión, desde inexistente (0) hasta optimizado (5).",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "Comité de dirección de TI (Steering Committee)",
+      "definition": "Órgano de decisión que reúne a negocio y TI para priorizar inversiones, resolver conflictos y supervisar el portafolio de iniciativas tecnológicas.",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "COBIT 2019",
+      "definition": "Marco de ISACA para el gobierno y la gestión de las TI empresariales. Define 40 objetivos (5 de gobierno y 35 de gestión), 7 componentes y un modelo de diseño adaptable. Es un marco de referencia, no una norma certificable.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "ITIL 4",
+      "definition": "Marco de AXELOS para la gestión de servicios de TI. Introduce el Sistema de Valor del Servicio (SVS), las 4 dimensiones, los 7 principios guía y 34 prácticas de gestión.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "ISO/IEC 38500",
+      "definition": "Norma internacional de gobierno corporativo de las TI. Establece 6 principios (responsabilidad, estrategia, adquisición, desempeño, conformidad y comportamiento humano) y el modelo Evaluar-Dirigir-Monitorear.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "ISO/IEC 27001",
+      "definition": "Norma certificable para establecer, implementar, mantener y mejorar un Sistema de Gestión de Seguridad de la Información (SGSI). Es la referencia para la seguridad de la información.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "ISO/IEC 12207",
+      "definition": "Norma que define los procesos del ciclo de vida del software (adquisición, desarrollo, operación y mantenimiento) y su relación con el sistema y los procesos organizacionales.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "PMBOK",
+      "definition": "Guía del PMI que compila buenas prácticas de dirección de proyectos: grupos de procesos (inicio, planificación, ejecución, monitoreo/control y cierre) y áreas de conocimiento.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "TOGAF",
+      "definition": "Marco de The Open Group para arquitectura empresarial. Su núcleo es el Método de Desarrollo de Arquitectura (ADM), un ciclo iterativo para diseñar arquitecturas de negocio, datos, aplicaciones y tecnología.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "NIST CSF",
+      "definition": "Marco de Ciberseguridad del NIST (EE. UU.) organizado en cinco funciones: Identificar, Proteger, Detectar, Responder y Recuperar. Ayuda a gestionar el riesgo cibernético de forma estructurada.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "Marco de referencia vs norma",
+      "definition": "Una norma (ISO, IEEE) es un requisito verificable y a menudo certificable; un marco de referencia (COBIT, ITIL, PMBOK) ofrece buenas prácticas recomendadas y adaptables, sin obligatoriedad legal.",
+      "category": "Marcos y Normas"
+    },
+    {
+      "term": "Servicio",
+      "definition": "En ITIL 4, medio para habilitar la co-creación de valor al facilitar los resultados que los clientes quieren alcanzar, sin que estos gestionen los costos y riesgos asociados.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Sistema de Valor del Servicio (SVS)",
+      "definition": "Modelo de ITIL 4 que describe cómo los componentes y actividades de la organización trabajan juntos para crear valor: principios guía, gobierno, cadena de valor, prácticas y mejora continua.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Cadena de Valor del Servicio",
+      "definition": "Modelo operativo de ITIL 4 con seis actividades (Planear, Mejorar, Involucrar, Diseñar y Transicionar, Obtener/Construir, Entregar y Soportar) que transforman demanda en valor.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Las 4 dimensiones de ITIL",
+      "definition": "Perspectivas que toda práctica debe considerar: Organizaciones y personas, Información y tecnología, Socios y proveedores, y Flujos de valor y procesos.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Práctica (ITIL 4)",
+      "definition": "Conjunto de recursos organizacionales diseñados para realizar un trabajo o lograr un objetivo. ITIL 4 define 34 prácticas, agrupadas en generales, de gestión de servicios y técnicas.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "SLA (Acuerdo de Nivel de Servicio)",
+      "definition": "Acuerdo documentado entre un proveedor y un cliente que define los servicios esperados y los niveles de calidad medibles (disponibilidad, tiempos de respuesta, etc.).",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "OLA (Acuerdo de Nivel Operacional)",
+      "definition": "Acuerdo interno entre equipos de TI que respalda el cumplimiento de un SLA con el cliente; define responsabilidades y tiempos entre áreas internas.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Incidente",
+      "definition": "Interrupción no planificada o reducción de la calidad de un servicio. Su objetivo es restaurar la operación lo antes posible, no necesariamente eliminar la causa raíz.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Problema",
+      "definition": "Causa o causas potenciales de uno o más incidentes. La gestión de problemas busca identificar la causa raíz para prevenir recurrencias.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Cambio",
+      "definition": "Adición, modificación o eliminación de algo que podría afectar a los servicios. La habilitación del cambio evalúa riesgo, autoriza y programa su implementación.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Mesa de servicio (Service Desk)",
+      "definition": "Punto único de contacto entre el proveedor de servicios y los usuarios, encargado de registrar, clasificar y resolver incidentes y solicitudes.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Mejora continua (CSI)",
+      "definition": "Actividad recurrente para alinear los servicios con las necesidades cambiantes del negocio mediante la mejora de servicios, procesos y tecnología de forma iterativa.",
+      "category": "Gestión de Servicios"
+    },
+    {
+      "term": "Proyecto",
+      "definition": "Esfuerzo temporal emprendido para crear un producto, servicio o resultado único. Tiene inicio y fin definidos, alcance, presupuesto y recursos acotados.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "Programa",
+      "definition": "Conjunto de proyectos y actividades relacionados gestionados de forma coordinada para obtener beneficios que no se lograrían gestionándolos individualmente.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "Portafolio",
+      "definition": "Colección de proyectos, programas y operaciones agrupados para facilitar la gestión estratégica y la priorización de inversiones según el valor esperado.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "Acta de constitución (Project Charter)",
+      "definition": "Documento que autoriza formalmente la existencia de un proyecto y otorga al director la autoridad para aplicar recursos a sus actividades.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "EDT / WBS",
+      "definition": "Estructura de Desglose del Trabajo: descomposición jerárquica del alcance total del proyecto en entregables y paquetes de trabajo manejables.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "Ruta crítica",
+      "definition": "Secuencia de actividades dependientes que determina la duración mínima del proyecto. Cualquier retraso en ella retrasa la fecha de término.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "Gestión del valor ganado (EVM)",
+      "definition": "Técnica que integra alcance, cronograma y costo para medir el desempeño del proyecto mediante indicadores como CPI, SPI y variaciones.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "Interesados (Stakeholders)",
+      "definition": "Personas u organizaciones que pueden afectar o ser afectadas por el proyecto. Su identificación y gestión del involucramiento es clave para el éxito.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "Riesgo",
+      "definition": "Evento o condición incierta que, si ocurre, tiene efecto positivo o negativo sobre los objetivos. Se gestiona identificando, analizando y planificando respuestas.",
+      "category": "Gestión de Proyectos"
+    },
+    {
+      "term": "PETI",
+      "definition": "Plan Estratégico de TI: documento que traduce la estrategia del negocio en iniciativas, proyectos y arquitectura tecnológica para un horizonte plurianual.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "Planeación estratégica",
+      "definition": "Proceso de formular la misión, visión, objetivos y cursos de acción de la organización, y de asignar recursos para alcanzarlos en el mediano y largo plazo.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "FODA (SWOT)",
+      "definition": "Herramienta de diagnóstico que cruza Fortalezas y Debilidades internas con Oportunidades y Amenazas del entorno para orientar la estrategia.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "PESTEL",
+      "definition": "Análisis del entorno macro: factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales que condicionan la estrategia.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "Objetivos SMART",
+      "definition": "Criterio para redactar objetivos: Específicos, Medibles, Alcanzables, Relevantes y con Plazo definido. Facilita su seguimiento y evaluación.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "Cuadro de mando integral (BSC)",
+      "definition": "Sistema de gestión que traduce la estrategia en objetivos e indicadores en cuatro perspectivas: financiera, clientes, procesos internos y aprendizaje y crecimiento.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "Cadena de valor (Porter)",
+      "definition": "Modelo que descompone la organización en actividades primarias y de apoyo para identificar dónde se genera valor y ventaja competitiva.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "Gestión del cambio organizacional",
+      "definition": "Disciplina que planifica y acompaña la transición de personas y procesos hacia un nuevo estado, reduciendo la resistencia y asegurando la adopción.",
+      "category": "Administración y Estrategia"
+    },
+    {
+      "term": "Arquitectura empresarial",
+      "definition": "Práctica de describir y alinear la estructura de negocio, datos, aplicaciones y tecnología de la organización con su estrategia, usando marcos como TOGAF.",
+      "category": "Arquitectura Empresarial"
+    },
+    {
+      "term": "Arquitectura de TI",
+      "definition": "Vista de la arquitectura empresarial centrada en la infraestructura, plataformas, redes y estándares tecnológicos que soportan las aplicaciones y servicios.",
+      "category": "Arquitectura Empresarial"
+    },
+    {
+      "term": "ERM (Gestión de riesgo empresarial)",
+      "definition": "Enfoque integral para identificar, evaluar y tratar los riesgos de toda la organización (estratégicos, operativos, financieros y de TI) de forma coordinada.",
+      "category": "Gobierno de TI"
+    },
+    {
+      "term": "DIKW",
+      "definition": "Jerarquía que distingue Datos (hechos crudos), Información (datos con contexto), Conocimiento (información interpretada) y Sabiduría (aplicación para decidir).",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "KPI",
+      "definition": "Indicador Clave de Desempeño: métrica que mide el avance hacia un objetivo relevante y permite evaluar si la estrategia se está cumpliendo.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "KRI",
+      "definition": "Indicador Clave de Riesgo: métrica anticipada que alerta sobre la exposición creciente a un riesgo antes de que se materialice.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "BI (Inteligencia de Negocio)",
+      "definition": "Conjunto de tecnologías y procesos que transforman datos en información accionable mediante reportes, tableros y análisis para apoyar la decisión.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "Data Warehouse",
+      "definition": "Repositorio central, integrado y orientado a temas que consolida datos de múltiples fuentes para análisis y reportería histórica.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "ETL",
+      "definition": "Extract, Transform, Load: proceso de extraer datos de orígenes, transformarlos (limpieza, normalización) y cargarlos en un destino analítico.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "OLAP",
+      "definition": "Procesamiento Analítico en Línea: tecnología que permite analizar datos multidimensionalmente (cubos) mediante operaciones como drill-down y slice-and-dice.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "ERP",
+      "definition": "Sistema de Planificación de Recursos Empresariales que integra en una sola plataforma los procesos de finanzas, compras, inventario, RR. HH. y producción.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "CRM",
+      "definition": "Sistema de Gestión de la Relación con Clientes que centraliza el historial, las interacciones y el ciclo de vida comercial para mejorar la atención y las ventas.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "Gobierno de datos (Data Governance)",
+      "definition": "Conjunto de políticas, roles y procesos que aseguran la calidad, disponibilidad, integridad y uso responsable de los datos como activo organizacional.",
+      "category": "Datos y Analítica"
+    },
+    {
+      "term": "Tríada CIA",
+      "definition": "Principios de la seguridad de la información: Confidencialidad (acceso autorizado), Integridad (exactitud y no alteración) y Disponibilidad (acceso cuando se requiere).",
+      "category": "Seguridad de la Información"
+    },
+    {
+      "term": "Gestión de riesgos de TI",
+      "definition": "Proceso de identificar, analizar, evaluar y tratar los riesgos asociados a los activos y servicios de información, según su impacto y probabilidad.",
+      "category": "Seguridad de la Información"
+    },
+    {
+      "term": "Control",
+      "definition": "Medida o mecanismo (preventivo, detectivo o correctivo) que reduce la probabilidad o el impacto de un riesgo y ayuda a cumplir los objetivos de la organización.",
+      "category": "Seguridad de la Información"
+    },
+    {
+      "term": "Vulnerabilidad y amenaza",
+      "definition": "La vulnerabilidad es una debilidad que puede ser explotada; la amenaza es la causa potencial de un incidente que aprovecha esa debilidad. El riesgo combina ambas con el impacto.",
+      "category": "Seguridad de la Información"
+    },
+    {
+      "term": "Auditoría informática",
+      "definition": "Evaluación independiente de los sistemas, controles y procesos de TI para verificar que salvaguardan los activos, mantienen la integridad de los datos y cumplen los objetivos.",
+      "category": "Auditoría y Control"
+    },
+    {
+      "term": "Hallazgo de auditoría",
+      "definition": "Desviación significativa documentada durante la auditoría, con evidencia suficiente, criterio aplicado, causa y efecto, sobre la cual se emiten recomendaciones.",
+      "category": "Auditoría y Control"
+    },
+    {
+      "term": "COSO",
+      "definition": "Marco de referencia para el control interno y la gestión de riesgos corporativos, basado en componentes como ambiente de control, evaluación de riesgos y actividades de control.",
+      "category": "Auditoría y Control"
+    },
+    {
+      "term": "Valor de negocio de TI",
+      "definition": "Beneficios (económicos, estratégicos, operativos o de cumplimiento) que la tecnología aporta al negocio, logrando los objetivos con un costo y riesgo óptimos.",
+      "category": "Métricas y Valor"
+    },
+    {
+      "term": "ROI",
+      "definition": "Retorno de la Inversión: relación entre el beneficio neto obtenido y el costo de la inversión. Se usa para justificar y priorizar iniciativas de TI.",
+      "category": "Métricas y Valor"
+    },
+    {
+      "term": "TCO",
+      "definition": "Costo Total de Propiedad: suma de todos los costos directos e indirectos de un activo de TI durante su ciclo de vida (adquisición, operación, soporte y retiro).",
+      "category": "Métricas y Valor"
+    },
+    {
+      "term": "Madurez (modelo CMMI)",
+      "definition": "Grado de formalización y mejora de los procesos de una organización, descrito en niveles que van de inicial y caótico hasta optimizado y en mejora continua.",
+      "category": "Métricas y Valor"
+    }
+  ]
 }

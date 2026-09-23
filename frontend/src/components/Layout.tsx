@@ -1,5 +1,6 @@
 import { Outlet, Link, useLocation } from 'react-router-dom'
 import { useTopics } from '../lib/topicContext'
+import { useTheme } from '../lib/theme'
 import {
   House,
   Books,
@@ -7,6 +8,8 @@ import {
   GearSix,
   List,
   X,
+  Sun,
+  Moon,
 } from '@phosphor-icons/react'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
@@ -16,11 +19,14 @@ const NAV_ITEMS = [
   { to: '/', label: 'Inicio', icon: House },
   { to: '/recursos', label: 'Recursos', icon: Books },
   { to: '/glosario', label: 'Glosario', icon: Question },
-  { to: '/admin', label: 'Admin', icon: GearSix },
+  ...(import.meta.env.DEV
+    ? [{ to: '/admin', label: 'Admin', icon: GearSix }]
+    : []),
 ]
 
 export default function Layout() {
   const { topics, loading } = useTopics()
+  const { theme, toggleTheme } = useTheme()
   const location = useLocation()
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -29,16 +35,20 @@ export default function Layout() {
   }, [location.pathname])
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      <header className="sticky top-0 z-50 border-b-2 border-ink bg-white">
+    <div className="min-h-screen flex flex-col bg-surface-page">
+      <header className="sticky top-0 z-50 border-b-2 border-ink bg-surface">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-ink flex items-center justify-center text-white font-display text-lg group-hover:bg-primary transition-colors">
-              A
-            </div>
-            <div className="hidden sm:block">
-              <div className="font-display text-sm tracking-wide text-text">ASILab</div>
-              <div className="text-[10px] text-text-dim tracking-[0.2em] uppercase font-mono">Admin SI</div>
+          <Link to="/" className="flex items-center gap-3 group min-w-0">
+            <img
+              src="/logo.png"
+              alt="Logo Administración de Sistemas de Información"
+              className="w-10 h-10 shrink-0 border-2 border-ink object-contain bg-white transition-transform group-hover:-translate-y-0.5"
+            />
+            <div className="hidden sm:block min-w-0">
+              <div className="font-display text-xs sm:text-sm tracking-wide text-text leading-tight">
+                Administración de Sistemas de Información
+              </div>
+              <div className="text-[10px] text-text-dim tracking-[0.2em] uppercase font-mono">Plataforma de Estudio</div>
             </div>
           </Link>
 
@@ -51,7 +61,7 @@ export default function Layout() {
                   to={item.to}
                   className={`flex items-center gap-2 px-4 py-2.5 text-sm font-semibold transition-all ${
                     active
-                      ? 'bg-ink text-white'
+                      ? 'bg-ink text-on-ink'
                       : 'text-text-muted hover:text-ink hover:bg-surface-overlay'
                   }`}
                 >
@@ -63,6 +73,14 @@ export default function Layout() {
           </nav>
 
           <div className="flex items-center gap-2">
+            <button
+              onClick={toggleTheme}
+              aria-label={theme === 'dark' ? 'Activar modo claro' : 'Activar modo oscuro'}
+              title={theme === 'dark' ? 'Modo claro' : 'Modo oscuro'}
+              className="w-10 h-10 flex items-center justify-center border-2 border-ink text-text-muted hover:bg-ink hover:text-on-ink transition-all"
+            >
+              {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
+            </button>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
               className="md:hidden w-10 h-10 flex items-center justify-center text-text-muted hover:text-ink hover:bg-surface-overlay transition-all"
@@ -78,7 +96,7 @@ export default function Layout() {
               initial={{ height: 0, opacity: 0 }}
               animate={{ height: 'auto', opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
-              className="md:hidden border-t-2 border-ink bg-white overflow-hidden"
+              className="md:hidden border-t-2 border-ink bg-surface overflow-hidden"
             >
               <nav className="px-6 py-3 flex flex-col gap-1">
                 {NAV_ITEMS.map((item) => {
@@ -89,7 +107,7 @@ export default function Layout() {
                       to={item.to}
                       className={`flex items-center gap-3 px-4 py-3 text-sm font-semibold transition-all ${
                         active
-                          ? 'bg-ink text-white'
+                          ? 'bg-ink text-on-ink'
                           : 'text-text-muted hover:text-ink hover:bg-surface-overlay'
                       }`}
                     >
@@ -110,7 +128,7 @@ export default function Layout() {
           <div className="sticky top-24">
             <AdSense
               slot="1111111111"
-              className="min-h-[600px] border border-gray-200"
+              className="min-h-[600px] border border-ink/15"
             />
           </div>
         </aside>
@@ -135,20 +153,22 @@ export default function Layout() {
           <div className="sticky top-24">
             <AdSense
               slot="2222222222"
-              className="min-h-[600px] border border-gray-200"
+              className="min-h-[600px] border border-ink/15"
             />
           </div>
         </aside>
       </div>
 
-      <footer className="border-t-2 border-ink bg-white">
+      <footer className="border-t-2 border-ink bg-surface">
         <div className="max-w-7xl mx-auto px-6 py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-ink flex items-center justify-center text-white font-display text-xs">
-                A
-              </div>
-              <span className="text-sm text-text-dim">ASILab — Administracion de Sistemas de Informacion</span>
+              <img
+                src="/logo.png"
+                alt="Logo Administración de Sistemas de Información"
+                className="w-8 h-8 border-2 border-ink object-contain bg-white"
+              />
+              <span className="text-sm text-text-dim">Administración de Sistemas de Información</span>
             </div>
             <div className="text-xs text-text-dim font-mono tracking-wider uppercase">
               {loading ? 'Cargando...' : `${topics.length} temas`}

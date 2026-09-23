@@ -30,7 +30,7 @@ export default function TopicCard({ topic, index = 0 }: TopicCardProps) {
     >
       <Link
         to={`/topic/${topic.slug}`}
-        className="block border-2 border-ink p-5 bg-white hover:-translate-y-1 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all group relative overflow-hidden h-full flex flex-col"
+        className="block border-2 border-ink p-5 bg-surface hover:-translate-y-1 hover:shadow-[4px_4px_0_var(--color-ink)] transition-all group relative overflow-hidden h-full flex flex-col"
       >
         {/* Accent bar */}
         <div
@@ -42,7 +42,7 @@ export default function TopicCard({ topic, index = 0 }: TopicCardProps) {
         <div className="flex items-start justify-between gap-3 mb-3">
           <div className="flex items-center gap-3 min-w-0">
             <div className="w-10 h-10 bg-ink flex items-center justify-center shrink-0">
-              <Icon size={18} className="text-white" weight="regular" />
+              <Icon size={18} className="text-on-ink" weight="regular" />
             </div>
             <div className="min-w-0">
               <h3 className="font-semibold text-sm text-ink group-hover:text-primary transition-colors leading-tight truncate">
