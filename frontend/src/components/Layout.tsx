@@ -13,7 +13,6 @@ import {
 } from '@phosphor-icons/react'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
-import AdSense from './AdSense'
 
 const NAV_ITEMS = [
   { to: '/', label: 'Inicio', icon: House },
@@ -122,42 +121,19 @@ export default function Layout() {
         </AnimatePresence>
       </header>
 
-      <div className="flex-1 flex">
-        {/* Ad sidebar izquierdo */}
-        <aside className="hidden xl:block w-64 shrink-0 p-4">
-          <div className="sticky top-24">
-            <AdSense
-              slot="1111111111"
-              className="min-h-[600px] border border-ink/15"
-            />
-          </div>
-        </aside>
-
-        {/* Contenido principal */}
-        <main className="flex-1 min-w-0 overflow-hidden">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={location.pathname}
-              initial={{ opacity: 0, y: 8 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -8 }}
-              transition={{ duration: 0.2 }}
-            >
-              <Outlet />
-            </motion.div>
-          </AnimatePresence>
-        </main>
-
-        {/* Ad sidebar derecho */}
-        <aside className="hidden xl:block w-64 shrink-0 p-4">
-          <div className="sticky top-24">
-            <AdSense
-              slot="2222222222"
-              className="min-h-[600px] border border-ink/15"
-            />
-          </div>
-        </aside>
-      </div>
+      <main className="flex-1 min-w-0 overflow-hidden">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={location.pathname}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <Outlet />
+          </motion.div>
+        </AnimatePresence>
+      </main>
 
       <footer className="border-t-2 border-ink bg-surface">
         <div className="max-w-7xl mx-auto px-6 py-8">
