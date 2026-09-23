@@ -9,8 +9,9 @@ description: Analisis profundo de las 4 dimensiones de ITIL 4 y los 5 componente
 tags: [ITIL, 4-dimensiones, SVS, cadena-valor, practicas, co-creacion-valor]
 keyTakeaway: Las 4 dimensiones (Organizacion y Personas, Informacion y Tecnologia, Socios y Proveedores, Flujos de Valor y Procesos) se analizan juntas en cada decision; el SVS conecta esos recursos con la cadena de valor para co-crear valor con el cliente.
 sources:
-  - "ITIL las 4 dimensiones y 5 componentes del SVS|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento de clase"
-  - "ITIL 4 Foundation|https://www.axelos.com|Axelos/PeopleCert|Certificacion oficial"
+  - "ITIL 4 Foundation|https://www.axelos.com/certifications/itil-service-management|Axelos|Marco oficial de gestion de servicios"
+  - "PeopleCert - ITIL 4|https://www.peoplecert.org/|PeopleCert|Certificacion oficial ITIL 4"
+  - "ITIL: las 4 dimensiones y 5 componentes del SVS (U25)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## El Sistema de Valor de Servicio (SVS)

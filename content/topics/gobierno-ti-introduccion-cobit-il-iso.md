@@ -9,9 +9,10 @@ description: Vision general del gobierno de TI y de los tres marcos de referenci
 tags: [gobierno-TI, COBIT, ITIL, ISO-38500, marcos-referencia, accountability]
 keyTakeaway: El gobierno de TI dirige y rinde cuentas (que y por que); la gestion ejecuta (como). COBIT integra gobierno y gestion, ITIL gestiona servicios, e ISO 38500 da los principios para el organo de gobierno. No son excluyentes, son complementarios.
 sources:
-  - "Introduccion a COBIT ITIL e ISO 38500|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U22"
-  - "ISO 38500 - IT Governance|https://www.iso.org|ISO|Norma internacional de gobierno corporativo de TI"
-  - "COBIT 2019 Framework|https://www.isaca.org|ISACA|Framework de gobierno y gestion de TI"
+  - "COBIT 2019|https://www.isaca.org/resources/cobit|ISACA|Gobierno y gestion de TI"
+  - "ITIL 4 Foundation|https://www.axelos.com/certifications/itil-service-management|Axelos|Gestion de servicios de TI"
+  - "ISO/IEC 38500:2024 - Governance of IT for the organization|https://www.iso.org/standard/81684.html|ISO|Norma de gobierno corporativo de TI"
+  - "Introduccion a COBIT, ITIL e ISO 38500 (U22)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es el Gobierno de TI?

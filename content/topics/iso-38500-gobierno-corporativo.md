@@ -9,10 +9,10 @@ description: Norma internacional ISO/IEC 38500 para el gobierno corporativo de T
 tags: [ISO-38500, gobierno-corporativo, norma-internacional, principios, EDM, ISO-37000, accountability]
 keyTakeaway: ISO 38500 dice QUE y POR QUE debe cuidar el organo de gobierno (6 principios + ciclo Evaluar-Dirigir-Monitorear), mientras que ITIL dice COMO se opera. La accountability es indelegable; el directorio puede delegar la operacion al CIO, nunca la responsabilidad final.
 sources:
-  - "ISO 38500 - Gobierno de TI|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U24"
-  - "ISO/IEC 38500:2015|https://www.iso.org|ISO|Segunda edicion; base de los 6 principios del curso"
-  - "ISO/IEC 38500:2024|https://www.iso.org/standard/81684.html|ISO|Tercera edicion; alineada a ISO 37000"
-  - "ISO 37000 - Governance of organizations|https://www.iso.org/standard/65036.html|ISO|Guia de gobierno de organizaciones"
+  - "ISO/IEC 38500:2024 - Governance of IT for the organization|https://www.iso.org/standard/81684.html|ISO|Tercera edicion; alineada a ISO 37000"
+  - "ISO/IEC 38500:2015 (retirada)|https://www.iso.org/standard/62816.html|ISO|Segunda edicion; base de los 6 principios del curso"
+  - "ISO 37000:2021 - Governance of organizations|https://www.iso.org/standard/65036.html|ISO|11 principios de gobierno organizacional"
+  - "Que es la ISO 38500 (U24)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es ISO 38500?

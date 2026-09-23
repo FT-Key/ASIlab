@@ -9,8 +9,9 @@ description: Mapa completo de los 40 objetivos de COBIT 2019 con su nombre y fun
 tags: [COBIT, mapa-procesos, EDM, APO, BAI, DSS, MEA, PBRM]
 keyTakeaway: Los 40 objetivos de COBIT 2019 se reparten en 5 dominios: 5 de gobierno (EDM) y 35 de gestion (APO 14, BAI 11, DSS 6, MEA 4), que siguen el ciclo Plan-Build-Run-Monitor.
 sources:
-  - "Que es COBIT 2019|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U26"
-  - "COBIT 2019 Core Framework|https://www.isaca.org|ISACA|Documentacion oficial"
+  - "COBIT 2019 Framework: Governance and Management Objectives|https://www.isaca.org/resources/cobit|ISACA|Los 40 objetivos oficiales"
+  - "COBIT 2019 Design Guide|https://www.isaca.org/resources/cobit|ISACA|Guia de diseno del sistema de gobierno"
+  - "Que es COBIT 2019 (U26)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Estructura del Mapa de Procesos

@@ -9,9 +9,8 @@ description: Conceptos fundamentales de administracion general: la funcion admin
 tags: [admin-general, PODIO, FODA, PESTEL, SMART, estrategia, planificacion]
 keyTakeaway: La administracion es planificar, organizar, dirigir, integrar y controlar (PODIO). La estrategia parte de la mision y vision, se analiza con FODA y PESTEL, se traduce en objetivos SMART y se ejecuta en 4 etapas de planificacion.
 sources:
-  - "Resumen primer parcial|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
-  - "Resumen clases admin de rec|https://uniagustiniana.edu.co|Universidad Agustiniana|Notas de clase"
-  - "Primer Parcial Administracion de Recursos|https://uniagustiniana.edu.co|Universidad Agustiniana|Thompson - Administracion Estrategica"
+  - "Administracion Estrategica (Thompson y Strickland)|https://www.mheducation.com|McGraw-Hill|Texto base de estrategia y ventaja competitiva"
+  - "Resumenes y notas de clase de Administracion de Recursos|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es la Administracion?

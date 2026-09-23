@@ -9,9 +9,9 @@ description: Norma ISO/IEC 12207 que establece un marco comun para los procesos 
 tags: [ISO-12207, ciclo-vida-software, procesos, normalizacion, ingenieria-software]
 keyTakeaway: ISO 12207 es el marco de referencia mas importante para normalizar los procesos del ciclo de vida del software. Organiza las actividades en 5 procesos principales, 8 de apoyo y 4 organizativos, y no define COMO hacerlos sino QUE deben existir.
 sources:
-  - "Resumen primer parcial|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
-  - "RESUMEN PRIMER PARCIAL|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
-  - "EXAMEN PARCIAL I DE ADM REC|https://uniagustiniana.edu.co|Universidad Agustiniana|Examen practico"
+  - "ISO/IEC/IEEE 12207:2017 - Software life cycle processes|https://www.iso.org/standard/63712.html|ISO/IEC/IEEE|Norma oficial del ciclo de vida del software"
+  - "IEEE SA - IEEE/ISO/IEC 12207|https://standards.ieee.org/ieee/12207/5672|IEEE|Estandar de ingenieria de software"
+  - "Resumenes y material de clase (primer parcial)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es ISO 12207?

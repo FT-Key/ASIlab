@@ -9,6 +9,7 @@ description: Liderazgo situacional en TI, formacion de equipos de alto desempeno
 tags: [liderazgo, equipos, delegacion, retroalimentacion, remoto]
 keyTakeaway: Liderar equipos de TI requiere adaptar el estilo a la situacion, construir confianza, delegar con claridad y dar retroalimentacion especifica. El mejor codigo no vale nada si el equipo no esta alineado y motivado.
 sources:
+  - "The Table Group - The Five Dysfunctions of a Team|https://www.tablegroup.com/topics-and-resources/teamwork/|Patrick Lencioni / The Table Group|Modelo de equipos de alto desempeno"
   - "Programa Administracion Sistemas de Informacion|https://uniagustiniana.edu.co|Universidad Agustiniana|Syllabus del curso"
 ---
 

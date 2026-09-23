@@ -9,8 +9,9 @@ description: Framework COBIT 2019 de ISACA. Distincion entre gobernanza (ciclo E
 tags: [COBIT, gobierno-TI, EDM, PBRM, APO, BAI, DSS, MEA, componentes]
 keyTakeaway: COBIT 2019 separa la gobernanza (EDM, responsabilidad del Consejo) de la gestion (PBRM: Plan, Build, Run, Monitor = APO, BAI, DSS, MEA) y construye el sistema con 7 componentes que deben funcionar juntos de forma holistica.
 sources:
-  - "Que es COBIT 2019|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U26"
-  - "COBIT 2019 Framework|https://www.isaca.org|ISACA|Marco oficial de gobierno y gestion de TI"
+  - "COBIT 2019 Framework: Introduction and Methodology|https://www.isaca.org/resources/cobit/cobit-2019-framework-introduction-and-methodology|ISACA|Marco oficial"
+  - "COBIT 2019 Framework: Governance and Management Objectives|https://www.isaca.org/resources/cobit|ISACA|Los 40 objetivos oficiales"
+  - "Que es COBIT 2019 (U26)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es COBIT 2019?

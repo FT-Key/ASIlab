@@ -9,9 +9,9 @@ description: Marco de referencia ITIL 4 para la gestion de servicios de TI. Evol
 tags: [ITIL, gestion-servicios, SVS, practicas, co-creacion-valor, CSI]
 keyTakeaway: ITIL 4 no es un cambio de nombre de ITIL v3. Pasa de procesos y ciclo de vida a practicas y Sistema de Valor de Servicio, donde el valor se co-crea con el consumidor y se integra con Agile, Lean y DevOps.
 sources:
-  - "Que es ITIL|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U25"
-  - "ITIL las 4 dimensiones y 5 componentes del SVS|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
-  - "ITIL 4 Foundation|https://www.axelos.com|Axelos/PeopleCert|Certificacion oficial ITIL"
+  - "ITIL 4 Foundation|https://www.axelos.com/certifications/itil-service-management|Axelos|Marco oficial de gestion de servicios de TI"
+  - "PeopleCert - ITIL 4|https://www.peoplecert.org/|PeopleCert|Certificacion oficial ITIL 4"
+  - "Que es ITIL (U25)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es ITIL 4?

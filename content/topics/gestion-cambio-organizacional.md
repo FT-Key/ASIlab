@@ -9,6 +9,8 @@ description: Como gestionar el cambio organizacional cuando se implementan nueva
 tags: [gestion-cambio, kotter, ADKAR, resistencia, transicion]
 keyTakeaway: El 70% de los proyectos de TI fracasan por factores humanos, no tecnicos. ADKAR explica que cada persona debe superar Conciencia, Deseo, Conocimiento, Habilidad y Refuerzo, en ese orden, para que el cambio se sostenga.
 sources:
+  - "Kotter - The 8-Step Process for Leading Change|https://www.kotterinc.com/methodology/8-steps/|Kotter Inc.|Metodologia oficial de cambio organizacional"
+  - "Prosci - Modelo ADKAR|https://www.prosci.com/methodology/adkar|Prosci|Metodologia oficial de cambio individual"
   - "Programa Administracion Sistemas de Informacion|https://uniagustiniana.edu.co|Universidad Agustiniana|Syllabus del curso"
 ---
 

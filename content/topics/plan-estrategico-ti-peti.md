@@ -9,8 +9,9 @@ description: Como disenar, implementar y evaluar un Plan Estrategico de Tecnolog
 tags: [PETI, plan-estrategico, balanced-scorecard, KPIs, portafolio, cascada-estrategica]
 keyTakeaway: El PETI traduce la vision del negocio (PEI) en iniciativas de TI medibles. La cascada PETI -> portafolio -> programa -> proyecto -> operacion convierte la estrategia en ejecucion con KPIs en las 4 perspectivas del BSC de TI.
 sources:
-  - "Plan Estrategico de TI PETI|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U23"
-  - "Balanced Scorecard for IT|https://bfrreaves.com|BSC Institute|Metodo de medicion estrategica"
+  - "COBIT 2019 (APO02 Estrategia y APO05 Cartera)|https://www.isaca.org/resources/cobit|ISACA|Alineacion de TI con el negocio"
+  - "The Balanced Scorecard - Kaplan y Norton|https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2|Harvard Business Review|Origen del BSC"
+  - "Plan Estrategico de TI PETI (U23)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es un PETI?

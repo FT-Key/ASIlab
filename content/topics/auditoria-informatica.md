@@ -9,9 +9,10 @@ description: Conceptos, caracteristicas, clasificacion, entorno auditable, tipos
 tags: [auditoria-informatica, CRMR, controles, metodologia-auditoria, entorno-auditable, papeles-de-trabajo]
 keyTakeaway: La auditoria informatica evalua el entorno tecnologico para encontrar debilidades y amenazas que afectan la calidad de los procesos y la confiabilidad de la informacion. El auditor domina tecnicas, herramientas, controles y papeles de trabajo para llegar a conclusiones fundamentadas.
 sources:
-  - "Resumen libro auditoria|https://uniagustiniana.edu.co|Universidad Agustiniana|Libro de auditoria informatica"
-  - "Resumen primer parcial|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
-  - "EXAMEN PARCIAL I DE ADM REC|https://uniagustiniana.edu.co|Universidad Agustiniana|Examen practico"
+  - "ITAF - IT Audit Framework (5ta edicion)|https://www.isaca.org/resources/frameworks-standards-and-models|ISACA|Estandar de auditoria de TI"
+  - "ISO 19011:2018 - Directrices para la auditoria de sistemas de gestion|https://www.iso.org/standard/70017.html|ISO|Principios y proceso de auditoria"
+  - "CISA - Certified Information Systems Auditor|https://www.isaca.org/credentialing/cisa|ISACA|Certificacion de auditoria de sistemas"
+  - "Resumen de libro y material de clase de auditoria|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es la Auditoria Informatica?

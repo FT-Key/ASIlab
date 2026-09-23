@@ -9,8 +9,8 @@ description: Guia PMBOK 8va Edicion (2025) de PMI. Los 6 principios (holistica, 
 tags: [PMBOK, gestion-proyectos, dominios-desempeno, focus-areas, matriz, output-outcome, IA, tailoring]
 keyTakeaway: PMBOK 8 combina 6 principios, 7 dominios de desempeno y 5 areas de enfoque con 40 procesos. El exito se mide por el valor (outcome), no solo por entregar a tiempo y en presupuesto (output). Los dominios son el QUE; las areas de enfoque son el CUANDO/COMO.
 sources:
-  - "Gestion de Proyectos PMBOK 8|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U31"
-  - "PMBOK Guide 8th Edition|https://www.pmi.org|PMI|Project Management Institute"
+  - "PMBOK Guide - Eighth Edition|https://www.pmi.org/standards/pmbok|PMI|Estandar oficial de gestion de proyectos (2025)"
+  - "Gestion de Proyectos PMBOK 8 (U31)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es PMBOK?

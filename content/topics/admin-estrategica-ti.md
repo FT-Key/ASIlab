@@ -9,8 +9,9 @@ description: Como la administracion estrategica de TI transforma la tecnologia e
 tags: [estrategia-TI, ventaja-competitiva, FODA-TI, PESTEL, arquitectura-empresarial, TOGAF, cascada]
 keyTakeaway: La administracion estrategica de TI convierte la tecnologia en ventaja competitiva cuando se alinea con el negocio, se analiza con FODA/PESTEL aplicados a TI, se ejecuta en cascada hasta el proyecto y se mide de forma continua.
 sources:
-  - "Valor de Negocio en la Administracion de TI|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U21"
-  - "TOGAF - The Open Group|https://www.opengroup.org|The Open Group|Framework de arquitectura empresarial"
+  - "TOGAF - The Open Group Architecture Framework|https://www.opengroup.org/togaf|The Open Group|Estandar de arquitectura empresarial"
+  - "COBIT 2019|https://www.isaca.org/resources/cobit|ISACA|Gobierno y gestion de TI"
+  - "Valor de Negocio en la Administracion de TI (U21)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Que es la Administracion Estrategica de TI?

@@ -9,9 +9,10 @@ description: Como la Administracion de TI crea valor: dimensiones del valor, out
 tags: [valor-negocio, ROI, output-outcome, alineacion-estrategica, Rockin1000, gobierno-corporativo]
 keyTakeaway: La TI deja de ser centro de costo y genera valor cuando se alinea con el negocio. El exito se mide por el outcome (beneficio real, como una comunidad de 100,000 musicos), no solo por el output (el producto entregado).
 sources:
-  - "El Valor de Negocio en la Administracion de TI|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U21"
-  - "COBIT 2019 - Framework|https://www.isaca.org|ISACA|Marco de gobierno y gestion de TI"
-  - "Rockin1000|https://www.rockin1000.com|Rockin1000|Caso de valor de negocio"
+  - "COBIT 2019 - Governance and Management Objectives|https://www.isaca.org/resources/cobit|ISACA|Generacion de valor y alineacion"
+  - "PMBOK Guide - Eighth Edition (foco en valor y outcome)|https://www.pmi.org/standards/pmbok|PMI|Valor y resultados"
+  - "Rockin1000|https://www.rockin1000.com/|Rockin1000|Caso de valor de negocio"
+  - "El Valor de Negocio en la Administracion de TI (U21)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Definicion de Valor de TI

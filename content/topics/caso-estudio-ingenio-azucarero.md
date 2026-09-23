@@ -9,12 +9,13 @@ description: Caso real de administracion de SI en un ingenio azucarero de Tucuma
 tags: [caso-estudio, ingenio, zafra, Tucuman, Colombia, caña, proceso-fabril, subproductos, SCADA, MES, LIMS, PMBOK, COBIT, ITIL]
 keyTakeaway: Un ingenio transforma una materia prima perecedera (la caña) en azucar, alcohol y energia en un periodo critico (la zafra). Cada etapa del proceso genera datos criticos; el Administrador de SI convierte esos datos en continuidad, calidad y valor de negocio usando PMBOK 8, COBIT e ITIL.
 sources:
-  - "Caso de Estudio Ingenio Azucarero|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase U1 (caso Ingenio La Dulzura)"
-  - "Proceso de fabricacion de azucar|https://www.ipaat.gov.ar/nota/279/proceso-de-fabricacion-de-azucar|IPAAT Tucuman|Proceso industrial"
-  - "Zafra 2025 Tucuman|https://www.ipaat.gov.ar/nota/677/zafra-2025-tucuman-marco-un-record-al-moler-176-millones-de-toneladas-de-cana|IPAAT|Datos productivos"
-  - "Cana de azucar en el Valle del Cauca|https://www.asocana.org|Asocana|Sector azucarero colombiano"
-  - "El cultivo de la cana en la zona azucarera de Colombia|https://www.cenicana.org|Cenicaña|Proceso agroindustrial"
-  - "Gestion de Proyectos PMBOK 8|https://uniagustiniana.edu.co|Universidad Agustiniana|Documento U31"
+  - "Proceso de fabricacion de azucar|https://www.ipaat.gov.ar/nota/279/proceso-de-fabricacion-de-azucar|IPAAT Tucuman|Proceso industrial oficial"
+  - "Zafra 2025 Tucuman - record de molienda|https://www.ipaat.gov.ar/nota/677/zafra-2025-tucuman-marco-un-record-al-moler-176-millones-de-toneladas-de-cana|IPAAT|Datos productivos oficiales"
+  - "Estacion Experimental Agroindustrial Obispo Colombres|https://www.eeaoc.gob.ar/|EEAOC|Investigacion cañera de Tucuman"
+  - "Sector azucarero del Valle del Cauca|https://www.asocana.org/|Asocana|Sector azucarero colombiano"
+  - "Centro de Investigacion de la Caña de Azucar de Colombia|https://www.cenicana.org/|Cenicaña|Proceso agroindustrial de Colombia"
+  - "PMBOK Guide - Eighth Edition|https://www.pmi.org/standards/pmbok|PMI|Estandar de gestion de proyectos"
+  - "Caso de Estudio Ingenio Azucarero (U1, caso Ingenio La Dulzura)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
 ## Introduccion al Caso

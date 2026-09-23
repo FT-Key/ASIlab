@@ -36,40 +36,46 @@
       "keyTakeaway": "Un ingenio transforma una materia prima perecedera (la caña) en azucar, alcohol y energia en un periodo critico (la zafra). Cada etapa del proceso genera datos criticos; el Administrador de SI convierte esos datos en continuidad, calidad y valor de negocio usando PMBOK 8, COBIT e ITIL.",
       "sources": [
         {
-          "title": "Caso de Estudio Ingenio Azucarero",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Material de clase U1 (caso Ingenio La Dulzura)"
-        },
-        {
           "title": "Proceso de fabricacion de azucar",
           "url": "https://www.ipaat.gov.ar/nota/279/proceso-de-fabricacion-de-azucar",
           "source": "IPAAT Tucuman",
-          "description": "Proceso industrial"
+          "description": "Proceso industrial oficial"
         },
         {
-          "title": "Zafra 2025 Tucuman",
+          "title": "Zafra 2025 Tucuman - record de molienda",
           "url": "https://www.ipaat.gov.ar/nota/677/zafra-2025-tucuman-marco-un-record-al-moler-176-millones-de-toneladas-de-cana",
           "source": "IPAAT",
-          "description": "Datos productivos"
+          "description": "Datos productivos oficiales"
         },
         {
-          "title": "Cana de azucar en el Valle del Cauca",
-          "url": "https://www.asocana.org",
+          "title": "Estacion Experimental Agroindustrial Obispo Colombres",
+          "url": "https://www.eeaoc.gob.ar/",
+          "source": "EEAOC",
+          "description": "Investigacion cañera de Tucuman"
+        },
+        {
+          "title": "Sector azucarero del Valle del Cauca",
+          "url": "https://www.asocana.org/",
           "source": "Asocana",
           "description": "Sector azucarero colombiano"
         },
         {
-          "title": "El cultivo de la cana en la zona azucarera de Colombia",
-          "url": "https://www.cenicana.org",
+          "title": "Centro de Investigacion de la Caña de Azucar de Colombia",
+          "url": "https://www.cenicana.org/",
           "source": "Cenicaña",
-          "description": "Proceso agroindustrial"
+          "description": "Proceso agroindustrial de Colombia"
         },
         {
-          "title": "Gestion de Proyectos PMBOK 8",
+          "title": "PMBOK Guide - Eighth Edition",
+          "url": "https://www.pmi.org/standards/pmbok",
+          "source": "PMI",
+          "description": "Estandar de gestion de proyectos"
+        },
+        {
+          "title": "Caso de Estudio Ingenio Azucarero (U1, caso Ingenio La Dulzura)",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
-          "description": "Documento U31"
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -1356,22 +1362,28 @@
       "keyTakeaway": "La TI deja de ser centro de costo y genera valor cuando se alinea con el negocio. El exito se mide por el outcome (beneficio real, como una comunidad de 100,000 musicos), no solo por el output (el producto entregado).",
       "sources": [
         {
-          "title": "El Valor de Negocio en la Administracion de TI",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U21"
+          "title": "COBIT 2019 - Governance and Management Objectives",
+          "url": "https://www.isaca.org/resources/cobit",
+          "source": "ISACA",
+          "description": "Generacion de valor y alineacion"
         },
         {
-          "title": "COBIT 2019 - Framework",
-          "url": "https://www.isaca.org",
-          "source": "ISACA",
-          "description": "Marco de gobierno y gestion de TI"
+          "title": "PMBOK Guide - Eighth Edition (foco en valor y outcome)",
+          "url": "https://www.pmi.org/standards/pmbok",
+          "source": "PMI",
+          "description": "Valor y resultados"
         },
         {
           "title": "Rockin1000",
-          "url": "https://www.rockin1000.com",
+          "url": "https://www.rockin1000.com/",
           "source": "Rockin1000",
           "description": "Caso de valor de negocio"
+        },
+        {
+          "title": "El Valor de Negocio en la Administracion de TI (U21)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -2111,22 +2123,28 @@
       "keyTakeaway": "El gobierno de TI dirige y rinde cuentas (que y por que); la gestion ejecuta (como). COBIT integra gobierno y gestion, ITIL gestiona servicios, e ISO 38500 da los principios para el organo de gobierno. No son excluyentes, son complementarios.",
       "sources": [
         {
-          "title": "Introduccion a COBIT ITIL e ISO 38500",
+          "title": "COBIT 2019",
+          "url": "https://www.isaca.org/resources/cobit",
+          "source": "ISACA",
+          "description": "Gobierno y gestion de TI"
+        },
+        {
+          "title": "ITIL 4 Foundation",
+          "url": "https://www.axelos.com/certifications/itil-service-management",
+          "source": "Axelos",
+          "description": "Gestion de servicios de TI"
+        },
+        {
+          "title": "ISO/IEC 38500:2024 - Governance of IT for the organization",
+          "url": "https://www.iso.org/standard/81684.html",
+          "source": "ISO",
+          "description": "Norma de gobierno corporativo de TI"
+        },
+        {
+          "title": "Introduccion a COBIT, ITIL e ISO 38500 (U22)",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
-          "description": "Documento U22"
-        },
-        {
-          "title": "ISO 38500 - IT Governance",
-          "url": "https://www.iso.org",
-          "source": "ISO",
-          "description": "Norma internacional de gobierno corporativo de TI"
-        },
-        {
-          "title": "COBIT 2019 Framework",
-          "url": "https://www.isaca.org",
-          "source": "ISACA",
-          "description": "Framework de gobierno y gestion de TI"
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -2929,16 +2947,22 @@
       "keyTakeaway": "El PETI traduce la vision del negocio (PEI) en iniciativas de TI medibles. La cascada PETI -> portafolio -> programa -> proyecto -> operacion convierte la estrategia en ejecucion con KPIs en las 4 perspectivas del BSC de TI.",
       "sources": [
         {
-          "title": "Plan Estrategico de TI PETI",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U23"
+          "title": "COBIT 2019 (APO02 Estrategia y APO05 Cartera)",
+          "url": "https://www.isaca.org/resources/cobit",
+          "source": "ISACA",
+          "description": "Alineacion de TI con el negocio"
         },
         {
-          "title": "Balanced Scorecard for IT",
-          "url": "https://bfrreaves.com",
-          "source": "BSC Institute",
-          "description": "Metodo de medicion estrategica"
+          "title": "The Balanced Scorecard - Kaplan y Norton",
+          "url": "https://hbr.org/1992/01/the-balanced-scorecard-measures-that-drive-performance-2",
+          "source": "Harvard Business Review",
+          "description": "Origen del BSC"
+        },
+        {
+          "title": "Plan Estrategico de TI PETI (U23)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -3665,28 +3689,28 @@
       "keyTakeaway": "ISO 38500 dice QUE y POR QUE debe cuidar el organo de gobierno (6 principios + ciclo Evaluar-Dirigir-Monitorear), mientras que ITIL dice COMO se opera. La accountability es indelegable; el directorio puede delegar la operacion al CIO, nunca la responsabilidad final.",
       "sources": [
         {
-          "title": "ISO 38500 - Gobierno de TI",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U24"
-        },
-        {
-          "title": "ISO/IEC 38500:2015",
-          "url": "https://www.iso.org",
-          "source": "ISO",
-          "description": "Segunda edicion; base de los 6 principios del curso"
-        },
-        {
-          "title": "ISO/IEC 38500:2024",
+          "title": "ISO/IEC 38500:2024 - Governance of IT for the organization",
           "url": "https://www.iso.org/standard/81684.html",
           "source": "ISO",
           "description": "Tercera edicion; alineada a ISO 37000"
         },
         {
-          "title": "ISO 37000 - Governance of organizations",
+          "title": "ISO/IEC 38500:2015 (retirada)",
+          "url": "https://www.iso.org/standard/62816.html",
+          "source": "ISO",
+          "description": "Segunda edicion; base de los 6 principios del curso"
+        },
+        {
+          "title": "ISO 37000:2021 - Governance of organizations",
           "url": "https://www.iso.org/standard/65036.html",
           "source": "ISO",
-          "description": "Guia de gobierno de organizaciones"
+          "description": "11 principios de gobierno organizacional"
+        },
+        {
+          "title": "Que es la ISO 38500 (U24)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -4597,22 +4621,22 @@
       "keyTakeaway": "ITIL 4 no es un cambio de nombre de ITIL v3. Pasa de procesos y ciclo de vida a practicas y Sistema de Valor de Servicio, donde el valor se co-crea con el consumidor y se integra con Agile, Lean y DevOps.",
       "sources": [
         {
-          "title": "Que es ITIL",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U25"
+          "title": "ITIL 4 Foundation",
+          "url": "https://www.axelos.com/certifications/itil-service-management",
+          "source": "Axelos",
+          "description": "Marco oficial de gestion de servicios de TI"
         },
         {
-          "title": "ITIL las 4 dimensiones y 5 componentes del SVS",
+          "title": "PeopleCert - ITIL 4",
+          "url": "https://www.peoplecert.org/",
+          "source": "PeopleCert",
+          "description": "Certificacion oficial ITIL 4"
+        },
+        {
+          "title": "Que es ITIL (U25)",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
           "description": "Material de clase"
-        },
-        {
-          "title": "ITIL 4 Foundation",
-          "url": "https://www.axelos.com",
-          "source": "Axelos/PeopleCert",
-          "description": "Certificacion oficial ITIL"
         }
       ],
       "sections": [
@@ -5572,16 +5596,22 @@
       "keyTakeaway": "COBIT 2019 separa la gobernanza (EDM, responsabilidad del Consejo) de la gestion (PBRM: Plan, Build, Run, Monitor = APO, BAI, DSS, MEA) y construye el sistema con 7 componentes que deben funcionar juntos de forma holistica.",
       "sources": [
         {
-          "title": "Que es COBIT 2019",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U26"
+          "title": "COBIT 2019 Framework: Introduction and Methodology",
+          "url": "https://www.isaca.org/resources/cobit/cobit-2019-framework-introduction-and-methodology",
+          "source": "ISACA",
+          "description": "Marco oficial"
         },
         {
-          "title": "COBIT 2019 Framework",
-          "url": "https://www.isaca.org",
+          "title": "COBIT 2019 Framework: Governance and Management Objectives",
+          "url": "https://www.isaca.org/resources/cobit",
           "source": "ISACA",
-          "description": "Marco oficial de gobierno y gestion de TI"
+          "description": "Los 40 objetivos oficiales"
+        },
+        {
+          "title": "Que es COBIT 2019 (U26)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -6552,16 +6582,16 @@
       "keyTakeaway": "PMBOK 8 combina 6 principios, 7 dominios de desempeno y 5 areas de enfoque con 40 procesos. El exito se mide por el valor (outcome), no solo por entregar a tiempo y en presupuesto (output). Los dominios son el QUE; las areas de enfoque son el CUANDO/COMO.",
       "sources": [
         {
-          "title": "Gestion de Proyectos PMBOK 8",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U31"
+          "title": "PMBOK Guide - Eighth Edition",
+          "url": "https://www.pmi.org/standards/pmbok",
+          "source": "PMI",
+          "description": "Estandar oficial de gestion de proyectos (2025)"
         },
         {
-          "title": "PMBOK Guide 8th Edition",
-          "url": "https://www.pmi.org",
-          "source": "PMI",
-          "description": "Project Management Institute"
+          "title": "Gestion de Proyectos PMBOK 8 (U31)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -7574,6 +7604,12 @@
       "keyTakeaway": "El exito en TI no depende solo de la competencia tecnica. Comunicar a no tecnicos, escuchar, manejar las emociones y resolver conflictos determinan la capacidad de aportar valor en la organizacion.",
       "sources": [
         {
+          "title": "Daniel Goleman - Emotional Intelligence",
+          "url": "https://www.danielgoleman.info/topics/emotional-intelligence/",
+          "source": "Daniel Goleman",
+          "description": "Modelo de inteligencia emocional"
+        },
+        {
           "title": "Programa Administracion Sistemas de Informacion",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
@@ -8187,16 +8223,22 @@
       "keyTakeaway": "La administracion estrategica de TI convierte la tecnologia en ventaja competitiva cuando se alinea con el negocio, se analiza con FODA/PESTEL aplicados a TI, se ejecuta en cascada hasta el proyecto y se mide de forma continua.",
       "sources": [
         {
-          "title": "Valor de Negocio en la Administracion de TI",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U21"
+          "title": "TOGAF - The Open Group Architecture Framework",
+          "url": "https://www.opengroup.org/togaf",
+          "source": "The Open Group",
+          "description": "Estandar de arquitectura empresarial"
         },
         {
-          "title": "TOGAF - The Open Group",
-          "url": "https://www.opengroup.org",
-          "source": "The Open Group",
-          "description": "Framework de arquitectura empresarial"
+          "title": "COBIT 2019",
+          "url": "https://www.isaca.org/resources/cobit",
+          "source": "ISACA",
+          "description": "Gobierno y gestion de TI"
+        },
+        {
+          "title": "Valor de Negocio en la Administracion de TI (U21)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -8952,16 +8994,22 @@
       "keyTakeaway": "Las 4 dimensiones (Organizacion y Personas, Informacion y Tecnologia, Socios y Proveedores, Flujos de Valor y Procesos) se analizan juntas en cada decision; el SVS conecta esos recursos con la cadena de valor para co-crear valor con el cliente.",
       "sources": [
         {
-          "title": "ITIL las 4 dimensiones y 5 componentes del SVS",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento de clase"
+          "title": "ITIL 4 Foundation",
+          "url": "https://www.axelos.com/certifications/itil-service-management",
+          "source": "Axelos",
+          "description": "Marco oficial de gestion de servicios"
         },
         {
-          "title": "ITIL 4 Foundation",
-          "url": "https://www.axelos.com",
-          "source": "Axelos/PeopleCert",
-          "description": "Certificacion oficial"
+          "title": "PeopleCert - ITIL 4",
+          "url": "https://www.peoplecert.org/",
+          "source": "PeopleCert",
+          "description": "Certificacion oficial ITIL 4"
+        },
+        {
+          "title": "ITIL: las 4 dimensiones y 5 componentes del SVS (U25)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -9715,16 +9763,22 @@
       "keyTakeaway": "Los 40 objetivos de COBIT 2019 se reparten en 5 dominios: 5 de gobierno (EDM) y 35 de gestion (APO 14, BAI 11, DSS 6, MEA 4), que siguen el ciclo Plan-Build-Run-Monitor.",
       "sources": [
         {
-          "title": "Que es COBIT 2019",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Documento U26"
+          "title": "COBIT 2019 Framework: Governance and Management Objectives",
+          "url": "https://www.isaca.org/resources/cobit",
+          "source": "ISACA",
+          "description": "Los 40 objetivos oficiales"
         },
         {
-          "title": "COBIT 2019 Core Framework",
-          "url": "https://www.isaca.org",
+          "title": "COBIT 2019 Design Guide",
+          "url": "https://www.isaca.org/resources/cobit",
           "source": "ISACA",
-          "description": "Documentacion oficial"
+          "description": "Guia de diseno del sistema de gobierno"
+        },
+        {
+          "title": "Que es COBIT 2019 (U26)",
+          "url": "https://uniagustiniana.edu.co",
+          "source": "Universidad Agustiniana",
+          "description": "Material de clase"
         }
       ],
       "sections": [
@@ -10623,6 +10677,18 @@
       "keyTakeaway": "El 70% de los proyectos de TI fracasan por factores humanos, no tecnicos. ADKAR explica que cada persona debe superar Conciencia, Deseo, Conocimiento, Habilidad y Refuerzo, en ese orden, para que el cambio se sostenga.",
       "sources": [
         {
+          "title": "Kotter - The 8-Step Process for Leading Change",
+          "url": "https://www.kotterinc.com/methodology/8-steps/",
+          "source": "Kotter Inc.",
+          "description": "Metodologia oficial de cambio organizacional"
+        },
+        {
+          "title": "Prosci - Modelo ADKAR",
+          "url": "https://www.prosci.com/methodology/adkar",
+          "source": "Prosci",
+          "description": "Metodologia oficial de cambio individual"
+        },
+        {
           "title": "Programa Administracion Sistemas de Informacion",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
@@ -11275,6 +11341,12 @@
       ],
       "keyTakeaway": "Liderar equipos de TI requiere adaptar el estilo a la situacion, construir confianza, delegar con claridad y dar retroalimentacion especifica. El mejor codigo no vale nada si el equipo no esta alineado y motivado.",
       "sources": [
+        {
+          "title": "The Table Group - The Five Dysfunctions of a Team",
+          "url": "https://www.tablegroup.com/topics-and-resources/teamwork/",
+          "source": "Patrick Lencioni / The Table Group",
+          "description": "Modelo de equipos de alto desempeno"
+        },
         {
           "title": "Programa Administracion Sistemas de Informacion",
           "url": "https://uniagustiniana.edu.co",
@@ -11979,22 +12051,16 @@
       "keyTakeaway": "La administracion es planificar, organizar, dirigir, integrar y controlar (PODIO). La estrategia parte de la mision y vision, se analiza con FODA y PESTEL, se traduce en objetivos SMART y se ejecuta en 4 etapas de planificacion.",
       "sources": [
         {
-          "title": "Resumen primer parcial",
+          "title": "Administracion Estrategica (Thompson y Strickland)",
+          "url": "https://www.mheducation.com",
+          "source": "McGraw-Hill",
+          "description": "Texto base de estrategia y ventaja competitiva"
+        },
+        {
+          "title": "Resumenes y notas de clase de Administracion de Recursos",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
           "description": "Material de clase"
-        },
-        {
-          "title": "Resumen clases admin de rec",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Notas de clase"
-        },
-        {
-          "title": "Primer Parcial Administracion de Recursos",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Thompson - Administracion Estrategica"
         }
       ],
       "sections": [
@@ -12897,22 +12963,28 @@
       "keyTakeaway": "La auditoria informatica evalua el entorno tecnologico para encontrar debilidades y amenazas que afectan la calidad de los procesos y la confiabilidad de la informacion. El auditor domina tecnicas, herramientas, controles y papeles de trabajo para llegar a conclusiones fundamentadas.",
       "sources": [
         {
-          "title": "Resumen libro auditoria",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Libro de auditoria informatica"
+          "title": "ITAF - IT Audit Framework (5ta edicion)",
+          "url": "https://www.isaca.org/resources/frameworks-standards-and-models",
+          "source": "ISACA",
+          "description": "Estandar de auditoria de TI"
         },
         {
-          "title": "Resumen primer parcial",
+          "title": "ISO 19011:2018 - Directrices para la auditoria de sistemas de gestion",
+          "url": "https://www.iso.org/standard/70017.html",
+          "source": "ISO",
+          "description": "Principios y proceso de auditoria"
+        },
+        {
+          "title": "CISA - Certified Information Systems Auditor",
+          "url": "https://www.isaca.org/credentialing/cisa",
+          "source": "ISACA",
+          "description": "Certificacion de auditoria de sistemas"
+        },
+        {
+          "title": "Resumen de libro y material de clase de auditoria",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
           "description": "Material de clase"
-        },
-        {
-          "title": "EXAMEN PARCIAL I DE ADM REC",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Examen practico"
         }
       ],
       "sections": [
@@ -14079,22 +14151,22 @@
       "keyTakeaway": "ISO 12207 es el marco de referencia mas importante para normalizar los procesos del ciclo de vida del software. Organiza las actividades en 5 procesos principales, 8 de apoyo y 4 organizativos, y no define COMO hacerlos sino QUE deben existir.",
       "sources": [
         {
-          "title": "Resumen primer parcial",
+          "title": "ISO/IEC/IEEE 12207:2017 - Software life cycle processes",
+          "url": "https://www.iso.org/standard/63712.html",
+          "source": "ISO/IEC/IEEE",
+          "description": "Norma oficial del ciclo de vida del software"
+        },
+        {
+          "title": "IEEE SA - IEEE/ISO/IEC 12207",
+          "url": "https://standards.ieee.org/ieee/12207/5672",
+          "source": "IEEE",
+          "description": "Estandar de ingenieria de software"
+        },
+        {
+          "title": "Resumenes y material de clase (primer parcial)",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
           "description": "Material de clase"
-        },
-        {
-          "title": "RESUMEN PRIMER PARCIAL",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Material de clase"
-        },
-        {
-          "title": "EXAMEN PARCIAL I DE ADM REC",
-          "url": "https://uniagustiniana.edu.co",
-          "source": "Universidad Agustiniana",
-          "description": "Examen practico"
         }
       ],
       "sections": [

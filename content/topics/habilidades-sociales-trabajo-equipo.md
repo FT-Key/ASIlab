@@ -9,6 +9,7 @@ description: Fundamentos de las habilidades blandas para el profesional de TI: c
 tags: [habilidades-blandas, comunicacion, inteligencia-emocional, conflictos, trabajo-equipo]
 keyTakeaway: El exito en TI no depende solo de la competencia tecnica. Comunicar a no tecnicos, escuchar, manejar las emociones y resolver conflictos determinan la capacidad de aportar valor en la organizacion.
 sources:
+  - "Daniel Goleman - Emotional Intelligence|https://www.danielgoleman.info/topics/emotional-intelligence/|Daniel Goleman|Modelo de inteligencia emocional"
   - "Programa Administracion Sistemas de Informacion|https://uniagustiniana.edu.co|Universidad Agustiniana|Syllabus del curso"
 ---
 
