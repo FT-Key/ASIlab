@@ -51,8 +51,8 @@ export default function GlossaryPage() {
       </motion.div>
 
       {/* Search and Filters */}
-      <div className="flex flex-col sm:flex-row gap-4 mb-6">
-        <div className="relative flex-1 max-w-md">
+      <div className="flex flex-col lg:flex-row lg:items-center gap-4 mb-6">
+        <div className="relative w-full lg:w-96 lg:shrink-0">
           <MagnifyingGlass size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-on-ink/50" />
           <input
             type="text"
@@ -62,7 +62,7 @@ export default function GlossaryPage() {
             className="input-field w-full pl-10"
           />
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 lg:flex-1 lg:min-w-0">
           <button
             onClick={() => setSelectedCategory(null)}
             className={`tag transition-all ${!selectedCategory ? 'tag-purple' : 'border-2 border-ink text-text-dim hover:bg-ink hover:text-on-ink'}`}

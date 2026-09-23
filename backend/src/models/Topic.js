@@ -15,6 +15,7 @@ const topicSchema = new Schema(
       default: 'principiante',
     },
     order: { type: Number, default: 0 },
+    unit: String,
     description: String,
     tags: [String],
     keyTakeaway: String,

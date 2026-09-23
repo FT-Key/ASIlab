@@ -1,5 +1,6 @@
 import { useTopics } from '../lib/topicContext'
 import { loadProgress } from '../lib/progress'
+import type { Topic } from '../types'
 import TopicCard from '../components/TopicCard'
 import ContinueButton from '../components/ContinueButton'
 import { MagnifyingGlass, Books, ChartLineUp, Warning, Shield, Target, BookOpen, GraduationCap, ArrowRight, Sparkle, Brain, Lightbulb, Rocket } from '@phosphor-icons/react'
@@ -40,6 +41,16 @@ export default function Home() {
       return matchesSearch && matchesCategory
     })
   }, [topics, search, selectedCategory])
+
+  const grouped = useMemo(() => {
+    const map = new Map<string, Topic[]>()
+    for (const topic of filtered) {
+      const unit = topic.unit || 'Otros'
+      if (!map.has(unit)) map.set(unit, [])
+      map.get(unit)!.push(topic)
+    }
+    return Array.from(map.entries()).map(([unit, items]) => ({ unit, topics: items }))
+  }, [filtered])
 
   const totalSections = topics.reduce((sum, t) => sum + t.sections.length, 0)
   const completedSections = Object.values(progress).reduce(
@@ -278,9 +289,22 @@ export default function Home() {
           </div>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filtered.map((topic, i) => (
-            <TopicCard key={topic.id} topic={topic} index={i} />
+        <div className="space-y-10">
+          {grouped.map((group) => (
+            <section key={group.unit}>
+              <div className="flex items-center gap-3 mb-4">
+                <h2 className="font-display text-lg sm:text-xl text-ink">{group.unit}</h2>
+                <div className="flex-1 h-0.5 bg-ink/15" />
+                <span className="text-[10px] text-text-dim font-mono tracking-wider uppercase whitespace-nowrap">
+                  {group.topics.length} {group.topics.length === 1 ? 'tema' : 'temas'}
+                </span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                {group.topics.map((topic) => (
+                  <TopicCard key={topic.id} topic={topic} index={filtered.indexOf(topic)} />
+                ))}
+              </div>
+            </section>
           ))}
         </div>
       )}

@@ -80,6 +80,7 @@ function serializeFrontmatter(topic) {
     `category: ${topic.category}`,
     `difficulty: ${topic.difficulty}`,
     `order: ${topic.order}`,
+    ...(topic.unit ? [`unit: ${quote(topic.unit)}`] : []),
     `description: ${quote(topic.description)}`,
   ]
   if (Array.isArray(topic.tags) && topic.tags.length) {
@@ -466,6 +467,7 @@ export function mdToTopic(slug, md) {
     category: meta.category || 'fundamentos',
     difficulty: meta.difficulty || 'principiante',
     order: Number(meta.order) || 0,
+    unit: meta.unit || undefined,
     description: meta.description || '',
     tags: Array.isArray(meta.tags)
       ? meta.tags

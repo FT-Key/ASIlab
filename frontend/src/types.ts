@@ -14,6 +14,7 @@ export interface TopicMeta {
   category: string
   difficulty: string
   order: number
+  unit?: string
   description: string
   tags: string[]
   keyTakeaway: string
