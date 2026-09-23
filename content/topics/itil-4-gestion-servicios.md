@@ -163,13 +163,16 @@ ITIL 4 **no exige** implementar las 34 practicas. Cada organizacion selecciona l
 
 ## Mejora Continua
 
-La mejora continua es un componente del SVS que atraviesa todo. Se apoya en un ciclo de 4 preguntas:
+La mejora continua es un componente del SVS que atraviesa todo. ITIL 4 la organiza en un **modelo de 7 pasos** (las primeras 4 son las preguntas clasicas):
 
-:::flow Ciclo de mejora continua
-- ¿Cual es la vision? (que queremos lograr)
-- ¿Donde estamos ahora? (estado actual medido)
-- ¿Donde queremos estar? (meta concreta)
-- ¿Como llegamos ahi? (plan de acciones)
+:::flow Modelo de mejora continua de ITIL 4 (7 pasos)
+- 1. ¿Cual es la vision? (que queremos lograr)
+- 2. ¿Donde estamos ahora? (estado actual medido)
+- 3. ¿Donde queremos estar? (meta concreta)
+- 4. ¿Como llegamos ahi? (plan de acciones)
+- 5. Tomar accion (ejecutar el plan)
+- 6. ¿Llegamos? (medir si se cumplio la meta)
+- 7. ¿Como mantenemos el impulso? (estandarizar y mejorar de nuevo)
 :::
 
 ## Casos de estudio

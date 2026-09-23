@@ -110,6 +110,27 @@ Auditoría de los 17 temas contra el estándar del usuario. Resultados:
 
 **Verificación final:** `npm run build:content` (17 temas) + `npm run build` OK; auditoría estructural automática sin incidencias.
 
+## Auditoría de consistencia con el material — 2026-09-22
+
+Control cruzado de la página contra el material fuente (U21-U26, U31, U1, MEA, evaluativos, PDF ISO 38500 del COIT). Verificaciones y correcciones:
+
+| Punto | Material | Página | Acción |
+|---|---|---|---|
+| Versión COBIT | COBIT 2019 (U26) | COBIT 2019 | OK |
+| Dominios COBIT | 5 (U26); nota: U22 dice "6" pero lista 5 (error del material) | 5 | Se mantiene 5 (correcto); se documenta el error del material |
+| Objetivos COBIT | 40 (5/14/11/6/4) | 40 (5/14/11/6/4) | OK |
+| 7 componentes | 7 habilitadores (U24/U26) | 7 componentes | OK |
+| Principios de gobierno COBIT | (no listados en material) | Decía "Enfoque basado en informacion" (incorrecto) | **Corregido**: #5 = "Adaptado a las necesidades de la empresa"; se agregó sort de los 6 |
+| EDM / PBRM | EDM + PBRM→APO/BAI/DSS/MEA (U24/U26) | Igual | OK |
+| Evaluate vs Assess | MEA docx | Agregado en mapa-procesos | OK |
+| ITIL | ITIL 4, SVS 5 comp., cadena 6 act., 4 dim., 7 principios, 34 prácticas (U25) | Igual | OK |
+| ITIL mejora continua | Modelo de 7 pasos (U25) | Decía "4 preguntas" | **Corregido**: se agregó el modelo de 7 pasos |
+| PMBOK | 8ª ed., 6 principios, 7 dominios, 40 procesos, 5 focus areas (U31) | Igual | OK |
+| ISO 38500 | 6 principios + EDM; sinónimos Rendimiento/Factor humano (U24, PDF COIT) | 6 principios + EDM | Se agregó callout de sinónimos y fuente COIT |
+| Fuentes | Bibliografía del material (ISACA, AXELOS, ISO, PMI, TOGAF, HBR) | Fuentes oficiales + material de clase | OK |
+
+**Verificación:** `build:content` + `build` OK; auditoría estructural (estructura, respuestas, rúbricas, paths, sin markdown crudo) sin incidencias.
+
 ## Workflow por tarea ( checklist obligatorio )
 1. Leer los `.md` de la tarea + evaluativo correspondiente en `Material/nuevo/`.
 2. Reescribir con estándar de 4 puntos (teoría completa + caso empresa + batería progresiva + estilo awesome).

@@ -123,11 +123,11 @@ El gobierno no es estatico: Evaluar, Dirigir y Monitorear interactuan continuame
 ### 4. Gobierno separado de la gestion
 Son actividades **distintas** con responsables **distintos**: el gobierno evalua, dirige y monitorea; la gestion planifica, construye, ejecuta y mide.
 
-### 5. Sistema de gobierno de extremo a extremo (end-to-end)
-El gobierno cubre **toda** la organizacion, no solo el area de TI. Los procesos de negocio dependen de TI y viceversa.
+### 5. Adaptado a las necesidades de la empresa
+El gobierno no es "una talla unica": se adapta a la estrategia, el tamano, el perfil de riesgo y el contexto de cada organizacion (los factores de diseno).
 
-### 6. Enfoque basado en informacion
-La informacion sostiene las decisiones. Cada proceso produce y consume informacion, por eso es un componente clave.
+### 6. Sistema de gobierno de extremo a extremo (end-to-end)
+El gobierno cubre **toda** la organizacion, no solo el area de TI. Los procesos de negocio dependen de TI y viceversa.
 
 ## Metas en Cascada (Goals Cascade)
 
@@ -218,6 +218,15 @@ Resultado esperado: la gobernanza **dirige** (que TI soporte la estrategia) y la
 :::
 
 ### Practica guiada
+
+:::sort Ordena los 6 principios del sistema de gobierno de COBIT
+- Proporcionar valor a las partes interesadas
+- Enfoque holistico
+- Sistema de gobierno dinamico
+- Gobierno separado de la gestion
+- Adaptado a las necesidades de la empresa
+- Sistema de gobierno de extremo a extremo
+:::
 
 :::sort Ordena el ciclo PBRM de la gestion de TI
 - Plan: APO - Alinear, Planificar y Organizar

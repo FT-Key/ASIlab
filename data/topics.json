@@ -3707,6 +3707,12 @@
           "description": "11 principios de gobierno organizacional"
         },
         {
+          "title": "Buen Gobierno de las TI segun ISO/IEC 38500",
+          "url": "https://www.coit.es/",
+          "source": "COIT (Colegio Oficial de Ingenieros de Telecomunicacion)",
+          "description": "Guia de iniciacion (material del curso)"
+        },
+        {
           "title": "Que es la ISO 38500 (U24)",
           "url": "https://uniagustiniana.edu.co",
           "source": "Universidad Agustiniana",
@@ -3875,6 +3881,12 @@
               "type": "definition",
               "term": "Desempeno = fit for purpose",
               "text": "\"Fit for purpose\" significa que la TI sirve al proposito del negocio, no que sea la mas rapida o la mas nueva. Un sistema puede ser tecnicamente perfecto y aun asi fallar el principio de Desempeno si no satisface las necesidades actuales y futuras."
+            },
+            {
+              "type": "callout",
+              "tone": "info",
+              "title": "Sinonimos segun la fuente",
+              "text": "Distintas fuentes del curso usan nombres equivalentes: Desempeno = Rendimiento (Performance) y Comportamiento Humano = Factor humano (Human Behaviour). Son el mismo principio; en el evaluativo pueden aparecer con cualquiera de los dos nombres."
             }
           ]
         },
@@ -5049,16 +5061,19 @@
           "blocks": [
             {
               "type": "paragraph",
-              "text": "La mejora continua es un componente del SVS que atraviesa todo. Se apoya en un ciclo de 4 preguntas:"
+              "text": "La mejora continua es un componente del SVS que atraviesa todo. ITIL 4 la organiza en un modelo de 7 pasos (las primeras 4 son las preguntas clasicas):"
             },
             {
               "type": "flow",
-              "title": "Ciclo de mejora continua",
+              "title": "Modelo de mejora continua de ITIL 4 (7 pasos)",
               "steps": [
-                "¿Cual es la vision? (que queremos lograr)",
-                "¿Donde estamos ahora? (estado actual medido)",
-                "¿Donde queremos estar? (meta concreta)",
-                "¿Como llegamos ahi? (plan de acciones)"
+                "1. ¿Cual es la vision? (que queremos lograr)",
+                "2. ¿Donde estamos ahora? (estado actual medido)",
+                "3. ¿Donde queremos estar? (meta concreta)",
+                "4. ¿Como llegamos ahi? (plan de acciones)",
+                "5. Tomar accion (ejecutar el plan)",
+                "6. ¿Llegamos? (medir si se cumplio la meta)",
+                "7. ¿Como mantenemos el impulso? (estandarizar y mejorar de nuevo)"
               ]
             }
           ]
@@ -5951,19 +5966,19 @@
             },
             {
               "type": "heading",
-              "text": "5. Sistema de gobierno de extremo a extremo (end-to-end)"
+              "text": "5. Adaptado a las necesidades de la empresa"
+            },
+            {
+              "type": "paragraph",
+              "text": "El gobierno no es \"una talla unica\": se adapta a la estrategia, el tamano, el perfil de riesgo y el contexto de cada organizacion (los factores de diseno)."
+            },
+            {
+              "type": "heading",
+              "text": "6. Sistema de gobierno de extremo a extremo (end-to-end)"
             },
             {
               "type": "paragraph",
               "text": "El gobierno cubre toda la organizacion, no solo el area de TI. Los procesos de negocio dependen de TI y viceversa."
-            },
-            {
-              "type": "heading",
-              "text": "6. Enfoque basado en informacion"
-            },
-            {
-              "type": "paragraph",
-              "text": "La informacion sostiene las decisiones. Cada proceso produce y consume informacion, por eso es un componente clave."
             }
           ]
         },
@@ -6356,6 +6371,18 @@
             {
               "type": "heading",
               "text": "Practica guiada"
+            },
+            {
+              "type": "sort",
+              "title": "Ordena los 6 principios del sistema de gobierno de COBIT",
+              "items": [
+                "Proporcionar valor a las partes interesadas",
+                "Enfoque holistico",
+                "Sistema de gobierno dinamico",
+                "Gobierno separado de la gestion",
+                "Adaptado a las necesidades de la empresa",
+                "Sistema de gobierno de extremo a extremo"
+              ]
             },
             {
               "type": "sort",

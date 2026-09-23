@@ -12,6 +12,7 @@ sources:
   - "ISO/IEC 38500:2024 - Governance of IT for the organization|https://www.iso.org/standard/81684.html|ISO|Tercera edicion; alineada a ISO 37000"
   - "ISO/IEC 38500:2015 (retirada)|https://www.iso.org/standard/62816.html|ISO|Segunda edicion; base de los 6 principios del curso"
   - "ISO 37000:2021 - Governance of organizations|https://www.iso.org/standard/65036.html|ISO|11 principios de gobierno organizacional"
+  - "Buen Gobierno de las TI segun ISO/IEC 38500|https://www.coit.es/|COIT (Colegio Oficial de Ingenieros de Telecomunicacion)|Guia de iniciacion (material del curso)"
   - "Que es la ISO 38500 (U24)|https://uniagustiniana.edu.co|Universidad Agustiniana|Material de clase"
 ---
 
@@ -67,6 +68,10 @@ Cada principio se entiende con tres preguntas: **que exige**, **cual es la viola
 
 :::definition Desempeno = fit for purpose
 "Fit for purpose" significa que la TI **sirve al proposito del negocio**, no que sea la mas rapida o la mas nueva. Un sistema puede ser tecnicamente perfecto y aun asi fallar el principio de Desempeno si no satisface las necesidades actuales y futuras.
+:::
+
+:::callout info Sinonimos segun la fuente
+Distintas fuentes del curso usan nombres equivalentes: **Desempeno = Rendimiento (Performance)** y **Comportamiento Humano = Factor humano (Human Behaviour)**. Son el mismo principio; en el evaluativo pueden aparecer con cualquiera de los dos nombres.
 :::
 
 ## Gobierno vs Gestion (y la accountability indelegable)
